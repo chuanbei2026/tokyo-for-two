@@ -4,7 +4,7 @@ A buildless Chinese-language visual travel atlas for a couple visiting Tokyo on 
 
 ## Local preview
 
-Run `node preview.mjs`, then open the printed local URL. The deployment output is `dist/`.
+Serve this directory with a local static HTTP server, or open the published GitHub Pages URL below. No build step or package installation is required.
 
 ## Content assumptions
 
@@ -17,7 +17,7 @@ Run `node preview.mjs`, then open the printed local URL. The deployment output i
 
 ## Artwork
 
-Created with the built-in image generation tool. Asset: `dist/assets/tokyo-atlas.png`.
+Created with the built-in image generation tool. Asset: `assets/tokyo-atlas.png`.
 
 Prompt: Create a richly detailed panoramic watercolor-and-gouache illustrated atlas of central Tokyo for a couple's interactive travel guide, with Shinjuku, Meiji shrine forest, Shibuya crossing, Imperial Palace, Tokyo Station, Ginza, Tsukiji, Tokyo Tower, Sensoji, Skytree and Sumida River. Warm ivory, vermilion, sage and turquoise; late-November autumn foliage; miniature buildings and food vignettes; no text, labels or UI. Geographic storytelling is schematic, not for navigation.
 
