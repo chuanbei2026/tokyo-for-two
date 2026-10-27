@@ -14,3 +14,11 @@
 @media(max-width:760px){.map-frame{min-height:620px;height:620px}.story-card{width:calc(100% - 28px);display:grid;grid-template-columns:95px minmax(0,1fr)}.story-visual{height:100%;min-height:150px}.story-visual img{object-position:center}.photo-credit{font-size:8px;padding:4px}.story-copy{padding:10px 12px}.story-copy h2{font-size:15px;margin:4px 0}.story-copy p,.story-copy .story-directions{font-size:10px;line-height:1.6}.story-copy .eyebrow{font-size:8px}.story-controls{grid-column:1/-1}.story-progress{grid-column:1/-1}.art-label{font-size:8px;padding:4px}.transport-art svg{height:100px;margin-top:10px}.story-endpoints,.story-cost{font-size:9px}.north{top:auto;bottom:80px}}
 
 .leaflet-tile-pane{opacity:.42}.map-frame #journey-map{background:#f6f7f2}
+
+/* Playback belongs to the map, separate from changing place cards. */
+#route-player{background:#f4f6ef;border-top:1px solid var(--line)}
+#route-player .story-controls{border-top:0;justify-content:center;gap:22px;padding:12px 16px;font-size:12px}
+#route-player #play-route{min-width:124px;padding:9px 20px;border-radius:6px;background:#455b48;color:#fff}
+#route-player .story-controls button{min-height:38px}
+#route-player #story-count{min-width:45px;text-align:center;font-size:12px}
+@media(max-width:760px){#route-player .story-controls{gap:5px;padding:10px 7px;font-size:10px}#route-player #play-route{min-width:104px;padding:8px 12px}#route-player .story-controls button{padding:6px}#route-player #story-count{min-width:35px;font-size:10px}}
