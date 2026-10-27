@@ -1,47 +1,39 @@
 # Tokyo: A Table for Two
 
-A buildless Chinese-language visual travel atlas for a couple visiting Tokyo on November 24–27, 2026, for four days and three nights. The generated city illustration is schematic, not a navigational map. Detailed itineraries link to official sources and live directions.
+A buildless, Chinese-language map-led travel guide for two first-time visitors to Tokyo on November 24-27, 2026.
 
-## Local preview
+## Pages
 
-Serve this directory with a local static HTTP server, or open the published GitHub Pages URL below. No build step or package installation is required.
+The active app has exactly five hash-addressable pages: `#overview` and `#day1` through `#day4`. Each shows only the recommended itinerary. Backup restaurants remain in the historical source files but are not displayed or loaded by the active backup module.
 
-## Content assumptions
+- `index.html`, `journey.css`, `journey.js`: active interface.
+- `journey-data.js`: recommended stops and every connecting transport leg.
+- `data.js`, `locations.js`: detailed landmark, restaurant, address and source information reused by dialogs.
+- `assets/vendor/`: pinned Leaflet 1.9.4 with its license, served locally.
+- Older `app.js`, `tour.js`, `map-views.js`, `backups.js`, and `style.css` are retained for history but are not entry points.
 
-- Arrival around midday on day one and departure in the evening on day four.
-- Three nights near Ginza/Shimbashi. The default hotel is a suggestion, not a booking.
-- Dates, dietary preference, checklists, and favorites are browser-local.
-- Both airport directions default to the same selected airport; mixed-airport itineraries require manual adjustment.
-- Prices and operational details were researched on 2026-10-27. Budget ranges and transfer durations are estimates, not live quotes.
-- Official citations and photo credits are available in the website's source panel.
+## Map semantics
+
+The default map is a minimal geographic orientation diagram. Landmark centers use approximate latitude/longitude; parks and waterways are deliberately simplified artwork, not surveyed boundaries. Connections show recommended travel modes and visit order, not road routing or precise railway geometry. Every leg links to live directions. A second illustrated map uses the original schematic artwork. Labels avoid one another where space permits; zoom or open a numbered stop for details.
+
+Transport is encoded redundantly by text and line style: dotted walking, solid rail, dashed taxi. All daily routes include the hotel and return legs. Airports are not plotted until the actual airport and flight are confirmed; the departure dialog explains the assumptions and both airport options.
+
+## Itinerary choices
+
+A privately supplied nine-day reference PDF informed the Tsukiji/Asakusa and Nezu/Yanaka portions. Day two replaces Ueno/Ameyoko with Nezu and Yanaka, rather than adding more stops. The source PDF and traveler details are not published. Its December dates and exact departure times are not reused.
+
+Day one assumes arrival near midday and hotel arrival around 15:00. Day four sightseeing assumes an evening flight. Hotel and restaurant entries are suggestions, not reservations. Operational details were reviewed on 2026-10-27. Travel times and taxi prices are planning estimates, not live quotes. Dining and transport budgets use JPY with indicative USD at 157 JPY/USD. Subway fares specifically labeled IC use the Tokyo Metro April 2026 reference; other prices are marked estimates.
+
+## Preview and publication
+
+Serve this directory with any static HTTP server. No build step is needed. Publish from the root of `main` on GitHub Pages; retain `CNAME` and `.nojekyll`. Cache-bust changed local assets in `index.html`.
+
+Live website: https://tokyo.chuanbei.dev/
 
 ## Artwork
 
-Created with the built-in image generation tool. Asset: `assets/tokyo-atlas.png`.
+`assets/tokyo-atlas.png` is the original AI-generated Tokyo illustration. It is an artistic overview and is not navigation imagery. Real-view links lead to official or tourism reference pages; they are not represented as current seasonal photographs.
 
-Prompt: Create a richly detailed panoramic watercolor-and-gouache illustrated atlas of central Tokyo for a couple's interactive travel guide, with Shinjuku, Meiji shrine forest, Shibuya crossing, Imperial Palace, Tokyo Station, Ginza, Tsukiji, Tokyo Tower, Sensoji, Skytree and Sumida River. Warm ivory, vermilion, sage and turquoise; late-November autumn foliage; miniature buildings and food vignettes; no text, labels or UI. Geographic storytelling is schematic, not for navigation.
+## Validation
 
-## Interaction
-
-- Drag, wheel, pinch, plus/minus or arrow keys explore the map; Home resets it.
-- Day tiles open daily previews; map markers open detailed landmark, transit and reservation guidance.
-- Full itinerary, food filters, favorites, hotel comparisons, airport guidance and return-time calculator.
-- Printable detailed guide, responsive layout, keyboard-accessible drawers and reduced-motion support.
-
-## GitHub Pages
-
-Published from the root of the main branch. Edit the HTML, CSS, JavaScript, and assets, then push to main to update the website.
-
-Website: https://chuanbei2026.github.io/tokyo-for-two/
-
-## Dining update
-
-Dining amounts include indicative USD equivalents using a fixed planning rate of 157 JPY per USD (reviewed 2026-10-27), not a live card settlement rate. Added two sourced oden recommendations and an optional day-one dinner substitution.
-
-## Address and visual references
-
-The Address & Real Views directory covers sightseeing locations, nine restaurants, three hotels, and the selected airport. locations.js records addresses, entrance notes, provenance, official visual-reference pages, and selected remotely hosted source images. Area addresses are explicitly marked as meeting points rather than precise shop entrances. No image is downloaded or represented as a current view.
-
-## Guided playback
-
-The cover map includes an opt-in Day 1–4 guided route animation with pause/resume, replay, skip-day, 1x/2x speed, and looping. Camera framing follows each day. It pauses on backgrounding or manual exploration and supports reduced-motion preferences. Routes are schematic; the off-map airport transfer is explicitly excluded.
+Check all five routes, page history, transport details, stop dialogs, map view switching, playback, attribution, small-screen layout, and the absence of backup entries in the active UI. Every day must have exactly one fewer transport leg than visits; every visit must resolve to a known point.
