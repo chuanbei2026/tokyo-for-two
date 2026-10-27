@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4e9">
+  <meta name="description" content="给第一次去日本的两个人：一张可以探索的东京旅行画，四天三晚的美食、街区、地标与详细交通。">
+  <title>东京，慢慢吃，慢慢走 · A Table for Two</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar"><a class="brand" href="#" aria-label="回到地图"><span class="brand-mark">東</span><span>TOKYO <i>for two</i></span></a><nav aria-label="主导航"><button class="nav active" data-view="map">探索地图</button><button class="nav" data-view="itinerary">四日行程</button><button class="nav" data-view="food">好好吃饭</button><button class="nav" data-view="stay">住与出发</button></nav><button class="travel-kit" data-panel="kit">出行锦囊 <span>↗</span></button></header>
+<main>
+<section id="map-view" class="view active">
+  <div class="atlas" id="atlas" tabindex="0" aria-label="东京插画地图，可用加减按钮缩放、方向键移动，或点击地点查看攻略">
+    <div class="map-world" id="world"><img id="atlas-art" src="assets/tokyo-atlas.png" alt="东京手绘城市鸟瞰图：浅草寺、隅田川、东京站、东京塔、明治神宫与涩谷" draggable="false"><svg id="route-lines" viewBox="0 0 1500 1000" aria-hidden="true"></svg><div id="map-pins"></div></div>
+    <div class="map-intro"><div class="eyebrow">A LITTLE TOKYO, JUST FOR TWO</div><h1>东京，<br>慢慢吃，<br><em>慢慢走。</em></h1><p>把四天，藏进一张旅行画里。<br>第一次去日本，也能从容地出发。</p><div class="trip-chips"><span>4 天 3 晚</span><span>两个人</span><span>美食优先</span></div><button class="primary" id="begin">展开我们的四天 <span>↗</span></button><button class="text-button" data-panel="settings">日期未定 · 调整旅行条件</button></div>
+    <div class="compass" aria-hidden="true"><span>N</span>✧</div><div class="zoom-controls"><button id="zoom-in" aria-label="放大地图">＋</button><button id="zoom-out" aria-label="缩小地图">−</button><button id="reset-map" aria-label="恢复全景">⌖</button></div>
+    <div class="map-caption"><span class="status-dot"></span><span id="map-status">拖动画面 · 滚轮或双指缩放 · 点地点看攻略</span></div><div class="map-disclaimer">原创旅行插画 · 地理位置示意，导航请用地点详情中的地图</div>
+    <div class="day-dock" id="day-dock"></div>
+  </div>
+  <div class="under-map"><span>一趟旅行，四种东京</span><span>吃饭 ＞ 街区漫游 ＞ 购物</span><button data-panel="bookings">查看预约清单 ↗</button></div>
+</section>
+<section id="itinerary-view" class="view content-view"><div class="section-heading"><div><div class="eyebrow">FOUR DAYS, NO RUSH</div><h2>把每一步，安排明白。</h2><p>以银座／新桥住三晚为基点。所有时间为东京当地时间，比中国快 1 小时。</p></div><button class="outline" id="print">打印完整攻略 ↗</button></div><div id="trip-warning" class="notice"></div><div class="day-tabs" id="day-tabs"></div><div id="day-content"></div></section>
+<section id="food-view" class="view content-view"><div class="section-heading"><div><div class="eyebrow">A TABLE FOR TWO</div><h2>值得专程，坐下来吃。</h2><p>寿司、鳗鱼、炸猪排、天妇罗和炭烤。少排一点队，多留一点胃口。</p></div><button class="outline" data-panel="bookings">预约与点餐 ↗</button></div><div class="filter-row" id="food-filters"></div><div id="food-grid" class="food-grid"></div><div class="editor-note">我们选择真实店名与官方入口。标为「规划预留」的金额是预算建议，并非店家报价；套餐、服务费、营业和空位以出行当天为准。图片是街区实景或菜系示意，不代表该店出品。</div></section>
+<section id="stay-view" class="view content-view"><div class="section-heading"><div><div class="eyebrow">YOUR TOKYO BASE</div><h2>住得舒服，出门轻松。</h2><p>推荐银座南侧／新桥：去机场方便，晚饭选择多，三晚不换酒店。</p></div><button class="outline" data-panel="settings">设置机场与日期 ↗</button></div><div id="hotels" class="hotel-grid"></div><div class="section-heading secondary"><div><div class="eyebrow">FROM TOUCHDOWN TO CHECK-IN</div><h2>落地之后，照着走。</h2></div></div><div class="airport-switch"><button class="active" data-airport="haneda">羽田 HND</button><button data-airport="narita">成田 NRT</button></div><div id="airport-guide"></div><div id="budget"></div></section>
+</main>
+<footer><span>TOKYO / A TABLE FOR TWO</span><span>为第一次赴日的两个人，认真准备。</span><button data-panel="sources">资料来源与更新说明 ↗</button></footer>
+<div class="scrim" id="scrim" hidden></div><aside id="drawer" class="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" hidden><button class="close" id="close-drawer" aria-label="关闭详情">×</button><div id="drawer-content"></div></aside><div id="toast" role="status"></div><div id="print-content"></div>
+<script src="data.js"></script><script src="app.js"></script>
+</body></html>
