@@ -14,7 +14,7 @@ The active app has exactly five hash-addressable pages: `#overview` and `#day1` 
 
 ## Map semantics
 
-The default map is a minimal geographic orientation diagram. Landmark centers use approximate latitude/longitude; parks and waterways are deliberately simplified artwork, not surveyed boundaries. Connections show recommended travel modes and visit order, not road routing or precise railway geometry. Every leg links to live directions. A second illustrated map uses the original schematic artwork. Labels avoid one another where space permits; zoom or open a numbered stop for details.
+The default map uses GSI Japan pale street tiles with visible attribution and subdued styling. Landmark centers use approximate latitude/longitude. Connections show recommended travel modes and visit order, not road routing or precise railway geometry. Every leg links to live directions. A second illustrated map uses the original schematic artwork. Labels avoid one another where space permits; zoom or open a numbered stop for details.
 
 Transport is encoded redundantly by text and line style: dotted walking, solid rail, dashed taxi. All daily routes include the hotel and return legs. Airports are not plotted until the actual airport and flight are confirmed; the departure dialog explains the assumptions and both airport options.
 
@@ -32,8 +32,12 @@ Live website: https://tokyo.chuanbei.dev/
 
 ## Artwork
 
-`assets/tokyo-atlas.png` is the original AI-generated Tokyo illustration. It is an artistic overview and is not navigation imagery. Real-view links lead to official or tourism reference pages; they are not represented as current seasonal photographs.
+`assets/tokyo-atlas.png` is the original AI-generated Tokyo illustration. It is an artistic overview and is not navigation imagery. The upper-left storyboard embeds reference photos from official venues and tourism publishers with source links. These are not current seasonal photographs. Kyubey uses an explicitly labeled Ginza-area photo because its image host serves an access-denied image; hotel imagery is a sample room, not a booked room. Transportation uses original inline SVG illustrations, explicitly labeled as diagrams, not photos of actual platforms.
 
 ## Validation
 
 Check all five routes, page history, transport details, stop dialogs, map view switching, playback, attribution, small-screen layout, and the absence of backup entries in the active UI. Every day must have exactly one fewer transport leg than visits; every visit must resolve to a known point.
+
+## Visual route playback
+
+`journey-story.js` alternates every visit with every connecting transport leg, including hotel returns. Each step has a persistent upper-left card, previous/next controls, resumable playback, progress and map focus. Transport cards show the line or mode, direction, boarding/alighting instructions, time, cost and live navigation link. Reduced-motion preferences avoid animated camera moves. `journey-media.js` maps every recommended stop to a sourced visual reference. Remote images fall back to a source link if unavailable; tile errors are displayed explicitly.
