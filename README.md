@@ -37,3 +37,7 @@ Website: https://chuanbei2026.github.io/tokyo-for-two/
 ## Dining update
 
 Dining amounts include indicative USD equivalents using a fixed planning rate of 157 JPY per USD (reviewed 2026-10-27), not a live card settlement rate. Added two sourced oden recommendations and an optional day-one dinner substitution.
+
+## Address and visual references
+
+The Address & Real Views directory covers sightseeing locations, nine restaurants, three hotels, and the selected airport. locations.js records addresses, entrance notes, provenance, official visual-reference pages, and selected remotely hosted source images. Area addresses are explicitly marked as meeting points rather than precise shop entrances. No image is downloaded or represented as a current view.
