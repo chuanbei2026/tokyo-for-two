@@ -30,13 +30,7 @@ function tourSetDay(day){
  atlas.style.setProperty('--tour-color',d.color);
  $('#tour-day').textContent=`DAY 0${d.id} · ${dateLabel(d.id)}`;$('#tour-title').textContent=d.short;
  $('#tour-note').textContent=d.id===4?'市区最后两站；机场不在此插画范围内。':'跟着箭头看今天的顺序 · 路线为示意';
- const rect=atlas.getBoundingClientRect();const points=d.points;
- const xs=points.map(p=>p.x*15),ys=points.map(p=>p.y*10);
- const left=rect.width>680?350:50,right=70,top=rect.width>680?95:235,bottom=160;
- const minX=Math.min(...xs),maxX=Math.max(...xs),minY=Math.min(...ys),maxY=Math.max(...ys);
- zoom=Math.max(baseZoom*.8,Math.min(baseZoom*1.6,(rect.width-left-right)/Math.max(250,maxX-minX),(rect.height-top-bottom)/Math.max(180,maxY-minY)));
- panX=left+(rect.width-left-right)/2-(minX+maxX)/2*zoom;panY=top+(rect.height-top-bottom)/2-(minY+maxY)/2*zoom;
- world.style.transition=reducedTourMotion.matches?'none':'transform 900ms cubic-bezier(.22,.61,.36,1)';drawMap();
+ const points=d.points;drawMap();
  tourSVG.querySelector('.tour-track').setAttribute('d','M'+points.map(p=>`${p.x*15},${p.y*10}`).join(' L'));tourPaint();
 }
 function tourTick(now){if(!tour.running)return;if(tour.last)tour.elapsed+=Math.min(now-tour.last,100)*tour.speed;tour.last=now;
@@ -55,6 +49,4 @@ $('#tour-speed').onchange=e=>{tour.speed=Number(e.target.value);};
 document.addEventListener('visibilitychange',()=>{if(document.hidden&&tour.running)pauseTour();});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&tour.active){stopTour();$('#start-tour').focus();}});
 document.addEventListener('click',e=>{if(!tour.active)return;const b=e.target.closest('button,a');if(!b)return;if(b.dataset.place){pauseTour();}else if(b.dataset.view||b.dataset.mapDay||b.dataset.panel||b.matches('.brand')||b.id==='reset-map'){stopTour();}},true);
-atlas.addEventListener('pointerdown',e=>{if(tour.running&&!e.target.closest('button,input,select,label,#tour-panel')){pauseTour();world.style.transition='';}},true);
-atlas.addEventListener('wheel',()=>{if(tour.running){pauseTour();world.style.transition='';}},{passive:true});
 window.addEventListener('resize',()=>{if(tour.active){pauseTour();tourSetDay(tour.day);}});
