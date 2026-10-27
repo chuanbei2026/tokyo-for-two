@@ -22,6 +22,7 @@ function tourPaint(){
  tourSVG.querySelector('.tour-arrow').setAttribute('transform',`translate(${x} ${y}) scale(${1/zoom}) rotate(${angle})`);
  const stopIndex=ease>=.98?Math.min(index+1,points.length-1):index;
  if(tour.stop!==stopIndex){tour.stop=stopIndex;$('#tour-place').textContent=points[stopIndex].name;$('#tour-detail').dataset.place=points[stopIndex].id;$('#tour-count').textContent=`${stopIndex+1} / ${points.length} 站`;}
+ if(typeof geoPaint==='function')geoPaint(points,index,ease);
  $('#tour-progress').value=(tour.day+Math.min(1,tour.elapsed/tourDuration()))/4*100;
 }
 function tourSetDay(day){
@@ -30,7 +31,7 @@ function tourSetDay(day){
  atlas.style.setProperty('--tour-color',d.color);
  $('#tour-day').textContent=`DAY 0${d.id} · ${dateLabel(d.id)}`;$('#tour-title').textContent=d.short;
  $('#tour-note').textContent=d.id===4?'市区最后两站；机场不在此插画范围内。':'跟着箭头看今天的顺序 · 路线为示意';
- const points=d.points;drawMap();
+ const points=d.points;drawMap();if(typeof geoMap!=='undefined'&&mapStyle==='flat')renderGeo(d.id);$('#map-day-select').value=String(d.id);
  tourSVG.querySelector('.tour-track').setAttribute('d','M'+points.map(p=>`${p.x*15},${p.y*10}`).join(' L'));tourPaint();
 }
 function tourTick(now){if(!tour.running)return;if(tour.last)tour.elapsed+=Math.min(now-tour.last,100)*tour.speed;tour.last=now;
@@ -39,8 +40,8 @@ function tourTick(now){if(!tour.running)return;if(tour.last)tour.elapsed+=Math.m
 }
 function pauseTour(){tour.running=false;tour.last=0;cancelAnimationFrame(tour.frame);tourToggle.textContent='▶ 继续';tourToggle.setAttribute('aria-label','继续播放旅程');}
 function resumeTour(){if(tour.elapsed>=tourDuration()&&tour.day===3)tourSetDay(0);tour.running=true;tour.last=0;tourToggle.textContent='Ⅱ 暂停';tourToggle.setAttribute('aria-label','暂停播放旅程');tour.frame=requestAnimationFrame(tourTick);}
-function startTour(){closeDrawer();tour.active=true;atlas.classList.add('tour-active');tourPanel.hidden=false;$('#start-tour').hidden=true;tourSetDay(0);resumeTour();tourToggle.focus();}
-function stopTour(){pauseTour();tour.active=false;tourPanel.hidden=true;atlas.classList.remove('tour-active');$('#start-tour').hidden=false;world.style.transition='';resetMap();}
+function startTour(){closeDrawer();tour.active=true;atlas.classList.add('tour-active');tourPanel.hidden=false;$('#start-tour').hidden=true;tourSetDay(Math.max(0,mapDay-1));resumeTour();tourToggle.focus();}
+function stopTour(){pauseTour();tour.active=false;tourPanel.hidden=true;atlas.classList.remove('tour-active');$('#start-tour').hidden=false;world.style.transition='';resetMap();$('#map-day-select').value='0';if(typeof geoMap!=='undefined'&&mapStyle==='flat')renderGeo(0);}
 $('#start-tour').onclick=startTour;tourToggle.onclick=()=>tour.running?pauseTour():resumeTour();
 $('#tour-restart').onclick=()=>{tourSetDay(0);if(!tour.running)resumeTour();};
 $('#tour-next').onclick=()=>{tourSetDay((tour.day+1)%4);};
