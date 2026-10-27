@@ -41,3 +41,7 @@ Dining amounts include indicative USD equivalents using a fixed planning rate of
 ## Address and visual references
 
 The Address & Real Views directory covers sightseeing locations, nine restaurants, three hotels, and the selected airport. locations.js records addresses, entrance notes, provenance, official visual-reference pages, and selected remotely hosted source images. Area addresses are explicitly marked as meeting points rather than precise shop entrances. No image is downloaded or represented as a current view.
+
+## Guided playback
+
+The cover map includes an opt-in Day 1–4 guided route animation with pause/resume, replay, skip-day, 1x/2x speed, and looping. Camera framing follows each day. It pauses on backgrounding or manual exploration and supports reduced-motion preferences. Routes are schematic; the off-map airport transfer is explicitly excluded.
