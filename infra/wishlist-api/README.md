@@ -23,8 +23,11 @@ browser (tokyo.chuanbei.dev)  ──HTTPS, header X-Trip-Key──▶  Lambda Fu
 | `GET /checks` | | `{ items: { placeId: { checked, updatedAt } }, serverTime }` |
 | `PUT /checks/{placeId}` | `{ "checked": true \| false }` | the stored item |
 | `POST /checks/merge` | `{ "ids": [placeId, ...] }` | checks each id; used once to merge older local checks |
+| `GET /votes` | | `{ votes: { placeId: { person: { checked, updatedAt } } }, serverTime }` |
+| `PUT /votes/{placeId}/{person}` | `{ "checked": true \| false }` | the stored vote; `person` is `maomao` or `beibei` |
+| `POST /votes/merge` | `{ "person": "maomao", "ids": [placeId, ...] }` | votes yes for that person on each id |
 
-A missing or wrong `X-Trip-Key` returns 401. Unchecking is stored as `checked: false`, so it syncs like a check. Different places are separate items and never overwrite each other. For the same place, the write the server accepts last wins.
+Votes (毛毛 / 贝贝) are stored per (place, person), as items whose sort key is `vote#<placeId>#<person>`, so one person's vote never overwrites the other's. A missing or wrong `X-Trip-Key` returns 401. Unchecking is stored as `checked: false`, so it syncs like a check. Different places are separate items and never overwrite each other. For the same place, the write the server accepts last wins.
 
 ## The share link
 

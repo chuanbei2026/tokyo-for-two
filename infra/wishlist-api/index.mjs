@@ -6,6 +6,11 @@
 //   PUT  /checks/{placeId}   body { checked: boolean }       -> { id, checked, updatedAt }
 //   POST /checks/merge       body { ids: [placeId, ...] }    -> { items: {...} }  (checks each id)
 //
+// Per-person votes (毛毛 / 贝贝), stored independently per (place, person):
+//   GET  /votes                     -> { votes: { placeId: { person: { checked, updatedAt } } }, serverTime }
+//   PUT  /votes/{placeId}/{person}  body { checked: boolean }  -> { id, person, checked, updatedAt }
+//   POST /votes/merge               body { person, ids: [...] } -> { votes: {...} }  (votes yes on each id)
+//
 // One DynamoDB item per (trip, place), so two people editing different places never
 // overwrite each other; for the same place the write the server accepts last wins.
 
@@ -18,6 +23,8 @@ const TRIP = process.env.TRIP_ID || "tokyo-2026-11";
 const KEY_SHA256 = Buffer.from(process.env.KEY_SHA256 || "", "hex");
 const PLACE_ID = /^[a-z0-9][a-z0-9-]{0,63}$/;
 const MAX_ITEMS = 500;
+const PEOPLE = new Set((process.env.PEOPLE || "maomao,beibei").split(","));
+const VOTE = "vote#"; // sort-key prefix: vote#<placeId>#<person>
 
 const db = DynamoDBDocumentClient.from(new DynamoDBClient({}));
 
@@ -58,6 +65,16 @@ async function readAll() {
   return items;
 }
 
+async function readVotes() {
+  const votes = {};
+  for (const [key, v] of Object.entries(await readAll())) {
+    if (!key.startsWith(VOTE)) continue;
+    const [id, person] = key.slice(VOTE.length).split("#");
+    (votes[id] ||= {})[person] = v;
+  }
+  return votes;
+}
+
 async function write(place, checked) {
   const updatedAt = new Date().toISOString();
   await db.send(new PutCommand({ TableName: TABLE, Item: { trip: TRIP, place, checked, updatedAt } }));
@@ -77,7 +94,29 @@ export async function handler(event) {
 
   try {
     if (method === "GET" && path === "/checks") {
-      return json(200, { items: await readAll(), serverTime: new Date().toISOString() });
+      const items = Object.fromEntries(Object.entries(await readAll()).filter(([k]) => !k.startsWith(VOTE)));
+      return json(200, { items, serverTime: new Date().toISOString() });
+    }
+    if (method === "GET" && path === "/votes") {
+      return json(200, { votes: await readVotes(), serverTime: new Date().toISOString() });
+    }
+    if (method === "POST" && path === "/votes/merge") {
+      const body = parseBody(event);
+      const ids = Array.isArray(body?.ids) ? [...new Set(body.ids)] : null;
+      if (!PEOPLE.has(body?.person) || !ids || ids.length > MAX_ITEMS || !ids.every((id) => typeof id === "string" && PLACE_ID.test(id))) {
+        return json(400, { error: "bad_request" });
+      }
+      const votes = {};
+      for (const id of ids) votes[id] = { [body.person]: await write(`${VOTE}${id}#${body.person}`, true) };
+      console.log(JSON.stringify({ outcome: "votes_merged", count: ids.length }));
+      return json(200, { votes });
+    }
+    const v = path.match(/^\/votes\/([^/]+)\/([^/]+)$/);
+    if (method === "PUT" && v) {
+      const id = decodeURIComponent(v[1]), person = decodeURIComponent(v[2]);
+      const body = parseBody(event);
+      if (!PLACE_ID.test(id) || !PEOPLE.has(person) || typeof body?.checked !== "boolean") return json(400, { error: "bad_request" });
+      return json(200, { id, person, ...(await write(`${VOTE}${id}#${person}`, body.checked)) });
     }
     if (method === "POST" && path === "/checks/merge") {
       const body = parseBody(event);
