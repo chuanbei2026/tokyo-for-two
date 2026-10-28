@@ -91,3 +91,7 @@ Place cards and previews now render only voters who selected that place. Empty v
 ## Exclusive category and person filters — 2026-10-28
 
 Category chips now select exactly one category or All. A separate visible vote filter selects All, Maomao only, Beibei only, or Both; only excludes shared votes. Vote filters combine with category, region, search and chef/source filters. Removed duplicate person choices from the advanced source dropdown. Sync refreshes filtered results after vote changes. No stored votes changed.
+
+## Full PDF dining audit — 2026-10-28
+
+Visually reviewed all 52 source pages and reconciled 91 explicit food/market recommendations. Added pdf-food-catalog.js (84 candidates, including one produce shop categorized as stroll) and linked 7 existing records without changing their IDs/votes. Total catalog 301. All new places have individually resolved map locations and visually checked store photos; estimated JPY/USD budgets, Chinese labels, duration and PDF page badges are present. The PDF filter composes with category/person/region/search filters. Tokyo remains the default region. See docs/pdf-food-audit.md for all 52 page outcomes, record IDs and exceptions. Source PDF is not published. Non-dining retail completeness is not claimed.

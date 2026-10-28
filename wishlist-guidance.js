@@ -37,7 +37,7 @@ Object.assign(WISHLIST_GUIDANCE,{
 });
 function wishlistGuidance(p){
  const curated=WISHLIST_GUIDANCE[p.id];
- if(curated)return {score:curated[0],duration:curated[1],detail:curated[2],reason:p.id.startsWith('imperial-')?'你已提出想去':'适合你们的初访体验'};
+ if(curated)return {score:curated[0],duration:curated[1],detail:curated[2],reason:p.region!=='tokyo'?'本次东京行程不优先':p.id.startsWith('imperial-')?'你已提出想去':'适合你们的初访体验'};
  if(p.chefStatus)return {score:null,duration:'暂不安排',reason:'营业状态待复核',detail:'原清单标记为'+p.chefStatus+'。先保留收藏，确认恢复营业后再考虑特地前往。'};
  if(/地址点|具体店铺待确认/.test(p.desc))return {score:null,duration:'待确认',reason:'地点信息不足',detail:'这是原清单里的地址收藏，尚不能确认具体店铺。可以先标记兴趣，确认店名后再估算逛店时间。'};
  if(p.region!=='tokyo')return {score:1,duration:p.category==='food'?'45–75 分钟':p.category==='sight'?'60–90 分钟':'30–60 分钟',reason:'本次东京行程不优先',detail:'更适合另一次'+({kyoto:'京都',osaka:'大阪 / 兵库',kawagoe:'川越',fuji:'富士山周边',other:'当地'}[p.region]||'当地')+'旅行时安排。时长只估算在这一处的停留，不含从东京往返；低分表示不适合这次路线，不代表地点不好。'};

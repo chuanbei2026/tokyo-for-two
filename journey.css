@@ -168,3 +168,5 @@ body:not(.day-view) .wishlist-card .catalog-place{flex:none}
 body:not(.day-view) .place-votes:empty{display:none}
 
 .vote-filter-label{font-size:11px;color:#6a7662;margin:10px 0 5px}.vote-filters{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:10px}.vote-filters button{font-size:11px;padding:5px 8px;border:1px solid #d8ddcf;border-radius:20px;color:#7b8475;background:#fff}.vote-filters button[aria-pressed=true]{color:#35543d;border-color:#788c6b;background:#eaf0e3;font-weight:600}
+
+.pdf-source-badge{display:inline-block;margin:2px 0 7px;padding:3px 7px;border-radius:5px;background:#eee9dc;color:#7a6542;font-size:10px;line-height:1.5}
