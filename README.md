@@ -6,14 +6,14 @@ Live site: https://tokyo.chuanbei.dev/
 
 ## Itinerary
 
-The user explicitly chose the first four days of their private reference PDF, including the complete Kawagoe day. The PDF and private traveler information are not published. Its December dates, flights, train times, and platform assignments are not reused.
+The user chose days 1–3 of their private reference PDF and replaced Kawagoe with the PDF’s original day 5. The PDF and private traveler information are not published. Its December dates, flights, train times, and platform assignments are not reused.
 
 - Day 1: arrival, Dormy Inn PREMIUM Ginza, oden, hotel.
 - Day 2: Tsukiji, Asakusa, Nakameguro, Daikanyama, Ebisu, Ginza dinner.
 - Day 3: Wellk, Jiyugaoka, Nezu, Yanaka, Ginza.
-- Day 4: Kawagoe station, Hachimangu, Kumano Shrine, Taisho Roman street, Ichibangai, Time Bell Tower, Hikawa Shrine, Kitain, return to Ginza.
+- Day 4: titoten breakfast, Sangenjaya Gorilla Building, Carrot Tower, Setagaya tram to Yamashita, Gotokuji Temple, SAMURAI. curry, Shimokitazawa Ichibangai, reload, BONUS TRACK, Kichijoji Sunroad, Harmonica Yokocho dinner, return to Ginza via Yotsuya.
 
-Arrival at 15:00 is a planning placeholder. Day 4 retains sightseeing through the return to Ginza around 18:00; onward flights or another hotel night remain unresolved. Reservations and Wellk's proposed breakfast slot require confirmation. Dining and transport prices are estimates, with USD shown at a planning rate of 157 JPY/USD.
+Arrival at 15:00 is a planning placeholder. Day 4 retains sightseeing through the return to Ginza around 20:00; onward flights or another hotel night remain unresolved. Reservations and Wellk's proposed breakfast slot require confirmation. Dining and transport prices are estimates, with USD shown at a planning rate of 157 JPY/USD.
 
 ## Interface
 
@@ -25,9 +25,9 @@ Camera framing follows stable three-hour windows anchored to the first actionabl
 
 ## Maps and photographs
 
-Leaflet 1.9.4 is served locally with its license. The street view uses a CARTO Voyager vector basemap rendered by MapLibre GL JS 5.6.2 and its Leaflet binding 0.1.4, with visible CARTO/OpenStreetMap attribution. The provider style is fetched at runtime so its source, glyph and sprite endpoints stay current. Unrelated POIs, building footprints, house numbers and minor-road labels are hidden; available Chinese labels are preferred, followed by English. No Google tiles are used. CARTO currently permits keyless vector styles; its service policy and availability remain external dependencies. Walking geometry comes from FOSSGIS Valhalla; railway geometry comes from OpenStreetMap track relations 3302734, 443272, 443282, 443284, 5375678, 1947536, and 1926310. There are 26 connecting legs, with separate access, railway, transfer, and exit phases. Indoor connections are indicative: follow station signs. Express train station lists describe the corridor, not guaranteed stopping patterns.
+Leaflet 1.9.4 is served locally with its license. The street view uses a CARTO Voyager vector basemap rendered by MapLibre GL JS 5.6.2 and its Leaflet binding 0.1.4, with visible CARTO/OpenStreetMap attribution. The provider style is fetched at runtime so its source, glyph and sprite endpoints stay current. Unrelated POIs, building footprints, house numbers and minor-road labels are hidden; available Chinese labels are preferred, followed by English. No Google tiles are used. CARTO currently permits keyless vector styles; its service policy and availability remain external dependencies. Walking geometry comes from FOSSGIS Valhalla; railway geometry comes from OpenStreetMap track relations 3302734, 443272, 443282, 443284, 5375678, 1947536, 443281, 8026159, 9341815, 7215409, 12458961, 11602038, and 10363875. There are 27 connecting legs, with separate access, railway, transfer, and exit phases. Indoor connections are indicative: follow station signs. Express train station lists describe the corridor, not guaranteed stopping patterns.
 
-The second map retains the original illustrative artwork. Its geography is schematic, including the Kawagoe inset, and must not be used as street navigation.
+The second map retains the original illustrative artwork. Its geography is schematic, including the western Tokyo stops, and must not be used as street navigation.
 
 Photographs remain hosted by official venues, reservation providers and tourism publishers, with visible source links. Regional substitutes are explicitly labeled. These are reference images, not current seasonal views or continuous Street View footage. Google imagery is not scraped. Image failures retain links to their sources.
 
@@ -40,3 +40,7 @@ Validate all five pages, every visit and route reference, chronological schedule
 ## Keyboard and image controls
 
 Left/right arrows jump between actionable timeline segments, and Space toggles playback. Shortcuts ignore modifiers, repeated keys, editable fields, native range/select controls and open dialogs. The photo stream provides previous/next frame buttons, seekable thumbnails and a click-to-enlarge sourced image dialog. Sleep and unconfirmed blocks do not create photo frames.
+
+## Day 4 planning notes
+
+The full sightseeing day is provisional until departure flights are known. The PDF’s old train times/platforms are not bookings or current timetables. Allow approximately 15 minutes between Gotokuji Temple and the Odakyu/Setagaya stations, following the temple’s current access guidance. At Omotesando, take a Hanzomon service continuing onto Den-en-toshi; Shibuya is a through-service boundary with no walking phase. Odakyu uses a local train. Keio and JR station strips show the route corridor, not a promise that express trains stop at every station. Photograph credits identify official venue or tourism publisher images; the Setagaya tram uses Tokyu’s official 300-series reference photo.

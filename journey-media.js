@@ -1,4 +1,4 @@
-/* Publisher-hosted reference photos; regional substitutes are explicitly labeled. */
+/* Publisher-hosted reference photographs with source attribution. */
 const JOURNEY_MEDIA={
   "hotel": {
     "src": "https://dormy-hotels.com/static/dmsimg/media/cms/4931706166208/%E3%83%89%E3%83%BC%E3%83%9F%E3%83%BC%E3%82%A4%E3%83%B3PREMIUM%20%E9%8A%80%E5%BA%A7%E3%80%80%E6%96%BD%E8%A8%ADTOP%20%E5%AE%A2%E5%AE%A4%203%E6%9E%9A%E7%9B%AE.jpg?w=320&fit=inside&ext=webp",
@@ -110,31 +110,6 @@ const JOURNEY_MEDIA={
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
     "label": "旅游局实景参考 · 非实时影像"
   },
-  "hachiman": {
-    "src": "https://koedo.or.jp/wp-content/uploads/ad3dda00aa38c5f77aaed4261c0321f6-1.jpg",
-    "source": "https://koedo.or.jp/en/spot_012/",
-    "label": "旅游局实景参考 · 非实时影像"
-  },
-  "ichibangai": {
-    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
-    "source": "https://koedo.or.jp/en/spot_002/",
-    "label": "旅游局实景参考 · 非实时影像"
-  },
-  "hikawa": {
-    "src": "https://koedo.or.jp/wp-content/uploads/b4aa61d6382084280c88d4207c0ce27d-600x600.jpeg",
-    "source": "https://koedo.or.jp/en/spot_008/",
-    "label": "旅游局实景参考 · 非实时影像"
-  },
-  "kitain": {
-    "src": "https://koedo.or.jp/wp-content/uploads/cfdb2adee44e566a6e474f6ed88a923b-600x600.jpg",
-    "source": "https://koedo.or.jp/en/spot_004/",
-    "label": "旅游局实景参考 · 非实时影像"
-  },
-  "bell": {
-    "src": "https://koedo.or.jp/wp-content/uploads/3191516e53392e546ea3a2e9eae67c27-600x600.jpg",
-    "source": "https://koedo.or.jp/en/spot_001/",
-    "label": "旅游局实景参考 · 非实时影像"
-  },
   "ebisu": {
     "src": "https://www.gotokyo.org/en/destinations/southern-tokyo/ebisu/images/area048_1030_11.jpg",
     "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/ebisu/index.html",
@@ -145,19 +120,54 @@ const JOURNEY_MEDIA={
     "source": "https://www.tablecheck.com/en/wellk/reserve/message",
     "label": "Wellk 预约页参考图"
   },
-  "kawagoe": {
-    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
-    "source": "https://koedo.or.jp/en/spot_002/",
-    "label": "川越老街参考 · 非川越车站实景"
+  "titoten": {
+    "src": "https://shokusanbest.com/assets/uploads/sites/3/2023/08/titoten-7.jpg",
+    "source": "https://shokusanbest.com/setagaya/local-navi/titoten/",
+    "label": "当地探店实拍 · titoten早餐示例，非当日菜单"
   },
-  "kumano": {
-    "src": "https://koedo.or.jp/wp-content/uploads/17f58053be68fa581b0fac6fbdfc2ffa-scaled.jpg",
-    "source": "https://koedo.or.jp/en/spot_013/",
-    "label": "官方旅游图文参考"
+  "gorilla": {
+    "src": "https://place.matcha-jp.com/resize/200x2000/2025/01/19-14-57-01-131b68b11aa6f001070f5c67f9b2fa974f5.webp",
+    "source": "https://matcha-jp.com/en/23684",
+    "label": "MATCHA · 三轩茶屋大猩猩大楼实景"
   },
-  "taisho": {
-    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
-    "source": "https://koedo.or.jp/en/spot_002/",
-    "label": "川越一番街参考 · 非大正浪漫梦通实景"
+  "carrot": {
+    "src": "https://cdn.scramble-cms.dp.tokyu.co.jp/strapi/11_5acadc4afe.jpg",
+    "source": "https://www.tokyu.co.jp/area/sangen-jaya/article/arti-01KS6TTH11RW90FTVAPSV1CS9M/",
+    "label": "东急官方 · Carrot Tower展望景色"
+  },
+  "gotokuji": {
+    "src": "https://gotokuji.jp/en/img/manekineko/img_main_pc.jpg",
+    "source": "https://gotokuji.jp/en/manekineko/",
+    "label": "豪德寺官方 · 招财猫实景"
+  },
+  "samurai": {
+    "src": "https://www.samurai-curry.com/img/shop/shimokita_gaikan.jpg?_1",
+    "source": "https://www.samurai-curry.com/shop_shimokitazawa/",
+    "label": "SAMURAI.官方 · 下北泽店外观"
+  },
+  "shimokita": {
+    "src": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/images/area033_1010_19.webp",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+    "label": "GO TOKYO · 下北泽街区实景"
+  },
+  "reload": {
+    "src": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/images/reload_shimokita.webp",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+    "label": "GO TOKYO · reload实景"
+  },
+  "bonus": {
+    "src": "https://rstatic.enjoytokyo.jp/assets/images/spot/f0/l_00062605/img_1.jpg?1695096395&p=t&w=1200",
+    "source": "https://www.enjoytokyo.jp/spot/l_00062605/",
+    "label": "Enjoy Tokyo · BONUS TRACK实景"
+  },
+  "kichijoji": {
+    "src": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/kichijoji/images/area035_1012_22.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "label": "GO TOKYO · 吉祥寺Sunroad商店街"
+  },
+  "harmonica": {
+    "src": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/kichijoji/images/area035_1006_15.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "label": "GO TOKYO · 口琴横丁实景"
   }
 };

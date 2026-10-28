@@ -1,4 +1,4 @@
-/* Four-day route adapted from the supplied PDF; all times are planning estimates. */
+/* Reference PDF days 1–3 and day 5; all times are planning estimates. */
 const JOURNEY_POINTS={
   "hotel": {
     "name": "Dormy Inn PREMIUM 银座",
@@ -13,7 +13,7 @@ const JOURNEY_POINTS={
     "steps": [
       "先寄存或办理入住，确认早餐与温泉使用时间。",
       "酒店天然温泉可安排在回程后，男女分浴，遵守酒店入浴说明。",
-      "11月27日先寄存行李再去川越；当晚返程或续住尚待航班确认。"
+      "11月27日退房后先寄存行李，游览东京西侧街区；预计20:00回酒店，机场与是否续住待航班确认。"
     ],
     "budget": "房价以实际预订为准",
     "booking": "需确认三晚房型；第4日晚是否续住另定",
@@ -330,186 +330,236 @@ const JOURNEY_POINTS={
       91
     ]
   },
-  "kawagoe": {
-    "name": "川越站",
+  "titoten": {
+    "name": "titoten · 三轩茶屋早餐",
     "coord": [
-      35.9070547,
-      139.4833417
+      35.644906,
+      139.669802
     ],
-    "address": "Kawagoe Station, Kawagoe, Saitama",
-    "source": "https://koedo.or.jp/en/access/",
-    "gallery": "https://koedo.or.jp/en/access/",
-    "desc": "PDF 川越一日游的起终点，从东口开始步行。",
+    "address": "4-25-5 Taishido, Setagaya-ku, Tokyo",
+    "source": "https://www.instagram.com/tito.ten/",
+    "gallery": "https://www.instagram.com/tito.ten/",
+    "desc": "照 PDF 第五天，从三轩茶屋的小店早餐开始，给两人留一小时慢慢吃。",
     "steps": [
-      "东京经池袋换东武东上线，在川越站下车。",
-      "东口先找洗手间，补水后步行去八幡宫。",
-      "返程仍到川越站，不是川越市站或本川越站。"
+      "从三轩茶屋站出站，沿茶泽通附近街道走到4-25-5；店面低调，注意门上的店名。",
+      "点早餐拼盘或当日提供的面包、蛋和饮料，菜单以当天为准。",
+      "计划9:25到；排队超过20分钟就压缩后面的拍照时间，保留午餐与豪德寺。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "川越站 Kawagoe Station, Kawagoe, Saitama",
+    "budget": "早餐预算 1,500–2,500 円（日元） / 人",
+    "booking": "提前核对11月27日早餐营业及预约方式；尚未预约。",
+    "query": "titoten · 三轩茶屋早餐 4-25-5 Taishido, Setagaya-ku, Tokyo",
     "comic": [
-      14.005020000012792,
-      11.986324999998288
+      25,
+      68
     ]
   },
-  "hachiman": {
-    "name": "川越八幡宫",
+  "gorilla": {
+    "name": "三轩茶屋 · 大猩猩大楼",
     "coord": [
-      35.9105,
-      139.4851
+      35.6476117,
+      139.6691656
     ],
-    "address": "19-3 Minamitorimachi, Kawagoe, Saitama",
-    "source": "https://www.kawagoe-hachimangu.net/",
-    "gallery": "https://www.kawagoe-hachimangu.net/",
-    "desc": "PDF 川越步行第一站。",
+    "address": "3-15-2 Taishido, Setagaya-ku, Tokyo",
+    "source": "https://matcha-jp.com/en/23684",
+    "gallery": "https://matcha-jp.com/en/23684",
+    "desc": "茶泽通上的巨大猩猩是这一带很有趣的街头地标，短暂停留拍照。",
     "steps": [
-      "走入鸟居与参道，参拜后看境内银杏。",
-      "停留约25分钟，再走向熊野神社。"
+      "从早餐店沿茶泽通向北走，抬头找便利店上方伸出的猩猩。",
+      "在人行道安全位置拍照，别站到车道或堵住店门。",
+      "这里是建筑外观，不是售票景点；拍完返回Carrot Tower。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "川越八幡宫 19-3 Minamitorimachi, Kawagoe, Saitama",
+    "budget": "街道外观免费",
+    "booking": "约10–15分钟即可。",
+    "query": "三轩茶屋 · 大猩猩大楼 3-15-2 Taishido, Setagaya-ku, Tokyo",
     "comic": [
-      15.059999999999263,
-      11.124999999999375
+      25,
+      62
     ]
   },
-  "kumano": {
-    "name": "川越熊野神社",
+  "carrot": {
+    "name": "Carrot Tower · 26层城市景色",
     "coord": [
-      35.919,
-      139.4828
+      35.6436933,
+      139.669292
     ],
-    "address": "17-1 Renjakucho, Kawagoe, Saitama",
-    "source": "https://www.kawagoekumano.jp/",
-    "gallery": "https://www.kawagoekumano.jp/",
-    "desc": "PDF 第二站，境内参拜与小体验。",
+    "address": "4-1-1 Taishido, Setagaya-ku, Tokyo",
+    "source": "https://www.tokyu.co.jp/area/sangen-jaya/article/arti-01KS6TTH11RW90FTVAPSV1CS9M/",
+    "gallery": "https://www.tokyu.co.jp/area/sangen-jaya/article/arti-01KS6TTH11RW90FTVAPSV1CS9M/",
+    "desc": "免费展望大厅俯瞰西东京，再从楼下换乘世田谷线小电车。",
     "steps": [
-      "先参拜，再按现场说明体验。",
-      "不要把求签结果当成必须购买更多护符的理由。",
-      "出门顺路往大正浪漫梦通。"
+      "走进Carrot Tower，跟随26F展望大厅标识；由2层中庭找专用电梯。",
+      "在公共展望区域看城市街区，能见度决定远景，不保证能看见富士山。",
+      "11:05左右下楼，找地面世田谷线SG01；不要回地下田园都市线。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "川越熊野神社 17-1 Renjakucho, Kawagoe, Saitama",
+    "budget": "公共展望大厅免费；饮料另计",
+    "booking": "出发前核对开放情况；餐厅消费不等于展望大厅门票。",
+    "query": "Carrot Tower · 26层城市景色 4-1-1 Taishido, Setagaya-ku, Tokyo",
     "comic": [
-      13.680000000004611,
-      8.999999999999886
+      22,
+      69
     ]
   },
-  "taisho": {
-    "name": "大正浪漫梦通",
+  "gotokuji": {
+    "name": "豪德寺 · 招财猫与寺院",
     "coord": [
-      35.9203,
-      139.4833
+      35.6484976,
+      139.6472629
     ],
-    "address": "Renjakucho / Nakacho, Kawagoe, Saitama",
-    "source": "https://koedo.or.jp/en/",
-    "gallery": "https://koedo.or.jp/en/",
-    "desc": "从神社走进复古街道，保持 PDF 的顺路方向。",
+    "address": "2-24-7 Gotokuji, Setagaya-ku, Tokyo",
+    "source": "https://www.gotokuji.jp/en/about/",
+    "gallery": "https://www.gotokuji.jp/en/about/",
+    "desc": "搭世田谷线来到安静寺院，按 PDF 依次走山门、佛殿、三重塔与招财猫区域。",
     "steps": [
-      "沿街看店招、老建筑。",
-      "小吃两人分享，留肚子给一番街午餐。"
+      "从山下站沿住宅街走约15分钟，经参道进入寺院。",
+      "先看山门与佛殿，再走三重塔和招财猫奉纳区域；拍照不触碰供奉物。",
+      "如想请一只招财猫，留时间到寺务所；库存与价格以现场为准。",
+      "12:30左右离开，留15分钟走到小田急豪德寺站OH10。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "大正浪漫梦通 Renjakucho / Nakacho, Kawagoe, Saitama",
+    "budget": "普通境内参观免费；授予品另计",
+    "booking": "官网参观6:00–17:00，寺务所8:00–15:00；临行复核。",
+    "query": "豪德寺 · 招财猫与寺院 2-24-7 Gotokuji, Setagaya-ku, Tokyo",
     "comic": [
-      13.98000000001457,
-      8.674999999999756
+      12,
+      56
     ]
   },
-  "ichibangai": {
-    "name": "川越一番街 · 午餐",
+  "samurai": {
+    "name": "SAMURAI. · 下北泽汤咖喱午餐",
     "coord": [
-      35.9235,
-      139.4827
+      35.6646759,
+      139.6669344
     ],
-    "address": "Saiwaicho, Kawagoe, Saitama",
-    "source": "https://koedo.or.jp/en/spot_002/",
-    "gallery": "https://koedo.or.jp/en/spot_002/",
-    "desc": "PDF 的藏造老街与午餐区，安排一顿正餐加一两样红薯小吃。",
+    "address": "3-31-14 Kitazawa, Setagaya-ku, Tokyo",
+    "source": "https://www.samurai-curry.com/shop_shimokitazawa/",
+    "gallery": "https://www.samurai-curry.com/shop_shimokitazawa/",
+    "desc": "从 PDF 的午餐推荐中选一间作主线：蔬菜丰富的汤咖喱，吃饱后再逛下北泽。",
     "steps": [
-      "先吃午餐，再慢逛藏造街景。",
-      "按 PDF 方向选荞麦面或豆腐料理，现场确认营业与菜单。",
-      "红薯片或地瓜点心两人分享，不把每一家都排进日程。"
+      "小田急下北泽OH07下车，中央口出站，沿北侧商店街步行到店。",
+      "按菜单选主料、米饭量与辣度；第一次可从低辣开始。",
+      "留约1小时含等位；若排队较久，减少之后小店停留，不压缩吃饭时间。"
     ],
-    "budget": "午餐与小吃规划 2,500–4,500 円（日元） / 人",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "川越一番街 · 午餐 Saiwaicho, Kawagoe, Saitama",
+    "budget": "午餐预算 1,800–2,800 円（日元） / 人",
+    "booking": "不预设一定有位；营业与菜单以店家当日信息为准。",
+    "query": "SAMURAI. · 下北泽汤咖喱午餐 3-31-14 Kitazawa, Setagaya-ku, Tokyo",
     "comic": [
-      13.62000000000262,
-      7.874999999999844
+      24,
+      45
     ]
   },
-  "bell": {
-    "name": "时之钟",
+  "shimokita": {
+    "name": "下北泽 · 一番街与唱片小店",
     "coord": [
-      35.9241,
-      139.4832
+      35.664,
+      139.66713
     ],
-    "address": "15-7 Saiwaicho, Kawagoe, Saitama",
-    "source": "https://koedo.or.jp/en/spot_001/",
-    "gallery": "https://koedo.or.jp/en/spot_001/",
-    "desc": "川越代表地标，按 PDF 放在一番街之后。",
+    "address": "Kitazawa 2–3 chome, Setagaya-ku, Tokyo",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+    "gallery": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
+    "desc": "午餐后沿一番街慢慢看古着、杂货和唱片，重点是街区气氛，不安排必须购买的清单。",
     "steps": [
-      "在街口拍整体，注意来车。",
-      "穿过钟楼下方通道，按现场开放区域散步。",
-      "停留20分钟后前往冰川神社。"
+      "沿一番街散步，路过NEW YORK JOE、2nd STREET和disk union时按兴趣停留。",
+      "两人各挑一家感兴趣的小店，不把每一家都变成任务。",
+      "接着往东走到reload，途中找路口和店招拍照。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "时之钟 15-7 Saiwaicho, Kawagoe, Saitama",
+    "budget": "散步免费；购物自选",
+    "booking": "约35分钟，店铺营业各不相同。",
+    "query": "下北泽 · 一番街与唱片小店 Kitazawa 2–3 chome, Setagaya-ku, Tokyo",
     "comic": [
-      13.920000000012578,
-      7.724999999998417
+      27,
+      42
     ]
   },
-  "hikawa": {
-    "name": "川越冰川神社",
+  "reload": {
+    "name": "reload · 咖啡与设计小店",
     "coord": [
-      35.9355,
-      139.4888
+      35.6631126,
+      139.6696564
     ],
-    "address": "2-11-3 Miyashitamachi, Kawagoe, Saitama",
-    "source": "https://www.kawagoehikawa.jp/",
-    "gallery": "https://www.kawagoehikawa.jp/",
-    "desc": "PDF 午后的神社停留。",
+    "address": "3-19-20 Kitazawa, Setagaya-ku, Tokyo",
+    "source": "https://reload-shimokita.com/",
+    "gallery": "https://reload-shimokita.com/",
+    "desc": "旧铁道沿线的小型店铺聚落，在这里喝杯咖啡休息，再走去BONUS TRACK。",
     "steps": [
-      "看鸟居、参道和绘马。",
-      "想求签或购买护符时，先看清价格和说明。",
-      "11月不预设夏季风铃活动，按当月现场开放参观。"
+      "从东侧步道进入reload，先绕一圈看建筑与小店。",
+      "选一杯咖啡或甜点，两人坐下歇脚，不急着赶店。",
+      "沿下北线街的步行空间往西走，穿过车站附近去BONUS TRACK。"
     ],
-    "budget": "免费散步；餐饮另计",
-    "booking": "营业时间以出发前官方公布为准",
-    "query": "川越冰川神社 2-11-3 Miyashitamachi, Kawagoe, Saitama",
+    "budget": "咖啡甜点预算 700–1,500 円（日元） / 人",
+    "booking": "店家分别营业；预计停留25–30分钟。",
+    "query": "reload · 咖啡与设计小店 3-19-20 Kitazawa, Setagaya-ku, Tokyo",
     "comic": [
-      17.280000000004748,
-      4.87499999999973
+      30,
+      44
     ]
   },
-  "kitain": {
-    "name": "喜多院",
+  "bonus": {
+    "name": "BONUS TRACK · 街区慢逛",
     "coord": [
-      35.9174,
-      139.4905
+      35.6593357,
+      139.6644187
     ],
-    "address": "1-20-1 Kosembamachi, Kawagoe, Saitama",
-    "source": "https://kitain.net/",
-    "gallery": "https://kitain.net/",
-    "desc": "PDF 川越路线最后一站，安排在下午较早时段，避免错过建筑参观。",
+    "address": "2-36-12 to 15 Daita, Setagaya-ku, Tokyo",
+    "source": "https://bonus-track.net/",
+    "gallery": "https://bonus-track.net/",
+    "desc": "独立店铺与开放步行空间组成的小街区，作为下北泽的最后一站。",
     "steps": [
-      "先确认当天最晚售票与开放区域。",
-      "境内散步后，按体力选择付费建筑参观。",
-      "15:50左右往川越站走，留返东京的交通余量。"
+      "沿小街看书店、生活杂货与咖啡店，按喜好停留。",
+      "15:55左右开始返回下北泽站，找京王井之头线标识。",
+      "想买点心就控制分量，把胃口留给吉祥寺小吃与晚餐。"
     ],
-    "budget": "参观费以官网当日票种为准",
-    "booking": "官方开放时间须临行复核；先完成需要门票的区域",
-    "query": "喜多院 1-20-1 Kosembamachi, Kawagoe, Saitama",
+    "budget": "散步免费；消费自选",
+    "booking": "按当天开店情况逛，约30–40分钟。",
+    "query": "BONUS TRACK · 街区慢逛 2-36-12 to 15 Daita, Setagaya-ku, Tokyo",
     "comic": [
-      18.300000000004502,
-      9.399999999998954
+      22,
+      49
+    ]
+  },
+  "kichijoji": {
+    "name": "吉祥寺 · Sunroad与街头小吃",
+    "coord": [
+      35.70425,
+      139.57976
+    ],
+    "address": "Kichijoji Honcho 1 chome, Musashino, Tokyo",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "gallery": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "desc": "按 PDF 从北口进入有顶棚的Sunroad，再转Daiya Street，边走边分享小吃。",
+    "steps": [
+      "从吉祥寺站北口出站，先走Sunroad商店街，再转Daiya Street。",
+      "想吃热食可找Satou炸牛肉饼、天音鲷鱼烧或鱼糕；以营业和队伍为准，选1–2样分享。",
+      "小笹羊羹常需很早排队，这个下午时段不承诺能买到；不要为了售罄商品打乱路线。",
+      "傍晚步行去车站北侧的口琴横丁，坐下来吃晚餐。"
+    ],
+    "budget": "小吃预算 1,000–2,000 円（日元） / 人",
+    "booking": "小吃各店营业不同；日落后以商店街为主。",
+    "query": "吉祥寺 · Sunroad与街头小吃 Kichijoji Honcho 1 chome, Musashino, Tokyo",
+    "comic": [
+      7,
+      22
+    ]
+  },
+  "harmonica": {
+    "name": "口琴横丁 · 小巷晚餐",
+    "coord": [
+      35.70366,
+      139.57926
+    ],
+    "address": "Kichijoji Honcho 1 chome, Musashino, Tokyo",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "gallery": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
+    "desc": "狭窄巷弄里的居酒屋与小店，为东京西侧的一天收尾。",
+    "steps": [
+      "沿口琴横丁的小巷看店面，选择有两人座位且菜单合适的店。",
+      "晚餐主食搭几样下酒菜；不喝酒也可先向店家确认是否能用餐。",
+      "18:50左右结账，19:00前往JR吉祥寺站，按中央线快速往东京方向返程。"
+    ],
+    "budget": "晚餐预算 3,000–5,000 円（日元） / 人",
+    "booking": "街区安排，未锁定或预订具体餐厅；座位和禁烟情况现场确认。",
+    "query": "口琴横丁 · 小巷晚餐 Kichijoji Honcho 1 chome, Musashino, Tokyo",
+    "comic": [
+      6,
+      26
     ]
   }
 };
@@ -857,168 +907,204 @@ const JOURNEY_DAYS=[
     "date": "11.27",
     "weekday": "周五",
     "color": "#648998",
-    "title": "川越一日，按 PDF 慢慢走",
-    "area": "池袋 / 川越",
-    "intro": "保留 PDF 第四天完整顺序，傍晚回东京。返程航班另行安排。",
-    "focus": "小江户 + 红薯小吃",
-    "walk": "约 6–8 km",
-    "note": "按你的选择保留完整川越日，不再作为机场半日。先寄存行李，预计18:00后回东京；11月27日航班及是否续住必须另行匹配。",
+    "title": "小电车、招财猫与西东京街区",
+    "area": "三轩茶屋 / 豪德寺 / 下北泽 / 吉祥寺",
+    "intro": "改用 PDF 原第五天：从早餐店出发，搭小电车看寺院，下午与傍晚留给街区和美食。",
+    "focus": "小电车 + 咖喱 + 街区小吃",
+    "walk": "约 9–11 km（含逛街）",
+    "note": "按 PDF 原第五天主线规划，替换川越。08:30出发、约20:00回银座；返程航班未定，暂不衔接机场。若当天离境，确定航班后再缩短下午行程。",
     "visits": [
       {
         "id": "hotel",
         "time": "08:30",
-        "note": "退房寄存行李；若续住则不退房，等航班确认。"
+        "note": "退房寄存行李后出发；早餐留给三轩茶屋。"
       },
       {
-        "id": "kawagoe",
-        "time": "10:15",
-        "note": "川越站东口出站，补水、洗手间，开始步行。"
+        "id": "titoten",
+        "time": "09:25",
+        "note": "早餐约50分钟，慢慢吃，不赶打卡。"
       },
       {
-        "id": "hachiman",
+        "id": "gorilla",
+        "time": "10:20",
+        "note": "抬头找大猩猩，街边拍照约10分钟。"
+      },
+      {
+        "id": "carrot",
         "time": "10:40",
-        "note": "八幡宫参拜，停留约25分钟。"
+        "note": "免费展望大厅看城市，11:05左右下楼。"
       },
       {
-        "id": "kumano",
-        "time": "11:20",
-        "note": "熊野神社参拜与境内小体验。"
+        "id": "gotokuji",
+        "time": "11:45",
+        "note": "山门、佛殿、三重塔、招财猫；12:30左右离开。"
       },
       {
-        "id": "taisho",
-        "time": "11:55",
-        "note": "大正浪漫梦通看建筑和店招，顺路向一番街。"
+        "id": "samurai",
+        "time": "13:05",
+        "note": "下北泽汤咖喱午餐，留足等位与用餐时间。"
       },
       {
-        "id": "ichibangai",
-        "time": "12:20",
-        "note": "先午餐，再逛藏造街景，分享红薯小吃。"
+        "id": "shimokita",
+        "time": "14:10",
+        "note": "沿一番街逛古着、杂货与唱片。"
       },
       {
-        "id": "bell",
-        "time": "13:30",
-        "note": "时之钟街口拍照，留20分钟。"
+        "id": "reload",
+        "time": "14:50",
+        "note": "咖啡休息，看设计小店。"
       },
       {
-        "id": "hikawa",
-        "time": "14:15",
-        "note": "冰川神社参拜、绘马，按现场开放参观。"
+        "id": "bonus",
+        "time": "15:30",
+        "note": "最后一段下北泽散步，15:55左右往车站走。"
       },
       {
-        "id": "kitain",
-        "time": "15:15",
-        "note": "喜多院先看需门票区域，注意最晚售票。"
+        "id": "kichijoji",
+        "time": "16:35",
+        "note": "北口进入Sunroad与Daiya Street，分享小吃。"
       },
       {
-        "id": "kawagoe",
-        "time": "16:20",
-        "note": "回川越站，找东武东上线往池袋方向。"
+        "id": "harmonica",
+        "time": "17:50",
+        "note": "小巷晚餐；18:50结账，19:00左右坐车。"
       },
       {
         "id": "hotel",
-        "time": "18:00",
-        "note": "回银座取行李或办理续住；晚餐及机场段待航班确定。"
+        "time": "20:00",
+        "note": "回银座取行李；机场或续住仍待航班确认。"
       }
     ],
     "legs": [
       {
         "mode": "metro",
-        "time": "85–100 分钟",
-        "title": "银座 → 池袋换乘 → 川越",
-        "detail": "步行到银座 M16；丸之内线往池袋 M25。到池袋出 Metro 闸机，找东武东上线 TJ01，再进闸；选停川越 TJ21 的急行，往川越市／森林公园方向，约30–40分钟。不要套用PDF旧班次。",
-        "cost": "交通预算 800–1,000 円（日元） / 人",
+        "time": "45–55 分钟",
+        "title": "银座 → 表参道换乘 → 三轩茶屋",
+        "detail": "步行到银座G09，银座线往涩谷方向到表参道G02。在站内换半藏门线Z02，选择直通田园都市线、往中央林间等方向的列车；经过涩谷不下车，到三轩茶屋DT03下车。若列车只到涩谷，按站内提示换继续西行列车。出站走到titoten。",
+        "cost": "交通预算 350–500 円（日元） / 人",
         "rails": [
           {
-            "line": "M",
-            "from": "M16",
-            "to": "M25"
+            "line": "G",
+            "from": "G09",
+            "to": "G02"
           },
           {
-            "line": "TJ",
-            "from": "TJ01",
-            "to": "TJ21"
+            "line": "Z",
+            "from": "Z02",
+            "to": "Z01"
+          },
+          {
+            "line": "DT",
+            "from": "DT01",
+            "to": "DT03"
           }
         ]
       },
       {
         "mode": "walk",
-        "time": "12–18 分钟",
-        "title": "川越站 → 八幡宫",
-        "detail": "从东口沿街步行到19-3 Minamitorimachi。",
+        "time": "4–6 分钟",
+        "title": "早餐店 → 大猩猩大楼",
+        "detail": "沿茶泽通向北步行到3-15-2 Taishido，找便利店上方的大猩猩。",
         "cost": "",
         "rails": []
       },
       {
         "mode": "walk",
-        "time": "12–18 分钟",
-        "title": "八幡宫 → 熊野神社",
-        "detail": "沿市区街道北行，注意过街信号。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "3–5 分钟",
-        "title": "熊野神社 → 大正浪漫梦通",
-        "detail": "神社出来后走向大正浪漫梦通入口。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "6–10 分钟",
-        "title": "大正浪漫梦通 → 一番街",
-        "detail": "沿商店街向藏造街区步行。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "3–5 分钟",
-        "title": "一番街 → 时之钟",
-        "detail": "从午餐街区走到钟楼街口。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "18–25 分钟",
-        "title": "时之钟 → 冰川神社",
-        "detail": "按步行导航走到2-11-3 Miyashitamachi，途中补水。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "25–35 分钟",
-        "title": "冰川神社 → 喜多院",
-        "detail": "向南走回寺院片区，预留30分钟步行。",
-        "cost": "",
-        "rails": []
-      },
-      {
-        "mode": "walk",
-        "time": "20–30 分钟",
-        "title": "喜多院 → 川越站",
-        "detail": "沿市区街道回东武川越站，不是本川越站。",
+        "time": "7–10 分钟",
+        "title": "大猩猩大楼 → Carrot Tower",
+        "detail": "沿茶泽通返回三轩茶屋站旁的Carrot Tower，走人行道与信号灯路口。",
         "cost": "",
         "rails": []
       },
       {
         "mode": "metro",
-        "time": "85–100 分钟",
-        "title": "川越 → 池袋换乘 → 银座",
-        "detail": "川越 TJ21 坐往池袋方向急行；池袋出东武闸，换丸之内线 M25 往荻洼方向，到银座 M16，步行回酒店。",
-        "cost": "交通预算 800–1,000 円（日元） / 人",
+        "time": "35–40 分钟",
+        "title": "三轩茶屋 → 世田谷线小电车 → 豪德寺",
+        "detail": "到地面的世田谷线三轩茶屋SG01，坐往下高井户方向的小电车，在山下SG08下车；沿住宅街步行约15分钟经参道进入豪德寺。这里沿用PDF的山下站，不把它误当小田急豪德寺站。",
+        "cost": "交通预算 200–250 円（日元） / 人",
         "rails": [
           {
-            "line": "TJ",
-            "from": "TJ21",
-            "to": "TJ01"
+            "line": "SG",
+            "from": "SG01",
+            "to": "SG08"
+          }
+        ]
+      },
+      {
+        "mode": "metro",
+        "time": "30–40 分钟",
+        "title": "豪德寺 → 小田急线 → 下北泽午餐",
+        "detail": "从寺院步行约15分钟到小田急豪德寺OH10，乘各站停车列车往新宿方向，经梅丘、世田谷代田到下北泽OH07。中央口出站，步行到SAMURAI.。无需购买特急券。",
+        "cost": "交通预算 150–250 円（日元） / 人",
+        "rails": [
+          {
+            "line": "OH",
+            "from": "OH10",
+            "to": "OH07"
+          }
+        ]
+      },
+      {
+        "mode": "walk",
+        "time": "2–4 分钟",
+        "title": "午餐店 → 下北泽一番街",
+        "detail": "餐后沿北侧街道慢慢走进一番街，按喜好看店。",
+        "cost": "",
+        "rails": []
+      },
+      {
+        "mode": "walk",
+        "time": "5–8 分钟",
+        "title": "一番街 → reload",
+        "detail": "从商店街往东侧旧铁道步行空间走，到reload休息。",
+        "cost": "",
+        "rails": []
+      },
+      {
+        "mode": "walk",
+        "time": "10–15 分钟",
+        "title": "reload → BONUS TRACK",
+        "detail": "沿下北线街向西走，经过车站附近再到BONUS TRACK；有路口处按信号通行。",
+        "cost": "",
+        "rails": []
+      },
+      {
+        "mode": "metro",
+        "time": "30–40 分钟",
+        "title": "下北泽 → 京王井之头线 → 吉祥寺",
+        "detail": "从BONUS TRACK步行回下北泽站，进入京王井之头线IN05，乘往吉祥寺IN17方向列车。急行约15分钟、各站停车更久；本版按有候车余量规划。到终点出北口进入商店街。",
+        "cost": "交通预算 200–300 円（日元） / 人",
+        "rails": [
+          {
+            "line": "IN",
+            "from": "IN05",
+            "to": "IN17"
+          }
+        ]
+      },
+      {
+        "mode": "walk",
+        "time": "3–5 分钟",
+        "title": "Sunroad小吃 → 口琴横丁",
+        "detail": "沿Daiya Street和车站北侧步行街转入口琴横丁，先看菜单再找两人座位。",
+        "cost": "",
+        "rails": []
+      },
+      {
+        "mode": "metro",
+        "time": "55–65 分钟",
+        "title": "吉祥寺 → 四谷换乘 → 银座",
+        "detail": "走回JR吉祥寺JC11，乘中央线快速往东京方向，在四谷JC04下车；出JR闸机，跟随丸之内线标识再刷卡进闸。四谷M12乘往池袋方向，到银座M16下车，步行回酒店。跟随当日站台标识，不照搬PDF旧班次。",
+        "cost": "交通预算 500–700 円（日元） / 人",
+        "rails": [
+          {
+            "line": "JC",
+            "from": "JC11",
+            "to": "JC04"
           },
           {
             "line": "M",
-            "from": "M25",
+            "from": "M12",
             "to": "M16"
           }
         ]
