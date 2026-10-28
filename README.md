@@ -58,3 +58,13 @@ The overview uses `overview-catalog.js` for the key destinations in the current 
 `trip-checks.js` saves wishlist checkboxes in browser localStorage and synchronizes open tabs on the same origin. This is local-only persistence, not shared cloud storage. The interface explicitly labels this limitation. No AWS resources or cloud endpoint are configured.
 
 Airport access is a separate optional overlay: Keisei Narita SKY ACCESS Access Express through service onto the Toei Asakusa Line, alighting at Higashi-Ginza. The dashed line connects major station coordinates as a schematic, not exact rail geometry. Official sources, terminal caveats, through-service conditions, indicative fares, and hotel exits are linked in the route card. No historical PDF departure time is treated as a current timetable. Checked against Keisei and the hotel's official access page on 2026-10-27.
+
+### Two-person wishlist contract
+
+The current local schema is `tokyo-wishlist-v2`: `{ [placeId]: { maomao?: { checked, updatedAt }, beibei?: { checked, updatedAt } } }`. Mao Mao uses the white puppy; Bei Bei uses the yellow puppy. Choose a person before voting. The current person is remembered in sessionStorage (`tokyo-voter`), not an authenticated identity. Rendering always shows both votes independently. Filters support either person's votes and the intersection.
+
+AWS integration must read both people's votes and update only one `(tripId, placeId, personId)` record at a time. Do not restore the former single boolean per destination or overwrite another person's vote when saving. Shared-link access controls the trip; choosing a person is a convenience, not proof of identity. Cloud synchronization is not configured yet.
+
+Old `tokyo-wishlist-v1` data remains untouched. A user can explicitly copy old checked destinations to the selected person; no identity is silently assigned. The local checks count and cloud disclaimer remain visible.
+
+Avatar references: [white puppy](https://www.duitang.com/blog/?id=1468198723) and [yellow puppy](https://cartoonpluscafe.imweb.me/). Images are remotely hosted reference artwork, not original site artwork.

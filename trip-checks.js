@@ -1,9 +1,27 @@
-/* Local-first selections. Cloud sharing is not enabled until an API is configured. */
-const TRIP_CHECKS_KEY='tokyo-wishlist-v1';
-let tripChecks={};
-try{const saved=JSON.parse(localStorage.getItem(TRIP_CHECKS_KEY)||'{}');if(saved&&typeof saved==='object'&&!Array.isArray(saved))tripChecks=saved;}catch{}
-function tripIsChecked(id){return tripChecks[id]?.checked===true;}
-function tripCheckControl(p){return `<label class="trip-check"><input type="checkbox" data-trip-check="${esc(p.id)}" aria-label="想去：${esc(p.name)}" ${tripIsChecked(p.id)?'checked':''}><span>想去</span></label>`;}
-function syncCheckControls(message){document.querySelectorAll('[data-trip-check]').forEach(el=>el.checked=tripIsChecked(el.dataset.tripCheck));const count=Object.values(tripChecks).filter(v=>v?.checked===true).length;document.querySelectorAll('.trip-save-status').forEach(el=>el.textContent=message||`已勾选 ${count} 个 · 仅保存在本机浏览器，尚未跨设备同步`);}
-document.addEventListener('change',event=>{const el=event.target.closest('[data-trip-check]');if(!el)return;const id=el.dataset.tripCheck,previous=tripChecks[id];tripChecks[id]={checked:el.checked,updatedAt:new Date().toISOString()};try{localStorage.setItem(TRIP_CHECKS_KEY,JSON.stringify(tripChecks));syncCheckControls();if(typeof overviewSource!=='undefined'&&overviewSource==='wanted')refreshOverview(false);}catch{if(previous)tripChecks[id]=previous;else delete tripChecks[id];syncCheckControls('浏览器未允许保存，刚才的勾选没有保存。');}});
-window.addEventListener('storage',event=>{if(event.key!==TRIP_CHECKS_KEY)return;try{const next=JSON.parse(event.newValue||'{}');if(next&&typeof next==='object'&&!Array.isArray(next)){tripChecks=next;syncCheckControls();if(typeof overviewSource!=='undefined'&&overviewSource==='wanted')refreshOverview(false);}}catch{}});
+/* Local votes: cloud adapters must persist each (placeId, personId) independently. */
+const TRIP_CHECKS_KEY='tokyo-wishlist-v2';
+const TRIP_PEOPLE={maomao:{name:'毛毛',gender:'♀',avatar:'https://c-ssl.duitang.com/uploads/blog/202305/04/20230504180243_fdcf2.jpeg'},beibei:{name:'贝贝',gender:'♂',avatar:'https://cdn.imweb.me/upload/S20231127834d8954cec9f/8024da3c9f937.png'}};
+function readTripVotes(){try{const v=JSON.parse(localStorage.getItem(TRIP_CHECKS_KEY)||'{}');return v&&typeof v==='object'&&!Array.isArray(v)?v:{};}catch{return {};}}
+let tripChecks=readTripVotes(),tripPerson=null;
+try{const id=sessionStorage.getItem('tokyo-voter');if(TRIP_PEOPLE[id])tripPerson=id;}catch{}
+function personAvatar(id){const p=TRIP_PEOPLE[id];return `<img class="voter-avatar ${id}" src="${p.avatar}" alt="${p.name}${p.gender}" referrerpolicy="no-referrer">`;}
+function tripIsChecked(id,person){return person?tripChecks[id]?.[person]?.checked===true:Object.keys(TRIP_PEOPLE).some(who=>tripChecks[id]?.[who]?.checked===true);}
+function tripVoteBadges(id){return Object.keys(TRIP_PEOPLE).map(who=>`<span class="vote-badge ${tripIsChecked(id,who)?'voted':'not-voted'}" title="${TRIP_PEOPLE[who].name}${tripIsChecked(id,who)?'想去':'未投票'}">${personAvatar(who)}<span>${TRIP_PEOPLE[who].name}${tripIsChecked(id,who)?' ✓':' ·'}</span></span>`).join('');}
+function tripIdentityControl(){return `<section class="voter-picker" aria-label="选择投票身份"><strong>这次是谁在挑？</strong><div>${Object.entries(TRIP_PEOPLE).map(([id,p])=>`<button type="button" data-trip-person="${id}" aria-pressed="${tripPerson===id}">${personAvatar(id)}<span>${p.name} ${p.gender}</span></button>`).join('')}</div><small class="voter-hint">${tripPerson?'正在以'+TRIP_PEOPLE[tripPerson].name+'的身份选择，可随时切换':'先选毛毛或贝贝，再勾选想去的地方'}</small></section>`;}
+function tripCheckControl(p){return `<label class="trip-check"><input type="checkbox" data-trip-check="${esc(p.id)}" aria-label="${tripPerson?TRIP_PEOPLE[tripPerson].name:'先选身份'}想去：${esc(p.name)}" ${!tripPerson?'disabled':''} ${tripPerson&&tripIsChecked(p.id,tripPerson)?'checked':''}><span>${tripPerson?TRIP_PEOPLE[tripPerson].name+'想去':'先选身份'}</span></label>`;}
+function syncCheckControls(message){
+ document.querySelectorAll('[data-trip-check]').forEach(el=>{el.checked=!!tripPerson&&tripIsChecked(el.dataset.tripCheck,tripPerson);el.disabled=!tripPerson;el.nextElementSibling.textContent=tripPerson?TRIP_PEOPLE[tripPerson].name+'想去':'先选身份';const p=typeof OVERVIEW_CATALOG!=='undefined'&&OVERVIEW_CATALOG.find(p=>p.id===el.dataset.tripCheck);if(p)el.setAttribute('aria-label',(tripPerson?TRIP_PEOPLE[tripPerson].name:'先选身份')+'想去：'+p.name);});
+ document.querySelectorAll('[data-trip-votes]').forEach(el=>el.innerHTML=tripVoteBadges(el.dataset.tripVotes));
+ document.querySelectorAll('[data-trip-person]').forEach(el=>el.setAttribute('aria-pressed',el.dataset.tripPerson===tripPerson));
+ document.querySelectorAll('.voter-hint').forEach(el=>el.textContent=tripPerson?'正在以'+TRIP_PEOPLE[tripPerson].name+'的身份选择，可随时切换':'先选毛毛或贝贝，再勾选想去的地方');
+ const counts=Object.keys(TRIP_PEOPLE).map(who=>TRIP_PEOPLE[who].name+' '+Object.keys(tripChecks).filter(id=>tripIsChecked(id,who)).length+' 票');
+ document.querySelectorAll('.trip-save-status').forEach(el=>el.textContent=message||counts.join(' · ')+' · 仅本机保存，尚未跨设备同步');
+}
+function legacyTripVotes(){try{return Object.entries(JSON.parse(localStorage.getItem('tokyo-wishlist-v1')||'{}')).filter(([,v])=>v?.checked===true).map(([id])=>id);}catch{return [];}}
+function legacyVoteControl(){const ids=legacyTripVotes();return ids.length?`<details class="legacy-votes"><summary>有 ${ids.length} 个旧勾选尚未分配身份</summary><p>旧记录没有投票人，原记录会保留。选好身份后，可以复制给当前身份。</p><button type="button" data-import-votes>复制旧勾选给当前身份</button><small class="legacy-feedback" role="status"></small></details>`:'';}
+document.addEventListener('click',event=>{
+ const person=event.target.closest('[data-trip-person]');if(person){tripPerson=person.dataset.tripPerson;try{sessionStorage.setItem('tokyo-voter',tripPerson);}catch{}syncCheckControls();return;}
+ if(event.target.closest('[data-import-votes]')){const feedback=document.querySelector('.legacy-feedback');if(!tripPerson){feedback.textContent='请先选毛毛或贝贝';return;}const next=readTripVotes();legacyTripVotes().forEach(id=>{next[id]={...next[id],[tripPerson]:{checked:true,updatedAt:new Date().toISOString()}};});try{localStorage.setItem(TRIP_CHECKS_KEY,JSON.stringify(next));tripChecks=next;syncCheckControls();feedback.textContent='已复制给'+TRIP_PEOPLE[tripPerson].name+'，原记录仍保留';}catch{feedback.textContent='保存失败，请重试';}}
+});
+document.addEventListener('change',event=>{const el=event.target.closest('[data-trip-check]');if(!el)return;if(!tripPerson){syncCheckControls('请先选择投票身份');return;}const next=readTripVotes(),id=el.dataset.tripCheck;next[id]={...next[id],[tripPerson]:{checked:el.checked,updatedAt:new Date().toISOString()}};try{localStorage.setItem(TRIP_CHECKS_KEY,JSON.stringify(next));tripChecks=next;syncCheckControls();if(typeof overviewSource!=='undefined'&&['wanted','maomao','beibei','both'].includes(overviewSource))refreshOverview(false);}catch{syncCheckControls('保存失败，刚才的选择未保存，请重试');}});
+window.addEventListener('storage',event=>{if(event.key!==TRIP_CHECKS_KEY&&event.key!==null)return;tripChecks=readTripVotes();syncCheckControls();if(typeof overviewSource!=='undefined'&&['wanted','maomao','beibei','both'].includes(overviewSource))refreshOverview(false);});
