@@ -63,7 +63,7 @@ Airport access is a separate optional overlay: Keisei Narita SKY ACCESS Access E
 
 Choose Mao Mao (white puppy) or Bei Bei (yellow puppy) before voting. The current person is held in sessionStorage (tokyo-voter); it is a convenience identity, not authentication. Cards and details show both votes. Filters support each voter and their intersection.
 
-The existing deployed API is backward-compatible: per-person votes use place keys vote-maomao--<placeId> and vote-beibei--<placeId>. Each stores its own checked and updatedAt fields, so the two people never overwrite each other's vote. Keep these names when adapting the backend. The existing passcode, endpoint and polling continue to work. No AWS resource change is required.
+The frontend uses GET /votes and PUT /votes/<placeId>/<person>, with person maomao or beibei. The backend stores separate records per place and person. Browser cache keys vote-maomao--<placeId> and vote-beibei--<placeId> are an internal flat representation only; the API response is nested by place and person. GET /checks is retained only for explicitly attributing old unnamed selections. Existing shared links continue to work.
 
 Local data uses tokyo-wishlist-person-v2 and cloud cache uses tokyo-wishlist-person-cloud-v2. Old unprefixed cloud records and tokyo-wishlist-v1 local checks are preserved; users can explicitly copy them to their selected identity. No old vote is silently assigned.
 

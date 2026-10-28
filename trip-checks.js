@@ -61,7 +61,7 @@ function syncCheckControls(){
  document.querySelectorAll('[data-trip-person]').forEach(el=>el.setAttribute('aria-pressed',el.dataset.tripPerson===tripPerson));
  document.querySelectorAll('.voter-hint').forEach(el=>el.textContent=tripPerson?'正在以'+TRIP_PEOPLE[tripPerson].name+'的身份选择，可随时切换':'先选毛毛或贝贝，再勾选想去的地方');
   const votes=tripCheckedIds();const html=Object.entries(TRIP_PEOPLE).map(([id,p])=>p.name+' '+votes.filter(k=>k.startsWith('vote-'+id+'--')).length+'票').join(' · ')+'<br>'+tripStatusHtml()+legacyVoteControl();document.querySelectorAll('.trip-save-status').forEach(el=>{if(el.innerHTML!==html)el.innerHTML=html;});
-  
+
 }
 let tripLastWanted=tripCheckedIds().sort().join(',');
 function tripRender(){syncCheckControls();const wanted=tripCheckedIds().sort().join(',');if(wanted!==tripLastWanted){tripLastWanted=wanted;if(typeof overviewSource!=='undefined'&&['wanted','maomao','beibei','both'].includes(overviewSource))refreshOverview(false);}}
@@ -77,14 +77,14 @@ function tripDenied(){tripMode='local';tripStore.del(TRIP_SHARE_KEY);tripStore.d
 
 async function tripPull(){
   if(tripMode!=='cloud'||tripPulling)return;tripPulling=true;
-  try{const data=await tripFetch('/checks');tripAccept(data.items);tripSync={state:'synced',at:data.serverTime,note:''};}
+  try{const [data,legacy]=await Promise.all([tripFetch('/votes'),tripFetch('/checks')]);const items={...legacy.items};for(const [place,people] of Object.entries(data.votes||{}))for(const [person,vote] of Object.entries(people))if(TRIP_PEOPLE[person])items[tripVoteKey(place,person)]=vote;tripAccept(items);tripSync={state:'synced',at:data.serverTime,note:''};}
   catch{if(tripMode==='cloud')tripSync={...tripSync,state:'offline'};}
   finally{tripPulling=false;tripRender();}
 }
 async function tripSave(id){
   const p=tripPending[id];if(!p||p.inflight||tripMode!=='cloud')return;
   const want=p.checked;p.inflight=true;p.failed=false;tripRender();
-  try{const item=await tripFetch('/checks/'+encodeURIComponent(id),{method:'PUT',body:JSON.stringify({checked:want})});tripAccept({[id]:item});p.inflight=false;if(tripPending[id]===p&&p.checked===want)delete tripPending[id];else return tripSave(id);if(tripSync.state!=='offline')tripSync={...tripSync,state:'synced',at:item.updatedAt};}
+  try{const parts=id.match(/^vote-(maomao|beibei)--(.+)$/);if(!parts)throw Error('invalid voter');const item=await tripFetch('/votes/'+encodeURIComponent(parts[2])+'/'+parts[1],{method:'PUT',body:JSON.stringify({checked:want})});tripAccept({[id]:item});p.inflight=false;if(tripPending[id]===p&&p.checked===want)delete tripPending[id];else return tripSave(id);if(tripSync.state!=='offline')tripSync={...tripSync,state:'synced',at:item.updatedAt};}
   catch{p.inflight=false;if(tripPending[id]===p){if(p.checked!==want)return tripSave(id);p.failed=true;}}
   tripRender();
 }
@@ -98,7 +98,7 @@ document.addEventListener('change',event=>{
 document.addEventListener('click',event=>{
   const b=event.target.closest('[data-trip-action]');if(!b)return;const a=b.dataset.tripAction;
   if(a==='retry'){for(const id in tripPending)if(tripPending[id].failed)tripSave(id);tripPull();}
-  
+
   else if(a==='skip-merge'){tripStore.set(TRIP_MERGE_DONE,'1');tripRender();}
   else if(a==='leave'){tripStore.del(TRIP_SHARE_KEY);tripStore.del(TRIP_CLOUD_CACHE);tripShareKey=null;tripMode='local';tripCloud={};for(const id in tripPending)delete tripPending[id];tripSync={state:'local',at:null,note:'已在这台设备退出共享清单（云端记录不受影响，再次打开共享链接即可恢复）。'};tripRender();}
 });
