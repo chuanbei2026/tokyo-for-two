@@ -17,6 +17,7 @@ function renderPage(){
  qa('#page-nav a').forEach(a=>{const active=a.hash===(currentDay?'#day'+currentDay:'#overview');if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});
  q('#play-route').hidden=!currentDay;
  const d=JOURNEY_DAYS[currentDay-1];
+ document.body.classList.toggle('day-view',!!d);q('#compact-day-title').hidden=!d;q('#compact-day-title').textContent=d?`${d.date} ${d.weekday} · ${d.title}`:'';
  q('#page-kicker').textContent=d?`DAY 0${d.id} / ${d.date} ${d.weekday}`:'TOKYO / FOUR DAYS, ONE GOOD ROUTE';
  q('#page-title').textContent=d?d.title:'四天东京，先看怎么走。';q('#page-description').textContent=d?d.intro:'每天只留一条推荐主线。先看地点和交通，再点开吃什么、怎么玩。';
  if(!d){q('#route-sidebar').innerHTML='<img class="overview-art" src="assets/tokyo-atlas.png" alt="东京旅行原创插画">'+JOURNEY_DAYS.map(day=>`<a class="overview-day" href="#day${day.id}" style="--day:${day.color}"><div class="day-meta"><strong>DAY 0${day.id}</strong><span>${day.date} ${day.weekday} ↗</span></div><h2>${day.title}</h2><p>${day.id===1?"银座 — 步行吃关东煮 — 打车看东京塔":day.id===2?"新桥 — 地铁到浅草 — 打车到根津 — 步行逛谷中":day.id===3?"打车到神宫 — 步行逛表参道 — 地铁到涩谷": "步行到筑地 — 打车到东京站 — 回酒店取行李"}</p><div class="mode-chips">${[...new Set(day.legs.map(l=>l.mode))].map(m=>'<span>'+MODE[m].label+'</span>').join('')}<span>${day.walk}</span></div></a>`).join('')+'<div class="note-box"><strong>先住银座，按片区玩。</strong>跨区直达段坐轨道交通，换乘不划算的短段打车，街区内步行。日期固定为11月24–27日；航班尚未确认。</div>';q('#map-summary').innerHTML='<strong>四天推荐主线</strong> · 点击左侧一天展开。地图只显示推荐景点与主线，不放备选餐厅。';}
