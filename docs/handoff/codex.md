@@ -75,3 +75,7 @@ Audited all 131 Google photo URLs from the chef list at 1200x900 maximum resolut
 ## Chinese labels and contextual photo review — 2026-10-28
 
 All 136 chef entries now use Chinese-readable name labels with originalName retained. Brand labels are often descriptive category translations, not claimed official names; previews explain this. Search covers both names. SHIBUYA SKY also has a Chinese label. Guidance includes originalName to preserve category recognition. Reviewed all chef images via contact sheets and selected full-size replacements; replaced 18 misleading, poorly framed or blank photos using verified source pages. See docs/photo-review.md for sources and unresolved cases. Two address entries now explain the cotogoto/MEALS building association, but retain separate IDs and unspecified original intent. No votes, coordinates or navigation queries changed.
+
+## Per-person dining budgets — 2026-10-28
+
+Added wishlist-budgets.js for all 33 food-category entries. Cards and previews share the same budget renderer. 32 Japanese entries have explicit per-person planning ranges (JPY using 円 and USD at the existing non-live 157 JPY/USD rate); the Canadian chocolate shop explicitly remains unpriced. Souvenir purchases and market tastings are identified separately from meals. Eight entries use linked official menu/booking anchors; remaining ranges are clearly provisional planning estimates, not verified average checks. Expandable notes explain inclusions, meal periods, premium upgrades and fee uncertainty. No votes, IDs or daily playback changed.

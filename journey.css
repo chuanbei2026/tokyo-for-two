@@ -156,3 +156,10 @@ body:not(.day-view) .wishlist-card .catalog-place{flex:none}
 .catalog-photo img.photo-contain{object-fit:contain;background:#f0eee7}.catalog-photo:hover img.photo-contain{transform:none}.preview-full-photo{display:block;position:relative;background:#f0eee7}.preview-full-photo .preview-photo{display:block;width:100%;height:240px;object-fit:contain}.preview-full-photo>span{position:absolute;bottom:8px;right:8px;background:#fffefbe8;border-radius:5px;padding:5px 8px;font-size:11px;color:#475641}.catalog-photo .photo-unavailable{height:100%;padding:20px;box-sizing:border-box}.catalog-photo .photo-unavailable[hidden]{display:none}
 
 .wishlist-card .catalog-place .original-place-name{font-size:10px;font-weight:400;line-height:1.5;color:#929486;overflow-wrap:anywhere}.preview-copy .original-place-name{font-size:11px;color:#7e8774;line-height:1.5;margin:0 0 5px}.translation-note{display:block;font-size:10px;color:#929486;line-height:1.6;margin-bottom:10px}
+
+/* Comparable per-person dining allowances on wishlist cards and previews. */
+.wishlist-budget{margin:10px 0;padding:11px 12px;background:#f3f5ef;border:1px solid #e2e6da;border-radius:10px;color:#34463b;font-size:12px;line-height:1.6}
+.wishlist-budget-label{font-size:11px;color:#637061;margin-bottom:3px}
+.wishlist-budget>strong{display:block;font-size:16px;font-weight:750;letter-spacing:.1px}
+.wishlist-budget-usd{display:block;color:#59695a;font-size:12px}
+.wishlist-budget details{margin-top:5px;font-size:11px}.wishlist-budget summary{cursor:pointer;color:#657160}.wishlist-budget details p{font-size:11px;line-height:1.6;margin:7px 0}.wishlist-budget a{color:#35624b;text-decoration:underline}.wishlist-budget .wishlist-budget-fx{color:#7b8077;font-size:10px}
