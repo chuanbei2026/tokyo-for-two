@@ -47,3 +47,7 @@ Check all five routes, page history, transport details, stop dialogs, map view s
 `journey-routes.js` contains 23 static route legs fetched on 2026-10-27. `journey-navigation.js` renders geometry, transport phase changes, station guides and photo slides. Rail journeys have separate access walk, train and exit walk phases. The Meiji Shrine taxi ends at the public entrance and continues on foot.
 
 Road routes use https://valhalla1.openstreetmap.de/ with pedestrian or auto costing. Rail graphs use OpenStreetMap relations 443281, 8026074 and 5376382. Geometry is derived from OpenStreetMap contributors under ODbL: https://www.openstreetmap.org/copyright . Station names, numbering and directions were cross-checked against official Tokyo Metro and JR East maps. Routes are planning snapshots; live directions remain linked for departure-day changes. The illustrated map remains schematic.
+
+## Full-day simulation
+
+`journey-timeline.js` replaces step playback with a continuous 00:00–23:59 Tokyo-local clock. Visit arrivals retain the curated schedule; estimated travel durations are subtracted from the following arrival to determine departure. Overnight rest, breakfast and preparation fill non-travel hours. Day-one pre-arrival and day-four post-checkout are explicitly unknown-flight placeholders, with no fabricated airport position. Dragging the clock and selecting activity bands seeks directly; playback runs at 5, 10 or 30 simulated minutes per second. Cards change only at activity boundaries, while route positions interpolate continuously.
