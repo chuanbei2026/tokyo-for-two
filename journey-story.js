@@ -20,7 +20,7 @@ q('#map-summary').textContent=`DAY ${d.id} · ${s.type==='stop'?'抵达 '+p.name
 }
 function storyPoints(d,i){return routeParts(d,i).flatMap(p=>p.coords);}
 function stepStory(delta){stopPlayback();storyIndex=Math.max(0,Math.min(storyStages().length-1,storyIndex+delta));playElapsed=0;showStory();}
-function revealRouteMap(){q('#journey-sidebar').scrollTop=0;if(window.innerWidth<=760)q('.map-toolbar').scrollIntoView({block:'start',behavior:'auto'});}
+function revealRouteMap(){q('#journey-sidebar').scrollTop=0;if(window.innerWidth>760)window.scrollTo(0,0);if(window.innerWidth<=760)q('.map-toolbar').scrollIntoView({block:'start',behavior:'auto'});}
 function selectStoryStop(id,visitIndex){if(!currentDay){openStop(id);return;}stopPlayback();storyDay=currentDay;const index=visitIndex!==undefined?Number(visitIndex)*2:storyStages().findIndex(s=>s.type==='stop'&&JOURNEY_DAYS[storyDay-1].visits[s.i].id===id);if(index>=0){storyIndex=index;playElapsed=0;showStory();revealRouteMap();}}
 function selectStoryLeg(day,i){if(!currentDay){openLeg(day,i);return;}stopPlayback();storyDay=day;storyIndex=i*2+1;playElapsed=0;showStory();revealRouteMap();}
 function togglePlayback(){if(playing){stopPlayback();return;}if(!currentDay||!map)return;if(storyIndex===storyStages().length-1&&playElapsed>=storyDuration){storyIndex=0;playElapsed=0;}playing=true;playLast=0;showStory();revealRouteMap();q('#play-route').textContent='Ⅱ 暂停';
