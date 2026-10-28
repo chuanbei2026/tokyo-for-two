@@ -48,3 +48,11 @@ The full sightseeing day is provisional until departure flights are known. The P
 ## Overview orientation map
 
 Overview shows itinerary points and five orientation landmarks: Narita Airport, Shibuya Crossing, Sensoji, Shinjuku, and Akihabara. Only the Yamanote railway corridor (OSM relation 5376382) is drawn; daily connecting legs appear on day pages only. A separate Narita inset preserves city-scale legibility. The airport button focuses the main map on Narita; the Tokyo city button restores city framing. Landmark pins do not add visits to the itinerary.
+
+## Overview destination catalog
+
+The overview uses `overview-catalog.js` for the key destinations in the current four-day plan, the earlier Tokyo plan, and the user's nine-day reference PDF. Tokyo, Kawagoe, and Kyoto/Uji are separate region filters. PDF shop suggestions without verified branch coordinates remain explicitly named in their parent neighborhood's description; they are not falsely plotted as precise storefronts. Coordinates represent landmark centers, not guaranteed accessible entrances.
+
+`journey-overview.js` uses locally bundled Leaflet.markercluster (MIT) for zoom-dependent clustering and spiderfying overlapping locations. Category filters and the scheduled-only filter update both the list and marker layer. Labels appear only at close zoom and are collision checked. A static preview appears only after selecting a destination. The comic switch and automatic photo-stream script are removed from the active page.
+
+Airport access is a separate optional overlay: Keisei Narita SKY ACCESS Access Express through service onto the Toei Asakusa Line, alighting at Higashi-Ginza. The dashed line connects major station coordinates as a schematic, not exact rail geometry. Official sources, terminal caveats, through-service conditions, indicative fares, and hotel exits are linked in the route card. No historical PDF departure time is treated as a current timetable. Checked against Keisei and the hotel's official access page on 2026-10-27.
