@@ -27,7 +27,7 @@ function renderPage(){
 }
 function initMap(){if(!window.L){q('#map-fallback').hidden=false;return false;}if(map)map.remove();
  map=L.map('journey-map',{crs:mapStyle==='plain'?L.CRS.EPSG3857:L.CRS.Simple,zoomControl:false,scrollWheelZoom:false,minZoom:mapStyle==='plain'?8:-1.8,maxZoom:mapStyle==='plain'?17:1.5,attributionControl:true});L.control.zoom({position:'bottomright'}).addTo(map);
- if(mapStyle==='plain'){map.attributionControl.addAttribution('<a href="https://carto.com/attribution/" target="_blank" rel="noopener">© CARTO</a> · Voyager');loadQuietBasemap(map);L.control.scale({position:'bottomleft',imperial:false}).addTo(map);}else{L.imageOverlay('assets/tokyo-atlas.png',[[0,0],[1000,1500]]).addTo(map);map.attributionControl.addAttribution('原创插画 · 地理位置为艺术示意');}
+ if(mapStyle==='plain'){map.attributionControl.addAttribution('白底方位示意 · 非道路导航');loadQuietBasemap(map);L.control.scale({position:'bottomleft',imperial:false}).addTo(map);}else{L.imageOverlay('assets/tokyo-atlas.png',[[0,0],[1000,1500]]).addTo(map);map.attributionControl.addAttribution('原创插画 · 地理位置为艺术示意');}
  map.attributionControl.addAttribution('<a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">© OpenStreetMap</a> · 路网 / 轨道');routeLayer=L.layerGroup().addTo(map);map.on('zoomend moveend',layoutLabels);map.on('dragstart',()=>{stopPlayback();windowFollow=false;q('#window-view').classList.remove('active');});return true;
 }
 function renderMap(rebuild=false){if(!map||rebuild){if(!initMap())return;}routeLayer.clearLayers();markerEntries=[];playMarker=null;updateOverviewInset();if(!currentDay){drawOverview();return;}const days=currentDay?[JOURNEY_DAYS[currentDay-1]]:JOURNEY_DAYS;const bounds=[];

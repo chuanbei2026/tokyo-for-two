@@ -63,3 +63,6 @@ html{overflow-anchor:none}
 /* Larger street photographs, with a compact contact sheet. */
 #photo-stream{width:290px}.stream-main{height:180px}.stream-main span{font-size:11px;padding:7px 9px}.stream-thumbs button{height:42px}.stream-thumbs{gap:3px;padding:5px}.stream-credit{font-size:9px;padding:3px 8px 6px}
 @media(max-width:760px){#photo-stream{width:210px}.stream-main{height:125px}.stream-thumbs button{height:32px}.stream-main span{font-size:10px}}
+
+/* Original white map canvas; route and landmark overlays remain unchanged. */
+#journey-map,#airport-mini-map{background:#fafbf8}

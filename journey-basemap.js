@@ -1,32 +1,11 @@
-/* A restrained CARTO Voyager vector basemap beneath the Leaflet itinerary. */
-const BASEMAP_STYLE_URL='https://basemaps.cartocdn.com/gl/voyager-gl-style/style.json';
-let basemapStyleRequest;
+/* Restore the original minimal geographic overview beneath current routes. */
+function addArea(target,name,coord,cls=''){L.marker(coord,{interactive:false,icon:L.divIcon({className:'district-label '+cls,html:esc(name),iconSize:[100,20],iconAnchor:[50,10]})}).addTo(target);}
 function loadQuietBasemap(target){
-  if(!basemapStyleRequest)basemapStyleRequest=fetch(BASEMAP_STYLE_URL).then(r=>{if(!r.ok)throw new Error('Basemap style unavailable');return r.json();}).catch(error=>{basemapStyleRequest=null;throw error;});
-  basemapStyleRequest.then(original=>{
-    if(target!==map&&target!==airportInset)return;
-    const style=structuredClone(original);
-    for(const layer of style.layers){
-      if(/^(housenumber|place_hamlet|boundary_county)/.test(layer.id)){layer.layout={...layer.layout,visibility:'none'};continue;}
-      if(layer.type==='symbol'&&layer.layout?.['text-field']){
-        layer.layout['text-field']=['coalesce',['get','name:zh'],['get','name:en'],['get','name']];
-        layer.layout['text-padding']=4;
-        layer.layout['text-allow-overlap']=false;
-        if(layer.id==='roadname_minor')layer.minzoom=16;
-      }
-      if(layer.id==='background')layer.paint['background-color']='#f5f4ef';
-      if(layer.id==='water')layer.paint['fill-color']='#b9dce8';
-      if(layer.id==='landuse_residential')layer.paint['fill-opacity']=.25;
-    }
-    const font=['Open Sans Regular','Noto Sans Regular','Noto Sans CJK JP Regular'];
-    style.sources['trip-context']={type:'geojson',data:new URL('map-context.geojson',location.href).href};
-    style.layers.push({id:'context-stations',type:'circle',source:'trip-context',minzoom:11,paint:{'circle-radius':3,'circle-color':'#647d8d','circle-stroke-width':1.5,'circle-stroke-color':'#fff'}});
-    style.layers.push({id:'context-station-names',type:'symbol',source:'trip-context',minzoom:12,layout:{'text-field':['concat',['get','name'],' 站'],'text-font':font,'text-size':12,'text-anchor':'top','text-offset':[0,.6],'text-padding':5},paint:{'text-color':'#465f70','text-halo-color':'#fff','text-halo-width':2}});
-    const landmarks=Object.entries(JOURNEY_POINTS).filter(([id,p])=>p.coord&&id!=='hotel').map(([id,p])=>({type:'Feature',geometry:{type:'Point',coordinates:[p.coord[1],p.coord[0]]},properties:{name:p.name}}));
-    style.sources['trip-landmarks']={type:'geojson',data:{type:'FeatureCollection',features:landmarks}};
-    style.layers.push({id:'context-landmark-names',type:'symbol',source:'trip-landmarks',minzoom:13,layout:{'text-field':['get','name'],'text-font':font,'text-size':11,'text-anchor':'left','text-offset':[.8,0],'text-padding':6},paint:{'text-color':'#7c7059','text-halo-color':'#fff','text-halo-width':2}});
-    const layer=L.maplibreGL({style,interactive:false,attributionControl:false,padding:.15}).addTo(target);
-    let failures=0;
-    layer.getMaplibreMap().on('error',()=>{if(target===map&&++failures>=3)q('#map-caption').textContent='底图部分内容未加载，刷新可重试；行程地点与路线仍可查看';});
-  }).catch(()=>{if(target===map)q('#map-caption').textContent='道路底图暂时不可用，刷新可重试；行程地点与路线仍可查看';});
+ const parkStyle={color:'#dfe4d6',weight:1,fillColor:'#e4e8dc',fillOpacity:.8,interactive:false};
+ L.polygon([[35.682,139.691],[35.68,139.705],[35.667,139.704],[35.667,139.691]],parkStyle).addTo(target);
+ L.polygon([[35.691,139.752],[35.686,139.761],[35.677,139.756],[35.677,139.744],[35.685,139.745]],parkStyle).addTo(target);
+ L.polygon([[35.721,139.773],[35.719,139.78],[35.71,139.778],[35.712,139.77]],parkStyle).addTo(target);
+ L.polyline([[35.746,139.805],[35.736,139.803],[35.726,139.807],[35.717,139.803],[35.71,139.801],[35.702,139.794],[35.691,139.792],[35.681,139.788],[35.674,139.786],[35.667,139.777],[35.652,139.775],[35.637,139.783]],{color:'#d0dfe0',weight:13,smoothFactor:3,interactive:false}).addTo(target);
+ L.polyline([[35.707,139.735],[35.703,139.75],[35.699,139.765],[35.697,139.778],[35.696,139.791]],{color:'#d0dfe0',weight:4,smoothFactor:2,interactive:false}).addTo(target);
+ [['新宿',[35.696,139.7]],['皇居',[35.684,139.753]],['上野',[35.715,139.774]],['港区',[35.655,139.732]],['代代木',[35.671,139.692]],['浅草',[35.72,139.792]],['隅田川',[35.691,139.805]]].forEach(([n,p])=>addArea(target,n,p,n==='隅田川'?'river-label':''));
 }
