@@ -44,3 +44,7 @@ Left/right arrows jump between actionable timeline segments, and Space toggles p
 ## Day 4 planning notes
 
 The full sightseeing day is provisional until departure flights are known. The PDF’s old train times/platforms are not bookings or current timetables. Allow approximately 15 minutes between Gotokuji Temple and the Odakyu/Setagaya stations, following the temple’s current access guidance. At Omotesando, take a Hanzomon service continuing onto Den-en-toshi; Shibuya is a through-service boundary with no walking phase. Odakyu uses a local train. Keio and JR station strips show the route corridor, not a promise that express trains stop at every station. Photograph credits identify official venue or tourism publisher images; the Setagaya tram uses Tokyu’s official 300-series reference photo.
+
+## Overview orientation map
+
+Overview shows itinerary points and five orientation landmarks: Narita Airport, Shibuya Crossing, Sensoji, Shinjuku, and Akihabara. Only the Yamanote railway corridor (OSM relation 5376382) is drawn; daily connecting legs appear on day pages only. A separate Narita inset preserves city-scale legibility. The airport button focuses the main map on Narita; the Tokyo city button restores city framing. Landmark pins do not add visits to the itinerary.

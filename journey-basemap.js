@@ -4,7 +4,7 @@ let basemapStyleRequest;
 function loadQuietBasemap(target){
   if(!basemapStyleRequest)basemapStyleRequest=fetch(BASEMAP_STYLE_URL).then(r=>{if(!r.ok)throw new Error('Basemap style unavailable');return r.json();}).catch(error=>{basemapStyleRequest=null;throw error;});
   basemapStyleRequest.then(original=>{
-    if(target!==map)return;
+    if(target!==map&&target!==airportInset)return;
     const style=structuredClone(original);
     for(const layer of style.layers){
       if(/^(poi_|building|housenumber|place_hamlet|place_villages|roadname_minor|boundary_county)/.test(layer.id)){layer.layout={...layer.layout,visibility:'none'};continue;}
