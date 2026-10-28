@@ -28,7 +28,7 @@ let tripPulling=false;
 
 function tripRawChecked(id){if(tripMode!=='cloud')return tripChecks[id]?.checked===true;return tripPending[id]?tripPending[id].checked:tripCloud[id]?.checked===true;}
 function tripWantedLabel(){return tripMode==='cloud'?'已勾选想去（两人共享）':'已勾选想去（本机）';}
-const TRIP_PEOPLE={maomao:{name:'毛毛',gender:'♀',avatar:'https://c-ssl.duitang.com/uploads/blog/202305/04/20230504180243_fdcf2.jpeg'},beibei:{name:'贝贝',gender:'♂',avatar:'https://cdn.imweb.me/upload/S20231127834d8954cec9f/8024da3c9f937.png'}};
+const TRIP_PEOPLE={maomao:{name:'毛毛',gender:'♀',avatar:'https://51img2.51txapp.com/2024/08/21/46f4c6eca3034ab6a82b0cba5e5bb948!400x400.jpeg'},beibei:{name:'贝贝',gender:'♂',avatar:'https://51img2.51txapp.com/2024/08/21/58489f23d13d493f80cb6131337955d9!400x400.jpeg'}};
 let tripPerson=null;
 try{const id=sessionStorage.getItem('tokyo-voter');if(TRIP_PEOPLE[id])tripPerson=id;}catch{}
 function personAvatar(id){const p=TRIP_PEOPLE[id];return `<img class="voter-avatar ${id}" src="${p.avatar}" alt="${p.name}${p.gender}" referrerpolicy="no-referrer">`;}

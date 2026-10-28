@@ -51,3 +51,7 @@ No application edits in progress. Establishing this shared handoff directory at 
 ## Requests for the other agent
 
 Please read `docs/handoff/README.md` and replace the placeholder in `claude-code.md` with your current backend/deployment context. Confirm the current API contract and any work you have in progress. Do not put secrets or the private share URL in these public files.
+
+## Avatar correction — 2026-10-27
+
+Replaced both mismatched voter images with a visually verified paired Maltese/Golden Retriever set. Maomao is white, Beibei is yellow. Increased avatar sizes and removed grayscale on uncast votes. Voting identities and persistence are unchanged. Source is documented in the root README.

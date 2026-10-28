@@ -67,4 +67,4 @@ The frontend uses GET /votes and PUT /votes/<placeId>/<person>, with person maom
 
 Local data uses tokyo-wishlist-person-v2 and cloud cache uses tokyo-wishlist-person-cloud-v2. Old unprefixed cloud records and tokyo-wishlist-v1 local checks are preserved; users can explicitly copy them to their selected identity. No old vote is silently assigned.
 
-Avatar references: [white puppy](https://www.duitang.com/blog/?id=1468198723) and [yellow puppy](https://cartoonpluscafe.imweb.me/). Images are remotely hosted reference artwork, not original site artwork.
+Avatar references: [paired Maltese and Golden Retriever character avatars](https://www.51txapp.com/touxiang/1492730.html), visually checked on 2026-10-27. Maomao uses the white Maltese; Beibei uses the yellow Golden Retriever. Images are remotely hosted reference artwork, not original site artwork.
