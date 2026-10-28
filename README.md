@@ -25,7 +25,7 @@ Camera framing follows stable three-hour windows anchored to the first actionabl
 
 ## Maps and photographs
 
-Leaflet 1.9.4 is served locally with its license. The street view uses GSI pale tiles, with attribution. Walking geometry comes from FOSSGIS Valhalla; railway geometry comes from OpenStreetMap track relations 3302734, 443272, 443282, 443284, 5375678, 1947536, and 1926310. There are 26 connecting legs, with separate access, railway, transfer, and exit phases. Indoor connections are indicative: follow station signs. Express train station lists describe the corridor, not guaranteed stopping patterns.
+Leaflet 1.9.4 is served locally with its license. The street view uses a CARTO Voyager vector basemap rendered by MapLibre GL JS 5.6.2 and its Leaflet binding 0.1.4, with visible CARTO/OpenStreetMap attribution. The provider style is fetched at runtime so its source, glyph and sprite endpoints stay current. Unrelated POIs, building footprints, house numbers and minor-road labels are hidden; available Chinese labels are preferred, followed by English. No Google tiles are used. CARTO currently permits keyless vector styles; its service policy and availability remain external dependencies. Walking geometry comes from FOSSGIS Valhalla; railway geometry comes from OpenStreetMap track relations 3302734, 443272, 443282, 443284, 5375678, 1947536, and 1926310. There are 26 connecting legs, with separate access, railway, transfer, and exit phases. Indoor connections are indicative: follow station signs. Express train station lists describe the corridor, not guaranteed stopping patterns.
 
 The second map retains the original illustrative artwork. Its geography is schematic, including the Kawagoe inset, and must not be used as street navigation.
 

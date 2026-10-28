@@ -5,7 +5,7 @@
 .leg-label{background:none;border:0;padding:0}.leg-label>span{position:absolute;display:block;background:#fffefbf2;border:1px solid #d9ded1;border-radius:4px;padding:2px 6px;white-space:nowrap}
 
 /* Quiet real streets, with a persistent upper-left visual guide. */
-.quiet-basemap{filter:saturate(.15) contrast(.88) brightness(1.06)}
+/* Vector basemap colors are controlled in journey-basemap.js. */
 .map-caption{background:#fffefbe8;padding:3px 7px;border-radius:3px;width:fit-content;max-width:90%}
 .map-frame{height:clamp(560px,calc(100svh - 335px),850px);min-height:560px}
 .story-card{position:absolute;z-index:650;left:14px;top:14px;width:274px;background:#fffefb;border:1px solid #d3d9ce;border-radius:10px;box-shadow:0 6px 25px #223b3520;overflow:hidden}
@@ -13,7 +13,7 @@
 @media(max-width:1050px) and (min-width:761px){.journey-layout{grid-template-columns:245px minmax(0,1fr)}main{padding-left:2%;padding-right:2%}.story-card{width:245px}}
 @media(max-width:760px){.map-frame{min-height:620px;height:620px}.story-card{width:calc(100% - 28px);display:grid;grid-template-columns:95px minmax(0,1fr)}.story-visual{height:100%;min-height:150px}.story-visual img{object-position:center}.photo-credit{font-size:8px;padding:4px}.story-copy{padding:10px 12px}.story-copy h2{font-size:15px;margin:4px 0}.story-copy p,.story-copy .story-directions{font-size:10px;line-height:1.6}.story-copy .eyebrow{font-size:8px}.story-controls{grid-column:1/-1}.story-progress{grid-column:1/-1}.art-label{font-size:8px;padding:4px}.transport-art svg{height:100px;margin-top:10px}.story-endpoints,.story-cost{font-size:9px}.north{top:auto;bottom:80px}}
 
-.leaflet-tile-pane{opacity:.42}.map-frame #journey-map{background:#f6f7f2}
+.leaflet-tile-pane{opacity:1}.map-frame #journey-map{background:#f6f7f2}
 
 /* Playback belongs to the map, separate from changing place cards. */
 #route-player{background:#f4f6ef;border-top:1px solid var(--line)}
