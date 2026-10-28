@@ -59,3 +59,5 @@ Road routes use https://valhalla1.openstreetmap.de/ with pedestrian or auto cost
 ## Stable camera
 
 Only opening a day, switching map style, or explicitly pressing the full-route button fits the route bounds. Selecting stops, route legs, photo thumbnails or times never moves or zooms the camera. Window resize invalidates map dimensions without re-fitting, preserving manual framing.
+
+Playback opens at the first actionable block (Day 1 at 15:00; Days 2–4 at 07:30). Sleep and unknown-flight blocks remain seekable on the full-day timeline but are skipped by playback. Replay returns to the first actionable block.
