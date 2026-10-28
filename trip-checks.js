@@ -64,7 +64,7 @@ function syncCheckControls(){
 
 }
 let tripLastWanted=tripCheckedIds().sort().join(',');
-function tripRender(){syncCheckControls();const wanted=tripCheckedIds().sort().join(',');if(wanted!==tripLastWanted){tripLastWanted=wanted;if(typeof overviewSource!=='undefined'&&['wanted','maomao','beibei','both'].includes(overviewSource))refreshOverview(false);}}
+function tripRender(){syncCheckControls();const wanted=tripCheckedIds().sort().join(',');if(wanted!==tripLastWanted){tripLastWanted=wanted;if(typeof overviewSource!=='undefined'&&(overviewSource==='wanted'||(typeof overviewVote!=='undefined'&&overviewVote!=='all')))refreshOverview(false);}}
 
 async function tripFetch(path,init={}){
   const res=await fetch(TRIP_API+path,{...init,cache:'no-store',headers:{'content-type':'application/json','x-trip-key':tripShareKey,...(init.headers||{})}});

@@ -87,3 +87,7 @@ Selecting a wishlist card opens its detail preview and highlights its marker wit
 ## Show avatars only for cast votes — 2026-10-28
 
 Place cards and previews now render only voters who selected that place. Empty vote containers are hidden but retained for existing sync updates. Identity picker and vote persistence are unchanged. Verified all four person-vote combinations with isolated fixtures; no real votes written.
+
+## Exclusive category and person filters — 2026-10-28
+
+Category chips now select exactly one category or All. A separate visible vote filter selects All, Maomao only, Beibei only, or Both; only excludes shared votes. Vote filters combine with category, region, search and chef/source filters. Removed duplicate person choices from the advanced source dropdown. Sync refreshes filtered results after vote changes. No stored votes changed.
