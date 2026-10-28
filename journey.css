@@ -163,3 +163,6 @@ body:not(.day-view) .wishlist-card .catalog-place{flex:none}
 .wishlist-budget>strong{display:block;font-size:16px;font-weight:750;letter-spacing:.1px}
 .wishlist-budget-usd{display:block;color:#59695a;font-size:12px}
 .wishlist-budget details{margin-top:5px;font-size:11px}.wishlist-budget summary{cursor:pointer;color:#657160}.wishlist-budget details p{font-size:11px;line-height:1.6;margin:7px 0}.wishlist-budget a{color:#35624b;text-decoration:underline}.wishlist-budget .wishlist-budget-fx{color:#7b8077;font-size:10px}
+
+/* Empty vote containers stay available for sync updates without occupying space. */
+body:not(.day-view) .place-votes:empty{display:none}

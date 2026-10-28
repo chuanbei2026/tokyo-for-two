@@ -83,3 +83,7 @@ Added wishlist-budgets.js for all 33 food-category entries. Cards and previews s
 ## Stable wishlist map on selection — 2026-10-28
 
 Selecting a wishlist card opens its detail preview and highlights its marker without changing the map center or zoom. Removed the card-click setView call. Marker selection already preserves the viewport; manual zoom and explicit region/airport fit controls remain available.
+
+## Show avatars only for cast votes — 2026-10-28
+
+Place cards and previews now render only voters who selected that place. Empty vote containers are hidden but retained for existing sync updates. Identity picker and vote persistence are unchanged. Verified all four person-vote combinations with isolated fixtures; no real votes written.
