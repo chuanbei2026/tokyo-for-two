@@ -55,16 +55,16 @@ The overview uses `overview-catalog.js` for the key destinations in the current 
 
 `journey-overview.js` displays individual destinations without count clusters. Collision handling prioritizes sights, then neighborhoods, then restaurants as the map zooms in. A single-category filter, search, or wishlist filter bypasses category zoom thresholds. A static preview appears only after selecting a destination. The comic switch and automatic photo-stream script are removed from the active page.
 
-`trip-checks.js` saves wishlist checkboxes in browser localStorage and synchronizes open tabs on the same origin. This is local-only persistence, not shared cloud storage. The interface explicitly labels this limitation. No AWS resources or cloud endpoint are configured.
+`trip-checks.js` handles the wishlist checkboxes (想去). Without a share link, checks stay in this browser's localStorage, and the interface says so. With the private share link (`#share=…`, never committed), checks sync between devices through a small AWS API (Lambda Function URL + DynamoDB; see `infra/wishlist-api/README.md`). In that mode the list loads when the page opens, refreshes when the page regains focus and every 20 seconds while it is visible, and shows saving, synced, or failed-with-retry states. Unchecking syncs too. Checks made earlier on a device without the link are never merged silently; a one-time 「合并本机勾选」 button offers it.
 
 Airport access is a separate optional overlay: Keisei Narita SKY ACCESS Access Express through service onto the Toei Asakusa Line, alighting at Higashi-Ginza. The dashed line connects major station coordinates as a schematic, not exact rail geometry. Official sources, terminal caveats, through-service conditions, indicative fares, and hotel exits are linked in the route card. No historical PDF departure time is treated as a current timetable. Checked against Keisei and the hotel's official access page on 2026-10-27.
 
 ### Two-person wishlist contract
 
-The current local schema is `tokyo-wishlist-v2`: `{ [placeId]: { maomao?: { checked, updatedAt }, beibei?: { checked, updatedAt } } }`. Mao Mao uses the white puppy; Bei Bei uses the yellow puppy. Choose a person before voting. The current person is remembered in sessionStorage (`tokyo-voter`), not an authenticated identity. Rendering always shows both votes independently. Filters support either person's votes and the intersection.
+Choose Mao Mao (white puppy) or Bei Bei (yellow puppy) before voting. The current person is held in sessionStorage (tokyo-voter); it is a convenience identity, not authentication. Cards and details show both votes. Filters support each voter and their intersection.
 
-AWS integration must read both people's votes and update only one `(tripId, placeId, personId)` record at a time. Do not restore the former single boolean per destination or overwrite another person's vote when saving. Shared-link access controls the trip; choosing a person is a convenience, not proof of identity. Cloud synchronization is not configured yet.
+The existing deployed API is backward-compatible: per-person votes use place keys vote-maomao--<placeId> and vote-beibei--<placeId>. Each stores its own checked and updatedAt fields, so the two people never overwrite each other's vote. Keep these names when adapting the backend. The existing passcode, endpoint and polling continue to work. No AWS resource change is required.
 
-Old `tokyo-wishlist-v1` data remains untouched. A user can explicitly copy old checked destinations to the selected person; no identity is silently assigned. The local checks count and cloud disclaimer remain visible.
+Local data uses tokyo-wishlist-person-v2 and cloud cache uses tokyo-wishlist-person-cloud-v2. Old unprefixed cloud records and tokyo-wishlist-v1 local checks are preserved; users can explicitly copy them to their selected identity. No old vote is silently assigned.
 
 Avatar references: [white puppy](https://www.duitang.com/blog/?id=1468198723) and [yellow puppy](https://cartoonpluscafe.imweb.me/). Images are remotely hosted reference artwork, not original site artwork.
