@@ -51,3 +51,7 @@ Road routes use https://valhalla1.openstreetmap.de/ with pedestrian or auto cost
 ## Full-day simulation
 
 `journey-timeline.js` replaces step playback with a continuous 00:00–23:59 Tokyo-local clock. Visit arrivals retain the curated schedule; estimated travel durations are subtracted from the following arrival to determine departure. Overnight rest, breakfast and preparation fill non-travel hours. Day-one pre-arrival and day-four post-checkout are explicitly unknown-flight placeholders, with no fabricated airport position. Dragging the clock and selecting activity bands seeks directly; playback runs at 5, 10 or 30 simulated minutes per second. Cards change only at activity boundaries, while route positions interpolate continuously.
+
+## Independent image stream
+
+`journey-photo-stream.js` separates the sourced photo stream from the event card. Full-day photo milestones use departure, nearby landmark and arrival references; adjacent duplicates are removed. Clicking a thumbnail seeks the day clock. Images are lazy-loaded in a five-frame neighborhood; the main viewport is 270 by 150 CSS pixels (210 by 112 on mobile). The additional Ginza intersection image is a 490-pixel GO TOKYO photograph. Images remain publisher-hosted with source links; no Google Street View imagery is scraped and missing intersections are not invented.
