@@ -1192,11 +1192,12 @@ const OVERVIEW_CATALOG=[
     "days": [],
     "desc": "旧计划的关东煮与豆腐盖饭备选，注意是日本桥本店。",
     "address": "",
-    "source": "https://www.google.com/maps/search/?api=1&query=%E6%97%A5%E6%9C%AC%E6%A1%A5%E5%A4%9A%E5%B9%B8%E6%9C%AC%E5%BA%97%20Tokyo%20Japan",
-    "photo": "",
-    "photoLabel": "地点参考照片",
+    "source": "https://www.kikumasamune.co.jp/ajinamise/detail.html?id=22",
+    "photo": "https://www.kikumasamune.co.jp/ajinamise/shop_img/22/menu1.jpg",
+    "photoLabel": "菊正宗餐厅介绍 · 本店料理参考",
     "query": "日本桥多幸本店",
-    "notes": ""
+    "notes": "",
+    "photoSource": "https://www.kikumasamune.co.jp/ajinamise/detail.html?id=22"
   },
   {
     "id": "ukai",
@@ -1211,11 +1212,12 @@ const OVERVIEW_CATALOG=[
     "days": [],
     "desc": "旧计划的精致肉料理备选，在银座 Jewel Box 地下1层。",
     "address": "",
-    "source": "https://www.google.com/maps/search/?api=1&query=%E9%93%B6%E5%BA%A7%20UKAI%20NIKUSHO%20Tokyo%20Japan",
-    "photo": "",
-    "photoLabel": "地点参考照片",
+    "source": "https://www.ukai.co.jp/ginzakappou/",
+    "photo": "https://www.ukai.co.jp/cms/wp-content/uploads/2025/09/GK_20250806_5783-1024x683.jpg",
+    "photoLabel": "UKAI 官网 · 料理参考，菜单随季节变化",
     "query": "银座 UKAI NIKUSHO",
-    "notes": ""
+    "notes": "",
+    "photoSource": "https://www.ukai.co.jp/ginzakappou/"
   },
   {
     "id": "kiyomizu",
