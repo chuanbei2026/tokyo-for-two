@@ -88,3 +88,62 @@ html{overflow-anchor:none}
 
 /* Shared chef collection, distinct from the couple's own votes. */
 .chef-filter{display:flex;align-items:center;justify-content:space-between;width:100%;padding:10px 12px;margin:9px 0;border:1px solid #c5ceb8;border-radius:10px;background:#f5f7ef;color:#46543b;font:inherit;font-weight:650;cursor:pointer}.chef-filter span{font-size:11px;font-weight:400}.chef-filter[aria-pressed=true]{background:#48593e;color:white}.chef-tags{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 7px}.chef-tags span,.chef-tags strong{font-size:11px;border-radius:5px;padding:3px 7px;background:#edf1e5;color:#526241}.chef-tags strong{background:#fff0df;color:#9a5319}.chef-note{font-size:12px!important;line-height:1.6;color:#725a37!important;background:#fbf7ed;border-left:2px solid #c5a66a;padding:6px 8px;margin:6px 0!important}
+
+/* Wishlist: browse photographs first; the small left map provides orientation. */
+body:not(.day-view) .journey-layout{display:grid;grid-template-columns:290px minmax(0,1fr);gap:24px;align-items:start}
+body:not(.day-view) #journey-sidebar{grid-column:2;grid-row:1;max-height:none;overflow:visible;padding:0;min-width:0}
+body:not(.day-view) .map-section{grid-column:1;grid-row:1;position:sticky;top:16px;height:auto;min-height:0;overflow:visible;width:100%}
+body:not(.day-view) .map-frame{height:310px;min-height:310px;flex:none;overflow:hidden}
+body:not(.day-view) .map-toolbar{padding:8px}
+body:not(.day-view) .map-legend{gap:6px 9px;padding:9px;font-size:9px}
+body:not(.day-view) .legend-place{width:20px;height:20px}
+body:not(.day-view) .map-summary{font-size:10px;padding:8px 10px}
+body:not(.day-view) .map-caption{display:none}
+body:not(.day-view) .catalog-controls{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:8px 18px;padding:14px 16px;margin:0 0 16px}
+body:not(.day-view) .catalog-controls h2{font-size:22px;margin:0;align-self:center}
+body:not(.day-view) .catalog-controls>p:first-of-type{display:none}
+body:not(.day-view) .voter-picker{grid-column:2;grid-row:1 / span 2;margin:0;padding:8px 10px}
+body:not(.day-view) .voter-picker>strong{display:none}
+body:not(.day-view) .voter-picker>div{margin:0 0 5px}
+body:not(.day-view) .voter-avatar{width:38px;height:38px}
+body:not(.day-view) .vote-badge .voter-avatar{width:30px;height:30px}
+body:not(.day-view) .catalog-search{grid-column:1;grid-row:2}
+body:not(.day-view) .catalog-search input{margin:4px 0 0;padding:8px}
+body:not(.day-view) .category-filters{margin:0;align-self:center}
+body:not(.day-view) .chef-filter{margin:0;padding:8px 10px}
+body:not(.day-view) .wishlist-options{margin:0;padding:6px 0;grid-column:1 / -1}
+body:not(.day-view) .trip-save-status{grid-column:1 / -1;margin:0;padding:5px 8px!important}
+body:not(.day-view) .catalog-result{grid-column:1 / -1}
+body:not(.day-view) .catalog-group{background:transparent;border:0;margin:0 0 24px;overflow:visible}
+body:not(.day-view) .catalog-group>summary{padding:0 0 10px;font-size:17px;border-bottom:1px solid var(--line);margin-bottom:12px}
+.wishlist-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+body:not(.day-view) .catalog-row.wishlist-card{margin:0;display:flex;flex-direction:column;align-items:stretch;min-width:0;height:100%}
+body:not(.day-view) .catalog-photo{height:auto;aspect-ratio:1.55;flex:none}
+body:not(.day-view) .wishlist-card-copy{display:flex;flex-direction:column;flex:1;padding:11px}
+body:not(.day-view) .wishlist-card-footer{margin-top:auto;padding-top:8px}
+body:not(.day-view) .place-votes{gap:4px;padding:6px 8px}
+body:not(.day-view) .vote-badge{padding-right:4px;font-size:10px}
+body:not(.day-view) .catalog-place>span{font-size:14px;line-height:1.5;overflow-wrap:anywhere}
+body:not(.day-view) .catalog-place small{white-space:normal}
+body:not(.day-view) .selected-card{outline:2px solid #71855b;outline-offset:3px}
+body:not(.day-view) #place-preview{position:fixed;left:330px;top:90px;width:330px;max-height:calc(100svh - 115px);z-index:1200;box-shadow:0 10px 50px #24321c40}
+@media(min-width:1600px){body:not(.day-view) .journey-layout{grid-template-columns:340px minmax(0,1fr)}body:not(.day-view) .map-frame{height:370px;min-height:370px}body:not(.day-view) #place-preview{left:380px}}
+@media(max-width:1100px){body:not(.day-view) .journey-layout{grid-template-columns:240px minmax(0,1fr);gap:16px}.wishlist-grid{grid-template-columns:repeat(2,minmax(0,1fr))}body:not(.day-view) .catalog-controls{display:block}body:not(.day-view) .catalog-controls>*{margin-bottom:10px}body:not(.day-view) .voter-picker{margin:10px 0}body:not(.day-view) .chef-filter{margin:8px 0}body:not(.day-view) #place-preview{left:270px}}
+@media(max-width:760px){body:not(.day-view) .journey-layout{display:flex;flex-direction:column;gap:16px}body:not(.day-view) .map-section{position:static;order:0}body:not(.day-view) .map-frame{height:200px;min-height:200px}body:not(.day-view) #journey-sidebar{order:1}body:not(.day-view) .map-summary{display:none}body:not(.day-view) #place-preview{left:5%;top:65px;width:90%;max-height:calc(100svh - 90px)}body:not(.day-view) .wishlist-card-footer{flex-wrap:wrap}body:not(.day-view) .wishlist-photo-credit{max-width:100%}}
+@media(max-width:430px){.wishlist-grid{grid-template-columns:1fr}}
+/* Keep selection tools with the small map, leaving the gallery immediately visible. */
+body:not(.day-view) .map-section{max-height:calc(100svh - 32px);overflow:auto;scrollbar-width:thin}
+body:not(.day-view) .map-frame{height:230px;min-height:230px}
+body:not(.day-view) .map-summary{display:none}
+body:not(.day-view) .catalog-controls{display:block;border:0;border-top:1px solid var(--line);border-radius:0;padding:12px;margin:0}
+body:not(.day-view) .catalog-controls h2{font-size:17px;margin-bottom:8px}
+body:not(.day-view) .voter-picker{padding:7px;margin:8px 0 12px}
+body:not(.day-view) .voter-picker button{padding:4px;gap:4px;font-size:12px}
+body:not(.day-view) .voter-picker .voter-avatar{width:32px;height:32px}
+body:not(.day-view) .catalog-search input{margin-bottom:10px}
+body:not(.day-view) .category-filters{gap:4px;margin-bottom:8px}
+body:not(.day-view) .category-filters button{padding:5px 7px;font-size:11px}
+body:not(.day-view) .chef-filter{margin-bottom:8px;font-size:12px}
+body:not(.day-view) .chef-filter span{font-size:9px}
+body:not(.day-view) .trip-save-status{margin:6px 0!important;font-size:10px!important}
+@media(max-width:760px){body:not(.day-view) .map-section{max-height:none;overflow:visible}body:not(.day-view) .map-frame{height:180px;min-height:180px}body:not(.day-view) .catalog-controls{padding:12px}body:not(.day-view) .voter-picker{margin:8px 0}}

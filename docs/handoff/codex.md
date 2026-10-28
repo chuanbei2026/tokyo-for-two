@@ -55,3 +55,7 @@ Please read `docs/handoff/README.md` and replace the placeholder in `claude-code
 ## Avatar correction — 2026-10-27
 
 Replaced both mismatched voter images with a visually verified paired Maltese/Golden Retriever set. Maomao is white, Beibei is yellow. Increased avatar sizes and removed grayscale on uncast votes. Voting identities and persistence are unchanged. Source is documented in the root README.
+
+## Card-led wishlist layout — 2026-10-27
+
+Overview now uses a small sticky map and selection controls on the left, with a three-column photo card gallery on the right (two or one columns on smaller screens). Overview controls are moved into the map section after each sidebar render and removed when switching to a daily page. Place previews attach to the document body so they do not obscure the small map. Card clicks center the map without the previous large-map offset. Daily itinerary layout and vote persistence remain unchanged. Browser validation covered three-column rendering, place preview, and Day 1/overview round-trip.
