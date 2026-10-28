@@ -55,3 +55,7 @@ Road routes use https://valhalla1.openstreetmap.de/ with pedestrian or auto cost
 ## Independent image stream
 
 `journey-photo-stream.js` separates the sourced photo stream from the event card. Full-day photo milestones use departure, nearby landmark and arrival references; adjacent duplicates are removed. Clicking a thumbnail seeks the day clock. Images are lazy-loaded in a five-frame neighborhood; the main viewport is 270 by 150 CSS pixels (210 by 112 on mobile). The additional Ginza intersection image is a 490-pixel GO TOKYO photograph. Images remain publisher-hosted with source links; no Google Street View imagery is scraped and missing intersections are not invented.
+
+## Stable camera
+
+Only opening a day, switching map style, or explicitly pressing the full-route button fits the route bounds. Selecting stops, route legs, photo thumbnails or times never moves or zooms the camera. Window resize invalidates map dimensions without re-fitting, preserving manual framing.
