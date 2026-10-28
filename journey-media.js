@@ -1,9 +1,10 @@
 /* Publisher-hosted reference photographs with source attribution. */
 const JOURNEY_MEDIA={
   "hotel": {
-    "src": "https://dormy-hotels.com/static/dmsimg/media/cms/4931706166208/%E3%83%89%E3%83%BC%E3%83%9F%E3%83%BC%E3%82%A4%E3%83%B3PREMIUM%20%E9%8A%80%E5%BA%A7%E3%80%80%E6%96%BD%E8%A8%ADTOP%20%E5%AE%A2%E5%AE%A4%203%E6%9E%9A%E7%9B%AE.jpg?w=320&fit=inside&ext=webp",
-    "source": "https://dormy-hotels.com/dormyinn/hotels/ginza/",
-    "label": "酒店官方客房示例 · 房型以预订为准"
+    "src": "https://www.gotokyo.org/en/story/walks-and-tours/ginza/images/43_0124_5_1024x800.jpg",
+    "source": "https://www.gotokyo.org/en/story/walks-and-tours/ginza/",
+    "label": "GO TOKYO · 银座街区参考，非酒店外观",
+    "caption": "酒店所在街区 · 银座中央大道"
   },
   "ginza": {
     "src": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/images/main.webp",

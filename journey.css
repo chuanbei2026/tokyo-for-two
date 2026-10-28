@@ -59,3 +59,7 @@ html{overflow-anchor:none}
 #airport-overview{position:absolute;top:12px;left:12px;z-index:450;width:200px;background:#fff;border:1px solid #dce0d5;border-radius:9px;overflow:hidden;box-shadow:0 2px 8px #20302012}#airport-locate{display:block;width:100%;padding:9px 5px;font-size:11px;background:#fff;border:0;color:#334d62;cursor:pointer}#airport-mini-map{height:115px}#airport-overview small{display:block;font-size:9px;color:#757c70;padding:5px 8px}.airport-dot{font-size:20px;color:#334d62}.overview-landmark .dot{border:2px solid #fff;box-shadow:0 1px 5px #253b4938}.overview-landmark .pin-name{font-weight:700;color:#253c50}body:not(.day-view) .north{display:none}@media(max-width:600px){#airport-overview{width:145px;top:8px;left:8px}#airport-mini-map{height:85px}}
 
 .landmark-stem{position:absolute;left:14px;top:14px;height:1px;background:#334d62;transform-origin:0 50%;pointer-events:none}.overview-landmark .dot,.overview-landmark .pin-name{z-index:1}
+
+/* Larger street photographs, with a compact contact sheet. */
+#photo-stream{width:290px}.stream-main{height:180px}.stream-main span{font-size:11px;padding:7px 9px}.stream-thumbs button{height:42px}.stream-thumbs{gap:3px;padding:5px}.stream-credit{font-size:9px;padding:3px 8px 6px}
+@media(max-width:760px){#photo-stream{width:210px}.stream-main{height:125px}.stream-thumbs button{height:32px}.stream-main span{font-size:10px}}
