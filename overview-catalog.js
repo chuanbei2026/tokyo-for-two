@@ -1,4 +1,4 @@
-/* Key destinations from saved plans and the user reference PDF. Landmark centers are not entrance navigation. */
+/* Key destinations from saved plans, the reference PDF, and owner requests. */
 const OVERVIEW_CATALOG=[
   {
     "id": "hotel",
@@ -23,6 +23,48 @@ const OVERVIEW_CATALOG=[
     "photoLabel": "GO TOKYO · 银座街区参考，非酒店外观",
     "query": "Dormy Inn PREMIUM 银座 6-16-8 Ginza, Chuo-ku, Tokyo",
     "notes": "先寄存或办理入住，确认早餐与温泉使用时间。 酒店天然温泉可安排在回程后，男女分浴，遵守酒店入浴说明。 11月27日退房后先寄存行李，游览东京西侧街区；预计20:00回酒店，机场与是否续住待航班确认。"
+  },
+  {
+    "category": "sight",
+    "region": "tokyo",
+    "origin": "你提出想去",
+    "days": [],
+    "photoSource": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
+    "photoLabel": "GO TOKYO · 皇居实景",
+    "nearby": "可与东京站丸之内红砖站舍、丸之内仲通串联；区域之间步行，留出休息时间。",
+    "id": "imperial-palace-gaien",
+    "name": "皇居外苑 · 二重桥",
+    "coord": [
+      35.6797,
+      139.7562
+    ],
+    "desc": "你想去的皇宫区：看护城河、石桥和松树广场。建议留 45–60 分钟，接着散步去丸之内。",
+    "address": "Kokyogaien, Chiyoda City, Tokyo 100-0002",
+    "source": "https://www.env.go.jp/garden/kokyogaien/english/",
+    "photo": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub002.jpg",
+    "query": "Kokyo Gaien Nijubashi Bridge Tokyo",
+    "notes": "这里是皇居外围公共区域，二重桥从外侧观赏，不代表能进入宫殿。外苑散步免费：0 円 ≈ US$0。可从二重桥前站步行抵达，或从东京站丸之内口向西走约 15–20 分钟到观景区域。若到达日尚有日光，可考虑外苑；实际安排等航班时间确认。东御苑另有开放日，不能把两处当作同一个入口。"
+  },
+  {
+    "category": "sight",
+    "region": "tokyo",
+    "origin": "你提出想去",
+    "days": [],
+    "photoSource": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
+    "photoLabel": "GO TOKYO · 皇居实景",
+    "nearby": "可与东京站丸之内红砖站舍、丸之内仲通串联；区域之间步行，留出休息时间。",
+    "id": "imperial-palace-east-gardens",
+    "name": "皇居东御苑 · 江户城遗迹",
+    "coord": [
+      35.6855,
+      139.7619
+    ],
+    "desc": "穿过大手门，看石墙、庭园与江户城遗迹。建议 60–90 分钟；本次旅行可选 11月25日或26日。",
+    "address": "1-1 Chiyoda, Chiyoda City, Tokyo 100-8111 · Ote-mon Gate",
+    "source": "https://www.kunaicho.go.jp/visit/higashigyoen/gyoen-close.html",
+    "photo": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub005.jpg",
+    "query": "Imperial Palace East Gardens Otemon Gate Tokyo",
+    "notes": "按宫内厅 2026年11月日历：11月24日（周二）及27日（周五）休园，25日、26日开放。11月至2月开放 09:00–16:00，入园截至15:30；免费：0 円 ≈ US$0。建议从大手町站步行至大手门进入，园区内步行。临时活动可能调整开放，出发前复核来源链接。这里是庭园与遗迹游览，不是皇居内部导览；暂列为你想去的候选，尚未挤入现有四天行程。"
   },
   {
     "id": "ginza",

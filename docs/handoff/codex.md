@@ -59,3 +59,7 @@ Replaced both mismatched voter images with a visually verified paired Maltese/Go
 ## Card-led wishlist layout — 2026-10-27
 
 Overview now uses a small sticky map and selection controls on the left, with a three-column photo card gallery on the right (two or one columns on smaller screens). Overview controls are moved into the map section after each sidebar render and removed when switching to a daily page. Place previews attach to the document body so they do not obscure the small map. Card clicks center the map without the previous large-map offset. Daily itinerary layout and vote persistence remain unchanged. Browser validation covered three-column rendering, place preview, and Day 1/overview round-trip.
+
+## Imperial Palace wishlist addition — 2026-10-27
+
+Added imperial-palace-gaien and imperial-palace-east-gardens after the owner expressed interest. Both include official tourism photos, coordinates, access guidance, and separate visit descriptions. Official November 2026 calendar confirms East Gardens closed Nov 24/27 and open Nov 25/26; seasonal hours are recorded. Entries are candidates, not assigned to a day, and no person-specific votes were written. Total catalog: 217.
