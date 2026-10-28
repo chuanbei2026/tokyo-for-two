@@ -19,11 +19,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-17-6 Sotokanda, Chiyoda City, Tokyo 101-0021日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GENERAL+STORE+RAILYARD+%E7%A7%8B%E8%91%89%E5%8E%9F/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ea7fb3e8d1d:0x43e73db1068c4d97!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188d48d882c475:0xe2f9ff7adff3f6c7!8m2!3d35.6981328!4d139.7747761!16s%2Fg%2F11q9j0sp_d?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvCGUaNN3Ix0xOG6dVl0drZ3Jcw3--1eIlX0hV5uPFnglvDJy8UKNY_bK38jfAb1hQf9JOQz5i2YDFEiZ6zFtrlQBTWK6BuQlUiVN6sQj_LrK77ymqg4oyKuOGwXPZz-ljH1q6Sn_hJxo=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdvCGUaNN3Ix0xOG6dVl0drZ3Jcw3--1eIlX0hV5uPFnglvDJy8UKNY_bK38jfAb1hQf9JOQz5i2YDFEiZ6zFtrlQBTWK6BuQlUiVN6sQj_LrK77ymqg4oyKuOGwXPZz-ljH1q6Sn_hJxo=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/GENERAL+STORE+RAILYARD+%E7%A7%8B%E8%91%89%E5%8E%9F/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ea7fb3e8d1d:0x43e73db1068c4d97!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188d48d882c475:0xe2f9ff7adff3f6c7!8m2!3d35.6981328!4d139.7747761!16s%2Fg%2F11q9j0sp_d?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "GENERAL STORE RAILYARD 秋葉原",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1195,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-376de30f325918",
@@ -44,11 +47,14 @@ const CHEF_CATALOG=[
     "address": "5 Chome-2-11 Jingumae, Shibuya, Tokyo 150-0001日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Astier+de+Villatte+(%E3%82%A2%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A8%EF%BD%A5%E3%83%89%EF%BD%A5%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%83%E3%83%88)+%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B7%E3%83%83%E3%83%97%E3%82%B9%E3%83%88%E3%82%A2/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ea7fb3e8d1d:0x43e73db1068c4d97!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d003d8b383b:0x358ae3135abaf3d5!8m2!3d35.6653377!4d139.7093779?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfMrP4Ia8hIMuumOMoEx5TVH_IhwokYUhbgGycKXYxmhbEHVT4PUp4pkmUNU8_uL1T1sw__lJmeDDrbWRdmXCCElX-3WMHWcdsjeNvd3x8Sh3OnuFmjr-Q9G3FzwHFRgdVDhVqO969mxK4-=w480-h320-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/Astier+de+Villatte+(%E3%82%A2%E3%82%B9%E3%83%86%E3%82%A3%E3%82%A8%EF%BD%A5%E3%83%89%EF%BD%A5%E3%83%B4%E3%82%A3%E3%83%A9%E3%83%83%E3%83%88)+%E3%83%95%E3%83%A9%E3%83%83%E3%82%B0%E3%82%B7%E3%83%83%E3%83%97%E3%82%B9%E3%83%88%E3%82%A2/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ea7fb3e8d1d:0x43e73db1068c4d97!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d003d8b383b:0x358ae3135abaf3d5!8m2!3d35.6653377!4d139.7093779?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://adv-j.com/cdn/shop/files/7V7A7078.jpg?v=1766019593&width=1200",
+    "photoLabel": "品牌官网 · 东京旗舰店实景",
+    "photoSource": "https://adv-j.com/",
     "query": "Astier de Villatte (アスティエ･ド･ヴィラット) フラッグシップストア",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-9a8817db3e2aba",
@@ -69,11 +75,14 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 7 Chome−21−12 れんげ荘 105号 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/coffee+swamp/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d4780c68ec3:0xa7e373c031915ef0!8m2!3d35.6949274!4d139.6950661?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWL1QiFFb6WQJ16o3eIJ2pxTAC43aRxz8uPMaL96llXEbnabFvXV2pGYonrxxY6_yS8VbHiSD06ndjLLB1OTXjLUD1t7n8bKHRfE4ur37bap9og3eATFSTitlK5sfItBFTyMFt=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfWL1QiFFb6WQJ16o3eIJ2pxTAC43aRxz8uPMaL96llXEbnabFvXV2pGYonrxxY6_yS8VbHiSD06ndjLLB1OTXjLUD1t7n8bKHRfE4ur37bap9og3eATFSTitlK5sfItBFTyMFt=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/coffee+swamp/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d4780c68ec3:0xa7e373c031915ef0!8m2!3d35.6949274!4d139.6950661?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "coffee swamp",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 720,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-480b7023ca59ed",
@@ -94,11 +103,14 @@ const CHEF_CATALOG=[
     "address": "3 Chome-4-8 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kayanoya+(Ginza+Tokyo)/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b7d406eca05:0xf5c50ad9f16e6716!8m2!3d35.672654!4d139.7656691?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdJsVXDiU2JVuv4OPvnthiYPIzKXrtvZrfUBgvc-1GFrQpuT6PnQIphmVq8UiGGwhG8V7YDADjMJs3LbHhA-2diwk9aF8_ZhUANg2lcuO44Hi7bpBK2Ym2YzFSa_2DlaIdLNSFl1dipoc0=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdJsVXDiU2JVuv4OPvnthiYPIzKXrtvZrfUBgvc-1GFrQpuT6PnQIphmVq8UiGGwhG8V7YDADjMJs3LbHhA-2diwk9aF8_ZhUANg2lcuO44Hi7bpBK2Ym2YzFSa_2DlaIdLNSFl1dipoc0=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kayanoya+(Ginza+Tokyo)/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b7d406eca05:0xf5c50ad9f16e6716!8m2!3d35.672654!4d139.7656691?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kayanoya (Ginza Tokyo)",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-1a32c6845a2330",
@@ -119,11 +131,14 @@ const CHEF_CATALOG=[
     "address": "日本〒107-0052 Tokyo, Minato City, Akasaka, 9 Chome−7−4 東京ミッドタウンガレリア B1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kayanoya+Tokyo+Midtown+Store/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b78ec378789:0x29753ee9196014eb!8m2!3d35.6664058!4d139.7305497!16s%2Fg%2F1tf6m5sd?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfsJ7qsjqy-ieHrz5sYhz8aTxUBMsYrsB8_fRR4qate_j1MR69jTZfpGd5jG0sv8ztO6XpNMG_4jMP_RXfTcMxO_i_6JJSqVeKa_KnyNjcR5HxxR2D-yp_sKl9vrKP2Gc2SH1FeG5_ptRk=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfsJ7qsjqy-ieHrz5sYhz8aTxUBMsYrsB8_fRR4qate_j1MR69jTZfpGd5jG0sv8ztO6XpNMG_4jMP_RXfTcMxO_i_6JJSqVeKa_KnyNjcR5HxxR2D-yp_sKl9vrKP2Gc2SH1FeG5_ptRk=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kayanoya+Tokyo+Midtown+Store/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b78ec378789:0x29753ee9196014eb!8m2!3d35.6664058!4d139.7305497!16s%2Fg%2F1tf6m5sd?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kayanoya Tokyo Midtown Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-45d9355a5a6f1c",
@@ -144,11 +159,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-17-5 Tomigaya, Shibuya, Tokyo 151-0063日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/DISHES+(%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%BC%E3%82%BA)/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d8ba55fe259:0x936f4e0d6f7ff7a1!8m2!3d35.6662384!4d139.6921798?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd5MmrVt1pjljIOnBgMmwwsmSDDpwk7FvHkXjEmjaaz58DTDKUkMqsiw6fPXhbPGziXNRwa5HCts0zpMxBE8iNLjx8Mbl4VB0NSSwsxdU2OFF0-TGUYzV0tauUBkOwIC8py_1M=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd5MmrVt1pjljIOnBgMmwwsmSDDpwk7FvHkXjEmjaaz58DTDKUkMqsiw6fPXhbPGziXNRwa5HCts0zpMxBE8iNLjx8Mbl4VB0NSSwsxdU2OFF0-TGUYzV0tauUBkOwIC8py_1M=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/DISHES+(%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%BC%E3%82%BA)/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d8ba55fe259:0x936f4e0d6f7ff7a1!8m2!3d35.6662384!4d139.6921798?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "DISHES (ディッシーズ)",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-d7419aa6524cf8",
@@ -169,11 +187,14 @@ const CHEF_CATALOG=[
     "address": "3 Chome-17-5 Shinjuku, Shinjuku City, Tokyo 160-0022日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Asics/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda3a3819a1:0xa212c4eb21d0682!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188d005d390159:0x7888a1669bd804b2!8m2!3d35.6918253!4d139.7030458!16s%2Fg%2F11zd994bgg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEbfLqsq6LL0TRdekqb0Lv6Vqyig39NkAbE2g6MvjEoFY6aoQ6xPq-qmJlBZC0ESqHiwq3dOteRqfnht8ByDJtFnlR7-1Snxr-4AdNLZE13wSCxJHpL0r_wfKttqowWaGef6QB9iffJ7s=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfEbfLqsq6LL0TRdekqb0Lv6Vqyig39NkAbE2g6MvjEoFY6aoQ6xPq-qmJlBZC0ESqHiwq3dOteRqfnht8ByDJtFnlR7-1Snxr-4AdNLZE13wSCxJHpL0r_wfKttqowWaGef6QB9iffJ7s=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Asics/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda3a3819a1:0xa212c4eb21d0682!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188d005d390159:0x7888a1669bd804b2!8m2!3d35.6918253!4d139.7030458!16s%2Fg%2F11zd994bgg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Asics",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 600,
+    "photoHeight": 402,
+    "photoFit": "cover"
   },
   {
     "id": "chef-77abaa9e783142",
@@ -194,11 +215,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 1 Chome−5−8 Jingumae Tower Bldg, 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/ASICS+FLAGSHIP+HARAJUKU/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda3a3819a1:0xa212c4eb21d0682!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca4fac54abd:0xdac77910b1a5d314!8m2!3d35.6706619!4d139.706727?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8r4kETgp02djkkBWkF9pCdn1tfYV719e2VrNWlTBpf8PeaS00V3DQulcp7I5etiJBfsL4rEUwM3zQU3hvvsiytqu4RYu_webFRq0RKYjPpfFKmEGceQ617pPdkWgfG6PEsktblWGmi2c=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc8r4kETgp02djkkBWkF9pCdn1tfYV719e2VrNWlTBpf8PeaS00V3DQulcp7I5etiJBfsL4rEUwM3zQU3hvvsiytqu4RYu_webFRq0RKYjPpfFKmEGceQ617pPdkWgfG6PEsktblWGmi2c=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/ASICS+FLAGSHIP+HARAJUKU/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda3a3819a1:0xa212c4eb21d0682!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca4fac54abd:0xdac77910b1a5d314!8m2!3d35.6706619!4d139.706727?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "ASICS FLAGSHIP HARAJUKU",
-    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。"
+    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-24bfe753e7f5cb",
@@ -219,11 +243,14 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0022 Tokyo, Shinjuku City, Shinjuku, 4 Chome−1−1 新宿サウスアヴェニュー 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/atmos+Shinjuku/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ca359cb734f:0x66e90c0b978cb75!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cc5353a2e37:0x63e4937b2146cd6e!8m2!3d35.688052!4d139.702727?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWji9scAduAwXqsmjzuh9n1fMJzB0NozIychOSjNSpxT_AISjo7hVP9T3TED_PrK2tbIT61OWrXoliHKx3sP60dXSdEL2MF30wWFe6AaF5YikC7dLnzR79ejrgOspVLmIOK3R7Vg-t211O=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdWji9scAduAwXqsmjzuh9n1fMJzB0NozIychOSjNSpxT_AISjo7hVP9T3TED_PrK2tbIT61OWrXoliHKx3sP60dXSdEL2MF30wWFe6AaF5YikC7dLnzR79ejrgOspVLmIOK3R7Vg-t211O=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/atmos+Shinjuku/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188ca359cb734f:0x66e90c0b978cb75!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cc5353a2e37:0x63e4937b2146cd6e!8m2!3d35.688052!4d139.702727?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "atmos Shinjuku",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-6a8695229394e9",
@@ -244,11 +271,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 4 Chome−29−4 Barbizon78 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/atmos+BLUE+OMOTESANDO/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cdacad23559:0x6249e91e0090340e!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca477ef6009:0xf27a265313e4b244!8m2!3d35.6683037!4d139.7064147?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW5IYFIZsbTFpvvWu87dFpr4DEaTaDIa-b9GzVnR5FOp5kUwSGpBg9W2HxO7NWGA9vftuRjb9yGYgEdXxnDiAYC5Accx4lpbKNOveESujTnHZOQQK-5UQUydAB1AXWPB97ZZKHow=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW5IYFIZsbTFpvvWu87dFpr4DEaTaDIa-b9GzVnR5FOp5kUwSGpBg9W2HxO7NWGA9vftuRjb9yGYgEdXxnDiAYC5Accx4lpbKNOveESujTnHZOQQK-5UQUydAB1AXWPB97ZZKHow=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/atmos+BLUE+OMOTESANDO/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cdacad23559:0x6249e91e0090340e!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca477ef6009:0xf27a265313e4b244!8m2!3d35.6683037!4d139.7064147?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "atmos BLUE OMOTESANDO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-dc66547b847c4a",
@@ -269,11 +299,14 @@ const CHEF_CATALOG=[
     "address": "31-8 Udagawacho, Shibuya, Tokyo 150-0042日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/atmos/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ca9090fa77d:0x63b502241dd9f6d4!8m2!3d35.6611356!4d139.697932!16s%2Fg%2F11b7hdsfrb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf8FMf6FVBrcgqpTM5TDTbWz-tSxubYYvr_MnTI_v_GB0r4RnH6fkhrvFxoJ0_xeCCjmDwr4GLeEU0vMTHOZHGdE3t6GngzeSFKET9SHEycgctkA1oivpsqXSJ3QGhWBDbJMCrEsdkY8D81=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf8FMf6FVBrcgqpTM5TDTbWz-tSxubYYvr_MnTI_v_GB0r4RnH6fkhrvFxoJ0_xeCCjmDwr4GLeEU0vMTHOZHGdE3t6GngzeSFKET9SHEycgctkA1oivpsqXSJ3QGhWBDbJMCrEsdkY8D81=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/atmos/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ca9090fa77d:0x63b502241dd9f6d4!8m2!3d35.6611356!4d139.697932!16s%2Fg%2F11b7hdsfrb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "atmos",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 780,
+    "photoFit": "cover"
   },
   {
     "id": "chef-4093b2e80d896d",
@@ -294,11 +327,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 5 Chome−9−20 1F･B1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Artek+Tokyo+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188db115ba2605:0xde90704f4f75e4b6!8m2!3d35.6666107!4d139.7077528?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe3-rP3vwr5VuGTXNDF488cTu7jHcHkBfRUD93wn4MNmdc5_YFEMojfWBEinpkNLa1YhJTzLIZMTU9xfnWUNeadbpwOdcTTwnKzQxog0P085bTNIAJlry0SLrio7pIScitCXdJBWJ84_fo0=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe3-rP3vwr5VuGTXNDF488cTu7jHcHkBfRUD93wn4MNmdc5_YFEMojfWBEinpkNLa1YhJTzLIZMTU9xfnWUNeadbpwOdcTTwnKzQxog0P085bTNIAJlry0SLrio7pIScitCXdJBWJ84_fo0=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Artek+Tokyo+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188db115ba2605:0xde90704f4f75e4b6!8m2!3d35.6666107!4d139.7077528?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Artek Tokyo Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-88f328e3bfc0a8",
@@ -319,11 +355,14 @@ const CHEF_CATALOG=[
     "address": "日本〒142-0063 Tokyo, Shinagawa City, Ebara, 5 Chome−15−15 西小山サマリヤマンション ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/SPRING+%2F+SUMMER+%2F+AUTUMN+%2F+WINTER/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188acffca5851f:0x668382247e084619!8m2!3d35.6135969!4d139.7007523!16s%2Fg%2F11btn1btjz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcugHHJXkCv6Z0lveOhNf-uVWRGn77efyYKnXsLi73HsUp1XpwGwl7T-0fsPIzHYo3e7abB_Ol5rtvyyIllPNdT6fcobMNLJrpEF3gBg60B2_IAgRxGTBAsHOExG6W03LZYyzwQQu-lQ5c=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcugHHJXkCv6Z0lveOhNf-uVWRGn77efyYKnXsLi73HsUp1XpwGwl7T-0fsPIzHYo3e7abB_Ol5rtvyyIllPNdT6fcobMNLJrpEF3gBg60B2_IAgRxGTBAsHOExG6W03LZYyzwQQu-lQ5c=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/SPRING+%2F+SUMMER+%2F+AUTUMN+%2F+WINTER/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188acffca5851f:0x668382247e084619!8m2!3d35.6135969!4d139.7007523!16s%2Fg%2F11btn1btjz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "SPRING / SUMMER / AUTUMN / WINTER",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-e40d2873be42c3",
@@ -344,11 +383,14 @@ const CHEF_CATALOG=[
     "address": "5 Chome-3-1 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E9%93%B6%E5%BA%A7%E7%B4%A2%E5%B0%BC%E5%85%AC%E5%9B%AD/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ba6c71b7dbb:0x85ed5d3645509f25!8m2!3d35.6720765!4d139.7631115?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeahq1AVcPEGfZ1YhGcZnqAjYITt9qhmxXJnAhjpoqBUjA1Keb6vzWvUc7XJ_lIjS7iQb299dRergFumwP7-u1GQyo-1gz720AZWkLhz3yQ0IIp-6dK6epNJf4CHG7NV6-fZ-hSMA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeahq1AVcPEGfZ1YhGcZnqAjYITt9qhmxXJnAhjpoqBUjA1Keb6vzWvUc7XJ_lIjS7iQb299dRergFumwP7-u1GQyo-1gz720AZWkLhz3yQ0IIp-6dK6epNJf4CHG7NV6-fZ-hSMA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E9%93%B6%E5%BA%A7%E7%B4%A2%E5%B0%BC%E5%85%AC%E5%9B%AD/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ba6c71b7dbb:0x85ed5d3645509f25!8m2!3d35.6720765!4d139.7631115?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "银座索尼公园",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 900,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-507fc858757d15",
@@ -369,11 +411,14 @@ const CHEF_CATALOG=[
     "address": "日本〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺 2階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/cotogoto/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be5f2f17fab:0xed12587e1a7514c1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f27d574b73f5:0x5c5739a79913152d!8m2!3d35.7041264!4d139.6501562?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfa6QyAsXxrYmiErBHXTMrr4O3hdRxiPZ1u2QZ9FbwWDCiv3VKwaEdAseFaWK5G0lQag6SEQjvWo8Iki8NaaZtCAbvkpHnlcpoqyhGbfqVqCCtRM_hv5NeIvwq4RjIjX_IjiFpcWscXBgx-=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfa6QyAsXxrYmiErBHXTMrr4O3hdRxiPZ1u2QZ9FbwWDCiv3VKwaEdAseFaWK5G0lQag6SEQjvWo8Iki8NaaZtCAbvkpHnlcpoqyhGbfqVqCCtRM_hv5NeIvwq4RjIjX_IjiFpcWscXBgx-=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/cotogoto/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be5f2f17fab:0xed12587e1a7514c1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f27d574b73f5:0x5c5739a79913152d!8m2!3d35.7041264!4d139.6501562?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "cotogoto",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-14e9e37ff22cd4",
@@ -394,11 +439,14 @@ const CHEF_CATALOG=[
     "address": "5 Chome-2-10 Toranomon, Minato City, Tokyo 105-0001日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/FAMIMA+FLAGSHIP+STORE/@35.6981328,65.9466511,3z/data=!3m1!5s0x6018f27d573e5da9:0x29cca2bbb05e8a6!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b003f84a73f:0x276198a045bbc467!8m2!3d35.6624668!4d139.7443181?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfgatnHf9eILPsTnKKZqv69c72gz95CTc_ndVTlZJBNXtIlRECANH4XmJN30IlVOioXn6-IQ6J3bZxfxcB6gyp3fdpGqbXJW52kLwZuA5i4Jek5JmcfvmNppl7sxkXyI3gdRoGt6rjR-QK6=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfgatnHf9eILPsTnKKZqv69c72gz95CTc_ndVTlZJBNXtIlRECANH4XmJN30IlVOioXn6-IQ6J3bZxfxcB6gyp3fdpGqbXJW52kLwZuA5i4Jek5JmcfvmNppl7sxkXyI3gdRoGt6rjR-QK6=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/FAMIMA+FLAGSHIP+STORE/@35.6981328,65.9466511,3z/data=!3m1!5s0x6018f27d573e5da9:0x29cca2bbb05e8a6!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b003f84a73f:0x276198a045bbc467!8m2!3d35.6624668!4d139.7443181?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "FAMIMA FLAGSHIP STORE",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-16f0c3fea932a7",
@@ -419,11 +467,14 @@ const CHEF_CATALOG=[
     "address": "日本〒103-6199 Tokyo, Chuo City, Nihonbashi, 2 Chome−5−1 髙島屋Ｓ．Ｃ．新館 Ｂ１階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/AKOMEYA+TOKYO+Nihombashi+Takashimaya+S.C./@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x601889c7aa69178f:0xb8fe74eb138c7147!8m2!3d35.6812398!4d139.773581?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0Wbu7EGatiKgnyouqZii7nU5La_a40MYCHkrhnRXt9nri3OMhvFXa20aOD_ErBwp9CifLm3bSFPJaYH1guQyU-N7nNGYwqmSzBKgRriVIyzvUB9rrnyBWZxCJg6ue0loY2E5d=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0Wbu7EGatiKgnyouqZii7nU5La_a40MYCHkrhnRXt9nri3OMhvFXa20aOD_ErBwp9CifLm3bSFPJaYH1guQyU-N7nNGYwqmSzBKgRriVIyzvUB9rrnyBWZxCJg6ue0loY2E5d=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/AKOMEYA+TOKYO+Nihombashi+Takashimaya+S.C./@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x601889c7aa69178f:0xb8fe74eb138c7147!8m2!3d35.6812398!4d139.773581?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "AKOMEYA TOKYO Nihombashi Takashimaya S.C.",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-1a3b197d79e9ac",
@@ -444,11 +495,14 @@ const CHEF_CATALOG=[
     "address": "日本〒100-0006 Tokyo, Chiyoda City, Yurakucho, 2 Chome−9−1 ルミネストリート ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E3%83%AB%E3%83%9F%E3%83%8D%E6%9C%89%E6%A5%BD%E7%94%BA/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188957c3be3b81:0x916b26dcd6046818!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b64d4a97f21:0x5358dd94aa13eab5!8m2!3d35.6744996!4d139.7625625?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdefIXK96xGb0Y4Klg5u_5_LmIaOwDNOMRZVKGtXQCP4_gJQe0rc3N7o7P_PKuxhqjpjTgoW3rOJscyeAxfwZHS-i4hEdvsMeogFAkdfbuvX57WwwUD5XBXBep3dC-l10k85YwDcTOoCNiC=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdefIXK96xGb0Y4Klg5u_5_LmIaOwDNOMRZVKGtXQCP4_gJQe0rc3N7o7P_PKuxhqjpjTgoW3rOJscyeAxfwZHS-i4hEdvsMeogFAkdfbuvX57WwwUD5XBXBep3dC-l10k85YwDcTOoCNiC=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E3%83%AB%E3%83%9F%E3%83%8D%E6%9C%89%E6%A5%BD%E7%94%BA/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188957c3be3b81:0x916b26dcd6046818!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b64d4a97f21:0x5358dd94aa13eab5!8m2!3d35.6744996!4d139.7625625?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "AKOMEYA TOKYO ルミネ有楽町",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-6528aa1eb5bf37",
@@ -469,11 +523,14 @@ const CHEF_CATALOG=[
     "address": "3631-2 Funatsu, Fujikawaguchiko, Minamitsuru District, Yamanashi 401-0301日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Fujisan+Plaza/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be55aedaf89:0x7a0e1c7336a936ab!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6019615fc104631b:0xac644db8cccc67c5!8m2!3d35.4988828!4d138.7684801?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTibHRABSEsC4TrD88h1rEfjBoW3lmz8ei1t-hc4zhtuWRs--TZUJqYV10JwoVMYdcitihUpyzAuiKbipLUkLaU4Ekwj0iOM2cMsfHL-XZRMYLQPGKEJ8wOqD98bJD2DBb6aEZOTZFrKQ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTibHRABSEsC4TrD88h1rEfjBoW3lmz8ei1t-hc4zhtuWRs--TZUJqYV10JwoVMYdcitihUpyzAuiKbipLUkLaU4Ekwj0iOM2cMsfHL-XZRMYLQPGKEJ8wOqD98bJD2DBb6aEZOTZFrKQ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Fujisan+Plaza/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be55aedaf89:0x7a0e1c7336a936ab!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6019615fc104631b:0xac644db8cccc67c5!8m2!3d35.4988828!4d138.7684801?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Fujisan Plaza",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 676,
+    "photoFit": "cover"
   },
   {
     "id": "chef-f73ebc21be7991",
@@ -494,11 +551,14 @@ const CHEF_CATALOG=[
     "address": "日本〒106-0031 Tokyo, Minato City, Nishiazabu, 1 Chome−4−40 Nishiazabu Shino Bldg, 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Yakitori+Shinohara/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b14680c24f9:0xc83ddbcaea0d07ec!8m2!3d35.6620473!4d139.7252107?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdVfjFqWlAe7XjFX9trFql5KNa0m-ByCEfn1mivWHPb2RiYzdUV_ULpWJ-pdzguJys7UqRtzN9jFs5iy_U8i76LOrfiTw11wDETBe5eWMspn11ID-DkxtY3p2xf53ry37IeTCYp=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdVfjFqWlAe7XjFX9trFql5KNa0m-ByCEfn1mivWHPb2RiYzdUV_ULpWJ-pdzguJys7UqRtzN9jFs5iy_U8i76LOrfiTw11wDETBe5eWMspn11ID-DkxtY3p2xf53ry37IeTCYp=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Yakitori+Shinohara/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b14680c24f9:0xc83ddbcaea0d07ec!8m2!3d35.6620473!4d139.7252107?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Yakitori Shinohara",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-138ddff9459527",
@@ -519,11 +579,14 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1 Chome−1−5 ルミネ新宿店 ルミネ1 B2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+LUMINE+Shinjuku+1/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188dba255dc655:0x677f9039e910fefc!8m2!3d35.6891454!4d139.6992743!16s%2Fg%2F11j3550ggg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6JCfkoO3WZbso3qOxKXMBgt2yabV0fUO-Vo-4pL_PIDvoZVCCvZcwWtaM6rbvyz5e1juFJ1KPBxq6o1zjJ69xOMhhUiblqiHnA0uTJHujcO7CbdjrvQKXXOdqHdpA7MSraDwDeg=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6JCfkoO3WZbso3qOxKXMBgt2yabV0fUO-Vo-4pL_PIDvoZVCCvZcwWtaM6rbvyz5e1juFJ1KPBxq6o1zjJ69xOMhhUiblqiHnA0uTJHujcO7CbdjrvQKXXOdqHdpA7MSraDwDeg=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+LUMINE+Shinjuku+1/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188dba255dc655:0x677f9039e910fefc!8m2!3d35.6891454!4d139.6992743!16s%2Fg%2F11j3550ggg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "KALDI COFFEE FARM LUMINE Shinjuku 1",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-87b477fec32528",
@@ -544,11 +607,14 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1 Chome−5−1 小田急百貨店新宿店 地下2階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+Odakyu+Shinjuku+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cd6e260f1fd:0xdf45871464e869d0!8m2!3d35.6923918!4d139.6987424?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVdJH34dzV6LTnSd6TtKhnvV7hbIYOyGRXs-KQ5djOI0AS8Fjve7uJ6Agp_eHE57kwNpN-ADly7iAbMY89-ITRQ_2AV6i5CDcNzQeOLViLE8k-na404kWUorULbik8BCQAUjoN=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVdJH34dzV6LTnSd6TtKhnvV7hbIYOyGRXs-KQ5djOI0AS8Fjve7uJ6Agp_eHE57kwNpN-ADly7iAbMY89-ITRQ_2AV6i5CDcNzQeOLViLE8k-na404kWUorULbik8BCQAUjoN=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+Odakyu+Shinjuku+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cd6e260f1fd:0xdf45871464e869d0!8m2!3d35.6923918!4d139.6987424?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "KALDI COFFEE FARM Odakyu Shinjuku Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 506,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-df41abe32b6408",
@@ -569,11 +635,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0045 Tokyo, Chuo City, Tsukiji, 6 Chome−26−1 築地魚河岸小田原橋棟 W02 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Dashi+Okume+Tsukiji/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda784ffb13:0xac5d4f628830b651!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b99eda8dd7f:0xd28d0c8dcc236f98!8m2!3d35.6646038!4d139.7709015?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf1YDhl81gyPirmkrwzVjJ-eJISf4MNFF9k84nm03iuF5tv3Aa4ARh6btLKQjiIln4P88yop3s4ck_XPFGUtE6RTGU8VRGUpZrnrqwYfFpNWWKqRt4_GM3wltY68aYEMu8agDTTBnK2Qlo=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf1YDhl81gyPirmkrwzVjJ-eJISf4MNFF9k84nm03iuF5tv3Aa4ARh6btLKQjiIln4P88yop3s4ck_XPFGUtE6RTGU8VRGUpZrnrqwYfFpNWWKqRt4_GM3wltY68aYEMu8agDTTBnK2Qlo=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Dashi+Okume+Tsukiji/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188cda784ffb13:0xac5d4f628830b651!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b99eda8dd7f:0xd28d0c8dcc236f98!8m2!3d35.6646038!4d139.7709015?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Dashi Okume Tsukiji",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 506,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-defaacc4b328bf",
@@ -594,11 +663,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0045 Tokyo, Chuo City, Tsukiji, 6 Chome−26−1 魚河岸 小田原橋棟 W15-16 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Okume/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188bd8cc157939:0xd97f07e2a2c4563e!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bd912580d23:0xd8eee544cc92a826!8m2!3d35.6648135!4d139.7711535!16s%2Fg%2F1wj_60bw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcBxAG42d4V8YvslWO1l2XlWUz2mtzYtSvERBrBy2I-yL5eWax9VwhZiKqSpSdXzCksjh0o9v5HlUQ8HzQrl9GM2nwzAGDvxgQZDVZvJtgvuGB3oFJozxarPngOfvsyNJgghhETOw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcBxAG42d4V8YvslWO1l2XlWUz2mtzYtSvERBrBy2I-yL5eWax9VwhZiKqSpSdXzCksjh0o9v5HlUQ8HzQrl9GM2nwzAGDvxgQZDVZvJtgvuGB3oFJozxarPngOfvsyNJgghhETOw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Okume/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188bd8cc157939:0xd97f07e2a2c4563e!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bd912580d23:0xd8eee544cc92a826!8m2!3d35.6648135!4d139.7711535!16s%2Fg%2F1wj_60bw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Okume",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-69f6bd223ba010",
@@ -619,11 +691,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-2-4 Azabudai, Minato City, Tokyo 106-0041日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Dashi+Okume+Azabudai+Hills/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188bd8cc157939:0xd97f07e2a2c4563e!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b33bf2683a5:0xd546a05fc32dd349!8m2!3d35.6619597!4d139.7417174?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeIhxqaQJNW2a243GIUGBG2wMftVPXD6xwuH-2zytMLSRUAjG5CA03OHwA9YpxWavhwiv2zOjvT3zaBpZOrLdYYPvvguS21tJdY8UTBWfFdbJZZ8oF1Z1lj3-Xi6bvFi5AiPF-VSTeyoNL=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeIhxqaQJNW2a243GIUGBG2wMftVPXD6xwuH-2zytMLSRUAjG5CA03OHwA9YpxWavhwiv2zOjvT3zaBpZOrLdYYPvvguS21tJdY8UTBWfFdbJZZ8oF1Z1lj3-Xi6bvFi5AiPF-VSTeyoNL=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Dashi+Okume+Azabudai+Hills/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188bd8cc157939:0xd97f07e2a2c4563e!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b33bf2683a5:0xd546a05fc32dd349!8m2!3d35.6619597!4d139.7417174?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Dashi Okume Azabudai Hills",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-d32e98e6d0f6ae",
@@ -644,11 +719,14 @@ const CHEF_CATALOG=[
     "address": "1 Spadina Rd #17, Richmond Hill, ON L4B 3M2加拿大 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Stoa+Coffee/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x882b2b5ec2396f0d:0xbe0edee60924c5b6!8m2!3d43.8614629!4d-79.3950897!16s%2Fg%2F11ln8r0g17?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoOvx0Rn9wzSseuhsC_cjXLzEvo3ztAbPCIW2tSSrUVNPxdGz15pG1PusnSEGEO2S3z7uDPmQ59-thjBnHQJ0f8j2sBoIHfvAtdDUMxbgtLTfDVSRiN8iidmMwvnE6B6D9PlnlO8hP1UzG=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfoOvx0Rn9wzSseuhsC_cjXLzEvo3ztAbPCIW2tSSrUVNPxdGz15pG1PusnSEGEO2S3z7uDPmQ59-thjBnHQJ0f8j2sBoIHfvAtdDUMxbgtLTfDVSRiN8iidmMwvnE6B6D9PlnlO8hP1UzG=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Stoa+Coffee/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x882b2b5ec2396f0d:0xbe0edee60924c5b6!8m2!3d43.8614629!4d-79.3950897!16s%2Fg%2F11ln8r0g17?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Stoa Coffee",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-499580f494a661",
@@ -669,11 +747,14 @@ const CHEF_CATALOG=[
     "address": "日本〒158-0094 Tokyo, Setagaya City, Tamagawa, 1 Chome−14−1 二子玉川ライズ・ショッピングセンター テラスマーケット 1F・2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Tsutaya+Electrics/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f43f86155b23:0x2163d4a048e93e34!8m2!3d35.6110305!4d139.6296446?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL-Eo2Zi2Uzb-huXt5wwiJ45yqRT72lls2uqcd5SzHUW8Rt1FrXTFkh4FzMBTT1CRtG3SapOvINm3EkpDaYWfrxgJvWqDlrEFf5HOC87Yz3LYmX80V1lkfSNoTjpSdroKWCxaFchxnHUGb=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL-Eo2Zi2Uzb-huXt5wwiJ45yqRT72lls2uqcd5SzHUW8Rt1FrXTFkh4FzMBTT1CRtG3SapOvINm3EkpDaYWfrxgJvWqDlrEFf5HOC87Yz3LYmX80V1lkfSNoTjpSdroKWCxaFchxnHUGb=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Tsutaya+Electrics/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f43f86155b23:0x2163d4a048e93e34!8m2!3d35.6110305!4d139.6296446?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Tsutaya Electrics",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-d09074bbcc247b",
@@ -694,11 +775,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 3 Chome−18−23 gimビル ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/EDWIN+TOKYO+HARAJUKU/@43.8614629,-153.2232147,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca307b5f8db:0xeb3a41d4e30f13ab!8m2!3d35.669946!4d139.708461?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwvifES7qbdMi8XlvLcxtujRBoCCfJI8pkAnD9TAy0YhTOIanlvXLRGvOnjGsF0VHClbWliNny4kvrK4SHfraVVKu81pGjYbVaeXwtSq-QLjs0GigD3mOSe6fnAs6LNhL5__qPvb3bx6xq=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdwvifES7qbdMi8XlvLcxtujRBoCCfJI8pkAnD9TAy0YhTOIanlvXLRGvOnjGsF0VHClbWliNny4kvrK4SHfraVVKu81pGjYbVaeXwtSq-QLjs0GigD3mOSe6fnAs6LNhL5__qPvb3bx6xq=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/EDWIN+TOKYO+HARAJUKU/@43.8614629,-153.2232147,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ca307b5f8db:0xeb3a41d4e30f13ab!8m2!3d35.669946!4d139.708461?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "EDWIN TOKYO HARAJUKU",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-068d0527c19847",
@@ -719,11 +803,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 4 Chome−25−6 ハナエビル 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/OUJI+SHOP+2nd+%E5%8E%9F%E5%AE%BF/@35.6429517,66.3164809,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d0037cce247:0xcebcfcd24cc9af9b!8m2!3d35.6691333!4d139.7081871?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeH_EIksdp82LehAsT418QWm-oTtM8QfXPDz5bEfKTKU4Ijo4YzJlB8zv7S_opEFvDlNsYsbnKSZS_709Uq96YAGoBvQd3K8IrNeNup7tL06cju-4VXTdmNuZDWwTLAfM7cfsPdweXKjNo=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeH_EIksdp82LehAsT418QWm-oTtM8QfXPDz5bEfKTKU4Ijo4YzJlB8zv7S_opEFvDlNsYsbnKSZS_709Uq96YAGoBvQd3K8IrNeNup7tL06cju-4VXTdmNuZDWwTLAfM7cfsPdweXKjNo=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/OUJI+SHOP+2nd+%E5%8E%9F%E5%AE%BF/@35.6429517,66.3164809,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d0037cce247:0xcebcfcd24cc9af9b!8m2!3d35.6691333!4d139.7081871?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "OUJI SHOP 2nd 原宿",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-6bb23b74bf5187",
@@ -744,11 +831,14 @@ const CHEF_CATALOG=[
     "address": "日本〒100-0005 Tokyo, Chiyoda City, Marunouchi, 2 Chome−6−1 ブリックスクエア１Ｆ １０８区 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Goldwin+Marunouchi/@35.669946,65.880336,3z/data=!3m1!5s0x60188bfa73c23fad:0x541df7ffbc26b992!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bb0eb13d679:0x3234ddc08957c900!8m2!3d35.6790668!4d139.7626826!16s%2Fg%2F11gnsd3xyz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfkAy8pDCaQ0MBA3PIXkpuwJCwgtp6N0Im_DawNa21GVTw4NCpqvhhRGxm2MLqfZLcGsLIidTrDJAIN6naaJGGjKdld-BiKKcxS4brX7SCQLsQZumJem6Orh6W8C8uYCEwc0Jv3=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfkAy8pDCaQ0MBA3PIXkpuwJCwgtp6N0Im_DawNa21GVTw4NCpqvhhRGxm2MLqfZLcGsLIidTrDJAIN6naaJGGjKdld-BiKKcxS4brX7SCQLsQZumJem6Orh6W8C8uYCEwc0Jv3=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Goldwin+Marunouchi/@35.669946,65.880336,3z/data=!3m1!5s0x60188bfa73c23fad:0x541df7ffbc26b992!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bb0eb13d679:0x3234ddc08957c900!8m2!3d35.6790668!4d139.7626826!16s%2Fg%2F11gnsd3xyz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Goldwin Marunouchi",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-f649ca41caddce",
@@ -769,11 +859,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0061 Tokyo, Chuo City, Ginza, 2 Chome−11−1 Ginza Land Bldg., 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/X+coffee+GINZA/@35.669946,65.880336,3z/data=!3m1!5s0x60188bfa73c23fad:0x541df7ffbc26b992!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b005cb4a39f:0x4a2e60654dd756c6!8m2!3d35.6727318!4d139.7692513?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe43VBNw7tKBLuZV7-oFOlZu8Zhu-nqnEdjUcPblvoXKdrWUm2H2pf8VgM2n3Wq-sp66swUyHl5b5SiTjgukV8SjKJnpRYI9sBgIFzhYyNKHmnuBZkyMKAW7q0rUUPuQ6t4vPPmR4ZxgTKZ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe43VBNw7tKBLuZV7-oFOlZu8Zhu-nqnEdjUcPblvoXKdrWUm2H2pf8VgM2n3Wq-sp66swUyHl5b5SiTjgukV8SjKJnpRYI9sBgIFzhYyNKHmnuBZkyMKAW7q0rUUPuQ6t4vPPmR4ZxgTKZ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/X+coffee+GINZA/@35.669946,65.880336,3z/data=!3m1!5s0x60188bfa73c23fad:0x541df7ffbc26b992!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b005cb4a39f:0x4a2e60654dd756c6!8m2!3d35.6727318!4d139.7692513?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "X coffee GINZA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 676,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-c3ccfc461d7b5d",
@@ -794,11 +887,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 6 Chome−10−12 Ｃｉｔｔａ神宮前 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Goldwin+Harajuku/@35.669946,65.880336,3z/data=!3m1!5s0x60188be16907c569:0x36a614320a9f2c1b!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d5171e1d137:0x6e21fb61d48ef290!8m2!3d35.6676901!4d139.7050149?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdY_AoidSy-ljerGwm1C7_HOrnzeRYZ8eO9BFFzf9AebT7a9zhMEwCMCX8SPHrRLRDDG2wJIH_qHoAeVB9Z5T8ztV98p47-sBiHXl7B81hUuyd9YZJJQcxGyxdbuJYJj57QSY4teGdkiw9=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcdY_AoidSy-ljerGwm1C7_HOrnzeRYZ8eO9BFFzf9AebT7a9zhMEwCMCX8SPHrRLRDDG2wJIH_qHoAeVB9Z5T8ztV98p47-sBiHXl7B81hUuyd9YZJJQcxGyxdbuJYJj57QSY4teGdkiw9=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Goldwin+Harajuku/@35.669946,65.880336,3z/data=!3m1!5s0x60188be16907c569:0x36a614320a9f2c1b!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d5171e1d137:0x6e21fb61d48ef290!8m2!3d35.6676901!4d139.7050149?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Goldwin Harajuku",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-e81dcbe540acdb",
@@ -819,11 +915,14 @@ const CHEF_CATALOG=[
     "address": "19-5 Sarugakucho, Shibuya, Tokyo 150-0033日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/nanamica+MOUNTAIN/@35.669946,65.880336,3z/data=!3m1!5s0x60188ca442fdbf67:0x903d9d26ba213ada!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bcadc958b1b:0x7058bfef8a9c0e40!8m2!3d35.6488952!4d139.7010017?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUXw4nJEi52X7tzw6HBqt1VCB-27r2UOWvsg8VjvFF-UvWgUJklIqZGJ0e_OFK1YedArxgUawjhn7hHWpSRGG0SNftJaEw-xmyA9vj6iRhKJQX2D9qk6b8VhVYXEeiyZhZNzLZRMYnn9vZ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUXw4nJEi52X7tzw6HBqt1VCB-27r2UOWvsg8VjvFF-UvWgUJklIqZGJ0e_OFK1YedArxgUawjhn7hHWpSRGG0SNftJaEw-xmyA9vj6iRhKJQX2D9qk6b8VhVYXEeiyZhZNzLZRMYnn9vZ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/nanamica+MOUNTAIN/@35.669946,65.880336,3z/data=!3m1!5s0x60188ca442fdbf67:0x903d9d26ba213ada!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bcadc958b1b:0x7058bfef8a9c0e40!8m2!3d35.6488952!4d139.7010017?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "nanamica MOUNTAIN",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-e8da0747949901",
@@ -844,11 +943,14 @@ const CHEF_CATALOG=[
     "address": "1-1 Ofukacho, Kita Ward, Osaka, 530-0011日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Yodobashi+Camera+Multimedia+Umeda/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68dfd4c8a17:0xf82888527fca0fb4!8m2!3d34.7040943!4d135.496268?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4TvKzQL4Hf16H_emR_LQ_vH53dmJ0XvS5-8HoOwwMEdBa7ANpucs7swiV38DTn8A1SAthiAjGJJjsdjso7a8qnMPQIajFMY95N2Z_S6cr0C_74e87rCM4cbxugFWKv27IfzdKxzJiJPCa=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4TvKzQL4Hf16H_emR_LQ_vH53dmJ0XvS5-8HoOwwMEdBa7ANpucs7swiV38DTn8A1SAthiAjGJJjsdjso7a8qnMPQIajFMY95N2Z_S6cr0C_74e87rCM4cbxugFWKv27IfzdKxzJiJPCa=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Yodobashi+Camera+Multimedia+Umeda/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68dfd4c8a17:0xf82888527fca0fb4!8m2!3d34.7040943!4d135.496268?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Yodobashi Camera Multimedia Umeda",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-4f45076056d200",
@@ -869,11 +971,14 @@ const CHEF_CATALOG=[
     "address": "日本〒542-0076 Osaka, Chuo Ward, Namba, 1 Chome−9, ７ekimoなんば 御堂筋線 地下１階コンコース ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Little+Osaka+ekimo+Namba/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68e0862aeb3:0x6ad77c7dfac6b13!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7136a712107:0xd8dd5336966d157!8m2!3d34.6673616!4d135.5006949?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfsBOhFLfF8CaBSJjtojH1PE4fzjo1UjbFMbEqmb34kHIh75MJTY8PNXlhU5cMEHlZTROcPcYuwWC96XNCu560741cVM8h3uWXMyqu0i6xDpdnevcXpD_Zc4F9Asq6we3sj-m-zaZBAfzJ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfsBOhFLfF8CaBSJjtojH1PE4fzjo1UjbFMbEqmb34kHIh75MJTY8PNXlhU5cMEHlZTROcPcYuwWC96XNCu560741cVM8h3uWXMyqu0i6xDpdnevcXpD_Zc4F9Asq6we3sj-m-zaZBAfzJ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Little+Osaka+ekimo+Namba/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68e0862aeb3:0x6ad77c7dfac6b13!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7136a712107:0xd8dd5336966d157!8m2!3d34.6673616!4d135.5006949?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Little Osaka ekimo Namba",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-81667f68cc58e7",
@@ -894,11 +999,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-15-7 Minamihorie, Nishi Ward, Osaka, 550-0015日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/SORA/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e70fbcb44885:0x6990ce53384d9995!8m2!3d34.671141!4d135.4951607!16s%2Fg%2F11bwptqbp3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeYjvjtXqu9_kBqR6ctoXkjxgl7D9zTux-F0Qhc12StHWPQ0LRZz6qVcP1lXqZWSMUkQGw2878rsP9iP0K1Ed4-H4xvJyeInE0v0IeZFGP6MouZk4hhqLpzce3DCF-0seRtpGwdaSvmWk-=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfeYjvjtXqu9_kBqR6ctoXkjxgl7D9zTux-F0Qhc12StHWPQ0LRZz6qVcP1lXqZWSMUkQGw2878rsP9iP0K1Ed4-H4xvJyeInE0v0IeZFGP6MouZk4hhqLpzce3DCF-0seRtpGwdaSvmWk-=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/SORA/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e70fbcb44885:0x6990ce53384d9995!8m2!3d34.671141!4d135.4951607!16s%2Fg%2F11bwptqbp3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "SORA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 758,
+    "photoFit": "cover"
   },
   {
     "id": "chef-e5e7b1af3d3de0",
@@ -919,11 +1027,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-9-1 Minamihorie, Nishi Ward, Osaka, 550-0015日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/LHP+Osakaten/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e70fcf708cf3:0x9391ecc92f1d962d!8m2!3d34.6710478!4d135.4962861?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqw1eZTps5up8AnLY9EM6swjVn5MhQHmhDN872Y8wp35uGosvE03NG9qicGkeF8nvDOXn3gxQ_HD4uQPvoTjjApN-lb_Kllb2SEmEPOW5ye745a5vv64xajj2Lm0HMJj4nW2dpfvgOdUsw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcqw1eZTps5up8AnLY9EM6swjVn5MhQHmhDN872Y8wp35uGosvE03NG9qicGkeF8nvDOXn3gxQ_HD4uQPvoTjjApN-lb_Kllb2SEmEPOW5ye745a5vv64xajj2Lm0HMJj4nW2dpfvgOdUsw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/LHP+Osakaten/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e70fcf708cf3:0x9391ecc92f1d962d!8m2!3d34.6710478!4d135.4962861?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "LHP Osakaten",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 674,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-d4b4270829e003",
@@ -944,11 +1055,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-8350 Osaka, Kita Ward, Kakudacho, 8−7 阪急うめだ本店 3F BEYOND WORLD - Hankyu Umeda 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GENTLE+MONSTER+Osaka+Hankyu/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e72117f16ef9:0xb2cf22f847cce205!8m2!3d34.7029071!4d135.4984791?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcD_F07qQSc7Xzwz__6YqTq5QCQEALlpdTqQAQnc-NSBnp_Hy17gW7_80N_7_7CJnBYByKUSfs0C2JxAH76U4VFN68Ue_urFoF2WMLqrfQLx4LSfrcMhkGaF1lbCzGZUTUT8rSm035ivf9h=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcD_F07qQSc7Xzwz__6YqTq5QCQEALlpdTqQAQnc-NSBnp_Hy17gW7_80N_7_7CJnBYByKUSfs0C2JxAH76U4VFN68Ue_urFoF2WMLqrfQLx4LSfrcMhkGaF1lbCzGZUTUT8rSm035ivf9h=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/GENTLE+MONSTER+Osaka+Hankyu/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e72117f16ef9:0xb2cf22f847cce205!8m2!3d34.7029071!4d135.4984791?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "GENTLE MONSTER Osaka Hankyu",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-61375cb6c18202",
@@ -969,11 +1083,14 @@ const CHEF_CATALOG=[
     "address": "460 Sakaicho, Nakagyo Ward, Kyoto, 604-8065日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Goldwin+Kyoto%EF%BC%88%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A6%E3%82%A4%E3%83%B3+%E3%82%AD%E3%83%A7%E3%82%A6%E3%83%88%EF%BC%89/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109d1a72e21e7:0xba300b9a8c470dee!8m2!3d35.006797!4d135.7658808!16s%2Fg%2F11xdt9cqlm?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmhRb-37iYNSLaC5aQWkYr3779h4LboxCzV4uOSIe1o9zmEdMb1MHFyTGzvwQlsgrokVDXaMXbIYO7xAuNmZ2wPQ04hCD2yKRwcFF3CQdY0kV6pG_yrqFwft7j_mpUZlD_SyTSyiNQ2KM=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmhRb-37iYNSLaC5aQWkYr3779h4LboxCzV4uOSIe1o9zmEdMb1MHFyTGzvwQlsgrokVDXaMXbIYO7xAuNmZ2wPQ04hCD2yKRwcFF3CQdY0kV6pG_yrqFwft7j_mpUZlD_SyTSyiNQ2KM=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Goldwin+Kyoto%EF%BC%88%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A6%E3%82%A4%E3%83%B3+%E3%82%AD%E3%83%A7%E3%82%A6%E3%83%88%EF%BC%89/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109d1a72e21e7:0xba300b9a8c470dee!8m2!3d35.006797!4d135.7658808!16s%2Fg%2F11xdt9cqlm?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Goldwin Kyoto（ゴールドウイン キョウト）",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 802,
+    "photoFit": "cover"
   },
   {
     "id": "chef-b5d6bc54ac4d1e",
@@ -994,11 +1111,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8113 Kyoto, Nakagyo Ward, Izutsuyacho, 409番地 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/UNITED+TOKYO+%E4%BA%AC%E9%83%BD%E6%9F%B3%E9%A6%AC%E5%A0%B4/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001096601f6af43:0x9970df44ba3834c9!8m2!3d35.0069083!4d135.7637331?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOJvNZ06Cq2Yy2irfSC0yOzaZTGd6TMA9PD9UNQuryC84FKcZt14DhaJC8SB0Ff65LomXXp5eENnV_ZLtLLcw_Uoa40c-01AyNA71YiMipX9vNclFe76YJ4l4zoSm5iQxPKPEiA8qpaAQL=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfOJvNZ06Cq2Yy2irfSC0yOzaZTGd6TMA9PD9UNQuryC84FKcZt14DhaJC8SB0Ff65LomXXp5eENnV_ZLtLLcw_Uoa40c-01AyNA71YiMipX9vNclFe76YJ4l4zoSm5iQxPKPEiA8qpaAQL=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/UNITED+TOKYO+%E4%BA%AC%E9%83%BD%E6%9F%B3%E9%A6%AC%E5%A0%B4/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001096601f6af43:0x9970df44ba3834c9!8m2!3d35.0069083!4d135.7637331?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "UNITED TOKYO 京都柳馬場",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-3c6562c007a3f5",
@@ -1019,11 +1139,14 @@ const CHEF_CATALOG=[
     "address": "312-1 Hayaocho, Shimogyo Ward, Kyoto, 600-8114日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Yamatomichi+Kyoto/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109735cd06705:0x178b250621399e88!8m2!3d34.993153!4d135.7663066?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_TXDRWUqCoCroiTIuXdWBzxGqfLrrdnKYoRKon0cDVTOm24jbjC6yviiAX0piHUWUpZ6U8ZcQsyMZmcU-wxaHDNo8Y0VAPHl9dDBUVPof4Rb3AzPQovc-qQoVInJoCXJPpJrypxhExcI=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc_TXDRWUqCoCroiTIuXdWBzxGqfLrrdnKYoRKon0cDVTOm24jbjC6yviiAX0piHUWUpZ6U8ZcQsyMZmcU-wxaHDNo8Y0VAPHl9dDBUVPof4Rb3AzPQovc-qQoVInJoCXJPpJrypxhExcI=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Yamatomichi+Kyoto/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109735cd06705:0x178b250621399e88!8m2!3d34.993153!4d135.7663066?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Yamatomichi Kyoto",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-a9e810b7e1b398",
@@ -1044,11 +1167,14 @@ const CHEF_CATALOG=[
     "address": "日本〒542-0085 Osaka, Chuo Ward, Shinsaibashisuji, 1 Chome−8−3 心斎橋PARCO 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/THE+NORTH+FACE+UNLIMITED+Shinsaibashi+PARCO+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e766b1b04a9d:0xa071969b9323f7d3!8m2!3d34.6735684!4d135.5010607?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDjos7dU5MUxnba-wUTHUR2qT7rOzjsJsR6c-vewnp40JJkZl-KfmyJjAsuU8LFuc98B13S9Nl_RlF0lpq-ogbdrj-0Bh1z4nS8soXEMy0vUeKQtaKXVzMm1J9ZYv6e-rjx1jXVRaXhQw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeDjos7dU5MUxnba-wUTHUR2qT7rOzjsJsR6c-vewnp40JJkZl-KfmyJjAsuU8LFuc98B13S9Nl_RlF0lpq-ogbdrj-0Bh1z4nS8soXEMy0vUeKQtaKXVzMm1J9ZYv6e-rjx1jXVRaXhQw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/THE+NORTH+FACE+UNLIMITED+Shinsaibashi+PARCO+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e766b1b04a9d:0xa071969b9323f7d3!8m2!3d34.6735684!4d135.5010607?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "THE NORTH FACE UNLIMITED Shinsaibashi PARCO Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-717b071ec5b61b",
@@ -1069,11 +1195,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8018 Kyoto, Shimogyo Ward, Ichinocho, 251-2 寿ビルディング 1階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/min%C3%A4+perhonen+Kyoto/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xf42ddcb52fff8dc!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108bfc81957ad:0xbcb05e15423c324a!8m2!3d35.001713!4d135.7691619?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcbjR_EjvSm-_c1e56D_LNd3gedVsF5rfhr0POunAvL9Z5F_qqcLuNaWK3A2RqoptCL0tIqKbzuTLZm7BuaWA4LYtW9IZulZRfCZ9W7V1YglAQ9IQhhe3yPt2kogH4lHU1N3vUVynsXn5Rz=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcbjR_EjvSm-_c1e56D_LNd3gedVsF5rfhr0POunAvL9Z5F_qqcLuNaWK3A2RqoptCL0tIqKbzuTLZm7BuaWA4LYtW9IZulZRfCZ9W7V1YglAQ9IQhhe3yPt2kogH4lHU1N3vUVynsXn5Rz=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/min%C3%A4+perhonen+Kyoto/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xf42ddcb52fff8dc!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108bfc81957ad:0xbcb05e15423c324a!8m2!3d35.001713!4d135.7691619?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "minä perhonen Kyoto",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-45edf6c3cfe1e9",
@@ -1094,11 +1223,14 @@ const CHEF_CATALOG=[
     "address": "146 Kameyacho, Nakagyo Ward, Kyoto, 604-0865日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/YUGEN/@35.669946,65.880336,3z/data=!3m1!5s0x600108bfc8479549:0xc9cc7ad26540be54!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109357b1ea807:0x8822475b797a6652!8m2!3d35.0162055!4d135.7586171?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqBljYl5plNbPNvCYhFOz0KfdUBpZLbrCHI-MLsYsv_jGf-YYbZLGvU6k0QS07yeebjUx8aH8Tt1EltnHQmDDoiy9Q5UZPu34dicSdup13VfILE3KnA1ZzBj6srcteLrIaNhE2gQ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqBljYl5plNbPNvCYhFOz0KfdUBpZLbrCHI-MLsYsv_jGf-YYbZLGvU6k0QS07yeebjUx8aH8Tt1EltnHQmDDoiy9Q5UZPu34dicSdup13VfILE3KnA1ZzBj6srcteLrIaNhE2gQ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/YUGEN/@35.669946,65.880336,3z/data=!3m1!5s0x600108bfc8479549:0xc9cc7ad26540be54!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109357b1ea807:0x8822475b797a6652!8m2!3d35.0162055!4d135.7586171?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "YUGEN",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-63760404812b8d",
@@ -1119,11 +1251,14 @@ const CHEF_CATALOG=[
     "address": "170 Ichinocho, Nakagyo Ward, Kyoto, 604-8305日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E9%86%92/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600107fb15dd1d2f:0x844e8e428606aace!8m2!3d35.0110502!4d135.7489239!16s%2Fg%2F11vd_d8t6d?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcae5XJGyW6ghlU5p8x8d-kCabwvdWjkOYwvn8SyQKUJpRlRWHZDhODYNAVqINs-KIOj0UOhHCbRh-rHXrRoa7biVVz11lsKHpkV35qI6R4kONeVhFJ58JIaqERomwP1o2vNPQK=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcae5XJGyW6ghlU5p8x8d-kCabwvdWjkOYwvn8SyQKUJpRlRWHZDhODYNAVqINs-KIOj0UOhHCbRh-rHXrRoa7biVVz11lsKHpkV35qI6R4kONeVhFJ58JIaqERomwP1o2vNPQK=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E9%86%92/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600107fb15dd1d2f:0x844e8e428606aace!8m2!3d35.0110502!4d135.7489239!16s%2Fg%2F11vd_d8t6d?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "醒",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-f558375443572e",
@@ -1144,11 +1279,14 @@ const CHEF_CATALOG=[
     "address": "280 Enpukujimaecho, Nakagyo Ward, Kyoto, 604-8045日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/LOFTMANCOOP+KYOTO/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108941ad6fa6b:0x2260b7d5cca20c3f!8m2!3d35.0054379!4d135.7667088?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHP_BS47sSrWsVDCp529WC4oJtfS8E93YkYnAL2flbwsjFFGJTytwOn-mXgXkiHEOWz2nyg6ECehApWTfRc_MDViBH0htytW3dD1w6-cKgx6lllq-wITcRqkwYJV9TW0jpj5u6aUfqrBQ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeHP_BS47sSrWsVDCp529WC4oJtfS8E93YkYnAL2flbwsjFFGJTytwOn-mXgXkiHEOWz2nyg6ECehApWTfRc_MDViBH0htytW3dD1w6-cKgx6lllq-wITcRqkwYJV9TW0jpj5u6aUfqrBQ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/LOFTMANCOOP+KYOTO/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108941ad6fa6b:0x2260b7d5cca20c3f!8m2!3d35.0054379!4d135.7667088?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "LOFTMANCOOP KYOTO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 891,
+    "photoFit": "cover"
   },
   {
     "id": "chef-f6d6c46efa0efc",
@@ -1169,11 +1307,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8216 Kyoto, Shimogyo Ward, Higashishiokojicho, 901 京都ポルタ 南エリア B２階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E4%BA%AC%E9%83%BD%E3%83%9D%E3%83%AB%E3%82%BF/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109c3b403981d:0xd8540a598c95a44f!8m2!3d34.9860123!4d135.7587004?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLct5pkcsFuo8NRh59_BIPycJiV38PP31sksdyU80NYGnS7s86zQB6EXFrRFxIEsb0rAJotoh8MchQXkvPKdkYdW0KLt24NArh6vmZ_3sqAQ1k4V5srIqx_krSWoA1c4oW4Kf_w2pNM1v0pc=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLct5pkcsFuo8NRh59_BIPycJiV38PP31sksdyU80NYGnS7s86zQB6EXFrRFxIEsb0rAJotoh8MchQXkvPKdkYdW0KLt24NArh6vmZ_3sqAQ1k4V5srIqx_krSWoA1c4oW4Kf_w2pNM1v0pc=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E4%BA%AC%E9%83%BD%E3%83%9D%E3%83%AB%E3%82%BF/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109c3b403981d:0xd8540a598c95a44f!8m2!3d34.9860123!4d135.7587004?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "AKOMEYA TOKYO 京都ポルタ",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-4d2b1f2f062f4b",
@@ -1194,11 +1335,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8520 Kyoto, Shimogyo Ward, Shincho, 52 京都高島屋 2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/RIMOWA+Kyoto+Takashimaya/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108957833f753:0x8d43adf3a1a8ad49!8m2!3d35.0031777!4d135.7685026?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3DEPfZtp8CSBesOpHMNur-FNf0U9bWk5Q5F-l1iXyB04pqXsWHhEPrOVI4QmdQJymHG9EasHGPBecnR0QIw8f0qM7n--Fk3Ka4sz4xm33rttbjsQtpoQP8PkTAkCNTToFeVHbsA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3DEPfZtp8CSBesOpHMNur-FNf0U9bWk5Q5F-l1iXyB04pqXsWHhEPrOVI4QmdQJymHG9EasHGPBecnR0QIw8f0qM7n--Fk3Ka4sz4xm33rttbjsQtpoQP8PkTAkCNTToFeVHbsA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/RIMOWA+Kyoto+Takashimaya/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108957833f753:0x8d43adf3a1a8ad49!8m2!3d35.0031777!4d135.7685026?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "RIMOWA Kyoto Takashimaya",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-b4d19df9fcd456",
@@ -1219,11 +1363,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8001 Kyoto, Shimogyo Ward, Shincho, 52 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Marukyu+Koyamaen+Kyoto+Takashimaya/@35.669946,65.880336,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010895713a9571:0x498c3c2b9c343393!8m2!3d35.0035638!4d135.7690695!16s%2Fg%2F11cscckmg7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLexDr84WouOz7l2Zg3LQS_YZFCflJp1VCdwF_urNWYyTSuGXXZkHwTZErwE-Ju5qDz9hYZRR-yQ4WfSiBZsPhhTPrEhDiDqqqc1m9u5ACyUDugg2mAhMyviTCpaXUmys3UIWiE=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLexDr84WouOz7l2Zg3LQS_YZFCflJp1VCdwF_urNWYyTSuGXXZkHwTZErwE-Ju5qDz9hYZRR-yQ4WfSiBZsPhhTPrEhDiDqqqc1m9u5ACyUDugg2mAhMyviTCpaXUmys3UIWiE=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Marukyu+Koyamaen+Kyoto+Takashimaya/@35.669946,65.880336,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010895713a9571:0x498c3c2b9c343393!8m2!3d35.0035638!4d135.7690695!16s%2Fg%2F11cscckmg7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Marukyu Koyamaen Kyoto Takashimaya",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1052,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-0dbb70542e645e",
@@ -1244,11 +1391,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8277 Kyoto, Nakagyo Ward, Sanbonishitoincho, ５６１ 西側 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Marukyu+Koyamaen+-+Nishinotoin+%2F+Sabo+Moto-an/@35.669946,65.880336,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108817006aaab:0x40e7c7877fa80375!8m2!3d35.0101425!4d135.7550496?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLemvJZaXJy8AIiBspIanXeVCgPefpyfDrXMsg-V7hrhOXDJ8-8Tk7BZAXZ0yETqR23vvPuBSjPTg0NtvZb7urerfYenSgE7Kga3w18x-5PzO8pC__NxZ37SBVFX6RjoJM_Joty3=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLemvJZaXJy8AIiBspIanXeVCgPefpyfDrXMsg-V7hrhOXDJ8-8Tk7BZAXZ0yETqR23vvPuBSjPTg0NtvZb7urerfYenSgE7Kga3w18x-5PzO8pC__NxZ37SBVFX6RjoJM_Joty3=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Marukyu+Koyamaen+-+Nishinotoin+%2F+Sabo+Moto-an/@35.669946,65.880336,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108817006aaab:0x40e7c7877fa80375!8m2!3d35.0101425!4d135.7550496?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Marukyu Koyamaen - Nishinotoin / Sabo Moto-an",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-1f5e0e6199d3ef",
@@ -1269,11 +1419,14 @@ const CHEF_CATALOG=[
     "address": "480 Kiyoicho, Higashiyama Ward, Kyoto, 605-0821日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/SOWAKA/@35.669946,65.880336,3z/data=!4m12!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m8!1s0x600108c48906406b:0x2a47cc1216348b24!5m2!4m1!1i2!8m2!3d35.0017701!4d135.7784897!16s%2Fg%2F11f7sz32b3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW28DsxAA1gstXmcrQfQaIuCQi7Ags9uxCXXWCJ9bmDiLvtmEyEh7zIAnoFgKaw-fr6ReLWXjmFiMHw8ysmjjttnVQDPVTUA1AiJ03UHUIiz-lZNkFTPJFsW_c6qKjwYseoXVKaqH98WOjuVCcU3dNGq3LzhKcjzEoBQyYu9XjoH2P0o1FSN7r_u=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW28DsxAA1gstXmcrQfQaIuCQi7Ags9uxCXXWCJ9bmDiLvtmEyEh7zIAnoFgKaw-fr6ReLWXjmFiMHw8ysmjjttnVQDPVTUA1AiJ03UHUIiz-lZNkFTPJFsW_c6qKjwYseoXVKaqH98WOjuVCcU3dNGq3LzhKcjzEoBQyYu9XjoH2P0o1FSN7r_u=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/SOWAKA/@35.669946,65.880336,3z/data=!4m12!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m8!1s0x600108c48906406b:0x2a47cc1216348b24!5m2!4m1!1i2!8m2!3d35.0017701!4d135.7784897!16s%2Fg%2F11f7sz32b3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "SOWAKA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 678,
+    "photoHeight": 452,
+    "photoFit": "cover"
   },
   {
     "id": "chef-c2bc1711b2c3e4",
@@ -1294,11 +1447,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8091 Kyoto, Nakagyo Ward, Shimohonnojimaecho, 492−1 ゼスト御池 B1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kaldi+coffee+farm+Zest+Oike+shop/@35.669946,65.880336,3z/data=!3m1!5s0x6001089277c38a2b:0x486cece433842af8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089244a094b1:0x62adf8f99d39f218!8m2!3d35.0106653!4d135.7659187!16s%2Fg%2F1pv5wd4rt?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZL-60J3iCVg_pgdYIPWxuHqVtySCfIN5aLgmrbez_D0JF_azQRKupawsfwZJWqJA1LDNMC-MyzAMXcNvyd_w0pP6ebIX5Pm3d9zjrbHMMDJ80OFeM2t0LAd6_6tec4OpyFj6IJ52T73dI=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcZL-60J3iCVg_pgdYIPWxuHqVtySCfIN5aLgmrbez_D0JF_azQRKupawsfwZJWqJA1LDNMC-MyzAMXcNvyd_w0pP6ebIX5Pm3d9zjrbHMMDJ80OFeM2t0LAd6_6tec4OpyFj6IJ52T73dI=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kaldi+coffee+farm+Zest+Oike+shop/@35.669946,65.880336,3z/data=!3m1!5s0x6001089277c38a2b:0x486cece433842af8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089244a094b1:0x62adf8f99d39f218!8m2!3d35.0106653!4d135.7659187!16s%2Fg%2F1pv5wd4rt?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kaldi coffee farm Zest Oike shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-c5c21cce765469",
@@ -1319,11 +1475,14 @@ const CHEF_CATALOG=[
     "address": "日本〒542-0085 Osaka, Chuo Ward, Shinsaibashisuji, 1 Chome−8−3 心斎橋パルコ 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xe3794844a56a159c!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e788a80698e9:0x259100d3a108f771!8m2!3d34.6737487!4d135.5007921!16s%2Fg%2F11n5nnll_2?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPupVruZz17jusH0X3NArN2vH7_lqAMjMQqRgsGtET9h_Cxa-BFmy87Oehgn20GMX7L63jakkzFfxaefQ1dsG0VRU8zZcdRcY-eHWvxOk1N5LrE_xLo5gVqQExQ7b6atN9whvG=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfPupVruZz17jusH0X3NArN2vH7_lqAMjMQqRgsGtET9h_Cxa-BFmy87Oehgn20GMX7L63jakkzFfxaefQ1dsG0VRU8zZcdRcY-eHWvxOk1N5LrE_xLo5gVqQExQ7b6atN9whvG=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xe3794844a56a159c!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e788a80698e9:0x259100d3a108f771!8m2!3d34.6737487!4d135.5007921!16s%2Fg%2F11n5nnll_2?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "CA4LA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 800,
+    "photoHeight": 800,
+    "photoFit": "contain"
   },
   {
     "id": "chef-e30a7c7e2e24be",
@@ -1344,11 +1503,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-8350 Osaka, Kita Ward, Kakudacho, 8−7 阪急百貨店うめだ本店 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xe3794844a56a159c!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e692f63e3677:0x12b1dcd6b62ac25c!8m2!3d34.7028682!4d135.4984666?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePTVopRT9F1gwAeQYHQpVIZwvKphSBBboZpRVixuUEkpG9qw8lPXIuZId3J7M0LkOGsJItPf0WCi_HCy5YitSYmJAfnBi3i-ZIT5J9CQ2pSuRYzncWL3vqs6bLPOAB_Ojqfs2wTA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePTVopRT9F1gwAeQYHQpVIZwvKphSBBboZpRVixuUEkpG9qw8lPXIuZId3J7M0LkOGsJItPf0WCi_HCy5YitSYmJAfnBi3i-ZIT5J9CQ2pSuRYzncWL3vqs6bLPOAB_Ojqfs2wTA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e710dadccabd:0xe3794844a56a159c!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e692f63e3677:0x12b1dcd6b62ac25c!8m2!3d34.7028682!4d135.4984666?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "CA4LA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-2e46eac4c4f4ea",
@@ -1369,11 +1531,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-0001 Osaka, Kita Ward, Umeda, 3 Chome−1−3 ルクア 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e692f794e66b:0x4ceb5b05a8d60a30!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68df19df715:0x15ea16d63f4cdcf6!8m2!3d34.7034516!4d135.496468?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePzvLIJ6Qgd1jQY9gH9DDxudnzpoPaTwmBfOjjrQPxtQRb49kOXU8DwMa8XEx5y3l1Ic9UGnPzqyxSqhDVfdKTNS8IrmOVtdsVGUPB_XUYr-lYSG_xuB0XbvlCXkuQos-s0X9f=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePzvLIJ6Qgd1jQY9gH9DDxudnzpoPaTwmBfOjjrQPxtQRb49kOXU8DwMa8XEx5y3l1Ic9UGnPzqyxSqhDVfdKTNS8IrmOVtdsVGUPB_XUYr-lYSG_xuB0XbvlCXkuQos-s0X9f=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/CA4LA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e692f794e66b:0x4ceb5b05a8d60a30!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68df19df715:0x15ea16d63f4cdcf6!8m2!3d34.7034516!4d135.496468?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "CA4LA",
-    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。"
+    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-3666145f6ffb3b",
@@ -1394,11 +1559,14 @@ const CHEF_CATALOG=[
     "address": "18-1 Fujikicho, Nakagyo Ward, Kyoto, 604-0992日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%EF%BC%88%E6%A0%AA%EF%BC%89%E4%BB%81%E7%A7%80/@35.669946,65.880336,3z/data=!3m1!5s0x6001088beee917bb:0x259ace1493c17aa3!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088beed70015:0x779a009031bd1b16!8m2!3d35.0157879!4d135.7673992!16s%2Fg%2F11f122xfzw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrtRbVdP4etX8qfe_ufeDFCkh-igrRCd9QMzNrbR_GR9ave0nuWo2ObOzttO3lou-EVxBZCTyEjt9ZXu_edy4tUNpyn3zm-QN7PU1qXcGgYuY1aPNUCB0RX51iis0h2MCjMCJxkWz72yW7=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcrtRbVdP4etX8qfe_ufeDFCkh-igrRCd9QMzNrbR_GR9ave0nuWo2ObOzttO3lou-EVxBZCTyEjt9ZXu_edy4tUNpyn3zm-QN7PU1qXcGgYuY1aPNUCB0RX51iis0h2MCjMCJxkWz72yW7=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%EF%BC%88%E6%A0%AA%EF%BC%89%E4%BB%81%E7%A7%80/@35.669946,65.880336,3z/data=!3m1!5s0x6001088beee917bb:0x259ace1493c17aa3!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088beed70015:0x779a009031bd1b16!8m2!3d35.0157879!4d135.7673992!16s%2Fg%2F11f122xfzw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "（株）仁秀",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-97ae0fc8dcd5c9",
@@ -1419,11 +1587,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-8558 Osaka, Kita Ward, Umeda, 3 Chome−1−3 ルクア大阪 4F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/gelato+pique+Lucua+Osaka+Store/@35.669946,65.880336,3z/data=!3m1!5s0x6001088beee917bb:0x259ace1493c17aa3!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68de951cd33:0xade4770de4d9c2f8!8m2!3d34.7032124!4d135.4959955?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUpbeitbBq6szhqPdL53z_n-2ia09IiOpmTk6TlagHuHoSeX_VRFYJ9mqEqklUqikkz1UqqRUCcHeR7onsbI_P5oOOydOdyP5oqqsl1eZ2LHvckJiDkkufzfW4DOwAV45f7Nv6_NvVGoA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfUpbeitbBq6szhqPdL53z_n-2ia09IiOpmTk6TlagHuHoSeX_VRFYJ9mqEqklUqikkz1UqqRUCcHeR7onsbI_P5oOOydOdyP5oqqsl1eZ2LHvckJiDkkufzfW4DOwAV45f7Nv6_NvVGoA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/gelato+pique+Lucua+Osaka+Store/@35.669946,65.880336,3z/data=!3m1!5s0x6001088beee917bb:0x259ace1493c17aa3!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68de951cd33:0xade4770de4d9c2f8!8m2!3d34.7032124!4d135.4959955?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "gelato pique Lucua Osaka Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 688,
+    "photoHeight": 387,
+    "photoFit": "cover"
   },
   {
     "id": "chef-55c2ad76f568cb",
@@ -1444,11 +1615,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-0017 Osaka, Kita Ward, Kakudacho, 3−25 梅田エスト 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/gelato+pique/@35.669946,65.880336,3z/data=!3m1!5s0x6000e693bf195f27:0x4ceb5b055feae400!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e693b1a75b75:0xf79ce22638591912!8m2!3d34.7041659!4d135.4996599!16s%2Fg%2F11gxs61t46?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLftQeN48WEaidmB5uGHOv14DF-JUHFU8a7OXOXLVerX7O7eVhbwFb9atYPDDvxM_Yl3Mkr35p_ZrU07vFxk3QfLd7dlkReo7xBgKb2bTOKTYz_6683aGKpKYoaGhBDJwtzzqMqHFA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLftQeN48WEaidmB5uGHOv14DF-JUHFU8a7OXOXLVerX7O7eVhbwFb9atYPDDvxM_Yl3Mkr35p_ZrU07vFxk3QfLd7dlkReo7xBgKb2bTOKTYz_6683aGKpKYoaGhBDJwtzzqMqHFA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/gelato+pique/@35.669946,65.880336,3z/data=!3m1!5s0x6000e693bf195f27:0x4ceb5b055feae400!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e693b1a75b75:0xf79ce22638591912!8m2!3d34.7041659!4d135.4996599!16s%2Fg%2F11gxs61t46?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "gelato pique",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-f8f3df28698337",
@@ -1469,11 +1643,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-0017 Osaka, Kita Ward, Kakudacho, 3−25 梅田エスト 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/gelato+pique/@35.669946,65.880336,3z/data=!3m1!5s0x6000e693bf195f27:0x4ceb5b055feae400!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e692589e4ffb:0x92d7abb0e84e75dc!8m2!3d34.7028174!4d135.4985326?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLgHdt7MyhOtaP-rq-n1UDNEGuOaVcJL7NnPCdmVP1WbB5LTb_n9CVr4bsGj9q3OpIho-O_qVwfMKeYgRO2d3ES6mUH6YZHwb43-2Htf-3nzAb1W9rDPFTmlRw3auI0Z0dX1L5KQoRUevk=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeLgHdt7MyhOtaP-rq-n1UDNEGuOaVcJL7NnPCdmVP1WbB5LTb_n9CVr4bsGj9q3OpIho-O_qVwfMKeYgRO2d3ES6mUH6YZHwb43-2Htf-3nzAb1W9rDPFTmlRw3auI0Z0dX1L5KQoRUevk=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/gelato+pique/@35.669946,65.880336,3z/data=!3m1!5s0x6000e693bf195f27:0x4ceb5b055feae400!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e692589e4ffb:0x92d7abb0e84e75dc!8m2!3d34.7028174!4d135.4985326?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "gelato pique",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 700,
+    "photoHeight": 394,
+    "photoFit": "cover"
   },
   {
     "id": "chef-685198db49ae29",
@@ -1494,11 +1671,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8216 Kyoto, Shimogyo Ward, Higashishiokojicho, 902番地 B1F 西 エリア ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Gelato+Pique/@35.669946,65.880336,3z/data=!3m1!5s0x600108aed0b624b9:0x486cece4a59d26e6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108ae607f0b19:0x218eda54ec4b0883!8m2!3d34.9867119!4d135.7597486!16s%2Fg%2F11bwny5gd0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjNIZle_F2IHFYxxdKfsJ5BHi2j3ua_CSluqiEimOEdfgcXxPYHY4gvHRvsLpYhtenwFEHaCtlgSs0xWtCcygVSkTsAzNqMvpfdLBtR8rQ5h8Vvz1bEQEMVwjRGReTQGNIUPp2AJXMEdvt=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcjNIZle_F2IHFYxxdKfsJ5BHi2j3ua_CSluqiEimOEdfgcXxPYHY4gvHRvsLpYhtenwFEHaCtlgSs0xWtCcygVSkTsAzNqMvpfdLBtR8rQ5h8Vvz1bEQEMVwjRGReTQGNIUPp2AJXMEdvt=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Gelato+Pique/@35.669946,65.880336,3z/data=!3m1!5s0x600108aed0b624b9:0x486cece4a59d26e6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108ae607f0b19:0x218eda54ec4b0883!8m2!3d34.9867119!4d135.7597486!16s%2Fg%2F11bwny5gd0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Gelato Pique",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-d1ab46166b568e",
@@ -1519,11 +1699,14 @@ const CHEF_CATALOG=[
     "address": "605 Teianmaenocho, Shimogyo Ward, Kyoto, 600-8031日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Fujii+Daimaru/@35.669946,65.880336,3z/data=!3m1!5s0x600108aed0b624b9:0x486cece4a59d26e6!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010895d72c4e69:0x14ebfa1b44656508!8m2!3d35.0034351!4d135.7666397?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW_k3yWLXOHVceu7rNIX24XYAMk0QSKRR_SkuaCAfnbVhx627onAIpMHUdHNi_W6ruxMlNvHHAzpQ8fwWIldTexpHSktV_YRZgf5hic1X3_GGubMysyJY6t5MT3BHUYXf5_7_zBXP-qClY=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeW_k3yWLXOHVceu7rNIX24XYAMk0QSKRR_SkuaCAfnbVhx627onAIpMHUdHNi_W6ruxMlNvHHAzpQ8fwWIldTexpHSktV_YRZgf5hic1X3_GGubMysyJY6t5MT3BHUYXf5_7_zBXP-qClY=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Fujii+Daimaru/@35.669946,65.880336,3z/data=!3m1!5s0x600108aed0b624b9:0x486cece4a59d26e6!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010895d72c4e69:0x14ebfa1b44656508!8m2!3d35.0034351!4d135.7666397?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Fujii Daimaru",
-    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。"
+    "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
+    "photoWidth": 748,
+    "photoHeight": 599,
+    "photoFit": "cover"
   },
   {
     "id": "chef-41df74906a1f92",
@@ -1544,11 +1727,14 @@ const CHEF_CATALOG=[
     "address": "715-1 Yohojimaecho, Nakagyo Ward, Kyoto, 604-0916日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Hakuhodo+Flagship+Shop/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088c16be40b5:0x4de596f96df036e1!8m2!3d35.0142111!4d135.7671433!16s%2Fg%2F11bccm50tw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLecBypxFCQ3Sk8svvAzMSqyAb0Txs-IBBAQEe8LEzTiiTd7LMoh7M_akdYGufUr0y5oesvbIO_yfBYwFPMS7xQPsB4Hf-ufHb8ed4mgtPU5Jm4h5SgZFSdEiulNLs1oUPJ3KNnF=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLecBypxFCQ3Sk8svvAzMSqyAb0Txs-IBBAQEe8LEzTiiTd7LMoh7M_akdYGufUr0y5oesvbIO_yfBYwFPMS7xQPsB4Hf-ufHb8ed4mgtPU5Jm4h5SgZFSdEiulNLs1oUPJ3KNnF=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Hakuhodo+Flagship+Shop/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088c16be40b5:0x4de596f96df036e1!8m2!3d35.0142111!4d135.7671433!16s%2Fg%2F11bccm50tw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Hakuhodo Flagship Shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-155b16480d02cc",
@@ -1569,11 +1755,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-0005 Osaka, Kita Ward, Nakanoshima, 3 Chome−2−4 フェスティバルタワー・ウエスト 1階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GLITCH+COFFEE+OSAKA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e6f1b95eac55:0x9540378023841450!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e78bd885cc2d:0x5e7647f26e6d6e9c!8m2!3d34.6934048!4d135.4955867!16s%2Fg%2F11rvgcrtms?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd26NnbjXPFgfoAFvQ08lnaCudB-E-qK3S76JqfbR4wiEQawa-cY73XoseckBztYQu-8DesGibgJrDYfQ1u6s7IyeJ7TJKT7jKPBj7KEbu39KO46paYsFDHSziUECvZrEv4pHGwwg=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd26NnbjXPFgfoAFvQ08lnaCudB-E-qK3S76JqfbR4wiEQawa-cY73XoseckBztYQu-8DesGibgJrDYfQ1u6s7IyeJ7TJKT7jKPBj7KEbu39KO46paYsFDHSziUECvZrEv4pHGwwg=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/GLITCH+COFFEE+OSAKA/@35.669946,65.880336,3z/data=!3m1!5s0x6000e6f1b95eac55:0x9540378023841450!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e78bd885cc2d:0x5e7647f26e6d6e9c!8m2!3d34.6934048!4d135.4955867!16s%2Fg%2F11rvgcrtms?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "GLITCH COFFEE OSAKA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 799,
+    "photoFit": "cover"
   },
   {
     "id": "chef-566dfca913bfe2",
@@ -1594,11 +1783,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-5-1 Roppongi, Minato City, Tokyo 106-0032日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HARIO+CAFE+SEN-OKU+HAKUKOKANMUSEUM+TOKYO/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bc87f4d67af:0x8abf931a2851568c!8m2!3d35.6649614!4d139.7410157!16s%2Fg%2F11rd4hwzs7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdmmfXFKFh-picPovRCtOiyjUlIM0dBz0xKmU9k4GtJTHVRGZSLJ6TzT6watsSrpFssJ7f36ahZWdVp6g6WZ57PfhWZCAJGVIGpRZ8itd-umaHRey-n1HyHaJTaRbVj2rA7aIk8Ghb7c8rn=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdmmfXFKFh-picPovRCtOiyjUlIM0dBz0xKmU9k4GtJTHVRGZSLJ6TzT6watsSrpFssJ7f36ahZWdVp6g6WZ57PfhWZCAJGVIGpRZ8itd-umaHRey-n1HyHaJTaRbVj2rA7aIk8Ghb7c8rn=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/HARIO+CAFE+SEN-OKU+HAKUKOKANMUSEUM+TOKYO/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188bc87f4d67af:0x8abf931a2851568c!8m2!3d35.6649614!4d139.7410157!16s%2Fg%2F11rd4hwzs7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "HARIO CAFE SEN-OKU HAKUKOKANMUSEUM TOKYO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-5598a143437715",
@@ -1619,11 +1811,14 @@ const CHEF_CATALOG=[
     "address": "日本〒605-0825 Kyoto, Higashiyama Ward, Shimokawaracho, 463-17 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HARIO+CAFE+Kyoto+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001090075ff724b:0xf152dcdd498f092a!8m2!3d35.0006713!4d135.7791394?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqr-bSnVnPm0NIkJn9cSkGWuGpNK-cwkL28YP9CNKaXzdV1ao28yB1W5FnvenYZzErXWKkeg10H8YO9JR_GoDjbCqd-yZODKd0DVtZHzJ2lxAXecNgNeqxBej3Ce6ygaYtWLmZC3zqTPVu=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeqr-bSnVnPm0NIkJn9cSkGWuGpNK-cwkL28YP9CNKaXzdV1ao28yB1W5FnvenYZzErXWKkeg10H8YO9JR_GoDjbCqd-yZODKd0DVtZHzJ2lxAXecNgNeqxBej3Ce6ygaYtWLmZC3zqTPVu=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/HARIO+CAFE+Kyoto+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001090075ff724b:0xf152dcdd498f092a!8m2!3d35.0006713!4d135.7791394?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "HARIO CAFE Kyoto Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-e42d6027f46647",
@@ -1644,11 +1839,14 @@ const CHEF_CATALOG=[
     "address": "日本〒542-0076 Osaka, Chuo Ward, Namba, 5 Chome−1−60 なんばスカイオ 三階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Ikari+Nankai+Namba+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7fb67095df9:0x2a741bee91eca0eb!8m2!3d34.664053!4d135.5006491?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5cRFoCVyFF8PPDYZWjEeFfCK65bT0Sv-g8lQm4jjd3fTI5EkIHsEViQegZ4x1hPSZiH3F5yyV7AQdmOYSdTyM_mouzuKFnFGhvvo1fBxNA-8k6JvMhfUk1uxBfPe-k1zVL5BMICijjDbG=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5cRFoCVyFF8PPDYZWjEeFfCK65bT0Sv-g8lQm4jjd3fTI5EkIHsEViQegZ4x1hPSZiH3F5yyV7AQdmOYSdTyM_mouzuKFnFGhvvo1fBxNA-8k6JvMhfUk1uxBfPe-k1zVL5BMICijjDbG=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Ikari+Nankai+Namba+Store/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7fb67095df9:0x2a741bee91eca0eb!8m2!3d34.664053!4d135.5006491?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Ikari Nankai Namba Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-2ff73015a725cb",
@@ -1669,11 +1867,14 @@ const CHEF_CATALOG=[
     "address": "251 Yamazakicho, Nakagyo Ward, Kyoto, 604-8032日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kyoto+BAL/@35.669946,65.880336,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089499c00001:0x7e34e7a0ff30e108!8m2!3d35.0069369!4d135.7695294!16s%2Fg%2F11bw5v8dw6?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeCwH8fAYSqwn1FIAJbspgbHQ1gWIiUcuOhrEN3bmc-zabGISjwjT6RTjoTWVrTFnemUWRTWikLkbTjAz-6BAegxKivSQNHh2bsRog6NkN_zpNjwwA6YduhsoFPOwVy6K7HDmStt92gh-Xn=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeCwH8fAYSqwn1FIAJbspgbHQ1gWIiUcuOhrEN3bmc-zabGISjwjT6RTjoTWVrTFnemUWRTWikLkbTjAz-6BAegxKivSQNHh2bsRog6NkN_zpNjwwA6YduhsoFPOwVy6K7HDmStt92gh-Xn=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kyoto+BAL/@35.669946,65.880336,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089499c00001:0x7e34e7a0ff30e108!8m2!3d35.0069369!4d135.7695294!16s%2Fg%2F11bw5v8dw6?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kyoto BAL",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 405,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-54165a77ebc0fd",
@@ -1694,11 +1895,14 @@ const CHEF_CATALOG=[
     "address": "3 Chome-21-57 Komatsu, Higashiyodogawa Ward, Osaka, 533-0004日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Dulton+Factory+service+Osaka/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e39302fd6043:0xba642c75fdfeb32b!8m2!3d34.755834!4d135.537148!16s%2Fg%2F11c7n_t068?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5AP9dNfvWc5e37oO5iLCI7SA76cJM4awaLtdDNAdiy2LZ7zak0JsMPKU-bydJU_foVVye5G-vqbQutEPXYf3Nafe5CVIaXqLqVOgvrqKPOQLfTJtO7FpCHEIuaN2_yJMd6_8i9jFK3x_A=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc5AP9dNfvWc5e37oO5iLCI7SA76cJM4awaLtdDNAdiy2LZ7zak0JsMPKU-bydJU_foVVye5G-vqbQutEPXYf3Nafe5CVIaXqLqVOgvrqKPOQLfTJtO7FpCHEIuaN2_yJMd6_8i9jFK3x_A=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Dulton+Factory+service+Osaka/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e39302fd6043:0xba642c75fdfeb32b!8m2!3d34.755834!4d135.537148!16s%2Fg%2F11c7n_t068?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Dulton Factory service Osaka",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-b04e470c21612c",
@@ -1719,11 +1923,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8555 Kyoto, Shimogyo Ward, Higashishiokojicho ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/JR+Kyoto+Isetan/@35.669946,65.880336,3z/data=!3m1!5s0x600108aeec29d2c9:0xdb78b1e4a547310!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108aee7bbfbbb:0xe1bcf299568ad0e7!8m2!3d34.9858646!4d135.7569987!16s%2Fg%2F11cn31x7x7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfN0dA1ywSXeKvp33mPsdFgBI5BMvv8qQs8ai5rNqMd_nYsiEao3vR_OcYmebAeJgnJuPcaTru4t8tXi_SK5SaYOfWSqzyql8JhIB_ZCDHsqerrw_fyhBYL6MOwUxBTrLyGoxynlAiw4rQ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfN0dA1ywSXeKvp33mPsdFgBI5BMvv8qQs8ai5rNqMd_nYsiEao3vR_OcYmebAeJgnJuPcaTru4t8tXi_SK5SaYOfWSqzyql8JhIB_ZCDHsqerrw_fyhBYL6MOwUxBTrLyGoxynlAiw4rQ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/JR+Kyoto+Isetan/@35.669946,65.880336,3z/data=!3m1!5s0x600108aeec29d2c9:0xdb78b1e4a547310!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108aee7bbfbbb:0xe1bcf299568ad0e7!8m2!3d34.9858646!4d135.7569987!16s%2Fg%2F11cn31x7x7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "JR Kyoto Isetan",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-0b310aac9bc918",
@@ -1744,11 +1951,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-0933 Kyoto, Nakagyo Ward, 二条通御幸町東入山本町439-1 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/APFR+KYOTO/@35.669946,65.880336,3z/data=!3m1!5s0x600108aeec29d2c9:0xdb78b1e4a547310!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010915bfe19919:0xae948d117f719b20!8m2!3d35.0135775!4d135.766602?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfqhT2ksNbodV6I9s2tt7-cly_H-E9CbBjh-02Lnoo9I6n_LwuYnlJzzS8jyKDi5pqX75fB6nWcHEm3zf4yUqYSzqToLDEHeWzfy4-6SVembr9FkkBkEUblwOrwx8M66fGMWnb9Pw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfqhT2ksNbodV6I9s2tt7-cly_H-E9CbBjh-02Lnoo9I6n_LwuYnlJzzS8jyKDi5pqX75fB6nWcHEm3zf4yUqYSzqToLDEHeWzfy4-6SVembr9FkkBkEUblwOrwx8M66fGMWnb9Pw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/APFR+KYOTO/@35.669946,65.880336,3z/data=!3m1!5s0x600108aeec29d2c9:0xdb78b1e4a547310!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010915bfe19919:0xae948d117f719b20!8m2!3d35.0135775!4d135.766602?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "APFR KYOTO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 600,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-633c68f7462cf7",
@@ -1769,11 +1979,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-0915 Kyoto, Nakagyo Ward, Tokiwagicho, 52 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Ippodo+Tea+Kyoto+Main+Store/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088c136aa771:0xd15e0ef5d39417d8!8m2!3d35.0144642!4d135.7674161!16s%2Fg%2F1z44b3fcl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL9Opt60SIEluMeIYSDTyxq4zytABuuTDFUTRVuAU4M0k483twrluat9iQHf14ePZQ9A-dOE00XmK3VsQyAasRWVxv2P2mGGK6Z3P7dRinN6ju4jEhE4On33gT3faS0PI4UeMF=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL9Opt60SIEluMeIYSDTyxq4zytABuuTDFUTRVuAU4M0k483twrluat9iQHf14ePZQ9A-dOE00XmK3VsQyAasRWVxv2P2mGGK6Z3P7dRinN6ju4jEhE4On33gT3faS0PI4UeMF=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Ippodo+Tea+Kyoto+Main+Store/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088c136aa771:0xd15e0ef5d39417d8!8m2!3d35.0144642!4d135.7674161!16s%2Fg%2F1z44b3fcl?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Ippodo Tea Kyoto Main Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 724,
+    "photoFit": "cover"
   },
   {
     "id": "chef-327b8995a567a9",
@@ -1794,11 +2007,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8032 Kyoto, Nakagyo Ward, 河原町通三条下ル 山崎町251 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Madu/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010894985acc37:0xdb21b24ed989b724!8m2!3d35.0069679!4d135.7697705?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiZpPjCrA-sZfcFIf4XBmtpzEbdl2usc-lON9dOHqJ3z3HwEpylXyT3MjdNAw0PtmBRiC1JUb9DaOzvIAI5qNIBWbYSJAgLx0SHME-SerqTIyoNJA3ozTk50nXD5xLC3G9yDO8=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiZpPjCrA-sZfcFIf4XBmtpzEbdl2usc-lON9dOHqJ3z3HwEpylXyT3MjdNAw0PtmBRiC1JUb9DaOzvIAI5qNIBWbYSJAgLx0SHME-SerqTIyoNJA3ozTk50nXD5xLC3G9yDO8=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Madu/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60010894985acc37:0xdb21b24ed989b724!8m2!3d35.0069679!4d135.7697705?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Madu",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-e843bf0497d285",
@@ -1819,11 +2035,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-0001 Osaka, Kita Ward, Umeda, 2 Chome−2−22 ハービスPLAZA ENT 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Madu/@35.669946,65.880336,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea1568b6224!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68d2708b815:0x9870f9c739905504!8m2!3d34.6996678!4d135.494703?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1BjFjQfXlyPlNjNYH4qN5ZXKxy3nU9fwUhQVfy1pigWTivh4RyAdWc21F8JohwNrjmsA-xxqNgUU1UWfnLDIyDQbdc4vMv_5sOX7s3IJOP2F_V88t7uwQFP7-6KBN_8DbQFrRGw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1BjFjQfXlyPlNjNYH4qN5ZXKxy3nU9fwUhQVfy1pigWTivh4RyAdWc21F8JohwNrjmsA-xxqNgUU1UWfnLDIyDQbdc4vMv_5sOX7s3IJOP2F_V88t7uwQFP7-6KBN_8DbQFrRGw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Madu/@35.669946,65.880336,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea1568b6224!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68d2708b815:0x9870f9c739905504!8m2!3d34.6996678!4d135.494703?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Madu",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-41ff8ca8541962",
@@ -1844,11 +2063,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-7-1 Shinsaibashisuji, Chuo Ward, Osaka, 542-8501日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Daimaru+Shinsaibashi/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68d2720c7c1:0x486cece4b27c2e74!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7114a61ec67:0xadd23a3359490a1f!8m2!3d34.6732406!4d135.5009613?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLebWZCB70q_owHc3ry2Cp-f6Pz8YRwCHy__OsXilVDdd4nsw3a4uV5_9FhDwigoUZj_OhhzqJ_XTQhF3tPJ3iES7OVNj_XcUJPeX8HPwHRC6X78tuiwnkPB6atsjjdAEMxUZ6jeeZhWFXia=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLebWZCB70q_owHc3ry2Cp-f6Pz8YRwCHy__OsXilVDdd4nsw3a4uV5_9FhDwigoUZj_OhhzqJ_XTQhF3tPJ3iES7OVNj_XcUJPeX8HPwHRC6X78tuiwnkPB6atsjjdAEMxUZ6jeeZhWFXia=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Daimaru+Shinsaibashi/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68d2720c7c1:0x486cece4b27c2e74!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7114a61ec67:0xadd23a3359490a1f!8m2!3d34.6732406!4d135.5009613?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Daimaru Shinsaibashi",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-78161e89f830af",
@@ -1869,11 +2091,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8003 Kyoto, Shimogyo Ward, Otabimiyamotocho, ３番地 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E6%9E%97%E4%B8%87%E6%98%8C%E5%A0%82/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010895cd108dc9:0x6f18fe63996b6be1!8m2!3d35.0038389!4d135.7670012!16s%2Fg%2F1q5bnqsw_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3dx46URvLyTnHj2W23zNohJyPZ2CuBN1jx4kNzhNAySvGv18T6Ea-jra-JwQLk4r9Z2xe7U7zHnQJS7hM_KrNzREFBelahtiF_7Gm-yc98TZ50eZZiLhnxPWaTkleqYmZgLvxOksschS_=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3dx46URvLyTnHj2W23zNohJyPZ2CuBN1jx4kNzhNAySvGv18T6Ea-jra-JwQLk4r9Z2xe7U7zHnQJS7hM_KrNzREFBelahtiF_7Gm-yc98TZ50eZZiLhnxPWaTkleqYmZgLvxOksschS_=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E6%9E%97%E4%B8%87%E6%98%8C%E5%A0%82/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010895cd108dc9:0x6f18fe63996b6be1!8m2!3d35.0038389!4d135.7670012!16s%2Fg%2F1q5bnqsw_?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "林万昌堂",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-d5d3e437e1a7a1",
@@ -1894,11 +2119,14 @@ const CHEF_CATALOG=[
     "address": "日本〒606-8344 Kyoto, Sakyo Ward, Okazaki Enshojicho, 36-1 2f ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/essence+kyoto/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010996b1202019:0xfce0542f45024fe2!8m2!3d35.0117593!4d135.7807015!16s%2Fg%2F11gt9n68cb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd14HzdE1EhX3mHbboGoLbH4bp3f0BZbWw7rM3g3MHtPfhf0Y6MJmHGyykb1X6JuCPYD2Ti92PTtAEe0jubc_hV6pghPPsY-sFUN2HGdU5XGBU2gWUdKN88gxkNQ2ddHDhDDXWghaLNXo5Y=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd14HzdE1EhX3mHbboGoLbH4bp3f0BZbWw7rM3g3MHtPfhf0Y6MJmHGyykb1X6JuCPYD2Ti92PTtAEe0jubc_hV6pghPPsY-sFUN2HGdU5XGBU2gWUdKN88gxkNQ2ddHDhDDXWghaLNXo5Y=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/essence+kyoto/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010996b1202019:0xfce0542f45024fe2!8m2!3d35.0117593!4d135.7807015!16s%2Fg%2F11gt9n68cb?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "essence kyoto",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-aec20a2f9447a0",
@@ -1919,11 +2147,14 @@ const CHEF_CATALOG=[
     "address": "3-11 Nishiyamacho, Ashiya, Hyogo 659-0083日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E3%81%86%E3%81%A4%E3%82%8F%E3%82%AF%E3%82%A6%EF%BC%8F%EF%BC%88%E6%A0%AA%EF%BC%89%E3%83%9F%E3%82%B8%E3%83%A5%E3%83%84/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60008cd4c3578cb1:0xc41df0e725034308!8m2!3d34.7355681!4d135.2985117?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf29olXL8bTeAHZuuVpIqJs8VYu8l83_z1cAISfKn6657cfhPQJ5_eH7LuF_vUFoud8PvcyBr_96iCnvzB3vt_7y_GvNbGkluelzWBkGA8GHDwi3KcZNojgZQN7fsesQhEQN1R9=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf29olXL8bTeAHZuuVpIqJs8VYu8l83_z1cAISfKn6657cfhPQJ5_eH7LuF_vUFoud8PvcyBr_96iCnvzB3vt_7y_GvNbGkluelzWBkGA8GHDwi3KcZNojgZQN7fsesQhEQN1R9=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E3%81%86%E3%81%A4%E3%82%8F%E3%82%AF%E3%82%A6%EF%BC%8F%EF%BC%88%E6%A0%AA%EF%BC%89%E3%83%9F%E3%82%B8%E3%83%A5%E3%83%84/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60008cd4c3578cb1:0xc41df0e725034308!8m2!3d34.7355681!4d135.2985117?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "うつわクウ／（株）ミジュツ",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-5255a0fb0683bf",
@@ -1944,11 +2175,14 @@ const CHEF_CATALOG=[
     "address": "263-1 Sanjoomiyacho, Nakagyo Ward, Kyoto, 604-8336日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Utsuwaya+Saisai/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001089b122e19c9:0x5073867cb6a560e4!8m2!3d35.0079725!4d135.7489848?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIClrwT6t5SeIdbSCYRAB3Eux_-1jeXHckdy4eRc43bTXQFpuiO4SDFxuibT6gaIH9UsgdzdyfBX64CDVKPA-hJnEpHyq35paxt0N-lD5WZnAUkbEikT4bsThzoPuhVSP9omSa=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeIClrwT6t5SeIdbSCYRAB3Eux_-1jeXHckdy4eRc43bTXQFpuiO4SDFxuibT6gaIH9UsgdzdyfBX64CDVKPA-hJnEpHyq35paxt0N-lD5WZnAUkbEikT4bsThzoPuhVSP9omSa=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Utsuwaya+Saisai/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001089b122e19c9:0x5073867cb6a560e4!8m2!3d35.0079725!4d135.7489848?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Utsuwaya Saisai",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 900,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-410bf60d9674a2",
@@ -1969,11 +2203,14 @@ const CHEF_CATALOG=[
     "address": "50-1 Okazaki Kitagoshocho, Sakyo Ward, Kyoto, 606-8336日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Ouchi/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108e4850a57e1:0x7e6e3600bf5b90f1!8m2!3d35.0168911!4d135.7847989!16s%2Fg%2F11bx1s7yzz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLelXYCITsHLBsx27eIvAPBXuVECdQO9omdUWX-QPn6JfoVrzjNlJAhAd8vT9medUyo9iXBTfCKE9aXTXltuhzkxsTP_LE96L6om_gvloLMAqcYMeowCwCdCmJN0CPjQHOEpMNq4vg=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLelXYCITsHLBsx27eIvAPBXuVECdQO9omdUWX-QPn6JfoVrzjNlJAhAd8vT9medUyo9iXBTfCKE9aXTXltuhzkxsTP_LE96L6om_gvloLMAqcYMeowCwCdCmJN0CPjQHOEpMNq4vg=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Ouchi/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108e4850a57e1:0x7e6e3600bf5b90f1!8m2!3d35.0168911!4d135.7847989!16s%2Fg%2F11bx1s7yzz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Ouchi",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-4f7f9b10076dda",
@@ -1994,11 +2231,14 @@ const CHEF_CATALOG=[
     "address": "日本〒530-8224 Osaka, Kita Ward, Umeda, 1 Chome−13−13 阪神梅田本店 2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KANEKO+GANKYO-TEN+Hanshin+Umeda+Main+Store/@35.669946,65.880336,3z/data=!3m1!5s0x6000e692bc3ad619:0x4ceb5b053b7e3406!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e7f17e449c5f:0x68bb37091c875ca8!8m2!3d34.7010777!4d135.4976527!16s%2Fg%2F11ry9zms06?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekxX7Lyqu0gULn6h1zWNLoE6ZVmUxZM7zLUF8M5GbOyH69uCOJyBiQi3mrk_s-wUH9DXpWhzWvcOnx-_N0k4oE-2zxzTGGHm9KfA8evhcds9dl0S3EPvnBT6U4bwrHFBrByA1a=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekxX7Lyqu0gULn6h1zWNLoE6ZVmUxZM7zLUF8M5GbOyH69uCOJyBiQi3mrk_s-wUH9DXpWhzWvcOnx-_N0k4oE-2zxzTGGHm9KfA8evhcds9dl0S3EPvnBT6U4bwrHFBrByA1a=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/KANEKO+GANKYO-TEN+Hanshin+Umeda+Main+Store/@35.669946,65.880336,3z/data=!3m1!5s0x6000e692bc3ad619:0x4ceb5b053b7e3406!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e7f17e449c5f:0x68bb37091c875ca8!8m2!3d34.7010777!4d135.4976527!16s%2Fg%2F11ry9zms06?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "KANEKO GANKYO-TEN Hanshin Umeda Main Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1024,
+    "photoHeight": 684,
+    "photoFit": "cover"
   },
   {
     "id": "chef-62f61ffe0e1076",
@@ -2019,11 +2259,14 @@ const CHEF_CATALOG=[
     "address": "538 Victoria St, New Westminster, BC V3L 0J2加拿大 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Origins+Chocolate+Bar/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x5485d9633b6f9729:0xb450cfc41ed08255!8m2!3d49.2045112!4d-122.9090885!16s%2Fg%2F11gm7xrrw6?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWDo3ayxC4i_LZXAqNymuAe1flYJUmuT_9TQJC1Cg8HIxrUmzXFF3GRvc45Cc78bbmPnR9foziPADo5NQnrqrnBmKuIDEK9d8qF2FuNSUUAD4oR1DA7msXuTrm6OUEVw4jEUC96180JLpp=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeWDo3ayxC4i_LZXAqNymuAe1flYJUmuT_9TQJC1Cg8HIxrUmzXFF3GRvc45Cc78bbmPnR9foziPADo5NQnrqrnBmKuIDEK9d8qF2FuNSUUAD4oR1DA7msXuTrm6OUEVw4jEUC96180JLpp=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Origins+Chocolate+Bar/@35.669946,65.880336,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x5485d9633b6f9729:0xb450cfc41ed08255!8m2!3d49.2045112!4d-122.9090885!16s%2Fg%2F11gm7xrrw6?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Origins Chocolate Bar",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-927bee17e3ab03",
@@ -2044,11 +2287,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8016 Kyoto, Nakagyo Ward, Shimokorikicho, 2丁目206番地 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/LE+LABO+KYOTO+MACHIYA/@49.2045112,163.2627865,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010921a0470487:0xdbb0424a866c8230!8m2!3d35.0054215!4d135.7706815!16s%2Fg%2F11y3dbr_7m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYj9YkOwWDqPN0hR6ewrutpY4mpjMNiv-ooW9hUdWBMFbDmC4UX_ha_CWU8UHXh9eaIjZIXei743OPpnRIV6hHb4N5Ossp_x1WxlFwDIfMQB9RTgstzWvor1ltsErUEaQiapRN7ejl6MV9=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfYj9YkOwWDqPN0hR6ewrutpY4mpjMNiv-ooW9hUdWBMFbDmC4UX_ha_CWU8UHXh9eaIjZIXei743OPpnRIV6hHb4N5Ossp_x1WxlFwDIfMQB9RTgstzWvor1ltsErUEaQiapRN7ejl6MV9=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/LE+LABO+KYOTO+MACHIYA/@49.2045112,163.2627865,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010921a0470487:0xdbb0424a866c8230!8m2!3d35.0054215!4d135.7706815!16s%2Fg%2F11y3dbr_7m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "LE LABO KYOTO MACHIYA",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-8b97f5dc54e11f",
@@ -2069,11 +2315,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8018 Kyoto, Shimogyo Ward, Ichinocho, 251-2 壽ビルデイング ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kotobuki+Building/@49.2045112,163.2627865,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001090005d22399:0x277470ce089652b!8m2!3d35.0016857!4d135.7691422?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyN6F2hvPNEoZv3cOC2OdBs73DgqYMOahZplBkMrPeorPQDMa0Fk8sCUk3eBurIWsn42DprGVVCkAgyjijjEXOQPuQ4_fFZNIObPrj5pViEHSE_yR-QzBqnA3j6OM13pZmr57pla_28hGx=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfyN6F2hvPNEoZv3cOC2OdBs73DgqYMOahZplBkMrPeorPQDMa0Fk8sCUk3eBurIWsn42DprGVVCkAgyjijjEXOQPuQ4_fFZNIObPrj5pViEHSE_yR-QzBqnA3j6OM13pZmr57pla_28hGx=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kotobuki+Building/@49.2045112,163.2627865,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001090005d22399:0x277470ce089652b!8m2!3d35.0016857!4d135.7691422?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kotobuki Building",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 684,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-3a4e5e62d53a9e",
@@ -2094,11 +2343,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-0811 Kyoto, Nakagyo Ward, Kameyacho, 175番地 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E8%BE%BB%E5%92%8C%E9%87%91%E7%B6%B2/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010888ea28dacb:0x4101363cf76f311c!8m2!3d35.0144792!4d135.7630134!16s%2Fg%2F1tgcm5tk?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeihXdMaPw6HWlvYE9Gdhyz8Wo9XHObURaaSLImrhx_0GWJWirSy6STpu1JsFQ4G-27RE175B2WZEdSvJNq77FhslH335eGuxDBfFy5hDKiWlZxV2OJz7OY-QSdGAH7ARtg6xk_zHVnDAA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeihXdMaPw6HWlvYE9Gdhyz8Wo9XHObURaaSLImrhx_0GWJWirSy6STpu1JsFQ4G-27RE175B2WZEdSvJNq77FhslH335eGuxDBfFy5hDKiWlZxV2OJz7OY-QSdGAH7ARtg6xk_zHVnDAA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E8%BE%BB%E5%92%8C%E9%87%91%E7%B6%B2/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010888ea28dacb:0x4101363cf76f311c!8m2!3d35.0144792!4d135.7630134!16s%2Fg%2F1tgcm5tk?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "辻和金網",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-4491c32c003ab2",
@@ -2119,11 +2371,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8046 Kyoto, 京都府Kyoto, Nakagyo Ward, Higashigawacho, 530-1 1階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Mont-bell+Kyoto+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108943ff0f1f9:0x89069bdc6930160c!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108946a954e9d:0xa88c632b8ea15434!8m2!3d35.005376!4d135.767578!16s%2Fg%2F1tdlh5r4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1bJvKcwPj7nhd_ziWXolwYZbLtLOIg8CqpsNlRyLsZH1z-Xz4xbUcHAAJKLSnurQpbcWkRSvVI5bhMmi4xcdVAhBfUdqd7ofW07NZJhCCnU8aLs5hObJbdn-bXvdkkRZK1INvnNlPhxiI=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1bJvKcwPj7nhd_ziWXolwYZbLtLOIg8CqpsNlRyLsZH1z-Xz4xbUcHAAJKLSnurQpbcWkRSvVI5bhMmi4xcdVAhBfUdqd7ofW07NZJhCCnU8aLs5hObJbdn-bXvdkkRZK1INvnNlPhxiI=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Mont-bell+Kyoto+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108943ff0f1f9:0x89069bdc6930160c!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108946a954e9d:0xa88c632b8ea15434!8m2!3d35.005376!4d135.767578!16s%2Fg%2F1tdlh5r4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Mont-bell Kyoto Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-3ac04730d595d1",
@@ -2144,11 +2399,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8494 Kyoto, Shimogyo Ward, Kasabokocho, 50 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Life+-+Shijo+Karasuma/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108943ff0f1f9:0x89069bdc6930160c!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109b8e36253b3:0x8652e83a7933663!8m2!3d35.0041542!4d135.7543567?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnFcFD9a9tVfI4ytb2CtVRU8Ltq0H0dRWOy1EPgxXMeGBipa3z75DgxZDO5KfDuCDxtyvnPoM78Gfk2eIu9KjsllGQk5lk6LV7Zs61dGub9dTd6QPwyopJfXzCBFjVrDvTSQ_grbjU_zN4=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnFcFD9a9tVfI4ytb2CtVRU8Ltq0H0dRWOy1EPgxXMeGBipa3z75DgxZDO5KfDuCDxtyvnPoM78Gfk2eIu9KjsllGQk5lk6LV7Zs61dGub9dTd6QPwyopJfXzCBFjVrDvTSQ_grbjU_zN4=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Life+-+Shijo+Karasuma/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108943ff0f1f9:0x89069bdc6930160c!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109b8e36253b3:0x8652e83a7933663!8m2!3d35.0041542!4d135.7543567?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Life - Shijo Karasuma",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 676,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-01e6a09bb1d1eb",
@@ -2169,11 +2427,14 @@ const CHEF_CATALOG=[
     "address": "日本〒601-8417 Kyoto, Minami Ward, Nishikujo Toriiguchicho, 1 イオンモールKYOTO 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kaldi+Coffee+Farm+AEON+MALL+Kyoto+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108a97fc35bcd:0xd2f04a2090a55680!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108a97fae4bf1:0x56a44179e122a0ed!8m2!3d34.98275!4d135.7541765!16s%2Fg%2F1vmr18ht?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcABbO03WkMmaRIyJZ192vkYJTtfW7f4_tBclZlSiFClqFi4w6FERRpOXf-gm6cCpDTeWOunKBUT1YMvdfQ9zAklGemQpMwgppsmpMOfyCUoKpv_ICT0LB6YVO-LeyIYzNPfAZM0qn1TYnq=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcABbO03WkMmaRIyJZ192vkYJTtfW7f4_tBclZlSiFClqFi4w6FERRpOXf-gm6cCpDTeWOunKBUT1YMvdfQ9zAklGemQpMwgppsmpMOfyCUoKpv_ICT0LB6YVO-LeyIYzNPfAZM0qn1TYnq=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kaldi+Coffee+Farm+AEON+MALL+Kyoto+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108a97fc35bcd:0xd2f04a2090a55680!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108a97fae4bf1:0x56a44179e122a0ed!8m2!3d34.98275!4d135.7541765!16s%2Fg%2F1vmr18ht?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kaldi Coffee Farm AEON MALL Kyoto Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-1a25090e23e315",
@@ -2194,11 +2455,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8036 Kyoto, Nakagyo Ward, Ishibashicho, 26 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kaldi+Coffee+Farm+Sanjo+Kawaramachi+Shop/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109bb11885dbf:0x7a50f6629bbb6639!8m2!3d35.0087213!4d135.7685518!16s%2Fg%2F11h2d60gxv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdp-UZzjSmI6qRs7MzGzwV20sm88V9UQGkce9bvXKaIl4-ZBhqv6jZvVI9Thz0niaDZ2zkVwLQr6AgCvKvkl99PQGpPy6uWh8MFo8hn-d6JqRE5SA1omZ0GO-tgnA4TOCYi9lRH9YO58Xnp=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdp-UZzjSmI6qRs7MzGzwV20sm88V9UQGkce9bvXKaIl4-ZBhqv6jZvVI9Thz0niaDZ2zkVwLQr6AgCvKvkl99PQGpPy6uWh8MFo8hn-d6JqRE5SA1omZ0GO-tgnA4TOCYi9lRH9YO58Xnp=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kaldi+Coffee+Farm+Sanjo+Kawaramachi+Shop/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109bb11885dbf:0x7a50f6629bbb6639!8m2!3d35.0087213!4d135.7685518!16s%2Fg%2F11h2d60gxv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kaldi Coffee Farm Sanjo Kawaramachi Shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-aa31efcc07e847",
@@ -2219,11 +2483,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8172 Kyoto, Nakagyo Ward, Banocho, 586-2 外 新風 館１F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/green+bean+to+bar+CHOCOLATE+%E4%BA%AC%E9%83%BD%E5%BA%97/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109ab83a85e2d:0xd6ca73a082cf4ba9!8m2!3d35.0093143!4d135.7597998?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAVwVzPuzvRa1wlvbXqLG0gKlTqHUUm-sDTZ-VRvlRDquLIoP6DVOyShVesTGEcDldN5mtoXOKouLJZ8ioeC1bKBqhqZKtvBoyOK9E0iZHo7w1pHr3Zy04nxK5eHkxDobfxxcI3pidUho=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeAVwVzPuzvRa1wlvbXqLG0gKlTqHUUm-sDTZ-VRvlRDquLIoP6DVOyShVesTGEcDldN5mtoXOKouLJZ8ioeC1bKBqhqZKtvBoyOK9E0iZHo7w1pHr3Zy04nxK5eHkxDobfxxcI3pidUho=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/green+bean+to+bar+CHOCOLATE+%E4%BA%AC%E9%83%BD%E5%BA%97/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600109ab83a85e2d:0xd6ca73a082cf4ba9!8m2!3d35.0093143!4d135.7597998?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "green bean to bar CHOCOLATE 京都店",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 802,
+    "photoFit": "cover"
   },
   {
     "id": "chef-0c778ef6b7f646",
@@ -2244,11 +2511,14 @@ const CHEF_CATALOG=[
     "address": "日本〒602-8406 Kyoto, Kamigyo Ward, Keikaincho, 140 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E5%B2%A1%E7%94%B0%E5%B1%8B%EF%BC%88%E6%98%86%E5%B8%83%EF%BC%89/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600107e165d18f67:0x36090aa7c69be4cd!8m2!3d35.0329719!4d135.7488712?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-gErEd-Un_wb-2JzHoKXBurLuNvFOu17pCA08wKnMYbTUQvHdc_nbwiu-c84xMwGI20vBzJgSAx6CAAdISDRThSW_DsQJDxwyQaP208LCdMY7AaOtIE3czCOptDHbgp_wlNYPecujeON4=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc-gErEd-Un_wb-2JzHoKXBurLuNvFOu17pCA08wKnMYbTUQvHdc_nbwiu-c84xMwGI20vBzJgSAx6CAAdISDRThSW_DsQJDxwyQaP208LCdMY7AaOtIE3czCOptDHbgp_wlNYPecujeON4=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E5%B2%A1%E7%94%B0%E5%B1%8B%EF%BC%88%E6%98%86%E5%B8%83%EF%BC%89/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600107e165d18f67:0x36090aa7c69be4cd!8m2!3d35.0329719!4d135.7488712?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "岡田屋（昆布）",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 415,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-62e148807175df",
@@ -2269,11 +2539,14 @@ const CHEF_CATALOG=[
     "address": "106 Horinouecho, Nakagyo Ward, Kyoto, 604-8117日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kuradai+Miso/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010989988f95cb:0x5ff84b0e2b5f5bfb!8m2!3d35.0071647!4d135.7636998!16s%2Fg%2F11gwm71h2b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcMhcjJcPK7c1skVIQP4cAGKj_1DSJFIC-hrBq8fQFlQ1E_RMTZxxjfbRIPIpQmatISPVZ51inR0U4-VXfgnHOOopcM282giUi8jtyWKIZ7_zR_n4Uujxs4gckGenRawAYBHOIns5GceEkt=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcMhcjJcPK7c1skVIQP4cAGKj_1DSJFIC-hrBq8fQFlQ1E_RMTZxxjfbRIPIpQmatISPVZ51inR0U4-VXfgnHOOopcM282giUi8jtyWKIZ7_zR_n4Uujxs4gckGenRawAYBHOIns5GceEkt=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kuradai+Miso/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010989988f95cb:0x5ff84b0e2b5f5bfb!8m2!3d35.0071647!4d135.7636998!16s%2Fg%2F11gwm71h2b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kuradai Miso",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-e3fb55a9e3d374",
@@ -2294,11 +2567,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8185 Kyoto, Nakagyo Ward, Kurumayacho, 車屋町270 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Yaosan/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088577c5acfb:0x7fe556f889920d74!8m2!3d35.0099574!4d135.7608543!16s%2Fg%2F1thzns_y?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePWtz7q7YE34dtJm1ckf0ngqcVW4k-58I1XSjjulDuF5jEyn6-o9vmWjyvy58DW6CWvo5jfLBEWsq73NgoQ-jl_j7XHaouUKmG_hZAXIhq2kQf4mHkyqoPc4U59zcLgGG9mStTkGX1ENSW=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLePWtz7q7YE34dtJm1ckf0ngqcVW4k-58I1XSjjulDuF5jEyn6-o9vmWjyvy58DW6CWvo5jfLBEWsq73NgoQ-jl_j7XHaouUKmG_hZAXIhq2kQf4mHkyqoPc4U59zcLgGG9mStTkGX1ENSW=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Yaosan/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001088577c5acfb:0x7fe556f889920d74!8m2!3d35.0099574!4d135.7608543!16s%2Fg%2F1thzns_y?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Yaosan",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-787ee77358cbae",
@@ -2319,11 +2595,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-0931 Kyoto, Nakagyo Ward, Enokicho, 95-3 延寿堂南館 2階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kyoto+Yamahon/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001088db3a1aaab:0xbba3d8f670f1def7!8m2!3d35.0130723!4d135.7678897?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjYA6etE_PG1IkdswMq32aeb35wOyLbFD4SPR_Gd9UxNb7WWL2acV6i9NMNqLhYkGbEtj3oajsZogKNDE-3P4Kor116131sdSmscTAT82UimiGzXZqv-Mbq4QPnLpbdRIAxInWJw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjYA6etE_PG1IkdswMq32aeb35wOyLbFD4SPR_Gd9UxNb7WWL2acV6i9NMNqLhYkGbEtj3oajsZogKNDE-3P4Kor116131sdSmscTAT82UimiGzXZqv-Mbq4QPnLpbdRIAxInWJw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kyoto+Yamahon/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6001088db3a1aaab:0xbba3d8f670f1def7!8m2!3d35.0130723!4d135.7678897?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kyoto Yamahon",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-6f29f95dcc6897",
@@ -2344,8 +2623,8 @@ const CHEF_CATALOG=[
     "address": "〒604-0865 Kyoto, Nakagyo Ward, Kameyacho, 146 てっ亀",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92604-0865+Kyoto,+Nakagyo+Ward,+Kameyach%C5%8D,+146+%E3%81%A6%E3%81%A3%E4%BA%80/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001087d8ff7057b:0x1e9bfa51e74fa62e!8m2!3d35.0161659!4d135.7586215!16s%2Fg%2F11fx3yclnx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=RDUmEtMqKu4QLg5jQ2nBZw&cb_client=search.gws-prod.grass&w=80&h=92&yaw=188.00748&pitch=0&thumbfov=100",
-    "photoLabel": "Google Maps · 清单照片",
+    "photo": null,
+    "photoLabel": "地址收藏 · 暂无可核实照片",
     "photoSource": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92604-0865+Kyoto,+Nakagyo+Ward,+Kameyach%C5%8D,+146+%E3%81%A6%E3%81%A3%E4%BA%80/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001087d8ff7057b:0x1e9bfa51e74fa62e!8m2!3d35.0161659!4d135.7586215!16s%2Fg%2F11fx3yclnx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "〒604-0865 Kyoto, Nakagyo Ward, Kameyacho, 146 てっ亀",
     "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
@@ -2369,11 +2648,14 @@ const CHEF_CATALOG=[
     "address": "Myoraku-38 Uji, Kyoto 611-0021日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kanbayashi+Shunsho/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001110be100826f:0x26333eacf4c2b940!8m2!3d34.8910589!4d135.8043566!16s%2Fg%2F1w346hzz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdypr08AyLCCddQgXp9-jBD8COeEh-hDB-OBSxrVBcym9L2F8hgaBtW56nYKTppvcG3peZzu4yFHpK52N3rs4g1_DqXYzeYfTrPVIhrVoioadHLdAOsO5AkTW38-BrgkR7SsezF=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdypr08AyLCCddQgXp9-jBD8COeEh-hDB-OBSxrVBcym9L2F8hgaBtW56nYKTppvcG3peZzu4yFHpK52N3rs4g1_DqXYzeYfTrPVIhrVoioadHLdAOsO5AkTW38-BrgkR7SsezF=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kanbayashi+Shunsho/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001110be100826f:0x26333eacf4c2b940!8m2!3d34.8910589!4d135.8043566!16s%2Fg%2F1w346hzz?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kanbayashi Shunsho",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-07ff1611d2a513",
@@ -2394,11 +2676,14 @@ const CHEF_CATALOG=[
     "address": "日本〒600-8001 Kyoto, Shimogyo Ward, Shincho, 52 京都髙島屋 地階銘茶売場 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E4%B8%8A%E6%9E%97%E6%98%A5%E6%9D%BE%E6%9C%AC%E5%BA%97+%E4%BA%AC%E9%83%BD%E9%AB%99%E5%B3%B6%E5%B1%8B%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108959c2dc65d:0x8244e1c9aeb44ea9!8m2!3d35.0032507!4d135.7683479!16s%2Fg%2F11cjp53375?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfDWx4KmsdZs7jXCrvB0ds3DSAx8otew09Eu3fYAP-znVqtpNzLSRrKei_WA-LX-vvY6gKpOxy9KcS0JXtwx7FqmbNO_vCUM-KRRGEuxRf9H7qz8RxtXd9jxiMX7n8ahfL4YGWvdO2RDzPp=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfDWx4KmsdZs7jXCrvB0ds3DSAx8otew09Eu3fYAP-znVqtpNzLSRrKei_WA-LX-vvY6gKpOxy9KcS0JXtwx7FqmbNO_vCUM-KRRGEuxRf9H7qz8RxtXd9jxiMX7n8ahfL4YGWvdO2RDzPp=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E4%B8%8A%E6%9E%97%E6%98%A5%E6%9D%BE%E6%9C%AC%E5%BA%97+%E4%BA%AC%E9%83%BD%E9%AB%99%E5%B3%B6%E5%B1%8B%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x600108959eaa69ad:0x4ceb5b054ec7a1c8!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108959c2dc65d:0x8244e1c9aeb44ea9!8m2!3d35.0032507!4d135.7683479!16s%2Fg%2F11cjp53375?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "上林春松本店 京都髙島屋店",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-3284f14db0bf3c",
@@ -2419,11 +2704,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome-280 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Asahido+Honten/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108d229815555:0x93679865623fd8bb!8m2!3d34.9954806!4d135.7825962!16s%2Fg%2F11c2j7ld17?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFLGE6RTzGD79lSj4JezYnUU0rBvPN1_btiRE0ci_X4vhSshWJ72RFhCUzRz-FgKfxAV1UFp7RjEmPFYAJPLXczniA-QJHR_yeaxLcvJmMDe5Fs5CWFZDj8XSewnWgGBgif2uGg1r6v2iL=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcFLGE6RTzGD79lSj4JezYnUU0rBvPN1_btiRE0ci_X4vhSshWJ72RFhCUzRz-FgKfxAV1UFp7RjEmPFYAJPLXczniA-QJHR_yeaxLcvJmMDe5Fs5CWFZDj8XSewnWgGBgif2uGg1r6v2iL=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Asahido+Honten/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600108d229815555:0x93679865623fd8bb!8m2!3d34.9954806!4d135.7825962!16s%2Fg%2F11c2j7ld17?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Asahido Honten",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-27587f08479b99",
@@ -2444,11 +2732,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-258 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GOKAGO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010993585385fb:0x8ab6b1790a1097d6!8m2!3d34.9956509!4d135.7818524!16s%2Fg%2F11kk131yj5?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekeutjXKpVk8na8VU4a6JwRzgTdVXdKmmtxCoTgF4r2S-A3032cepbnAOaNV1sltrjo7I-r6G5dpC_y_a2NtFFRcVv2IRgrAo6Fsy71NIvPIS6hwsBveLEspS8_YGRS48yo-J0=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekeutjXKpVk8na8VU4a6JwRzgTdVXdKmmtxCoTgF4r2S-A3032cepbnAOaNV1sltrjo7I-r6G5dpC_y_a2NtFFRcVv2IRgrAo6Fsy71NIvPIS6hwsBveLEspS8_YGRS48yo-J0=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/GOKAGO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010993585385fb:0x8ab6b1790a1097d6!8m2!3d34.9956509!4d135.7818524!16s%2Fg%2F11kk131yj5?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "GOKAGO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 448,
+    "photoHeight": 303,
+    "photoFit": "cover"
   },
   {
     "id": "chef-de26a7d48eaeee",
@@ -2469,11 +2760,14 @@ const CHEF_CATALOG=[
     "address": "日本〒550-0015 Osaka, Nishi Ward, Minamihorie, 1 Chome−19−26 ASPLUND BLDG ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Timeless+comfort+Minamihorie/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e70f72ec20d9:0x6e10416bb7e471c0!8m2!3d34.6709846!4d135.4940332?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLencaeEJXa88gjsWoWKDLwpE3r-qg9xU71dZ945OYmv1nnhQ6zcjU1uFeLM04C-G9v1uRdI19NBLu_L8niTUgYvXV-BSNv45-ES3BfEaztMMXKXaGXltgAegLhSrLG9LjicDVibVAh19b4=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLencaeEJXa88gjsWoWKDLwpE3r-qg9xU71dZ945OYmv1nnhQ6zcjU1uFeLM04C-G9v1uRdI19NBLu_L8niTUgYvXV-BSNv45-ES3BfEaztMMXKXaGXltgAegLhSrLG9LjicDVibVAh19b4=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Timeless+comfort+Minamihorie/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e70f72ec20d9:0x6e10416bb7e471c0!8m2!3d34.6709846!4d135.4940332?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Timeless comfort Minamihorie",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-b835e0293ee1f2",
@@ -2494,11 +2788,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8031 Kyoto, Nakagyo Ward, Yamazakicho, 251 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/J.M.+WESTON+-+%E4%BA%AC%E9%83%BDBAL%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109b95b41b31f:0xe466a4eb7cd5255!8m2!3d35.0069481!4d135.7693316!16s%2Fg%2F11kj_5km3c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXAucGMNrh2TACFhS3nxqzEzlHGZk9Fb_1cqpGp5XX4fPu9hzTtNAwNekuz3_3pYIoxbbaF5SQ5_cclfvnkkwzG71K72Vo1LMD5rcsH3sKM3VUepahx2zsgIQcNPMjW1VsMFlRqZdtG-s=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXAucGMNrh2TACFhS3nxqzEzlHGZk9Fb_1cqpGp5XX4fPu9hzTtNAwNekuz3_3pYIoxbbaF5SQ5_cclfvnkkwzG71K72Vo1LMD5rcsH3sKM3VUepahx2zsgIQcNPMjW1VsMFlRqZdtG-s=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/J.M.+WESTON+-+%E4%BA%AC%E9%83%BDBAL%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109b95b41b31f:0xe466a4eb7cd5255!8m2!3d35.0069481!4d135.7693316!16s%2Fg%2F11kj_5km3c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "J.M. WESTON - 京都BAL店",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1195,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-de1b93eb9242f9",
@@ -2519,11 +2816,14 @@ const CHEF_CATALOG=[
     "address": "251 Yamazakicho, Nakagyo Ward, Kyoto, 604-8032日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/TODAY'S+SPECIAL+Kyoto/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108949be6398d:0x301e00e5ea927cf4!8m2!3d35.0069019!4d135.7697732?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLehTUdmAThog8AgKPRoOuE2Zbne0W2k6CmXrosP5dYuuNmy9cz_4VW_oqdmurhYyrgXulJfIW-f4UaLej6ngFmpcnnk0DTQKtcwfiTvHYF-49We3O15GX2HUeJ6C-gQup4FExB2=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLehTUdmAThog8AgKPRoOuE2Zbne0W2k6CmXrosP5dYuuNmy9cz_4VW_oqdmurhYyrgXulJfIW-f4UaLej6ngFmpcnnk0DTQKtcwfiTvHYF-49We3O15GX2HUeJ6C-gQup4FExB2=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/TODAY'S+SPECIAL+Kyoto/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010894972ec8ef:0xf17e2ea111f88360!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108949be6398d:0x301e00e5ea927cf4!8m2!3d35.0069019!4d135.7697732?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "TODAY'S SPECIAL Kyoto",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-a7b4c04458c55c",
@@ -2544,11 +2844,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8172 Kyoto, Nakagyo Ward, Banocho, 586-2 新風館 1階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/BEAMS+JAPAN+KYOTO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600107111f89b021:0xb548e1190d8102cf!8m2!3d35.0097264!4d135.7599054!16s%2Fg%2F11jnkwcx5f?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1UM7fEXOV5BaTYX3GCTC7FwHeaZbLDqsp-udwiT5d7es2aI4VRHErwRRpX9ZDFGUknT2Y4EqTEWH1gYgDkMq0Adv8nt-T6te6gixTVt9ZEr6TMpdHTeaR-CFQFiB1GZo_RwI4HBSjYdw=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc1UM7fEXOV5BaTYX3GCTC7FwHeaZbLDqsp-udwiT5d7es2aI4VRHErwRRpX9ZDFGUknT2Y4EqTEWH1gYgDkMq0Adv8nt-T6te6gixTVt9ZEr6TMpdHTeaR-CFQFiB1GZo_RwI4HBSjYdw=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/BEAMS+JAPAN+KYOTO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600107111f89b021:0xb548e1190d8102cf!8m2!3d35.0097264!4d135.7599054!16s%2Fg%2F11jnkwcx5f?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "BEAMS JAPAN KYOTO",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-5da1d6d2556f1f",
@@ -2569,11 +2872,14 @@ const CHEF_CATALOG=[
     "address": "日本〒604-8082 Kyoto, Nakagyo Ward, Benkeiishicho, 56 1階 ・1928ビル（旧毎日新聞社京都支局 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HUMAN+MADE+1928/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010892296a9855:0x98ec7d51b39d760d!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109c5b2cb1c87:0xc74dbe531f71891a!8m2!3d35.0084767!4d135.7665328!16s%2Fg%2F11vstshl9j?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLduVSJV1TAsLsVs_L2VCsWZBZVRg9TIC67vSog3r9j4u2fq6vYa1NiDWOC7LflVQ7YZ5UGx2o3ruNNXQIn5DeoO9Ki6uZTGFhjT_1FMnymLu6jkhNXI5ulwKrTJDUUwM78IxtNTr7UNu9hZ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLduVSJV1TAsLsVs_L2VCsWZBZVRg9TIC67vSog3r9j4u2fq6vYa1NiDWOC7LflVQ7YZ5UGx2o3ruNNXQIn5DeoO9Ki6uZTGFhjT_1FMnymLu6jkhNXI5ulwKrTJDUUwM78IxtNTr7UNu9hZ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/HUMAN+MADE+1928/@35.0054215,61.9425565,3z/data=!3m1!5s0x60010892296a9855:0x98ec7d51b39d760d!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x600109c5b2cb1c87:0xc74dbe531f71891a!8m2!3d35.0084767!4d135.7665328!16s%2Fg%2F11vstshl9j?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "HUMAN MADE 1928",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-8b506bd756ba86",
@@ -2594,11 +2900,14 @@ const CHEF_CATALOG=[
     "address": "450 Sakaicho, Nakagyo Ward, Kyoto, 604-8065日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/THE+NORTH+FACE+Standard+Kyoto+Store/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089165f273a1:0xdc16513a08501eae!8m2!3d35.0071195!4d135.7657724!16s%2Fg%2F11cnq4tbv1?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCyh2Qh9Su1zBNZAttkbk6xyqDhvM4roTX5heuV-Sqgv9npZ7Fu9mQ17DRJoWxZkF60os6av1LYdi3DEyE69gv_4tHA3wbR7ASZ8Aiik6TlPc1AcvyzpushHWVdCiuTC8GuRvBg_yYvrE=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdCyh2Qh9Su1zBNZAttkbk6xyqDhvM4roTX5heuV-Sqgv9npZ7Fu9mQ17DRJoWxZkF60os6av1LYdi3DEyE69gv_4tHA3wbR7ASZ8Aiik6TlPc1AcvyzpushHWVdCiuTC8GuRvBg_yYvrE=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/THE+NORTH+FACE+Standard+Kyoto+Store/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001089165f273a1:0xdc16513a08501eae!8m2!3d35.0071195!4d135.7657724!16s%2Fg%2F11cnq4tbv1?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "THE NORTH FACE Standard Kyoto Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-46598fa1741a8d",
@@ -2619,11 +2928,14 @@ const CHEF_CATALOG=[
     "address": "日本〒542-0076 Osaka, Chuo Ward, Namba, 5 Chome−1−60 なんばスカイオ 2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KANEKO+GANKYO-TEN+Namba+Skyo/@35.0054215,61.9425565,3z/data=!3m1!5s0x6000e76c80a4af6b:0x4ceb5b0563d2eec6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e703d648ceff:0xea8e97fdbdd2725d!8m2!3d34.663678!4d135.5011419!16s%2Fg%2F11gvfdk6z4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe5cz0fylC_lDGHkDeZjlEZshA7YmnWqDiBFW3xHsa2DDtGHnmwn6Pzs3DonbbAayFXPtR0kvI7Rpv9Z7JetkYYPef705upf0ZxBNMSKA8iwosOsjiz4c29uoBOw262wMHNvMXF9A=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe5cz0fylC_lDGHkDeZjlEZshA7YmnWqDiBFW3xHsa2DDtGHnmwn6Pzs3DonbbAayFXPtR0kvI7Rpv9Z7JetkYYPef705upf0ZxBNMSKA8iwosOsjiz4c29uoBOw262wMHNvMXF9A=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/KANEKO+GANKYO-TEN+Namba+Skyo/@35.0054215,61.9425565,3z/data=!3m1!5s0x6000e76c80a4af6b:0x4ceb5b0563d2eec6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6000e703d648ceff:0xea8e97fdbdd2725d!8m2!3d34.663678!4d135.5011419!16s%2Fg%2F11gvfdk6z4?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "KANEKO GANKYO-TEN Namba Skyo",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 500,
+    "photoHeight": 333,
+    "photoFit": "cover"
   },
   {
     "id": "chef-385b807a3408d6",
@@ -2644,11 +2956,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0061 Tokyo, Chuo City, Ginza, 3 Chome−2−1 マロニエゲート銀座 2 B1F・B2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/OK+Ginza+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be5accc797f:0x40e36357507bc908!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b568790ed07:0x16686d45388ba431!8m2!3d35.6737637!4d139.7651281!16s%2Fg%2F11v01q64b0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjtDX8JGsTJiztryy0HMp5lOjtKRS5iI8uvYh0Yb_sBZexUSUdqaG6eieHotWB-CnuGMolfQkU0vR4aD236QGpTiQNk5bdNAMFe_8UYTzqmbuZy55m4cWVtP3JPFXZq-mypAGqUkmJKaT8=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjtDX8JGsTJiztryy0HMp5lOjtKRS5iI8uvYh0Yb_sBZexUSUdqaG6eieHotWB-CnuGMolfQkU0vR4aD236QGpTiQNk5bdNAMFe_8UYTzqmbuZy55m4cWVtP3JPFXZq-mypAGqUkmJKaT8=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/OK+Ginza+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be5accc797f:0x40e36357507bc908!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b568790ed07:0x16686d45388ba431!8m2!3d35.6737637!4d139.7651281!16s%2Fg%2F11v01q64b0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "OK Ginza Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 899,
+    "photoFit": "cover"
   },
   {
     "id": "chef-23f9448d3d14ee",
@@ -2669,11 +2984,14 @@ const CHEF_CATALOG=[
     "address": "日本〒107-0062 Tokyo, Minato City, Minamiaoyama, 5 Chome−10−6 テラアシオス表参道 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HAKUHODO+Minami+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b6077f6e1f1:0xc66288b03f3876c6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b6077f039a7:0x3c450b73ec45d326!8m2!3d35.662439!4d139.711608!16s%2Fg%2F1tsyps6z?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLem1Y2essAdiKRHWwyvV3AY7cZLJczEsuta6RLikOCtWVweqyd4EPk5KDjenMU83tidVI_jYke0T8Xk4pTaJNESEl3QYhzgCOX0Cw2f74xXOUvh7zZ0SXmud1JTAN9dmz3-v0RB7A=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLem1Y2essAdiKRHWwyvV3AY7cZLJczEsuta6RLikOCtWVweqyd4EPk5KDjenMU83tidVI_jYke0T8Xk4pTaJNESEl3QYhzgCOX0Cw2f74xXOUvh7zZ0SXmud1JTAN9dmz3-v0RB7A=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/HAKUHODO+Minami+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b6077f6e1f1:0xc66288b03f3876c6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b6077f039a7:0x3c450b73ec45d326!8m2!3d35.662439!4d139.711608!16s%2Fg%2F1tsyps6z?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "HAKUHODO Minami Aoyama",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-60408ec4076fb2",
@@ -2694,11 +3012,14 @@ const CHEF_CATALOG=[
     "address": "HAKUHODO Shibuya Hikarie ShinQs",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HAKUHODO+Shibuya+Hikarie+ShinQs/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b584e232a95:0xce165246660b965d!8m2!3d35.6588472!4d139.7032387?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UZu7C1r1_bKnCBCWSEnvdA&cb_client=search.gws-prod.grass&w=80&h=92&yaw=349.73703&pitch=0&thumbfov=100",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/HAKUHODO+Shibuya+Hikarie+ShinQs/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b584e232a95:0xce165246660b965d!8m2!3d35.6588472!4d139.7032387?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://cdn.shopify.com/s/files/1/0399/3498/4354/files/img_tit_shinqs.jpg",
+    "photoLabel": "白凤堂官网 · 涩谷店实景",
+    "photoSource": "https://hakuho-do.co.jp/en/pages/stores_shinqs",
     "query": "HAKUHODO Shibuya Hikarie ShinQs",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 300,
+    "photoHeight": 228,
+    "photoFit": "contain"
   },
   {
     "id": "chef-dd72bb7550b5c1",
@@ -2719,11 +3040,14 @@ const CHEF_CATALOG=[
     "address": "日本〒106-0041 Tokyo, Minato City, Azabudai, 1 Chome−2−4 ヒルズ ガーデンプラザC B1・1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Azabudai+Hills+Market/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b0044cec3c1:0x3cc8936bdd0f62ce!8m2!3d35.6615135!4d139.7406987!16s%2Fg%2F11lcy_gz_m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeGFAeDnk-so33bN7XW1CjUZzzP1zc2Ca_uggbbNRUceCHXluOTNGFBL9uBMNAoDBaq10t2B-c3Yoim1g1j1HioMWZq4hmNFstPtGpVTXxSN_vpdkxhUDo5ZCp1wsXAooJvw8CV998yJGra=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeGFAeDnk-so33bN7XW1CjUZzzP1zc2Ca_uggbbNRUceCHXluOTNGFBL9uBMNAoDBaq10t2B-c3Yoim1g1j1HioMWZq4hmNFstPtGpVTXxSN_vpdkxhUDo5ZCp1wsXAooJvw8CV998yJGra=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Azabudai+Hills+Market/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b0044cec3c1:0x3cc8936bdd0f62ce!8m2!3d35.6615135!4d139.7406987!16s%2Fg%2F11lcy_gz_m?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Azabudai Hills Market",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1180,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-bee6a978b69913",
@@ -2744,11 +3068,14 @@ const CHEF_CATALOG=[
     "address": "5 Chome-3-10 Minamiaoyama, Minato City, Tokyo 107-0062日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Imabari+Towel+Minami+Aoyama+Store/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b6171eff47b:0x6a3a1e677585acdf!8m2!3d35.6627636!4d139.7158973?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcvOo-VRMdutAvKz7Q23DnEQXqhK10lTSkO2DI7qRhfdlctOTB5Fz6jPF8pwxBusC1f8BJJLpHPfflZjAK7fqdplcIjepzNGMjxkrs3XfI5pVDaN3ZjkUt75Hs2jdKMUcHm2jA=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcvOo-VRMdutAvKz7Q23DnEQXqhK10lTSkO2DI7qRhfdlctOTB5Fz6jPF8pwxBusC1f8BJJLpHPfflZjAK7fqdplcIjepzNGMjxkrs3XfI5pVDaN3ZjkUt75Hs2jdKMUcHm2jA=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Imabari+Towel+Minami+Aoyama+Store/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b6171eff47b:0x6a3a1e677585acdf!8m2!3d35.6627636!4d139.7158973?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Imabari Towel Minami Aoyama Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 438,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-fda31091c8601a",
@@ -2769,11 +3096,14 @@ const CHEF_CATALOG=[
     "address": "日本〒112-0012 Tokyo, Bunkyo City, Otsuka, 3 Chome−7−14 シャノワール文京 １F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Lemnos+Inc.+%2F+%E6%9D%B1%E4%BA%AC%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188da7b9741ce5:0x65a899f1d4021b74!8m2!3d35.7202453!4d139.7337247!16s%2Fg%2F11bt_ggdhw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLel1xzTmluqvUUbYqDnJPnYUrJRuSzU3TovqANdiqSAR0-SY_GT1kj0lJ5ItIuLVnduMZZ-IZfTQ5Z91InDchYWHywmilRBC7RKpkHsdSSJM8AVCbCgFlsuvSaxEB5Dg4A9hpNe=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLel1xzTmluqvUUbYqDnJPnYUrJRuSzU3TovqANdiqSAR0-SY_GT1kj0lJ5ItIuLVnduMZZ-IZfTQ5Z91InDchYWHywmilRBC7RKpkHsdSSJM8AVCbCgFlsuvSaxEB5Dg4A9hpNe=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Lemnos+Inc.+%2F+%E6%9D%B1%E4%BA%AC%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%AB%E3%83%BC%E3%83%A0/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188da7b9741ce5:0x65a899f1d4021b74!8m2!3d35.7202453!4d139.7337247!16s%2Fg%2F11bt_ggdhw?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Lemnos Inc. / 東京ショールーム",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-b17cd507f6bcf2",
@@ -2794,11 +3124,14 @@ const CHEF_CATALOG=[
     "address": "3 Chome-17-1 Tamagawa, Setagaya City, Tokyo 158-0094日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/iittala/@35.0054215,61.9425565,3z/data=!3m1!5s0x6018f4144df7a641:0xdb78b1ed9d60b25!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f414520c6335:0xb6513c0eead99b78!8m2!3d35.6139626!4d139.6264957!16s%2Fg%2F1tfm6pzm?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMrHtojOVceYV3rQe66vU4pq0_Q82W2QpXLNwF-m6ALafnzKp2hUjM81Fc7obhpT7LQF2dCsFeGEsnqbzLmFPBu0B09rHqAWBSGy0qk7XtSi11VlHcaSmkiY5USCibNajlNjAk=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdMrHtojOVceYV3rQe66vU4pq0_Q82W2QpXLNwF-m6ALafnzKp2hUjM81Fc7obhpT7LQF2dCsFeGEsnqbzLmFPBu0B09rHqAWBSGy0qk7XtSi11VlHcaSmkiY5USCibNajlNjAk=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/iittala/@35.0054215,61.9425565,3z/data=!3m1!5s0x6018f4144df7a641:0xdb78b1ed9d60b25!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f414520c6335:0xb6513c0eead99b78!8m2!3d35.6139626!4d139.6264957!16s%2Fg%2F1tfm6pzm?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "iittala",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-f01a36459b60f5",
@@ -2819,11 +3152,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0061 Tokyo, Chuo City, Ginza, 7 Chome−8−1 Ginza Bairin Bldg., 8階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Sushi+Ojima/@35.0054215,61.9425565,3z/data=!3m1!5s0x6018f4144df7a641:0xdb78b1ed9d60b25!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef56cea9f7:0x86d28480f1db103a!8m2!3d35.6695686!4d139.762687?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7OOE-Gma-Zm7jKpzOxjL7NX3nHZCWVnv1TdpvGwdeQFly9T18yARYW20pxycp99Ma5x6z1LBpmVej4Em-bbjXExmgDN41FU1u-pQbFlgeOeY3Gm8pCHbUXjaaSwfl73yVyA8KgOQIxxIP=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd7OOE-Gma-Zm7jKpzOxjL7NX3nHZCWVnv1TdpvGwdeQFly9T18yARYW20pxycp99Ma5x6z1LBpmVej4Em-bbjXExmgDN41FU1u-pQbFlgeOeY3Gm8pCHbUXjaaSwfl73yVyA8KgOQIxxIP=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Sushi+Ojima/@35.0054215,61.9425565,3z/data=!3m1!5s0x6018f4144df7a641:0xdb78b1ed9d60b25!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef56cea9f7:0x86d28480f1db103a!8m2!3d35.6695686!4d139.762687?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Sushi Ojima",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 675,
+    "photoFit": "cover"
   },
   {
     "id": "chef-cb374630df9b8f",
@@ -2844,11 +3180,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-24-1 Matsugaya, Taito City, Tokyo 111-0036日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Kama-Asa/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188e95e4be1413:0xee1f6387d3ea5ee7!8m2!3d35.7138476!4d139.7886768!16s%2Fg%2F1tfns_r7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXKI-a7ucgotHHrHhiJR5Z76U1ZzKVfm_uRaXS3V6vMGSbfp3jUdm8q9Afq9foLvZyD2H2fmh55awEcOLuwm3f2iD7Gul1jtHhp0cRdeSJxijb_IoZiThLFacV_8bz4rz6HjWok6LYaeY=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdXKI-a7ucgotHHrHhiJR5Z76U1ZzKVfm_uRaXS3V6vMGSbfp3jUdm8q9Afq9foLvZyD2H2fmh55awEcOLuwm3f2iD7Gul1jtHhp0cRdeSJxijb_IoZiThLFacV_8bz4rz6HjWok6LYaeY=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Kama-Asa/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188e95e4be1413:0xee1f6387d3ea5ee7!8m2!3d35.7138476!4d139.7886768!16s%2Fg%2F1tfns_r7?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Kama-Asa",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 676,
+    "photoFit": "cover"
   },
   {
     "id": "chef-45725c68d1a833",
@@ -2869,11 +3208,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-6-6 Nishiasakusa, Taito City, Tokyo 111-0035日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/FU+WA+RI/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebe1b30e925:0xff16452f35f81a2a!8m2!3d35.7131245!4d139.7888028!16s%2Fg%2F11b6tw4mcv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKIBtTfGIHSYSNkp8aUq053yyL4qnUsI12ufCCcfdWsdYofu2LZBUp3qhuGFCFmElNX_UQ_MQLABSIi1ePwjCnjQO8zRUqTfVx6D9Atkm0RzPVF0XYYKoFsQVqh9Rec0Z3mwgvLYXyCWiu=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfKIBtTfGIHSYSNkp8aUq053yyL4qnUsI12ufCCcfdWsdYofu2LZBUp3qhuGFCFmElNX_UQ_MQLABSIi1ePwjCnjQO8zRUqTfVx6D9Atkm0RzPVF0XYYKoFsQVqh9Rec0Z3mwgvLYXyCWiu=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/FU+WA+RI/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebe1b30e925:0xff16452f35f81a2a!8m2!3d35.7131245!4d139.7888028!16s%2Fg%2F11b6tw4mcv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "FU WA RI",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 699,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-d762813c0143df",
@@ -2894,11 +3236,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-1-12 Matsugaya, 台東区 Taito City, Tokyo 111-0036日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Baise/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebe07d33c6b:0x4bdef845af010ea3!8m2!3d35.7127268!4d139.7883786!16s%2Fg%2F11cnbkb56l?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/Baise/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebe07d33c6b:0x4bdef845af010ea3!8m2!3d35.7127268!4d139.7883786!16s%2Fg%2F11cnbkb56l?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://img.bigfang.tw/2023/01/1674370165-ae566253288191ce5d879e51dae1d8c3.jpg",
+    "photoLabel": "乐活的大方 · Baise 餐具实拍",
+    "photoSource": "https://www.bigfang.tw/blog/post/tokyo-kappabashi-street",
     "query": "Baise",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-2d22e6cea847fc",
@@ -2919,11 +3264,14 @@ const CHEF_CATALOG=[
     "address": "日本〒151-0064 Tokyo, Shibuya, Uehara, 3 Chome−7−12 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Roundabout/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f347ae769f9b:0xf5cdab5505726149!8m2!3d35.6673537!4d139.6789138!16s%2Fg%2F11c61w_q3s?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdl8KVNsHPcLiqb9xvCdccV04MKrwppXIUuqgE-hvpeJC9OZv2-Pxp65rRr-JXm1Lj7UXSXBLU8okoc45SnFXBbbFIXtzVB8Gvppn1heobhwhxEba2UnipaHiC5CrpVE1QQBrSi=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdl8KVNsHPcLiqb9xvCdccV04MKrwppXIUuqgE-hvpeJC9OZv2-Pxp65rRr-JXm1Lj7UXSXBLU8okoc45SnFXBbbFIXtzVB8Gvppn1heobhwhxEba2UnipaHiC5CrpVE1QQBrSi=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Roundabout/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f347ae769f9b:0xf5cdab5505726149!8m2!3d35.6673537!4d139.6789138!16s%2Fg%2F11c61w_q3s?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Roundabout",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 506,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-805f9bf7adba2f",
@@ -2944,11 +3292,14 @@ const CHEF_CATALOG=[
     "address": "5 Chome-24-2 Sendagaya, Shibuya, Tokyo 151-8580日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E6%96%B0%E5%AE%BF%E9%AB%98%E5%B2%9B%E5%B1%8B/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188cc5494439c7:0x59ece95647bf78f2!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cc57486a4b7:0x86a5ef4c7a8ccb41!8m2!3d35.6876335!4d139.7022399!16s%2Fg%2F1tj333jr?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZOpxL4QTu_x-Ty3CpBAMX3cmpfddxUc1zDxzvt-HZzYOGMXwQJJzhjSjjyFQjozamuuGAuv5cL6pa5cFHmn4bHO18DCKZuKTAP6CJkX6rZJtB83LNSRA3cNP13UZytSnIaIUAqZ0TtTs=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdZOpxL4QTu_x-Ty3CpBAMX3cmpfddxUc1zDxzvt-HZzYOGMXwQJJzhjSjjyFQjozamuuGAuv5cL6pa5cFHmn4bHO18DCKZuKTAP6CJkX6rZJtB83LNSRA3cNP13UZytSnIaIUAqZ0TtTs=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E6%96%B0%E5%AE%BF%E9%AB%98%E5%B2%9B%E5%B1%8B/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188cc5494439c7:0x59ece95647bf78f2!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cc57486a4b7:0x86a5ef4c7a8ccb41!8m2!3d35.6876335!4d139.7022399!16s%2Fg%2F1tj333jr?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "新宿高岛屋",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-aabe6e3e10952c",
@@ -2969,11 +3320,14 @@ const CHEF_CATALOG=[
     "address": "26-13 Sarugakucho, Shibuya, Tokyo 150-0033日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/nanamica+Daikanyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188cc5494439c7:0x59ece95647bf78f2!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b4f81524abd:0x77febb23a5295190!8m2!3d35.6486989!4d139.7010538?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxOJ7Acu7rfmfip6u4e5vnk-J64lJ4ARqzKnUuq2rQ66vVLU72uBJuSZwFba2bmtrr8zPK0v6ErR8GfmybYMgleGvzUWCQ_jgFXMAClGCxTo_dC11pHQBfvkNy3jjAslXKlYaHNgNz0ZrU=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfxOJ7Acu7rfmfip6u4e5vnk-J64lJ4ARqzKnUuq2rQ66vVLU72uBJuSZwFba2bmtrr8zPK0v6ErR8GfmybYMgleGvzUWCQ_jgFXMAClGCxTo_dC11pHQBfvkNy3jjAslXKlYaHNgNz0ZrU=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/nanamica+Daikanyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188cc5494439c7:0x59ece95647bf78f2!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b4f81524abd:0x77febb23a5295190!8m2!3d35.6486989!4d139.7010538?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "nanamica Daikanyama",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 730,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-d21fc7284e1ca2",
@@ -2994,11 +3348,14 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0028 Tokyo, Chuo City, Yaesu, 2 Chome−2−1 東京ミッドタウン八重洲 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Onitsuka+Tiger+NIPPON+MADE+Tokyo+Midtown+Yaesu+Store/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b24b4db7fcd:0x3d2ae744a7e01b49!8m2!3d35.6794084!4d139.7689311!16s%2Fg%2F11kc8m57rd?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiFivKa3p4_bKOyTOxoq1cL6wovge0h8LQPkQ54bjKt2ZHgNwL0KdwYzkRgBtKqtJivYo8ZkU1-Y3A5iyqkgJs1QWBhQJ-3XYLZ0b1Ke08KPHJFcrNYo-r2uHPY1ebb5SWvmPFJJ8MZAE=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfiFivKa3p4_bKOyTOxoq1cL6wovge0h8LQPkQ54bjKt2ZHgNwL0KdwYzkRgBtKqtJivYo8ZkU1-Y3A5iyqkgJs1QWBhQJ-3XYLZ0b1Ke08KPHJFcrNYo-r2uHPY1ebb5SWvmPFJJ8MZAE=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Onitsuka+Tiger+NIPPON+MADE+Tokyo+Midtown+Yaesu+Store/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b24b4db7fcd:0x3d2ae744a7e01b49!8m2!3d35.6794084!4d139.7689311!16s%2Fg%2F11kc8m57rd?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu Store",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-e2ddd530f68176",
@@ -3019,11 +3376,14 @@ const CHEF_CATALOG=[
     "address": "ベルビア館, 1階～5階, 2 Chome-4-6 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Ginza+Loft/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188be45c99d2a9:0x323ea1310dee9c4c!8m2!3d35.6741115!4d139.766261?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0-bm8WFD8Xlg1YZD1o8S2J4Kqz31tJLhfCHtc3yZMygTP6hPy7mmb3NSjRcDzeDUVkJe2Hmf5S_Rkl8BrFS5CVsMGy4iTbf6TmqEDgOB3HJK_I5VcA8WkqJZlAJmHRiDkNVPl6s7YqIc=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd0-bm8WFD8Xlg1YZD1o8S2J4Kqz31tJLhfCHtc3yZMygTP6hPy7mmb3NSjRcDzeDUVkJe2Hmf5S_Rkl8BrFS5CVsMGy4iTbf6TmqEDgOB3HJK_I5VcA8WkqJZlAJmHRiDkNVPl6s7YqIc=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Ginza+Loft/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188be45c99d2a9:0x323ea1310dee9c4c!8m2!3d35.6741115!4d139.766261?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Ginza Loft",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-80b68b300fd929",
@@ -3044,11 +3404,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 2 Chome−6−6 秀和外苑レジデンス 1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HUMAN+MADE+OFFLINE+STORE/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b4df277de5b:0xa25f8951bfcd27ec!8m2!3d35.6726964!4d139.7123195!16s%2Fg%2F11h9xv057k?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLetNduOxUmmDiFPnwimjlwYKREhJ9Os5GLgQ9OgvZgrevI-1eFmQofyvQet0iU7Bro_2dN_7p7Rw_-M1I-RH3cg6HRW3HSrT70LO5WaDg7ekzooYprKXd2TmzLXsNXvbcNwlL7eYryoC37H=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLetNduOxUmmDiFPnwimjlwYKREhJ9Os5GLgQ9OgvZgrevI-1eFmQofyvQet0iU7Bro_2dN_7p7Rw_-M1I-RH3cg6HRW3HSrT70LO5WaDg7ekzooYprKXd2TmzLXsNXvbcNwlL7eYryoC37H=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/HUMAN+MADE+OFFLINE+STORE/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b4df277de5b:0xa25f8951bfcd27ec!8m2!3d35.6726964!4d139.7123195!16s%2Fg%2F11h9xv057k?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "HUMAN MADE OFFLINE STORE",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-f838752d347104",
@@ -3069,11 +3432,14 @@ const CHEF_CATALOG=[
     "address": "6 Chome-10-1 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GINZA+SIX/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef472c0001:0xcfcb0363f18109fc!8m2!3d35.6697688!4d139.7641762?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL1mOxwDjIdk-U95dwPLG5Xh31XQh7oZT1NXWHqkkMVUKqIbdrzrnNwGobiGxn4jHJGrkvzXAqn0x9YqI-RjsrUN9UbiKu81VS8D_5c8N66fGWzoPZCoYmwX7AYrbTLRQf4bwR=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL1mOxwDjIdk-U95dwPLG5Xh31XQh7oZT1NXWHqkkMVUKqIbdrzrnNwGobiGxn4jHJGrkvzXAqn0x9YqI-RjsrUN9UbiKu81VS8D_5c8N66fGWzoPZCoYmwX7AYrbTLRQf4bwR=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/GINZA+SIX/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef472c0001:0xcfcb0363f18109fc!8m2!3d35.6697688!4d139.7641762?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "GINZA SIX",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-4ac9c7b65a623c",
@@ -3094,11 +3460,14 @@ const CHEF_CATALOG=[
     "address": "4 Chome-11-8 Ebisu, Shibuya, Tokyo 150-0013日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E9%95%BF%E8%B0%B7%E5%9B%AD/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be649ab2755:0x641a401ce3acec60!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b154aab94f9:0x215cd049e1a051f3!8m2!3d35.6452566!4d139.7147214?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnkdMNPQsrdg-Bk3KCRJuKJzu8alwdf__rU4wHUEcQngrEx_XsdwpwaXwsbBDncmi1b9KzEfKpaoERTkMIJKwSOlaYPMlZQ6LfABroA21z__emkYZR5XYbt8DJBCs9OikRm7ZtQ59ZBACy=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdnkdMNPQsrdg-Bk3KCRJuKJzu8alwdf__rU4wHUEcQngrEx_XsdwpwaXwsbBDncmi1b9KzEfKpaoERTkMIJKwSOlaYPMlZQ6LfABroA21z__emkYZR5XYbt8DJBCs9OikRm7ZtQ59ZBACy=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E9%95%BF%E8%B0%B7%E5%9B%AD/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be649ab2755:0x641a401ce3acec60!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b154aab94f9:0x215cd049e1a051f3!8m2!3d35.6452566!4d139.7147214?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "长谷园",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-6701ddf9075ed3",
@@ -3119,11 +3488,14 @@ const CHEF_CATALOG=[
     "address": "日本〒167-0053 Tokyo, Suginami City, Nishiogiminami, 3 Chome−7−7 西荻日伸ハイツ １０４ ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E7%94%9F%E6%B4%BB%E6%97%A5%E7%94%A8%E9%9B%91%E8%B2%A8%E5%BA%97tsugumi+%E8%A5%BF%E8%8D%BB%E7%AA%AA%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b14faa873b5:0x957404759f8d64e1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018ee0f8e8c411f:0x4d03698ea706e47b!8m2!3d35.702571!4d139.600975?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf10HYqc33H0R4gKMteuLbWYeTr5TX0Q6WCOBxxiTfiiGrmr4aKc8jMbOgEHVj5YOWzxhyLKMGUfEhbc0hJTA5j27BHLXIKiWoezy9SxGVwrrTq-ZxbfLrbGzHB-ExPZEk8PeBr5z87BY1x=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLf10HYqc33H0R4gKMteuLbWYeTr5TX0Q6WCOBxxiTfiiGrmr4aKc8jMbOgEHVj5YOWzxhyLKMGUfEhbc0hJTA5j27BHLXIKiWoezy9SxGVwrrTq-ZxbfLrbGzHB-ExPZEk8PeBr5z87BY1x=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/%E7%94%9F%E6%B4%BB%E6%97%A5%E7%94%A8%E9%9B%91%E8%B2%A8%E5%BA%97tsugumi+%E8%A5%BF%E8%8D%BB%E7%AA%AA%E5%BA%97/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b14faa873b5:0x957404759f8d64e1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018ee0f8e8c411f:0x4d03698ea706e47b!8m2!3d35.702571!4d139.600975?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "生活日用雑貨店tsugumi 西荻窪店",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-399201f9d9e887",
@@ -3144,11 +3516,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-7-2 Marunouchi, Chiyoda City, Tokyo 100-0005日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KITTE+Marunouchi/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bfa4ae94675:0x9f64e11ee9dc660a!8m2!3d35.6797983!4d139.764865?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfekQmk7Zqmr86KpdsCwjwcPP_xMJPA_syWWBQU1G5RT0TidKqt8sNbuig3GFbSxOoDuzUXbMihgyODr2Hu0XaAdhnWH0_EJPLdvZCL8H9294TZQyri8wMShCez_dKOwIUNFiPaJ6smKLs=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfekQmk7Zqmr86KpdsCwjwcPP_xMJPA_syWWBQU1G5RT0TidKqt8sNbuig3GFbSxOoDuzUXbMihgyODr2Hu0XaAdhnWH0_EJPLdvZCL8H9294TZQyri8wMShCez_dKOwIUNFiPaJ6smKLs=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/KITTE+Marunouchi/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bfa4ae94675:0x9f64e11ee9dc660a!8m2!3d35.6797983!4d139.764865?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "KITTE Marunouchi",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-40d905090406bf",
@@ -3169,11 +3544,14 @@ const CHEF_CATALOG=[
     "address": "日本〒150-0001 Tokyo, Shibuya, Jingumae, 5 Chome−10−1 GYRE B1F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Cibone+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188bfa360075d5:0xa230d50ac263a5b0!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188c9ebbeff153:0xd6b16511d8e6f35f!8m2!3d35.6674202!4d139.7070377?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhfWaztXFpkP2NNUp-C_bsHABM0LambS45ivCsQzt0l1xt_jMTr_TRx7g-OSjtOwPpNVG-8CUDt-Zj0_kvZYxo8LDlbEZAaAHzXeHMgsh4zI6QBjPjWQRcovgIxSE3gRkRP46k=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdhfWaztXFpkP2NNUp-C_bsHABM0LambS45ivCsQzt0l1xt_jMTr_TRx7g-OSjtOwPpNVG-8CUDt-Zj0_kvZYxo8LDlbEZAaAHzXeHMgsh4zI6QBjPjWQRcovgIxSE3gRkRP46k=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Cibone+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188bfa360075d5:0xa230d50ac263a5b0!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188c9ebbeff153:0xd6b16511d8e6f35f!8m2!3d35.6674202!4d139.7070377?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Cibone Aoyama",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 900,
+    "photoFit": "cover"
   },
   {
     "id": "chef-6b4bdbf3e742c2",
@@ -3194,11 +3572,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-5-4 Nishiasakusa, Taito City, Tokyo 111-0035日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/TSUCHI-YA+%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%AE%E5%99%A8%E3%81%A8%E5%B7%A5%E8%8A%B8/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188ca3fa71814b:0x4331daed74bfb218!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188fdcbf466403:0x7bf64a189c7a97b!8m2!3d35.7125936!4d139.788682?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfgY6ZU8HrE6-hxk5ZDB-D8--KDSko59HWEZuIZIfZr_guvA-NVetGlQK1Lui6avcrYJlXHFgaKIYpEFPb5LzMxOYPNtgpmYYNCcDtJepvTlqJvXs4kpQ8K0MNjfYtXPfoM1tRSbGBDy5YN=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfgY6ZU8HrE6-hxk5ZDB-D8--KDSko59HWEZuIZIfZr_guvA-NVetGlQK1Lui6avcrYJlXHFgaKIYpEFPb5LzMxOYPNtgpmYYNCcDtJepvTlqJvXs4kpQ8K0MNjfYtXPfoM1tRSbGBDy5YN=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/TSUCHI-YA+%E3%82%AC%E3%83%A9%E3%82%B9%E3%81%AE%E5%99%A8%E3%81%A8%E5%B7%A5%E8%8A%B8/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188ca3fa71814b:0x4331daed74bfb218!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188fdcbf466403:0x7bf64a189c7a97b!8m2!3d35.7125936!4d139.788682?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "TSUCHI-YA ガラスの器と工芸",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 510,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-875402ac048d9d",
@@ -3219,11 +3600,14 @@ const CHEF_CATALOG=[
     "address": "244-1 Nabeyacho, Shimogyo Ward, Kyoto, 600-8055日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/lloomm/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108bdef75dcd9:0xe37086800cd8b373!8m2!3d35.0003994!4d135.7658252?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0RiTdPgz5jG7hAlKSKvaWaKZxEex6Tir8IetkkBTgwzhbIW2IoOD8asGfQaLkiXTWAMLSDlXADL6bLkNjnkMABISlkeVMdCsHE9M8ScCShZ3HjyfRMXC6ClZVJ8Z6cRrdEAY9OXfKOdnp=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc0RiTdPgz5jG7hAlKSKvaWaKZxEex6Tir8IetkkBTgwzhbIW2IoOD8asGfQaLkiXTWAMLSDlXADL6bLkNjnkMABISlkeVMdCsHE9M8ScCShZ3HjyfRMXC6ClZVJ8Z6cRrdEAY9OXfKOdnp=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/lloomm/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x600108bdef75dcd9:0xe37086800cd8b373!8m2!3d35.0003994!4d135.7658252?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "lloomm",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 800,
+    "photoFit": "cover"
   },
   {
     "id": "chef-2345f28c70e47e",
@@ -3244,11 +3628,14 @@ const CHEF_CATALOG=[
     "address": "日本〒111-0035 Tokyo, Taito City, Nishiasakusa, 1 Chome−4−3 西浅草松井ビル ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Dengama/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ebe83463ba1:0x63a8321860f1f363!8m2!3d35.7104353!4d139.7885064?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcoSrV0dwUCbFEIosLSlzOEyWoyAM22qjpUS4CZCdFVhDoGIGkyOWf59_YMJMPXiuR7CnSiWgXdW-Id3fWvsvYebs-Qm2FERDhEYboxHZdPetM5vJ6argctXECtnhxh40YzaZJkdaWpceQ=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcoSrV0dwUCbFEIosLSlzOEyWoyAM22qjpUS4CZCdFVhDoGIGkyOWf59_YMJMPXiuR7CnSiWgXdW-Id3fWvsvYebs-Qm2FERDhEYboxHZdPetM5vJ6argctXECtnhxh40YzaZJkdaWpceQ=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/Dengama/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ebe83463ba1:0x63a8321860f1f363!8m2!3d35.7104353!4d139.7885064?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "Dengama",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1200,
+    "photoHeight": 643,
+    "photoFit": "cover"
   },
   {
     "id": "chef-e880aa04038a23",
@@ -3269,8 +3656,8 @@ const CHEF_CATALOG=[
     "address": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92166-0003+Tokyo,+Suginami+City,+K%C5%8Denjiminami,+4-ch%C5%8Dme%E2%88%9227%E2%88%9217+%E6%81%92%E9%99%BD%E3%82%B5%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B9%E3%83%88%E9%AB%98%E5%86%86%E5%AF%BA/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f27d574b0f35:0x6459786910da2756!8m2!3d35.7040931!4d139.6501113!16s%2Fg%2F11clp6kh7c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=IdPy9EP9WoM3OgJ39K0x2w&cb_client=search.gws-prod.grass&w=80&h=92&yaw=273.5667&pitch=0&thumbfov=100",
-    "photoLabel": "Google Maps · 清单照片",
+    "photo": null,
+    "photoLabel": "地址收藏 · 暂无可核实照片",
     "photoSource": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92166-0003+Tokyo,+Suginami+City,+K%C5%8Denjiminami,+4-ch%C5%8Dme%E2%88%9227%E2%88%9217+%E6%81%92%E9%99%BD%E3%82%B5%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B9%E3%83%88%E9%AB%98%E5%86%86%E5%AF%BA/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f27d574b0f35:0x6459786910da2756!8m2!3d35.7040931!4d139.6501113!16s%2Fg%2F11clp6kh7c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
     "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
@@ -3294,11 +3681,14 @@ const CHEF_CATALOG=[
     "address": "1 Chome Nishiasakusa",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/1+Chome+%E8%A5%BF%E6%B5%85%E8%8D%89%E5%8F%B0%E4%B8%9C%E5%8C%BA%E4%B8%9C%E4%BA%AC%E9%83%BD+111-0035%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebeef90e5d5:0x82c6c237e2ea7915!8m2!3d35.7112752!4d139.7898122!16s%2Fg%2F1pxy9nrgv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvtVXf46z8ftU3dxtbAV9fSHjbK0qYjKBqbSuYa13IfWFqDkkUSCXUM_A82DnltgJfhw5pgVR-YV62_agatYcLtI_u0ctAoecbkFA0LOGMFxBK5BuXiXK5PPDezr0J3qg_ob5Pww=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfvtVXf46z8ftU3dxtbAV9fSHjbK0qYjKBqbSuYa13IfWFqDkkUSCXUM_A82DnltgJfhw5pgVR-YV62_agatYcLtI_u0ctAoecbkFA0LOGMFxBK5BuXiXK5PPDezr0J3qg_ob5Pww=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/1+Chome+%E8%A5%BF%E6%B5%85%E8%8D%89%E5%8F%B0%E4%B8%9C%E5%8C%BA%E4%B8%9C%E4%BA%AC%E9%83%BD+111-0035%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188ebeef90e5d5:0x82c6c237e2ea7915!8m2!3d35.7112752!4d139.7898122!16s%2Fg%2F1pxy9nrgv?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "1 Chome Nishiasakusa",
-    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
+    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-491b5e9018b9f9",
@@ -3319,8 +3709,8 @@ const CHEF_CATALOG=[
     "address": "1 Chome-17-5 Tomigaya",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/1-ch%C5%8Dme-17-5+Tomigaya,+Shibuya,+Tokyo+151-0063%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cb2bc6ed503:0x5ba19c9304532b90!8m2!3d35.6662571!4d139.6921669!16s%2Fg%2F11d_44cb0b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=9Tt7RHC06w4VDqSfws69Lg&cb_client=search.gws-prod.grass&w=80&h=92&yaw=46.477016&pitch=0&thumbfov=100",
-    "photoLabel": "Google Maps · 清单照片",
+    "photo": null,
+    "photoLabel": "地址收藏 · 暂无可核实照片",
     "photoSource": "https://www.google.com/maps/place/1-ch%C5%8Dme-17-5+Tomigaya,+Shibuya,+Tokyo+151-0063%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cb2bc6ed503:0x5ba19c9304532b90!8m2!3d35.6662571!4d139.6921669!16s%2Fg%2F11d_44cb0b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "1 Chome-17-5 Tomigaya",
     "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
@@ -3344,11 +3734,14 @@ const CHEF_CATALOG=[
     "address": "2 Chome-20-2 Nishiasakusa, Taito City, Tokyo 111-0035日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/MUSASHI+JAPAN+Minami+Kappabashi+Knife+Shop/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188fa4cc1008ff:0xba83d681108e7e64!8m2!3d35.7132425!4d139.7888283!16s%2Fg%2F11y3npffz0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTblN-RaulLzh86hX7jL7ij0hQGPPkfW7fRUjys46nWVwl7hkICufMCBgZcEy8KsvwSRZbQg1FJy6Rh_wM0458o8HBSb7gRnx004YiBpU568b74TUpiRXKA2dysJHewItMyMPLElR6SFBb=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdTblN-RaulLzh86hX7jL7ij0hQGPPkfW7fRUjys46nWVwl7hkICufMCBgZcEy8KsvwSRZbQg1FJy6Rh_wM0458o8HBSb7gRnx004YiBpU568b74TUpiRXKA2dysJHewItMyMPLElR6SFBb=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/MUSASHI+JAPAN+Minami+Kappabashi+Knife+Shop/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188fa4cc1008ff:0xba83d681108e7e64!8m2!3d35.7132425!4d139.7888283!16s%2Fg%2F11y3npffz0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "MUSASHI JAPAN Minami Kappabashi Knife Shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 1137,
+    "photoHeight": 639,
+    "photoFit": "cover"
   },
   {
     "id": "chef-9cfb8813ce0b12",
@@ -3369,11 +3762,14 @@ const CHEF_CATALOG=[
     "address": "日本〒111-0035 Tokyo, Taito City, Nishiasakusa, 3 Chome−8−4 THOSHICHI BUILDING ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/MUSASHI+JAPAN+Kappabashi+Knife+%26+Sake+Shop/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188f2885fd04b1:0xbd691df9b3a654ab!8m2!3d35.7150934!4d139.7891041?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8DmLQyDYIJaF0OjI5_GvIcOkZ4YRYRY1YcP5CQjB2Fa2xmR3UssL1udpewlkgDmIVvYk2qvSky-PR4dN8bdTpgXPCC5_-OLgnHBu5OBtuZtcmpR0lx2aiUdF2ke67HtyZ5p9tbDNC-6-D=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd8DmLQyDYIJaF0OjI5_GvIcOkZ4YRYRY1YcP5CQjB2Fa2xmR3UssL1udpewlkgDmIVvYk2qvSky-PR4dN8bdTpgXPCC5_-OLgnHBu5OBtuZtcmpR0lx2aiUdF2ke67HtyZ5p9tbDNC-6-D=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/MUSASHI+JAPAN+Kappabashi+Knife+%26+Sake+Shop/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188f2885fd04b1:0xbd691df9b3a654ab!8m2!3d35.7150934!4d139.7891041?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "MUSASHI JAPAN Kappabashi Knife & Sake Shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 900,
+    "photoHeight": 900,
+    "photoFit": "contain"
   },
   {
     "id": "chef-9ddb8fde760bc5",
@@ -3394,11 +3790,14 @@ const CHEF_CATALOG=[
     "address": "新仲見世通り, 1 Chome-30-5 Asakusa, Taito City, Tokyo 111-0032日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/MUSASHI+JAPAN+Asakusa+Knife+Shop/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188e95c41fa955:0x5a668c211267f293!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188f23e6c01ecb:0x7d41dae2d6da2f63!8m2!3d35.7119463!4d139.7958402?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDoCZwOCUIykfBgTlSFm7E1aJFAegUjt8PGwcGNH8nxt83S5dcvnZ0a1k2JdpgfVYkbbjjlb9FwvX7gmZfGg7vAnVBsq_o98EFM86Nj_833fEgdEUSBYw2Qxdyj6diljhiyUXecTZg3mns=w480-h320-k-no",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDoCZwOCUIykfBgTlSFm7E1aJFAegUjt8PGwcGNH8nxt83S5dcvnZ0a1k2JdpgfVYkbbjjlb9FwvX7gmZfGg7vAnVBsq_o98EFM86Nj_833fEgdEUSBYw2Qxdyj6diljhiyUXecTZg3mns=w1200-h900-k-no",
     "photoLabel": "Google Maps · 清单照片",
     "photoSource": "https://www.google.com/maps/place/MUSASHI+JAPAN+Asakusa+Knife+Shop/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188e95c41fa955:0x5a668c211267f293!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188f23e6c01ecb:0x7d41dae2d6da2f63!8m2!3d35.7119463!4d139.7958402?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "MUSASHI JAPAN Asakusa Knife Shop",
-    "notes": ""
+    "notes": "",
+    "photoWidth": 675,
+    "photoHeight": 900,
+    "photoFit": "contain"
   }
 ];
 OVERVIEW_CATALOG.push(...CHEF_CATALOG);
