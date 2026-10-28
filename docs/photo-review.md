@@ -1,6 +1,6 @@
 # Chef wishlist photo review
 
-Reviewed 136 list entries on 2026-10-28 using contact sheets of the imported photos and full-size inspection of replacement candidates. Retained recognizable, usable originals; replaced 17 images with better contextual photos, including two previously blank address entries. No images were generated.
+Reviewed 136 list entries on 2026-10-28 using contact sheets of the imported photos and full-size inspection of replacement candidates. Retained recognizable, usable originals; replaced 18 images with better contextual photos, including two previously blank address entries. No images were generated.
 
 ## Selected replacements
 
@@ -36,3 +36,5 @@ Reviewed 136 list entries on 2026-10-28 using contact sheets of the imported pho
 ## Chinese display names
 
 All 136 entries now have Chinese-readable labels, using established names where known and descriptive brand/category labels otherwise. These are not all official Chinese brand names. Original names, navigation queries, stable IDs, and voting records are retained. Chinese and original names are both searchable.
+
+Additional replacement: AKOMEYA Nihombashi Takashimaya uses its [official branch interior](https://www.akomeya.jp/store_info/store/snihombashitakashimaya/) rather than a close-up of the sign.
