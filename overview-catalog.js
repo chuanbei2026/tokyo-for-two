@@ -245,10 +245,12 @@ const OVERVIEW_CATALOG=[
     "desc": "愿意认真吃一顿江户前寿司，就留这个晚上；午餐太饱也可以改轻晚餐。",
     "address": "8-7-6 Ginza, Chuo-ku, Tokyo",
     "source": "https://www.kyubey.jp/shoplist/ginza/",
-    "photo": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/images/main.webp",
-    "photoLabel": "银座街区参考 · 非餐厅实景",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcBRXkTco-fvM0pCXtB2dqtnntyee_XZooIhMdToFDJTmTDzNF2yNoBdRL9L5bvDMffTJjNxg-YEYnirwqcwVpEZju_jkw1GoNt8IknyE_dGfAkEToFTnR4628NZfxAEM-5ZlE8zD9qBx9i=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 久兵卫银座本店 · 门店入口",
     "query": "Ginza Kyubey Tokyo",
-    "notes": "高预算选项是银座久兵卫，须提前确认有位和套餐；不要到门口再把它当随到随吃。 订位前告知是否吃生鱼、贝类、海胆及其他忌口；套餐能否调整由店家确认。 若不吃生食或当天太饱，取消升级安排，改酒店周边熟食；不要预订后临时爽约。"
+    "notes": "高预算选项是银座久兵卫，须提前确认有位和套餐；不要到门口再把它当随到随吃。 订位前告知是否吃生鱼、贝类、海胆及其他忌口；套餐能否调整由店家确认。 若不吃生食或当天太饱，取消升级安排，改酒店周边熟食；不要预订后临时爽约。",
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Ginza%20Ky%C5%ABbey%20Ginza%20Honten",
+    "photoFit": "contain"
   },
   {
     "id": "meiji",
@@ -328,7 +330,8 @@ const OVERVIEW_CATALOG=[
   },
   {
     "id": "sky",
-    "name": "涩谷天空观景台", "originalName": "SHIBUYA SKY",
+    "name": "涩谷天空观景台",
+    "originalName": "SHIBUYA SKY",
     "coord": [
       35.6585,
       139.7022
@@ -817,11 +820,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 川越一日游的起终点，从东口开始步行。",
     "address": "Kawagoe Station, Kawagoe, Saitama",
     "source": "https://koedo.or.jp/en/access/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcImMHQK4nMgPwa9NwDgnCNeNDY0ixsDmg46ymXV8oP_T5d8jDq0XA4WJ_oDH6DGhh-4iceSghzktLSpGpFdF7LJKjNTM1xBR0acQPloxX0eOm_8jqMDXwENw0O3GHX8_vCrxJB-LXzm3z4=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 川越站 · 站台实景",
     "query": "川越站 Kawagoe Station, Kawagoe, Saitama",
     "notes": "东京经池袋换东武东上线，在川越站下车。 东口先找洗手间，补水后步行去八幡宫。 返程仍到川越站，不是川越市站或本川越站。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Kawagoe%20Station",
+    "photoFit": "cover"
   },
   {
     "id": "hachiman",
@@ -837,11 +841,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 川越步行第一站。",
     "address": "19-3 Minamitorimachi, Kawagoe, Saitama",
     "source": "https://www.kawagoe-hachimangu.net/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdcq-Pmbbbdyx7egzPuokKNp1ugKnFDRX2KqnOyoMhF7PBKvIemw8cvLMvy3qqZm1-QSkHUbsXYx5WPS2LLvbn8tDDtTAMgD-FGZzVDbNgcPBSIPXyaZy9gV18IvbMNTWED_rze=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 川越八幡宫 · 境内实景",
     "query": "川越八幡宫 19-3 Minamitorimachi, Kawagoe, Saitama",
     "notes": "走入鸟居与参道，参拜后看境内银杏。 停留约25分钟，再走向熊野神社。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E8%B6%8A%E5%85%AB%E5%B9%A1%E5%AE%AB",
+    "photoFit": "cover"
   },
   {
     "id": "kumano",
@@ -857,11 +862,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 第二站，境内参拜与小体验。",
     "address": "17-1 Renjakucho, Kawagoe, Saitama",
     "source": "https://www.kawagoekumano.jp/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfT-TQ7M7z86_9VwhAtDi_tuceoXXbi-mlnfVJLiwyQMIDok6oI3FWVRWPg9c4tCQUuzScAr3xhTdGq8eIQzfI34hPcKh1XMiYvbceUYahLnBpeRSqdGBtnDi4htd0M52lBar1okw=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 川越熊野神社 · 神社实景",
     "query": "川越熊野神社 17-1 Renjakucho, Kawagoe, Saitama",
     "notes": "先参拜，再按现场说明体验。 不要把求签结果当成必须购买更多护符的理由。 出门顺路往大正浪漫梦通。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E7%86%8A%E9%87%8E%E7%A5%9E%E7%A4%BE%EF%BC%88%E5%B7%9D%E8%B6%8A%EF%BC%89",
+    "photoFit": "cover"
   },
   {
     "id": "taisho",
@@ -877,11 +883,12 @@ const OVERVIEW_CATALOG=[
     "desc": "从神社走进复古街道，保持 PDF 的顺路方向。",
     "address": "Renjakucho / Nakacho, Kawagoe, Saitama",
     "source": "https://koedo.or.jp/en/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxP_O--GeFsXztbdsQzqSVtePYV13q3U0JSOit2BcPeQDPWVi70joLwiaXlue0Xwx18h7a0OIvfTIa85zui6UlMbzc-h72yhpfjucPr285tKEAbsJsHKEOeMq6vvDTNfm8ddQ5OQ=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 大正浪漫梦通 · 街景，装饰随季节变化",
     "query": "大正浪漫梦通 Renjakucho / Nakacho, Kawagoe, Saitama",
     "notes": "沿街看店招、老建筑。 小吃两人分享，留肚子给一番街午餐。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A7%E6%AD%A3%E6%B5%AA%E6%BC%AB%E6%A2%A6%E9%80%9A",
+    "photoFit": "cover"
   },
   {
     "id": "ichibangai",
@@ -897,11 +904,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 的藏造老街与午餐区，安排一顿正餐加一两样红薯小吃。",
     "address": "Saiwaicho, Kawagoe, Saitama",
     "source": "https://koedo.or.jp/en/spot_002/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9SW_o9CJ802buh8xO2u5G_tYuNQWtBeFQQy4IzLPx61aA1msgomiiVvz0CX3U7hlN4Ludx71-DZ58LjTXGksOeYo7xrdTlDwLUfKaedHx48Q80pU01DXUDpXkdrrbW8XkHTxB=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 川越一番街 · 藏造建筑",
     "query": "川越一番街 · 午餐 Saiwaicho, Kawagoe, Saitama",
     "notes": "先吃午餐，再慢逛藏造街景。 按 PDF 方向选荞麦面或豆腐料理，现场确认营业与菜单。 红薯片或地瓜点心两人分享，不把每一家都排进日程。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B7%9D%E8%B6%8A%E4%B8%80%E7%95%AA%E8%A1%97",
+    "photoFit": "cover"
   },
   {
     "id": "bell",
@@ -917,11 +925,12 @@ const OVERVIEW_CATALOG=[
     "desc": "川越代表地标，按 PDF 放在一番街之后。",
     "address": "15-7 Saiwaicho, Kawagoe, Saitama",
     "source": "https://koedo.or.jp/en/spot_001/",
-    "photo": "https://www.gotokyo.org/en/destinations/beyond-tokyo/images/3_main_pc.jpg",
-    "photoLabel": "GO TOKYO · 川越街区参考，非此地点专属照片",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfuLMn_wji3pFIvxQe73Cbemy6sJIQij3Z3QXY13Bhtk29GM0rLZ0L9GRwFYfzdz8Dj_XTrqtcLhrTDBCJatvik3u6vnOD11PBo-L7jAmxMZbSI_zzFXAiv1CxqX0lkIGfY2S0O=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 时之钟 · 夜景",
     "query": "时之钟 15-7 Saiwaicho, Kawagoe, Saitama",
     "notes": "在街口拍整体，注意来车。 穿过钟楼下方通道，按现场开放区域散步。 停留20分钟后前往冰川神社。",
-    "photoSource": "https://www.gotokyo.org/en/destinations/beyond-tokyo/kawagoe.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E6%97%B6%E4%B9%8B%E9%92%9F",
+    "photoFit": "contain"
   },
   {
     "id": "hikawa",
@@ -1057,11 +1066,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 中从中目黑逛向代官山时的历史住宅停留点。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=%E6%97%A7%E6%9C%9D%E4%BB%93%E5%AE%B6%E4%BD%8F%E5%AE%85%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/images/area034_1005_27.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc2g-Peir_6ptD1czvdPjNIk60BXFh7a8Q7G4v0G7a0GXMu6DwlP3f7qDwlVSyEFiCSMK5wJvhGQ6EQP1zevkk_GZydYrpYZHxzqKKgzyvIHp2OuFDJrv-PLnIIGwjN1lJwfgbrLQ=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 旧朝仓家住宅 · 建筑实景",
     "query": "旧朝仓家住宅",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Kyu%20Asakura%20House",
+    "photoFit": "cover"
   },
   {
     "id": "yuyake",
@@ -1077,11 +1087,12 @@ const OVERVIEW_CATALOG=[
     "desc": "从阶梯回望谷中商店街，适合傍晚拍街景。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=%E8%B0%B7%E4%B8%AD%E5%A4%95%E9%98%B3%E9%98%B6%E6%A2%AF%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/images/area013_0996_12.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdmfPvoVxXRk9jrwBmpG8qmBpJthkV7tnUj37PHBErhD4_9OwLg_L94tXahjICE-IlsDHQSsJOVa-UaMKRzfDvrGfCBlb3vu7pgPv-Uae9xkPc_7VbYPxJRqmG3kMx75-09VN8=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 谷中夕阳阶梯 · 街景",
     "query": "谷中夕阳阶梯",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Yanaka%20Ginza%20Y%C5%AByake%20Dandan",
+    "photoFit": "cover"
   },
   {
     "id": "neko-gallery",
@@ -1097,11 +1108,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 的猫主题画廊与杂货停留点；地址为谷中 2-6-24，开放日需复核。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=%E7%8C%AB%E7%94%BA%E7%94%BB%E5%BB%8A%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/images/area013_0996_12.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfT74dSSygA155IHDHrcONP6A5PoU7Fuyrm-QFqHyNl7vH9tJcNaRb9XRI3QV3w1FMux995T3iZS75kJzAZbscIi7k7-PeC3JXGyDfSlxJBvqaz8WCCUGZdLXSRlDhsGqhkuOI=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 猫町画廊 · 入口阶梯",
     "query": "猫町画廊",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Neko%20Machi%20Gallery",
+    "photoFit": "contain"
   },
   {
     "id": "nenneko",
@@ -1117,11 +1129,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 提到的猫主题小景，地址谷中 1-7-26；店铺经营状态以出发前查询为准。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=Nennekoya%20%E7%8C%AB%E4%B8%BB%E9%A2%98%E5%B0%8F%E5%BA%97%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/images/area013_0996_12.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcxoBkkCg1JsQlbw7QHlX9YXVopwTOoZakUoiCYSuriFOPkfqXHM4R1_pLIiYXSBx0iC4iBzLy_ysOJLo3Rk1u0b6_WYsWYN4barkiCh6gV5s7Fk7XcoMKkaid3cP-GCLHdNNI=w960-h720-k-no",
+    "photoLabel": "Google 地图 · Nennekoya · 猫主题门面",
     "query": "Nennekoya 猫主题小店",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Nenneko-ya%20%26%20Nenneko%20Shrine",
+    "photoFit": "contain"
   },
   {
     "id": "mikan",
@@ -1137,11 +1150,12 @@ const OVERVIEW_CATALOG=[
     "desc": "下北泽站附近的餐饮与商业街区，适合午餐和小逛。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=MIKAN%20%E4%B8%8B%E5%8C%97%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/images/area033_1010_19.webp",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdyk8MQY9VDGIXGQlsMRYDkKOrLF3OSNwsq3zISFSriph-ElV0dBCREE_sGVnb9olJwka-twUl5XBIp0M0VSS7uXlfKVAo4J_wWDvN-hzGFwXFKgx1SidDUn7QhIR1aGRO-tGaNaVJrlPaV=w960-h720-k-no",
+    "photoLabel": "Google 地图 · MIKAN 下北 · 商业设施入口",
     "query": "MIKAN 下北",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Mikan%20Shimokita",
+    "photoFit": "cover"
   },
   {
     "id": "daiya",
@@ -1157,11 +1171,12 @@ const OVERVIEW_CATALOG=[
     "desc": "连接车站、Sunroad 与口琴横丁的购物街，适合沿街尝小吃。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=%E5%90%89%E7%A5%A5%E5%AF%BA%20Daiya%20%E8%A1%97%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/kichijoji/images/area035_1012_22.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://www.daiyagai.com/assets/photos/pc_kv_east.webp",
+    "photoLabel": "商店街官网 · Daiya 街东区",
     "query": "吉祥寺 Daiya 街",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html"
+    "photoSource": "https://www.daiyagai.com/",
+    "photoFit": "cover"
   },
   {
     "id": "kabukiza",
@@ -1215,11 +1230,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 的中目黑柚子拉面选择，适合河岸散步前后用餐。",
     "address": "",
     "source": "https://www.google.com/maps/search/?api=1&query=AFURI%20%E4%B8%AD%E7%9B%AE%E9%BB%91%20Tokyo%20Japan",
-    "photo": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/images/103_0016_4.jpg",
-    "photoLabel": "周边街区参考图 · 非门店外观",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdmGbF2nY2QvB4TEsV-UBEHj90Tq4LsxmPp9_DqivzfVarHwerDLsDCILkN-NGcVmi9G28yID19DXCdSXNcDqvxWlr_9nh3_Vx9Dl41Swnc5QPvA6glcri9YT9inZ536RHS5El1=w960-h720-k-no",
+    "photoLabel": "Google 地图 · AFURI 中目黑 · 门店外观",
     "query": "AFURI 中目黑",
     "notes": "",
-    "photoSource": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/index.html"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Afuri%20Nakameguro",
+    "photoFit": "cover"
   },
   {
     "id": "otako",
@@ -1295,11 +1311,12 @@ const OVERVIEW_CATALOG=[
     "desc": "石板坡道、町屋与伴手礼小店；与三年坂连起来走。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e9/Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg/330px-Sannenzaka_street%2C_Kyoto_%283811257874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "三年坂周边参考图 · 非二年坂实景",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc9noc0slftuyxb9tEEGU_leY9o3aZ79g0uN083yV38CbpaS7u_ZfRCU7ekG-cAwHwCseHSO7FCJQEJtwVJ2-BH6fDch2GC53M8V1eQRl1LrojYSgRdctHq_P3RFOBTDlDy4C9NNw=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 二年坂周边 · 八坂塔街景",
     "query": "二年坂",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Sannenzaka"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E4%BA%8C%E5%B9%B4%E5%9D%82",
+    "photoFit": "cover"
   },
   {
     "id": "sannen",
@@ -1375,11 +1392,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 购物与晚餐片区，包含高岛屋、Kiddy Land、三丽鸥等店铺。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Nishiki_Ichiba_by_matsuyuki.jpg/330px-Nishiki_Ichiba_by_matsuyuki.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekXNY-TkLtWD03nsDEhhCutTjxPliBE_iW4xKJ0MtF680C-Ejp3Hf4yvDNWRJ-8-6Vk-CvGKfTtfsBJRJv4WRgTwjoEfX2akuC91Nv5t37IsQcoLBssL0-MwKRoxp9VZBulH8=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 河原町 Garden · 商业街地标展示图",
     "query": "四条河原町商业街",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Nishiki_Market"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Kyoto%20Kawaramachi%20Garden",
+    "photoFit": "cover"
   },
   {
     "id": "kamogawa",
@@ -1415,11 +1433,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 晚间散步的小巷，餐厅密集。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Nishiki_Ichiba_by_matsuyuki.jpg/330px-Nishiki_Ichiba_by_matsuyuki.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcDkw8Fh7A-L64PKzk2x43u34czfHnbO51SNnBc432PJJpOCBYG9t4-95yqXplP928Xfh8DHTOc-OrAc27ycOWg9Yuhko61MfAxwp8gixSPK4K8pal0OQeVArKzjSsCZa92vs99j83tH58C=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 先斗町 · 巷道实景",
     "query": "先斗町通",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Nishiki_Market"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Pontocho%20alley%20Kyoto",
+    "photoFit": "contain"
   },
   {
     "id": "fushimi",
@@ -1495,11 +1514,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 第8天步行路线起点，竹林小径适合清早慢走。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfmGQdOeMB5k7lU-EXgRfKtijhKyHZ0NycPrqxrxC9BifT4RzeNQAMVywEKi78zzqwR05aMNJoD8tdyTcPSw_Seyiwx2lIBGVed-lgCOVvI89wnYh9_ER7RMhZdGyDDGTEqnWnXCw3IHCSz=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 岚山竹林 · 步道实景",
     "query": "岚山竹林",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B2%9A%E5%B1%B1%20%E7%AB%B9%E6%9E%97%E5%B0%8F%E5%BE%84",
+    "photoFit": "contain"
   },
   {
     "id": "tenryuji",
@@ -1515,11 +1535,12 @@ const OVERVIEW_CATALOG=[
     "desc": "岚山寺院与庭园，可与竹林、商店街串联。",
     "address": "",
     "source": "https://www.tenryuji.com/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd3ER91Ch-pTe_CUB-1HqoxdEQvgfmum8a_Ab_DBqEHrECeeTti7-wLFtBHx6vzzLfIS1iEHWBUkrN7QNpJcUFugYLX7Iflor0ga1bkFG2sRWbRrmkw8s0Hwy_h_P0Gwst95olf=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 天龙寺 · 建筑实景",
     "query": "天龙寺",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%A4%A9%E9%BE%99%E5%AF%BA",
+    "photoFit": "cover"
   },
   {
     "id": "arashiyama-street",
@@ -1535,11 +1556,12 @@ const OVERVIEW_CATALOG=[
     "desc": "岚山午餐、小吃和伴手礼聚集区。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdFdV2C2KPoumfMFXpoXS_BD9XvpKxDZXPU6x5Pg9KXFNmgmqfKv36vJKvdppscc7dukaOFu7m6Q6z8_4AVPDBFKtvBM3ENm3BSoDBirLCKC9wje1QYnX91on8esJtbDk2F7AgERg=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 岚山商店街 · 昇龙苑沿街实景",
     "query": "岚山商店街",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=Arashiyama%20Shoryuen%20Kyoto",
+    "photoFit": "cover"
   },
   {
     "id": "yusai",
@@ -1555,11 +1577,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 的染色艺术与窗景参观点；预约与开放状态以官方为准。",
     "address": "",
     "source": "https://yusai.kyoto/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeb1v4V2ATXX_-q3hIXR9oiymgon5oanMC8yJzgL-dA79SpuO97-aHAcUIJPfPqSmMe7pMXz87fQBd5SIe0ET6PBd8V0Es8gvJO_9AHxdciCUmepK1pChBO95YamlRcx-vuJvRh=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 岚山佑斋亭 · 室内与庭院",
     "query": "岚山佑斋亭",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E7%A5%90%E9%BD%8B%E4%BA%AD",
+    "photoFit": "cover"
   },
   {
     "id": "togetsu",
@@ -1575,11 +1598,12 @@ const OVERVIEW_CATALOG=[
     "desc": "岚山河景地标，连接两岸散步路线。",
     "address": "",
     "source": "https://kyoto.travel/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcu8tHrvt4b4nQNVqJfXtg6KVmKIqDu4VEAaZkYV8LIwz0rAyTrPi2rS9UokWh57cBEy4Z-pfOH1PhGFXq1H7xZ4-uvE-qqSgiQ62WIwe0NwnLqdWJwFs26n1OmS7-PPW3cUdIY=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 渡月桥 · 秋季实景",
     "query": "渡月桥",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E6%B8%A1%E6%9C%88%E6%A1%A5",
+    "photoFit": "cover"
   },
   {
     "id": "kinkakuji",
@@ -1615,11 +1639,12 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 从龟冈乘观光小火车到这里；车票、班次需单独确认。",
     "address": "",
     "source": "https://www.sagano-kanko.co.jp/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdqtzzsfF9hPzLkX9O3ZgE11EOy_k1iOyqDGeRnv2FH3DenkrrTejCaCNlJIqyRX8pONpTer1sdJRQHkBYDhDFo4vgVpIWed7r_dFyamUA3eBMidoqipv2Zj2d-dmp88MrbAcZdADskhPU=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 岚山小火车站 · 站口",
     "query": "岚山小火车站",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%81%AB%E8%BD%A6%E5%B2%9A%E5%B1%B1",
+    "photoFit": "cover"
   },
   {
     "id": "kameoka",
@@ -1635,10 +1660,11 @@ const OVERVIEW_CATALOG=[
     "desc": "PDF 第8天观光小火车上车点，与 JR 马堀站步行连接。",
     "address": "",
     "source": "https://www.sagano-kanko.co.jp/en/",
-    "photo": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Arashiyama%2C_Part_II_-_Arashiyama7534.jpg/330px-Arashiyama%2C_Part_II_-_Arashiyama7534.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "photoLabel": "Wikimedia · 周边片区参考图",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe-5ZQ9q2_8Yj8om3MfltB_MKv70btodINCrktfPGBOBlUpP3IAORLQGMnKjZlS87z01v-4NJFQ45kL-FwewAne8Odrg8ZaD46f8mj24nL75soEjuTYnF-z5JfGhwMsFUKb8VjS3LTbaUDk=w960-h720-k-no",
+    "photoLabel": "Google 地图 · 龟冈小火车站 · 列车与站台",
     "query": "龟冈小火车站",
     "notes": "",
-    "photoSource": "https://en.wikipedia.org/wiki/Arashiyama"
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%81%AB%E8%BD%A6%E9%BE%9F%E5%86%88",
+    "photoFit": "cover"
   }
 ];

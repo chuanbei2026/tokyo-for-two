@@ -3916,16 +3916,16 @@ const CHEF_CATALOG=[
     "address": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
     "source": "https://www.cotogoto.jp/blog/unq/shop",
     "mapUrl": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92166-0003+Tokyo,+Suginami+City,+K%C5%8Denjiminami,+4-ch%C5%8Dme%E2%88%9227%E2%88%9217+%E6%81%92%E9%99%BD%E3%82%B5%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B9%E3%83%88%E9%AB%98%E5%86%86%E5%AF%BA/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f27d574b0f35:0x6459786910da2756!8m2!3d35.7040931!4d139.6501113!16s%2Fg%2F11clp6kh7c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://cotogoto.xsrv.jp/wp-content/uploads/2013/01/250602-cotogoto4487.jpg",
-    "photoLabel": "地址对应建筑二层 · cotogoto 店内实景",
-    "photoSource": "https://www.cotogoto.jp/blog/unq/shop",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfa6QyAsXxrYmiErBHXTMrr4O3hdRxiPZ1u2QZ9FbwWDCiv3VKwaEdAseFaWK5G0lQag6SEQjvWo8Iki8NaaZtCAbvkpHnlcpoqyhGbfqVqCCtRM_hv5NeIvwq4RjIjX_IjiFpcWscXBgx-=w960-h720-k-no",
+    "photoLabel": "Google 地图 · cotogoto · 门店入口外观",
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=cotogoto",
     "query": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
     "notes": "官方店铺页确认 cotogoto 位于此地址二层。原清单只保存楼址，不能确认收藏者是否指这家店；与 cotogoto 店铺条目分别保留。",
     "originalName": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
     "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。",
     "photoWidth": 725,
     "photoHeight": 483,
-    "photoFit": "cover"
+    "photoFit": "contain"
   },
   {
     "id": "chef-9c6331f3dba2f6",
@@ -3976,16 +3976,16 @@ const CHEF_CATALOG=[
     "address": "1 Chome-17-5 Tomigaya",
     "source": "https://www.marumitsu.jp/eng/",
     "mapUrl": "https://www.google.com/maps/place/1-ch%C5%8Dme-17-5+Tomigaya,+Shibuya,+Tokyo+151-0063%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cb2bc6ed503:0x5ba19c9304532b90!8m2!3d35.6662571!4d139.6921669!16s%2Fg%2F11d_44cb0b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://www.marumitsu.jp/m_a_d/new_image/DSC_0254.JPG",
-    "photoLabel": "地址对应建筑一层 · DISHES 店内实景",
-    "photoSource": "https://www.marumitsu.jp/eng/",
+    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLebQuZguCjAuYcuUTRRNXhUo-mG8yHZHVWuzNpQgzhyJwwM6akU1ym65NuVqVifI_E40no9yO5C7mtOAKtEHzAKKUKWgGLOk09YSLlDSbVqJD4uYZKOx0g1f7VK5FzCRcDNSF0Aifpe42s=w960-h720-k-no",
+    "photoLabel": "Google 地图 · MEALS 所在建筑 · 入口外观",
+    "photoSource": "https://www.google.com/maps/search/?api=1&query=MEALS",
     "query": "1 Chome-17-5 Tomigaya",
     "notes": "品牌官网确认此楼一层为 DISHES 餐具店、二层为 MEALS 餐厅、三层为料理工作室。原清单没有注明楼层，继续作为建筑地址保留。",
     "originalName": "1 Chome-17-5 Tomigaya",
     "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。",
     "photoWidth": 1200,
     "photoHeight": 1600,
-    "photoFit": "contain"
+    "photoFit": "cover"
   },
   {
     "id": "chef-b3b4323c185f5c",

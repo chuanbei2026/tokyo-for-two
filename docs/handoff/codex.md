@@ -95,3 +95,7 @@ Category chips now select exactly one category or All. A separate visible vote f
 ## Full PDF dining audit — 2026-10-28
 
 Visually reviewed all 52 source pages and reconciled 91 explicit food/market recommendations. Added pdf-food-catalog.js (84 candidates, including one produce shop categorized as stroll) and linked 7 existing records without changing their IDs/votes. Total catalog 301. All new places have individually resolved map locations and visually checked store photos; estimated JPY/USD budgets, Chinese labels, duration and PDF page badges are present. The PDF filter composes with category/person/region/search filters. Tokyo remains the default region. See docs/pdf-food-audit.md for all 52 page outcomes, record IDs and exceptions. Source PDF is not published. Non-dining retail completeness is not claimed.
+
+## Duplicate photo cleanup and category order — 2026-10-28
+
+Replaced 26 shared area-placeholder images across 13 duplicate groups with individually checked place imagery. Store/address pairs now show distinct interior and entrance views; record IDs and votes are unchanged. Daiyagai uses its official East-zone photo. Kawaramachi explicitly identifies the Garden landmark illustration; Ninenzaka labels the surrounding Yasaka Tower streetscape. Cards, filter chips and legend order is now sights, food, shopping, base. Remote images remain source-linked.
