@@ -42,7 +42,7 @@ function wishlistGuidance(p){
  if(/地址点|具体店铺待确认/.test(p.desc))return {score:null,duration:'待确认',reason:'地点信息不足',detail:'这是原清单里的地址收藏，尚不能确认具体店铺。可以先标记兴趣，确认店名后再估算逛店时间。'};
  if(p.region!=='tokyo')return {score:1,duration:p.category==='food'?'45–75 分钟':p.category==='sight'?'60–90 分钟':'30–60 分钟',reason:'本次东京行程不优先',detail:'更适合另一次'+({kyoto:'京都',osaka:'大阪 / 兵库',kawagoe:'川越',fuji:'富士山周边',other:'当地'}[p.region]||'当地')+'旅行时安排。时长只估算在这一处的停留，不含从东京往返；低分表示不适合这次路线，不代表地点不好。'};
  if(p.category==='base')return {score:null,duration:p.id==='hotel'?'入住预留 30–45 分钟':'换乘预留 10–20 分钟',reason:'行程配套，不作景点评分',detail:p.id==='hotel'?'先确认寄存、入住和休息安排。这里的时间不包含住宿、早餐或泡汤。':'作为交通衔接点使用，预留找站台和出入口的时间；列车行驶时间另算。'};
- const type=p.desc+' '+p.name;
+ const type=p.desc+' '+p.name+' '+(p.originalName||'');
  if(p.category==='food'){
   const snack=/玉子|小吃|和果子|巧克力|糖果|糕点/.test(type),coffee=/咖啡|coffee|cafe|茶馆/i.test(type);
   return {score:snack?4:coffee?3:4,duration:snack?'15–30 分钟':coffee?'30–45 分钟':'60–90 分钟',reason:snack?'适合两人分食':coffee?'适合作为途中休息':'符合吃饭优先的偏好',detail:snack?'建议少量分食，把它放在附近散步途中，既尝味道也给正餐留胃口。':coffee?'作为走累后的休息点，点喜欢的饮品慢慢坐一会儿；顺路经过比特地绕行更合适。':'可以作为附近活动前后的正餐候选。留出完整用餐时间，菜单、价格和是否需要预约以店家最新信息为准。'};

@@ -328,7 +328,7 @@ const OVERVIEW_CATALOG=[
   },
   {
     "id": "sky",
-    "name": "SHIBUYA SKY",
+    "name": "涩谷天空观景台", "originalName": "SHIBUYA SKY",
     "coord": [
       35.6585,
       139.7022

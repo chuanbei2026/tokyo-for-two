@@ -2,7 +2,7 @@
 const CHEF_CATALOG=[
   {
     "id": "chef-fc5f747505dbf1",
-    "name": "GENERAL STORE RAILYARD 秋葉原",
+    "name": "RAILYARD 铁路周边杂货店｜秋叶原",
     "coord": [
       35.6981328,
       139.7747761
@@ -26,11 +26,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1195,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "GENERAL STORE RAILYARD 秋葉原",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-376de30f325918",
-    "name": "Astier de Villatte (アスティエ･ド･ヴィラット) フラッグシップストア",
+    "name": "Astier de Villatte 手工陶瓷｜东京旗舰店",
     "coord": [
       35.6653377,
       139.7093779
@@ -54,11 +56,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Astier de Villatte (アスティエ･ド･ヴィラット) フラッグシップストア",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-9a8817db3e2aba",
-    "name": "coffee swamp",
+    "name": "Swamp 咖啡店",
     "coord": [
       35.6949274,
       139.6950661
@@ -82,11 +86,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 720,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "coffee swamp",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-480b7023ca59ed",
-    "name": "Kayanoya (Ginza Tokyo)",
+    "name": "茅乃舍高汤专门店｜银座",
     "coord": [
       35.672654,
       139.7656691
@@ -110,11 +116,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kayanoya (Ginza Tokyo)",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-1a32c6845a2330",
-    "name": "Kayanoya Tokyo Midtown Store",
+    "name": "茅乃舍高汤专门店｜东京中城",
     "coord": [
       35.6664058,
       139.7305497
@@ -138,11 +146,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Kayanoya Tokyo Midtown Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-45d9355a5a6f1c",
-    "name": "DISHES (ディッシーズ)",
+    "name": "DISHES 餐具选物店",
     "coord": [
       35.6662384,
       139.6921798
@@ -159,18 +169,20 @@ const CHEF_CATALOG=[
     "address": "1 Chome-17-5 Tomigaya, Shibuya, Tokyo 151-0063日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/DISHES+(%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%BC%E3%82%BA)/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d8ba55fe259:0x936f4e0d6f7ff7a1!8m2!3d35.6662384!4d139.6921798?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLd5MmrVt1pjljIOnBgMmwwsmSDDpwk7FvHkXjEmjaaz58DTDKUkMqsiw6fPXhbPGziXNRwa5HCts0zpMxBE8iNLjx8Mbl4VB0NSSwsxdU2OFF0-TGUYzV0tauUBkOwIC8py_1M=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/DISHES+(%E3%83%87%E3%82%A3%E3%83%83%E3%82%B7%E3%83%BC%E3%82%BA)/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188b78945432c1:0xf060e0ac4f89e3d7!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188d8ba55fe259:0x936f4e0d6f7ff7a1!8m2!3d35.6662384!4d139.6921798?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.marumitsu.jp/m_a_d/new_image/DSC_0254.JPG",
+    "photoLabel": "品牌官网 · DISHES 店内餐具",
+    "photoSource": "https://www.marumitsu.jp/m_a_d/dishes/",
     "query": "DISHES (ディッシーズ)",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 1200,
+    "photoHeight": 1600,
+    "photoFit": "contain",
+    "originalName": "DISHES (ディッシーズ)",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d7419aa6524cf8",
-    "name": "Asics",
+    "name": "亚瑟士运动鞋店",
     "coord": [
       35.6918253,
       139.7030458
@@ -194,11 +206,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 600,
     "photoHeight": 402,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Asics",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-77abaa9e783142",
-    "name": "ASICS FLAGSHIP HARAJUKU",
+    "name": "亚瑟士｜原宿旗舰店",
     "coord": [
       35.6706619,
       139.706727
@@ -222,11 +236,13 @@ const CHEF_CATALOG=[
     "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "ASICS FLAGSHIP HARAJUKU",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-24bfe753e7f5cb",
-    "name": "atmos Shinjuku",
+    "name": "atmos 球鞋店｜新宿",
     "coord": [
       35.688052,
       139.702727
@@ -250,11 +266,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "atmos Shinjuku",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6a8695229394e9",
-    "name": "atmos BLUE OMOTESANDO",
+    "name": "atmos BLUE 球鞋店｜表参道",
     "coord": [
       35.6683037,
       139.7064147
@@ -278,11 +296,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "atmos BLUE OMOTESANDO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-dc66547b847c4a",
-    "name": "atmos",
+    "name": "atmos 球鞋店",
     "coord": [
       35.6611356,
       139.697932
@@ -306,11 +326,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 780,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "atmos",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4093b2e80d896d",
-    "name": "Artek Tokyo Store",
+    "name": "Artek 北欧家具｜东京店",
     "coord": [
       35.6666107,
       139.7077528
@@ -334,11 +356,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Artek Tokyo Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-88f328e3bfc0a8",
-    "name": "SPRING / SUMMER / AUTUMN / WINTER",
+    "name": "春夏秋冬 SSAW｜料理工作室",
     "coord": [
       35.6135969,
       139.7007523
@@ -362,7 +386,9 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "SPRING / SUMMER / AUTUMN / WINTER",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e40d2873be42c3",
@@ -383,18 +409,20 @@ const CHEF_CATALOG=[
     "address": "5 Chome-3-1 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/%E9%93%B6%E5%BA%A7%E7%B4%A2%E5%B0%BC%E5%85%AC%E5%9B%AD/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ba6c71b7dbb:0x85ed5d3645509f25!8m2!3d35.6720765!4d139.7631115?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLeahq1AVcPEGfZ1YhGcZnqAjYITt9qhmxXJnAhjpoqBUjA1Keb6vzWvUc7XJ_lIjS7iQb299dRergFumwP7-u1GQyo-1gz720AZWkLhz3yQ0IIp-6dK6epNJf4CHG7NV6-fZ-hSMA=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/%E9%93%B6%E5%BA%A7%E7%B4%A2%E5%B0%BC%E5%85%AC%E5%9B%AD/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188ba6c71b7dbb:0x85ed5d3645509f25!8m2!3d35.6720765!4d139.7631115?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.ginzasonypark.com/img/article/project_a01/1.jpg",
+    "photoLabel": "索尼官网 · 新建筑实景",
+    "photoSource": "https://www.ginzasonypark.com/e/article/project_a01/",
     "query": "银座索尼公园",
     "notes": "",
-    "photoWidth": 900,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 1570,
+    "photoHeight": 1963,
+    "photoFit": "contain",
+    "originalName": "银座索尼公园",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-507fc858757d15",
-    "name": "cotogoto",
+    "name": "cotogoto 日本生活杂货",
     "coord": [
       35.7041264,
       139.6501562
@@ -411,18 +439,20 @@ const CHEF_CATALOG=[
     "address": "日本〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺 2階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/cotogoto/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be5f2f17fab:0xed12587e1a7514c1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f27d574b73f5:0x5c5739a79913152d!8m2!3d35.7041264!4d139.6501562?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfa6QyAsXxrYmiErBHXTMrr4O3hdRxiPZ1u2QZ9FbwWDCiv3VKwaEdAseFaWK5G0lQag6SEQjvWo8Iki8NaaZtCAbvkpHnlcpoqyhGbfqVqCCtRM_hv5NeIvwq4RjIjX_IjiFpcWscXBgx-=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/cotogoto/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188be5f2f17fab:0xed12587e1a7514c1!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6018f27d574b73f5:0x5c5739a79913152d!8m2!3d35.7041264!4d139.6501562?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://cotogoto.xsrv.jp/wp-content/uploads/2013/01/250602-cotogoto4487.jpg",
+    "photoLabel": "店铺官网 · 高圆寺店内实景",
+    "photoSource": "https://www.cotogoto.jp/blog/unq/shop",
     "query": "cotogoto",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 725,
+    "photoHeight": 483,
+    "photoFit": "cover",
+    "originalName": "cotogoto",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-14e9e37ff22cd4",
-    "name": "FAMIMA FLAGSHIP STORE",
+    "name": "全家 FAMIMA 旗舰店",
     "coord": [
       35.6624668,
       139.7443181
@@ -446,11 +476,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "FAMIMA FLAGSHIP STORE",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-16f0c3fea932a7",
-    "name": "AKOMEYA TOKYO Nihombashi Takashimaya S.C.",
+    "name": "AKOMEYA 米食与生活杂货｜日本桥高岛屋",
     "coord": [
       35.6812398,
       139.773581
@@ -474,11 +506,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "AKOMEYA TOKYO Nihombashi Takashimaya S.C.",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-1a3b197d79e9ac",
-    "name": "AKOMEYA TOKYO ルミネ有楽町",
+    "name": "AKOMEYA 米食与生活杂货｜有乐町 LUMINE",
     "coord": [
       35.6744996,
       139.7625625
@@ -495,18 +529,20 @@ const CHEF_CATALOG=[
     "address": "日本〒100-0006 Tokyo, Chiyoda City, Yurakucho, 2 Chome−9−1 ルミネストリート ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E3%83%AB%E3%83%9F%E3%83%8D%E6%9C%89%E6%A5%BD%E7%94%BA/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188957c3be3b81:0x916b26dcd6046818!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b64d4a97f21:0x5358dd94aa13eab5!8m2!3d35.6744996!4d139.7625625?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdefIXK96xGb0Y4Klg5u_5_LmIaOwDNOMRZVKGtXQCP4_gJQe0rc3N7o7P_PKuxhqjpjTgoW3rOJscyeAxfwZHS-i4hEdvsMeogFAkdfbuvX57WwwUD5XBXBep3dC-l10k85YwDcTOoCNiC=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/AKOMEYA+TOKYO+%E3%83%AB%E3%83%9F%E3%83%8D%E6%9C%89%E6%A5%BD%E7%94%BA/@35.6981328,65.9466511,3z/data=!3m1!5s0x60188957c3be3b81:0x916b26dcd6046818!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b64d4a97f21:0x5358dd94aa13eab5!8m2!3d35.6744996!4d139.7625625?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.akomeya.jp/img/blog_store/710041/710041_1.jpg",
+    "photoLabel": "品牌官网 · 有乐町店内实景",
+    "photoSource": "https://www.akomeya.jp/store_info/store/syurakucho/",
     "query": "AKOMEYA TOKYO ルミネ有楽町",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 1000,
+    "photoHeight": 571,
+    "photoFit": "cover",
+    "originalName": "AKOMEYA TOKYO ルミネ有楽町",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6528aa1eb5bf37",
-    "name": "Fujisan Plaza",
+    "name": "富士山广场伴手礼中心",
     "coord": [
       35.4988828,
       138.7684801
@@ -530,11 +566,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 676,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Fujisan Plaza",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f73ebc21be7991",
-    "name": "Yakitori Shinohara",
+    "name": "篠原烧鸟",
     "coord": [
       35.6620473,
       139.7252107
@@ -558,11 +596,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Yakitori Shinohara",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-138ddff9459527",
-    "name": "KALDI COFFEE FARM LUMINE Shinjuku 1",
+    "name": "KALDI 咖啡与进口食品｜新宿 LUMINE 1",
     "coord": [
       35.6891454,
       139.6992743
@@ -579,18 +619,20 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1 Chome−1−5 ルミネ新宿店 ルミネ1 B2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+LUMINE+Shinjuku+1/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188dba255dc655:0x677f9039e910fefc!8m2!3d35.6891454!4d139.6992743!16s%2Fg%2F11j3550ggg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLe6JCfkoO3WZbso3qOxKXMBgt2yabV0fUO-Vo-4pL_PIDvoZVCCvZcwWtaM6rbvyz5e1juFJ1KPBxq6o1zjJ69xOMhhUiblqiHnA0uTJHujcO7CbdjrvQKXXOdqHdpA7MSraDwDeg=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+LUMINE+Shinjuku+1/@35.6981328,65.9466511,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188dba255dc655:0x677f9039e910fefc!8m2!3d35.6891454!4d139.6992743!16s%2Fg%2F11j3550ggg?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://stat.ameba.jp/user_images/20260125/12/shino928/9b/17/j/o1080144015744348244.jpg",
+    "photoLabel": "店访实拍 · 新宿 LUMINE 1（陈列仅供参考）",
+    "photoSource": "https://ameblo.jp/shino928/entry-12954535359.html",
     "query": "KALDI COFFEE FARM LUMINE Shinjuku 1",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 1080,
+    "photoHeight": 1440,
+    "photoFit": "contain",
+    "originalName": "KALDI COFFEE FARM LUMINE Shinjuku 1",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-87b477fec32528",
-    "name": "KALDI COFFEE FARM Odakyu Shinjuku Store",
+    "name": "KALDI 咖啡与进口食品｜小田急新宿",
     "coord": [
       35.6923918,
       139.6987424
@@ -607,18 +649,20 @@ const CHEF_CATALOG=[
     "address": "日本〒160-0023 Tokyo, Shinjuku City, Nishishinjuku, 1 Chome−5−1 小田急百貨店新宿店 地下2階 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+Odakyu+Shinjuku+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cd6e260f1fd:0xdf45871464e869d0!8m2!3d35.6923918!4d139.6987424?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfVdJH34dzV6LTnSd6TtKhnvV7hbIYOyGRXs-KQ5djOI0AS8Fjve7uJ6Agp_eHE57kwNpN-ADly7iAbMY89-ITRQ_2AV6i5CDcNzQeOLViLE8k-na404kWUorULbik8BCQAUjoN=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/KALDI+COFFEE+FARM+Odakyu+Shinjuku+Store/@35.6981328,65.9466511,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188cd6e260f1fd:0xdf45871464e869d0!8m2!3d35.6923918!4d139.6987424?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://media.triple.guide/triple-cms/c_limit%2Cf_auto%2Ch_1024%2Cw_1024/e85db408-bf54-48d8-8749-0f69bdca780a.jpeg",
+    "photoLabel": "TRIPLE · 小田急新宿店实景",
+    "photoSource": "https://triple.guide/attractions/23f7e795-3e92-4918-95ac-92697c4ff808",
     "query": "KALDI COFFEE FARM Odakyu Shinjuku Store",
     "notes": "",
-    "photoWidth": 506,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 768,
+    "photoHeight": 1024,
+    "photoFit": "contain",
+    "originalName": "KALDI COFFEE FARM Odakyu Shinjuku Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-df41abe32b6408",
-    "name": "Dashi Okume Tsukiji",
+    "name": "尾粂高汤专门店｜筑地",
     "coord": [
       35.6646038,
       139.7709015
@@ -642,11 +686,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 506,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Dashi Okume Tsukiji",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-defaacc4b328bf",
-    "name": "Okume",
+    "name": "尾粂食品店",
     "coord": [
       35.6648135,
       139.7711535
@@ -670,11 +716,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Okume",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-69f6bd223ba010",
-    "name": "Dashi Okume Azabudai Hills",
+    "name": "尾粂高汤专门店｜麻布台之丘",
     "coord": [
       35.6619597,
       139.7417174
@@ -698,11 +746,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Dashi Okume Azabudai Hills",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d32e98e6d0f6ae",
-    "name": "Stoa Coffee",
+    "name": "Stoa 咖啡店",
     "coord": [
       43.8614629,
       -79.3950897
@@ -726,11 +776,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Stoa Coffee",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-499580f494a661",
-    "name": "Tsutaya Electrics",
+    "name": "二子玉川蔦屋家电",
     "coord": [
       35.6110305,
       139.6296446
@@ -754,11 +806,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Tsutaya Electrics",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d09074bbcc247b",
-    "name": "EDWIN TOKYO HARAJUKU",
+    "name": "EDWIN 牛仔服饰｜东京原宿",
     "coord": [
       35.669946,
       139.708461
@@ -782,11 +836,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "EDWIN TOKYO HARAJUKU",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-068d0527c19847",
-    "name": "OUJI SHOP 2nd 原宿",
+    "name": "OUJI 美发护理店｜原宿二店",
     "coord": [
       35.6691333,
       139.7081871
@@ -810,11 +866,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "OUJI SHOP 2nd 原宿",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6bb23b74bf5187",
-    "name": "Goldwin Marunouchi",
+    "name": "Goldwin 户外服饰｜丸之内",
     "coord": [
       35.6790668,
       139.7626826
@@ -838,11 +896,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Goldwin Marunouchi",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f649ca41caddce",
-    "name": "X coffee GINZA",
+    "name": "X 咖啡店｜银座",
     "coord": [
       35.6727318,
       139.7692513
@@ -866,11 +926,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 676,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "X coffee GINZA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-c3ccfc461d7b5d",
-    "name": "Goldwin Harajuku",
+    "name": "Goldwin 户外服饰｜原宿",
     "coord": [
       35.6676901,
       139.7050149
@@ -894,11 +956,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Goldwin Harajuku",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e81dcbe540acdb",
-    "name": "nanamica MOUNTAIN",
+    "name": "nanamica MOUNTAIN 户外服饰",
     "coord": [
       35.6488952,
       139.7010017
@@ -922,11 +986,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "nanamica MOUNTAIN",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e8da0747949901",
-    "name": "Yodobashi Camera Multimedia Umeda",
+    "name": "友都八喜电器城｜梅田",
     "coord": [
       34.7040943,
       135.496268
@@ -943,18 +1009,20 @@ const CHEF_CATALOG=[
     "address": "1-1 Ofukacho, Kita Ward, Osaka, 530-0011日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Yodobashi+Camera+Multimedia+Umeda/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68dfd4c8a17:0xf82888527fca0fb4!8m2!3d34.7040943!4d135.496268?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLc4TvKzQL4Hf16H_emR_LQ_vH53dmJ0XvS5-8HoOwwMEdBa7ANpucs7swiV38DTn8A1SAthiAjGJJjsdjso7a8qnMPQIajFMY95N2Z_S6cr0C_74e87rCM4cbxugFWKv27IfzdKxzJiJPCa=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/Yodobashi+Camera+Multimedia+Umeda/@35.669946,65.880336,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e68dfd4c8a17:0xf82888527fca0fb4!8m2!3d34.7040943!4d135.496268?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://beckmann.jp/cdn/shop/files/Yodobashi_umeda_1024x1024.jpg?v=1756244400",
+    "photoLabel": "BECKMANN 经销店介绍 · 梅田店外观",
+    "photoSource": "https://beckmann.jp/pages/stores",
     "query": "Yodobashi Camera Multimedia Umeda",
     "notes": "",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoFit": "cover"
+    "photoWidth": 1024,
+    "photoHeight": 768,
+    "photoFit": "cover",
+    "originalName": "Yodobashi Camera Multimedia Umeda",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4f45076056d200",
-    "name": "Little Osaka ekimo Namba",
+    "name": "小大阪伴手礼店｜难波 ekimo",
     "coord": [
       34.6673616,
       135.5006949
@@ -978,11 +1046,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Little Osaka ekimo Namba",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-81667f68cc58e7",
-    "name": "SORA",
+    "name": "SORA 户外服饰",
     "coord": [
       34.671141,
       135.4951607
@@ -1006,11 +1076,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 758,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "SORA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e5e7b1af3d3de0",
-    "name": "LHP Osakaten",
+    "name": "LHP 潮流服饰｜大阪",
     "coord": [
       34.6710478,
       135.4962861
@@ -1034,11 +1106,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 674,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "LHP Osakaten",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d4b4270829e003",
-    "name": "GENTLE MONSTER Osaka Hankyu",
+    "name": "GENTLE MONSTER 眼镜｜大阪阪急",
     "coord": [
       34.7029071,
       135.4984791
@@ -1062,11 +1136,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "GENTLE MONSTER Osaka Hankyu",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-61375cb6c18202",
-    "name": "Goldwin Kyoto（ゴールドウイン キョウト）",
+    "name": "Goldwin 户外服饰｜京都",
     "coord": [
       35.006797,
       135.7658808
@@ -1090,11 +1166,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 802,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Goldwin Kyoto（ゴールドウイン キョウト）",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-b5d6bc54ac4d1e",
-    "name": "UNITED TOKYO 京都柳馬場",
+    "name": "UNITED TOKYO 服饰｜京都柳马场",
     "coord": [
       35.0069083,
       135.7637331
@@ -1118,11 +1196,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "UNITED TOKYO 京都柳馬場",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-3c6562c007a3f5",
-    "name": "Yamatomichi Kyoto",
+    "name": "山与道轻量户外装备｜京都",
     "coord": [
       34.993153,
       135.7663066
@@ -1146,11 +1226,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Yamatomichi Kyoto",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-a9e810b7e1b398",
-    "name": "THE NORTH FACE UNLIMITED Shinsaibashi PARCO Store",
+    "name": "北面 UNLIMITED｜心斋桥 PARCO",
     "coord": [
       34.6735684,
       135.5010607
@@ -1174,11 +1256,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "THE NORTH FACE UNLIMITED Shinsaibashi PARCO Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-717b071ec5b61b",
-    "name": "minä perhonen Kyoto",
+    "name": "米娜佩尔霍宁设计服饰｜京都",
     "coord": [
       35.001713,
       135.7691619
@@ -1202,11 +1286,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "minä perhonen Kyoto",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-45edf6c3cfe1e9",
-    "name": "YUGEN",
+    "name": "YUGEN 茶饮店",
     "coord": [
       35.0162055,
       135.7586171
@@ -1230,11 +1316,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "YUGEN",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-63760404812b8d",
-    "name": "醒",
+    "name": "醒｜器物与生活选物",
     "coord": [
       35.0110502,
       135.7489239
@@ -1258,11 +1346,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "醒",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f558375443572e",
-    "name": "LOFTMANCOOP KYOTO",
+    "name": "LOFTMANCOOP 服饰选物｜京都",
     "coord": [
       35.0054379,
       135.7667088
@@ -1286,11 +1376,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 891,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "LOFTMANCOOP KYOTO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f6d6c46efa0efc",
-    "name": "AKOMEYA TOKYO 京都ポルタ",
+    "name": "AKOMEYA 米食与生活杂货｜京都 Porta",
     "coord": [
       34.9860123,
       135.7587004
@@ -1314,11 +1406,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "AKOMEYA TOKYO 京都ポルタ",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4d2b1f2f062f4b",
-    "name": "RIMOWA Kyoto Takashimaya",
+    "name": "日默瓦旅行箱｜京都高岛屋",
     "coord": [
       35.0031777,
       135.7685026
@@ -1342,11 +1436,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "RIMOWA Kyoto Takashimaya",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-b4d19df9fcd456",
-    "name": "Marukyu Koyamaen Kyoto Takashimaya",
+    "name": "丸久小山园抹茶｜京都高岛屋",
     "coord": [
       35.0035638,
       135.7690695
@@ -1370,11 +1466,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1052,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Marukyu Koyamaen Kyoto Takashimaya",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-0dbb70542e645e",
-    "name": "Marukyu Koyamaen - Nishinotoin / Sabo Moto-an",
+    "name": "丸久小山园｜西洞院店与元庵茶房",
     "coord": [
       35.0101425,
       135.7550496
@@ -1398,11 +1496,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Marukyu Koyamaen - Nishinotoin / Sabo Moto-an",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-1f5e0e6199d3ef",
-    "name": "SOWAKA",
+    "name": "SOWAKA 精品旅馆｜京都祇园",
     "coord": [
       35.0017701,
       135.7784897
@@ -1419,18 +1519,20 @@ const CHEF_CATALOG=[
     "address": "480 Kiyoicho, Higashiyama Ward, Kyoto, 605-0821日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/SOWAKA/@35.669946,65.880336,3z/data=!4m12!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m8!1s0x600108c48906406b:0x2a47cc1216348b24!5m2!4m1!1i2!8m2!3d35.0017701!4d135.7784897!16s%2Fg%2F11f7sz32b3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-proxy/AIM7gW28DsxAA1gstXmcrQfQaIuCQi7Ags9uxCXXWCJ9bmDiLvtmEyEh7zIAnoFgKaw-fr6ReLWXjmFiMHw8ysmjjttnVQDPVTUA1AiJ03UHUIiz-lZNkFTPJFsW_c6qKjwYseoXVKaqH98WOjuVCcU3dNGq3LzhKcjzEoBQyYu9XjoH2P0o1FSN7r_u=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/SOWAKA/@35.669946,65.880336,3z/data=!4m12!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m8!1s0x600108c48906406b:0x2a47cc1216348b24!5m2!4m1!1i2!8m2!3d35.0017701!4d135.7784897!16s%2Fg%2F11f7sz32b3?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://sowaka.com/news/wp-content/uploads/2022/02/06_B__6750_kakou.jpg",
+    "photoLabel": "旅馆官网 · 京都町屋外观",
+    "photoSource": "https://sowaka.com/",
     "query": "SOWAKA",
     "notes": "",
-    "photoWidth": 678,
-    "photoHeight": 452,
-    "photoFit": "cover"
+    "photoWidth": 1920,
+    "photoHeight": 1280,
+    "photoFit": "cover",
+    "originalName": "SOWAKA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-c2bc1711b2c3e4",
-    "name": "Kaldi coffee farm Zest Oike shop",
+    "name": "KALDI 咖啡与进口食品｜京都御池地下街",
     "coord": [
       35.0106653,
       135.7659187
@@ -1454,11 +1556,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Kaldi coffee farm Zest Oike shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-c5c21cce765469",
-    "name": "CA4LA",
+    "name": "CA4LA 帽饰｜心斋桥 PARCO",
     "coord": [
       34.6737487,
       135.5007921
@@ -1482,11 +1586,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 800,
     "photoHeight": 800,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "CA4LA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e30a7c7e2e24be",
-    "name": "CA4LA",
+    "name": "CA4LA 帽饰｜阪急梅田",
     "coord": [
       34.7028682,
       135.4984666
@@ -1510,11 +1616,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "CA4LA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-2e46eac4c4f4ea",
-    "name": "CA4LA",
+    "name": "CA4LA 帽饰｜大阪 LUCUA",
     "coord": [
       34.7034516,
       135.496468
@@ -1538,11 +1646,13 @@ const CHEF_CATALOG=[
     "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "CA4LA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-3666145f6ffb3b",
-    "name": "（株）仁秀",
+    "name": "仁秀陶瓷器物",
     "coord": [
       35.0157879,
       135.7673992
@@ -1566,11 +1676,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "（株）仁秀",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-97ae0fc8dcd5c9",
-    "name": "gelato pique Lucua Osaka Store",
+    "name": "gelato pique 软绵家居服｜大阪 LUCUA",
     "coord": [
       34.7032124,
       135.4959955
@@ -1594,11 +1706,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 688,
     "photoHeight": 387,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "gelato pique Lucua Osaka Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-55c2ad76f568cb",
-    "name": "gelato pique",
+    "name": "gelato pique 软绵家居服",
     "coord": [
       34.7041659,
       135.4996599
@@ -1622,11 +1736,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "gelato pique",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f8f3df28698337",
-    "name": "gelato pique",
+    "name": "gelato pique 软绵家居服",
     "coord": [
       34.7028174,
       135.4985326
@@ -1650,11 +1766,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 700,
     "photoHeight": 394,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "gelato pique",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-685198db49ae29",
-    "name": "Gelato Pique",
+    "name": "gelato pique 软绵家居服",
     "coord": [
       34.9867119,
       135.7597486
@@ -1678,11 +1796,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Gelato Pique",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d1ab46166b568e",
-    "name": "Fujii Daimaru",
+    "name": "藤井大丸百货",
     "coord": [
       35.0034351,
       135.7666397
@@ -1706,11 +1826,13 @@ const CHEF_CATALOG=[
     "notes": "营业状态来自本次读取的 Google Maps 清单，可能变化。",
     "photoWidth": 748,
     "photoHeight": 599,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Fujii Daimaru",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-41df74906a1f92",
-    "name": "Hakuhodo Flagship Shop",
+    "name": "白凤堂化妆刷｜旗舰店",
     "coord": [
       35.0142111,
       135.7671433
@@ -1734,11 +1856,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Hakuhodo Flagship Shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-155b16480d02cc",
-    "name": "GLITCH COFFEE OSAKA",
+    "name": "GLITCH 精品咖啡｜大阪",
     "coord": [
       34.6934048,
       135.4955867
@@ -1762,11 +1886,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 799,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "GLITCH COFFEE OSAKA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-566dfca913bfe2",
-    "name": "HARIO CAFE SEN-OKU HAKUKOKANMUSEUM TOKYO",
+    "name": "HARIO 咖啡馆｜东京泉屋博古馆",
     "coord": [
       35.6649614,
       139.7410157
@@ -1790,11 +1916,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "HARIO CAFE SEN-OKU HAKUKOKANMUSEUM TOKYO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-5598a143437715",
-    "name": "HARIO CAFE Kyoto Store",
+    "name": "HARIO 咖啡馆｜京都",
     "coord": [
       35.0006713,
       135.7791394
@@ -1818,11 +1946,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "HARIO CAFE Kyoto Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e42d6027f46647",
-    "name": "Ikari Nankai Namba Store",
+    "name": "Ikari 精品超市｜南海难波",
     "coord": [
       34.664053,
       135.5006491
@@ -1846,11 +1976,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Ikari Nankai Namba Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-2ff73015a725cb",
-    "name": "Kyoto BAL",
+    "name": "京都 BAL 购物中心",
     "coord": [
       35.0069369,
       135.7695294
@@ -1874,11 +2006,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 405,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Kyoto BAL",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-54165a77ebc0fd",
-    "name": "Dulton Factory service Osaka",
+    "name": "DULTON 工业风家居｜大阪工厂店",
     "coord": [
       34.755834,
       135.537148
@@ -1902,11 +2036,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Dulton Factory service Osaka",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-b04e470c21612c",
-    "name": "JR Kyoto Isetan",
+    "name": "JR 京都伊势丹百货",
     "coord": [
       34.9858646,
       135.7569987
@@ -1930,11 +2066,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "JR Kyoto Isetan",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-0b310aac9bc918",
-    "name": "APFR KYOTO",
+    "name": "APFR 香氛｜京都",
     "coord": [
       35.0135775,
       135.766602
@@ -1958,11 +2096,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 600,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "APFR KYOTO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-633c68f7462cf7",
-    "name": "Ippodo Tea Kyoto Main Store",
+    "name": "一保堂茶铺｜京都本店",
     "coord": [
       35.0144642,
       135.7674161
@@ -1986,11 +2126,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 724,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Ippodo Tea Kyoto Main Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-327b8995a567a9",
-    "name": "Madu",
+    "name": "Madu 餐具与家居｜京都",
     "coord": [
       35.0069679,
       135.7697705
@@ -2014,11 +2156,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Madu",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e843bf0497d285",
-    "name": "Madu",
+    "name": "Madu 餐具与家居｜大阪梅田",
     "coord": [
       34.6996678,
       135.494703
@@ -2042,11 +2186,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Madu",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-41ff8ca8541962",
-    "name": "Daimaru Shinsaibashi",
+    "name": "大丸百货｜心斋桥",
     "coord": [
       34.6732406,
       135.5009613
@@ -2063,18 +2209,20 @@ const CHEF_CATALOG=[
     "address": "1 Chome-7-1 Shinsaibashisuji, Chuo Ward, Osaka, 542-8501日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Daimaru+Shinsaibashi/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68d2720c7c1:0x486cece4b27c2e74!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7114a61ec67:0xadd23a3359490a1f!8m2!3d34.6732406!4d135.5009613?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLebWZCB70q_owHc3ry2Cp-f6Pz8YRwCHy__OsXilVDdd4nsw3a4uV5_9FhDwigoUZj_OhhzqJ_XTQhF3tPJ3iES7OVNj_XcUJPeX8HPwHRC6X78tuiwnkPB6atsjjdAEMxUZ6jeeZhWFXia=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/Daimaru+Shinsaibashi/@35.669946,65.880336,3z/data=!3m1!5s0x6000e68d2720c7c1:0x486cece4b27c2e74!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x6000e7114a61ec67:0xadd23a3359490a1f!8m2!3d34.6732406!4d135.5009613?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.aba-osakafu.or.jp/architects/img/award65/place02.jpg",
+    "photoLabel": "大阪府建筑士会 · 心斋桥本馆",
+    "photoSource": "https://www.aba-osakafu.or.jp/architects/2022/award65_02.html",
     "query": "Daimaru Shinsaibashi",
     "notes": "",
-    "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoFit": "cover"
+    "photoWidth": 886,
+    "photoHeight": 1190,
+    "photoFit": "contain",
+    "originalName": "Daimaru Shinsaibashi",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-78161e89f830af",
-    "name": "林万昌堂",
+    "name": "林万昌堂糖炒栗子",
     "coord": [
       35.0038389,
       135.7670012
@@ -2098,11 +2246,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "林万昌堂",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d5d3e437e1a7a1",
-    "name": "essence kyoto",
+    "name": "essence 京都生活选物",
     "coord": [
       35.0117593,
       135.7807015
@@ -2126,11 +2276,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "essence kyoto",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-aec20a2f9447a0",
-    "name": "うつわクウ／（株）ミジュツ",
+    "name": "器物 KU｜芦屋陶瓷选物",
     "coord": [
       34.7355681,
       135.2985117
@@ -2154,11 +2306,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "うつわクウ／（株）ミジュツ",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-5255a0fb0683bf",
-    "name": "Utsuwaya Saisai",
+    "name": "彩彩器物店",
     "coord": [
       35.0079725,
       135.7489848
@@ -2182,11 +2336,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 900,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Utsuwaya Saisai",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-410bf60d9674a2",
-    "name": "Ouchi",
+    "name": "Ouchi 器物选物店",
     "coord": [
       35.0168911,
       135.7847989
@@ -2210,11 +2366,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Ouchi",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4f7f9b10076dda",
-    "name": "KANEKO GANKYO-TEN Hanshin Umeda Main Store",
+    "name": "金子眼镜｜阪神梅田本店",
     "coord": [
       34.7010777,
       135.4976527
@@ -2238,11 +2396,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1024,
     "photoHeight": 684,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "KANEKO GANKYO-TEN Hanshin Umeda Main Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-62f61ffe0e1076",
-    "name": "Origins Chocolate Bar",
+    "name": "Origins 巧克力店",
     "coord": [
       49.2045112,
       -122.9090885
@@ -2266,11 +2426,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Origins Chocolate Bar",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-927bee17e3ab03",
-    "name": "LE LABO KYOTO MACHIYA",
+    "name": "LE LABO 香氛｜京都町屋",
     "coord": [
       35.0054215,
       135.7706815
@@ -2294,11 +2456,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "LE LABO KYOTO MACHIYA",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-8b97f5dc54e11f",
-    "name": "Kotobuki Building",
+    "name": "寿大楼｜京都历史建筑与店铺",
     "coord": [
       35.0016857,
       135.7691422
@@ -2322,11 +2486,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 684,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Kotobuki Building",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-3a4e5e62d53a9e",
-    "name": "辻和金網",
+    "name": "辻和金网｜手工金属厨具",
     "coord": [
       35.0144792,
       135.7630134
@@ -2350,11 +2516,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "辻和金網",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4491c32c003ab2",
-    "name": "Mont-bell Kyoto Store",
+    "name": "Mont-bell 户外用品｜京都",
     "coord": [
       35.005376,
       135.767578
@@ -2378,11 +2546,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Mont-bell Kyoto Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-3ac04730d595d1",
-    "name": "Life - Shijo Karasuma",
+    "name": "LIFE 生活超市｜四条乌丸",
     "coord": [
       35.0041542,
       135.7543567
@@ -2406,11 +2576,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 676,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Life - Shijo Karasuma",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-01e6a09bb1d1eb",
-    "name": "Kaldi Coffee Farm AEON MALL Kyoto Store",
+    "name": "KALDI 咖啡与进口食品｜京都永旺商场",
     "coord": [
       34.98275,
       135.7541765
@@ -2434,11 +2606,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kaldi Coffee Farm AEON MALL Kyoto Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-1a25090e23e315",
-    "name": "Kaldi Coffee Farm Sanjo Kawaramachi Shop",
+    "name": "KALDI 咖啡与进口食品｜三条河原町",
     "coord": [
       35.0087213,
       135.7685518
@@ -2462,11 +2636,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Kaldi Coffee Farm Sanjo Kawaramachi Shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-aa31efcc07e847",
-    "name": "green bean to bar CHOCOLATE 京都店",
+    "name": "绿豆到巧克力工坊｜京都",
     "coord": [
       35.0093143,
       135.7597998
@@ -2490,11 +2666,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 802,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "green bean to bar CHOCOLATE 京都店",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-0c778ef6b7f646",
-    "name": "岡田屋（昆布）",
+    "name": "冈田屋昆布店",
     "coord": [
       35.0329719,
       135.7488712
@@ -2518,11 +2696,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 415,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "岡田屋（昆布）",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-62e148807175df",
-    "name": "Kuradai Miso",
+    "name": "藏代味噌",
     "coord": [
       35.0071647,
       135.7636998
@@ -2546,11 +2726,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kuradai Miso",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e3fb55a9e3d374",
-    "name": "Yaosan",
+    "name": "八百三味噌店",
     "coord": [
       35.0099574,
       135.7608543
@@ -2574,11 +2756,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Yaosan",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-787ee77358cbae",
-    "name": "Kyoto Yamahon",
+    "name": "山本器物画廊｜京都",
     "coord": [
       35.0130723,
       135.7678897
@@ -2602,11 +2786,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kyoto Yamahon",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6f29f95dcc6897",
-    "name": "〒604-0865 Kyoto, Nakagyo Ward, Kameyacho, 146 てっ亀",
+    "name": "京都龟屋町地址收藏｜店名待核实",
     "coord": [
       35.0161659,
       135.7586215
@@ -2627,11 +2813,13 @@ const CHEF_CATALOG=[
     "photoLabel": "地址收藏 · 暂无可核实照片",
     "photoSource": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92604-0865+Kyoto,+Nakagyo+Ward,+Kameyach%C5%8D,+146+%E3%81%A6%E3%81%A3%E4%BA%80/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6001087d8ff7057b:0x1e9bfa51e74fa62e!8m2!3d35.0161659!4d135.7586215!16s%2Fg%2F11fx3yclnx?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
     "query": "〒604-0865 Kyoto, Nakagyo Ward, Kameyacho, 146 てっ亀",
-    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
+    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。 检索同地址出现过烧鸟店，与大厨备注“器物店”不一致，因此暂不配图或指定店名。",
+    "originalName": "〒604-0865 Kyoto, Nakagyo Ward, Kameyacho, 146 てっ亀",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-bba597650ff6f2",
-    "name": "Kanbayashi Shunsho",
+    "name": "上林春松茶铺",
     "coord": [
       34.8910589,
       135.8043566
@@ -2655,11 +2843,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kanbayashi Shunsho",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-07ff1611d2a513",
-    "name": "上林春松本店 京都髙島屋店",
+    "name": "上林春松本店｜京都高岛屋",
     "coord": [
       35.0032507,
       135.7683479
@@ -2683,11 +2873,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "上林春松本店 京都髙島屋店",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-3284f14db0bf3c",
-    "name": "Asahido Honten",
+    "name": "朝日堂陶瓷｜本店",
     "coord": [
       34.9954806,
       135.7825962
@@ -2711,11 +2903,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Asahido Honten",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-27587f08479b99",
-    "name": "GOKAGO",
+    "name": "GOKAGO 抹茶与日本茶",
     "coord": [
       34.9956509,
       135.7818524
@@ -2732,18 +2926,20 @@ const CHEF_CATALOG=[
     "address": "2 Chome-258 Kiyomizu, Higashiyama Ward, Kyoto, 605-0862日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GOKAGO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010993585385fb:0x8ab6b1790a1097d6!8m2!3d34.9956509!4d135.7818524!16s%2Fg%2F11kk131yj5?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLekeutjXKpVk8na8VU4a6JwRzgTdVXdKmmtxCoTgF4r2S-A3032cepbnAOaNV1sltrjo7I-r6G5dpC_y_a2NtFFRcVv2IRgrAo6Fsy71NIvPIS6hwsBveLEspS8_YGRS48yo-J0=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/GOKAGO/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60010993585385fb:0x8ab6b1790a1097d6!8m2!3d34.9956509!4d135.7818524!16s%2Fg%2F11kk131yj5?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://nihonchaseikatsu.com/wp-content/uploads/2023/09/DSC_9117-1024x683.jpg",
+    "photoLabel": "日本茶生活 · GOKAGO 店内实拍",
+    "photoSource": "https://nihonchaseikatsu.com/introduce/gokago/",
     "query": "GOKAGO",
     "notes": "",
-    "photoWidth": 448,
-    "photoHeight": 303,
-    "photoFit": "cover"
+    "photoWidth": 1024,
+    "photoHeight": 683,
+    "photoFit": "cover",
+    "originalName": "GOKAGO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-de26a7d48eaeee",
-    "name": "Timeless comfort Minamihorie",
+    "name": "TIMELESS COMFORT 家居厨具｜南堀江",
     "coord": [
       34.6709846,
       135.4940332
@@ -2767,11 +2963,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Timeless comfort Minamihorie",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-b835e0293ee1f2",
-    "name": "J.M. WESTON - 京都BAL店",
+    "name": "J.M. WESTON 皮鞋｜京都 BAL",
     "coord": [
       35.0069481,
       135.7693316
@@ -2795,11 +2993,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1195,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "J.M. WESTON - 京都BAL店",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-de1b93eb9242f9",
-    "name": "TODAY'S SPECIAL Kyoto",
+    "name": "TODAY'S SPECIAL 生活杂货｜京都",
     "coord": [
       35.0069019,
       135.7697732
@@ -2823,11 +3023,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "TODAY'S SPECIAL Kyoto",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-a7b4c04458c55c",
-    "name": "BEAMS JAPAN KYOTO",
+    "name": "BEAMS JAPAN 日本选物｜京都",
     "coord": [
       35.0097264,
       135.7599054
@@ -2851,11 +3053,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "BEAMS JAPAN KYOTO",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-5da1d6d2556f1f",
-    "name": "HUMAN MADE 1928",
+    "name": "HUMAN MADE 1928 潮流服饰",
     "coord": [
       35.0084767,
       135.7665328
@@ -2879,11 +3083,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "HUMAN MADE 1928",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-8b506bd756ba86",
-    "name": "THE NORTH FACE Standard Kyoto Store",
+    "name": "北面 STANDARD｜京都",
     "coord": [
       35.0071195,
       135.7657724
@@ -2907,11 +3113,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "THE NORTH FACE Standard Kyoto Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-46598fa1741a8d",
-    "name": "KANEKO GANKYO-TEN Namba Skyo",
+    "name": "金子眼镜｜难波 Skyo",
     "coord": [
       34.663678,
       135.5011419
@@ -2935,11 +3143,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 500,
     "photoHeight": 333,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "KANEKO GANKYO-TEN Namba Skyo",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-385b807a3408d6",
-    "name": "OK Ginza Store",
+    "name": "OK 平价超市｜银座",
     "coord": [
       35.6737637,
       139.7651281
@@ -2956,18 +3166,20 @@ const CHEF_CATALOG=[
     "address": "日本〒104-0061 Tokyo, Chuo City, Ginza, 3 Chome−2−1 マロニエゲート銀座 2 B1F・B2F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/OK+Ginza+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be5accc797f:0x40e36357507bc908!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b568790ed07:0x16686d45388ba431!8m2!3d35.6737637!4d139.7651281!16s%2Fg%2F11v01q64b0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdjtDX8JGsTJiztryy0HMp5lOjtKRS5iI8uvYh0Yb_sBZexUSUdqaG6eieHotWB-CnuGMolfQkU0vR4aD236QGpTiQNk5bdNAMFe_8UYTzqmbuZy55m4cWVtP3JPFXZq-mypAGqUkmJKaT8=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/OK+Ginza+Store/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188be5accc797f:0x40e36357507bc908!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b568790ed07:0x16686d45388ba431!8m2!3d35.6737637!4d139.7651281!16s%2Fg%2F11v01q64b0?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.ryutsuu.biz/images/2023/10/20231017o14.jpg",
+    "photoLabel": "流通新闻 · OK 银座店内实拍",
+    "photoSource": "https://www.ryutsuu.biz/report/p101713.html",
     "query": "OK Ginza Store",
     "notes": "",
     "photoWidth": 1200,
-    "photoHeight": 899,
-    "photoFit": "cover"
+    "photoHeight": 900,
+    "photoFit": "cover",
+    "originalName": "OK Ginza Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-23f9448d3d14ee",
-    "name": "HAKUHODO Minami Aoyama",
+    "name": "白凤堂化妆刷｜南青山",
     "coord": [
       35.662439,
       139.711608
@@ -2984,18 +3196,20 @@ const CHEF_CATALOG=[
     "address": "日本〒107-0062 Tokyo, Minato City, Minamiaoyama, 5 Chome−10−6 テラアシオス表参道 3F ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/HAKUHODO+Minami+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b6077f6e1f1:0xc66288b03f3876c6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b6077f039a7:0x3c450b73ec45d326!8m2!3d35.662439!4d139.711608!16s%2Fg%2F1tsyps6z?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLem1Y2essAdiKRHWwyvV3AY7cZLJczEsuta6RLikOCtWVweqyd4EPk5KDjenMU83tidVI_jYke0T8Xk4pTaJNESEl3QYhzgCOX0Cw2f74xXOUvh7zZ0SXmud1JTAN9dmz3-v0RB7A=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/HAKUHODO+Minami+Aoyama/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188b6077f6e1f1:0xc66288b03f3876c6!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188b6077f039a7:0x3c450b73ec45d326!8m2!3d35.662439!4d139.711608!16s%2Fg%2F1tsyps6z?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://cdn.shopify.com/s/files/1/0399/3498/4354/files/img_tit_aoyama.jpg",
+    "photoLabel": "白凤堂官网 · 南青山店内实景",
+    "photoSource": "https://hakuho-do.co.jp/en/pages/stores_aoyama",
     "query": "HAKUHODO Minami Aoyama",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 700,
+    "photoHeight": 300,
+    "photoFit": "contain",
+    "originalName": "HAKUHODO Minami Aoyama",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-60408ec4076fb2",
-    "name": "HAKUHODO Shibuya Hikarie ShinQs",
+    "name": "白凤堂化妆刷｜涩谷 Hikarie",
     "coord": [
       35.6588472,
       139.7032387
@@ -3019,11 +3233,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 300,
     "photoHeight": 228,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "HAKUHODO Shibuya Hikarie ShinQs",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-dd72bb7550b5c1",
-    "name": "Azabudai Hills Market",
+    "name": "麻布台之丘食品市场",
     "coord": [
       35.6615135,
       139.7406987
@@ -3047,11 +3263,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1180,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Azabudai Hills Market",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-bee6a978b69913",
-    "name": "Imabari Towel Minami Aoyama Store",
+    "name": "今治毛巾｜南青山",
     "coord": [
       35.6627636,
       139.7158973
@@ -3068,18 +3286,20 @@ const CHEF_CATALOG=[
     "address": "5 Chome-3-10 Minamiaoyama, Minato City, Tokyo 107-0062日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/Imabari+Towel+Minami+Aoyama+Store/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b6171eff47b:0x6a3a1e677585acdf!8m2!3d35.6627636!4d139.7158973?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLcvOo-VRMdutAvKz7Q23DnEQXqhK10lTSkO2DI7qRhfdlctOTB5Fz6jPF8pwxBusC1f8BJJLpHPfflZjAK7fqdplcIjepzNGMjxkrs3XfI5pVDaN3ZjkUt75Hs2jdKMUcHm2jA=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/Imabari+Towel+Minami+Aoyama+Store/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188b6171eff47b:0x6a3a1e677585acdf!8m2!3d35.6627636!4d139.7158973?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.imabaritowel.jp/images2016/store/aoyama-img.jpg",
+    "photoLabel": "今治毛巾官网 · 南青山店内实景",
+    "photoSource": "https://www.imabaritowel.jp/en/store",
     "query": "Imabari Towel Minami Aoyama Store",
     "notes": "",
-    "photoWidth": 438,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 567,
+    "photoHeight": 312,
+    "photoFit": "cover",
+    "originalName": "Imabari Towel Minami Aoyama Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-fda31091c8601a",
-    "name": "Lemnos Inc. / 東京ショールーム",
+    "name": "Lemnos 设计时钟｜东京展厅",
     "coord": [
       35.7202453,
       139.7337247
@@ -3103,11 +3323,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Lemnos Inc. / 東京ショールーム",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-b17cd507f6bcf2",
-    "name": "iittala",
+    "name": "伊塔拉北欧餐具｜二子玉川",
     "coord": [
       35.6139626,
       139.6264957
@@ -3131,11 +3353,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "iittala",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f01a36459b60f5",
-    "name": "Sushi Ojima",
+    "name": "小岛寿司",
     "coord": [
       35.6695686,
       139.762687
@@ -3159,11 +3383,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 675,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Sushi Ojima",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-cb374630df9b8f",
-    "name": "Kama-Asa",
+    "name": "釜浅商店｜刀具与厨具",
     "coord": [
       35.7138476,
       139.7886768
@@ -3187,11 +3413,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 676,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Kama-Asa",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-45725c68d1a833",
-    "name": "FU WA RI",
+    "name": "风和里餐具杂货",
     "coord": [
       35.7131245,
       139.7888028
@@ -3215,11 +3443,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 699,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "FU WA RI",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d762813c0143df",
-    "name": "Baise",
+    "name": "Baise 白色餐具店",
     "coord": [
       35.7127268,
       139.7883786
@@ -3243,11 +3473,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Baise",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-2d22e6cea847fc",
-    "name": "Roundabout",
+    "name": "Roundabout 生活器物",
     "coord": [
       35.6673537,
       139.6789138
@@ -3271,7 +3503,9 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 506,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Roundabout",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-805f9bf7adba2f",
@@ -3299,11 +3533,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "新宿高岛屋",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-aabe6e3e10952c",
-    "name": "nanamica Daikanyama",
+    "name": "nanamica 户外服饰｜代官山",
     "coord": [
       35.6486989,
       139.7010538
@@ -3327,11 +3563,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 730,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "nanamica Daikanyama",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-d21fc7284e1ca2",
-    "name": "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu Store",
+    "name": "鬼塚虎日本制造系列｜东京中城八重洲",
     "coord": [
       35.6794084,
       139.7689311
@@ -3355,11 +3593,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "Onitsuka Tiger NIPPON MADE Tokyo Midtown Yaesu Store",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e2ddd530f68176",
-    "name": "Ginza Loft",
+    "name": "银座 Loft 生活杂货",
     "coord": [
       35.6741115,
       139.766261
@@ -3383,11 +3623,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Ginza Loft",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-80b68b300fd929",
-    "name": "HUMAN MADE OFFLINE STORE",
+    "name": "HUMAN MADE 潮流服饰｜OFFLINE 店",
     "coord": [
       35.6726964,
       139.7123195
@@ -3411,11 +3653,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "HUMAN MADE OFFLINE STORE",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-f838752d347104",
-    "name": "GINZA SIX",
+    "name": "银座 SIX 购物中心",
     "coord": [
       35.6697688,
       139.7641762
@@ -3432,18 +3676,20 @@ const CHEF_CATALOG=[
     "address": "6 Chome-10-1 Ginza, Chuo City, Tokyo 104-0061日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/GINZA+SIX/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef472c0001:0xcfcb0363f18109fc!8m2!3d35.6697688!4d139.7641762?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLdL1mOxwDjIdk-U95dwPLG5Xh31XQh7oZT1NXWHqkkMVUKqIbdrzrnNwGobiGxn4jHJGrkvzXAqn0x9YqI-RjsrUN9UbiKu81VS8D_5c8N66fGWzoPZCoYmwX7AYrbTLRQf4bwR=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/GINZA+SIX/@35.0054215,61.9425565,3z/data=!3m1!5s0x60188c9813a9156d:0x107f6361ea2494e9!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bef472c0001:0xcfcb0363f18109fc!8m2!3d35.6697688!4d139.7641762?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.gotokyo.org/en/spot/260/images/main.webp",
+    "photoLabel": "GO TOKYO · 银座 SIX 外观",
+    "photoSource": "https://www.gotokyo.org/en/spot/260/index.html",
     "query": "GINZA SIX",
     "notes": "",
-    "photoWidth": 675,
-    "photoHeight": 900,
-    "photoFit": "contain"
+    "photoWidth": 1200,
+    "photoHeight": 525,
+    "photoFit": "contain",
+    "originalName": "GINZA SIX",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-4ac9c7b65a623c",
-    "name": "长谷园",
+    "name": "长谷园伊贺烧陶锅",
     "coord": [
       35.6452566,
       139.7147214
@@ -3467,11 +3713,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "长谷园",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6701ddf9075ed3",
-    "name": "生活日用雑貨店tsugumi 西荻窪店",
+    "name": "tsugumi 生活日用杂货｜西荻洼",
     "coord": [
       35.702571,
       139.600975
@@ -3495,11 +3743,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "生活日用雑貨店tsugumi 西荻窪店",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-399201f9d9e887",
-    "name": "KITTE Marunouchi",
+    "name": "丸之内 KITTE 购物中心",
     "coord": [
       35.6797983,
       139.764865
@@ -3516,18 +3766,20 @@ const CHEF_CATALOG=[
     "address": "2 Chome-7-2 Marunouchi, Chiyoda City, Tokyo 100-0005日本 ",
     "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "mapUrl": "https://www.google.com/maps/place/KITTE+Marunouchi/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bfa4ae94675:0x9f64e11ee9dc660a!8m2!3d35.6797983!4d139.764865?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": "https://lh3.googleusercontent.com/grass-cs/AABkmLfekQmk7Zqmr86KpdsCwjwcPP_xMJPA_syWWBQU1G5RT0TidKqt8sNbuig3GFbSxOoDuzUXbMihgyODr2Hu0XaAdhnWH0_EJPLdvZCL8H9294TZQyri8wMShCez_dKOwIUNFiPaJ6smKLs=w1200-h900-k-no",
-    "photoLabel": "Google Maps · 清单照片",
-    "photoSource": "https://www.google.com/maps/place/KITTE+Marunouchi/@35.0054215,61.9425565,3z/data=!4m8!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m4!1s0x60188bfa4ae94675:0x9f64e11ee9dc660a!8m2!3d35.6797983!4d139.764865?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.gotokyo.org/en/spot/28/images/main.webp",
+    "photoLabel": "GO TOKYO · 丸之内 KITTE 外观",
+    "photoSource": "https://www.gotokyo.org/en/spot/28/index.html",
     "query": "KITTE Marunouchi",
     "notes": "",
     "photoWidth": 1200,
-    "photoHeight": 900,
-    "photoFit": "cover"
+    "photoHeight": 525,
+    "photoFit": "contain",
+    "originalName": "KITTE Marunouchi",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-40d905090406bf",
-    "name": "Cibone Aoyama",
+    "name": "CIBONE 青山设计家居",
     "coord": [
       35.6674202,
       139.7070377
@@ -3551,11 +3803,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 900,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Cibone Aoyama",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-6b4bdbf3e742c2",
-    "name": "TSUCHI-YA ガラスの器と工芸",
+    "name": "TSUCHI-YA 玻璃器物与工艺",
     "coord": [
       35.7125936,
       139.788682
@@ -3579,11 +3833,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 510,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "TSUCHI-YA ガラスの器と工芸",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-875402ac048d9d",
-    "name": "lloomm",
+    "name": "lloomm 服饰选物",
     "coord": [
       35.0003994,
       135.7658252
@@ -3607,11 +3863,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 800,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "lloomm",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-2345f28c70e47e",
-    "name": "Dengama",
+    "name": "田窑陶瓷餐具",
     "coord": [
       35.7104353,
       139.7885064
@@ -3635,11 +3893,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1200,
     "photoHeight": 643,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "Dengama",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-e880aa04038a23",
-    "name": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
+    "name": "cotogoto 所在大楼｜高圆寺地址收藏",
     "coord": [
       35.7040931,
       139.6501113
@@ -3654,17 +3914,22 @@ const CHEF_CATALOG=[
     "chefList": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "desc": "原清单保存的地址点，具体店铺待确认。",
     "address": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
-    "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
+    "source": "https://www.cotogoto.jp/blog/unq/shop",
     "mapUrl": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92166-0003+Tokyo,+Suginami+City,+K%C5%8Denjiminami,+4-ch%C5%8Dme%E2%88%9227%E2%88%9217+%E6%81%92%E9%99%BD%E3%82%B5%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B9%E3%83%88%E9%AB%98%E5%86%86%E5%AF%BA/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f27d574b0f35:0x6459786910da2756!8m2!3d35.7040931!4d139.6501113!16s%2Fg%2F11clp6kh7c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": null,
-    "photoLabel": "地址收藏 · 暂无可核实照片",
-    "photoSource": "https://www.google.com/maps/place/%E6%97%A5%E6%9C%AC%E3%80%92166-0003+Tokyo,+Suginami+City,+K%C5%8Denjiminami,+4-ch%C5%8Dme%E2%88%9227%E2%88%9217+%E6%81%92%E9%99%BD%E3%82%B5%E3%83%B3%E3%82%AF%E3%83%AC%E3%82%B9%E3%83%88%E9%AB%98%E5%86%86%E5%AF%BA/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x6018f27d574b0f35:0x6459786910da2756!8m2!3d35.7040931!4d139.6501113!16s%2Fg%2F11clp6kh7c?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://cotogoto.xsrv.jp/wp-content/uploads/2013/01/250602-cotogoto4487.jpg",
+    "photoLabel": "地址对应建筑二层 · cotogoto 店内实景",
+    "photoSource": "https://www.cotogoto.jp/blog/unq/shop",
     "query": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
-    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
+    "notes": "官方店铺页确认 cotogoto 位于此地址二层。原清单只保存楼址，不能确认收藏者是否指这家店；与 cotogoto 店铺条目分别保留。",
+    "originalName": "〒166-0003 Tokyo, Suginami City, Koenjiminami, 4 Chome−27−17 恒陽サンクレスト高円寺",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。",
+    "photoWidth": 725,
+    "photoHeight": 483,
+    "photoFit": "cover"
   },
   {
     "id": "chef-9c6331f3dba2f6",
-    "name": "1 Chome Nishiasakusa",
+    "name": "西浅草一丁目地址收藏｜店名待核实",
     "coord": [
       35.7112752,
       139.7898122
@@ -3688,11 +3953,13 @@ const CHEF_CATALOG=[
     "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "1 Chome Nishiasakusa",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-491b5e9018b9f9",
-    "name": "1 Chome-17-5 Tomigaya",
+    "name": "MEALS 生活餐具空间｜富谷地址收藏",
     "coord": [
       35.6662571,
       139.6921669
@@ -3707,17 +3974,22 @@ const CHEF_CATALOG=[
     "chefList": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
     "desc": "原清单保存的地址点，具体店铺待确认。",
     "address": "1 Chome-17-5 Tomigaya",
-    "source": "https://www.google.com/maps/placelists/list/1QOxj6MuuHDb6vk6QFNiUGDdIIRifg",
+    "source": "https://www.marumitsu.jp/eng/",
     "mapUrl": "https://www.google.com/maps/place/1-ch%C5%8Dme-17-5+Tomigaya,+Shibuya,+Tokyo+151-0063%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cb2bc6ed503:0x5ba19c9304532b90!8m2!3d35.6662571!4d139.6921669!16s%2Fg%2F11d_44cb0b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
-    "photo": null,
-    "photoLabel": "地址收藏 · 暂无可核实照片",
-    "photoSource": "https://www.google.com/maps/place/1-ch%C5%8Dme-17-5+Tomigaya,+Shibuya,+Tokyo+151-0063%E6%97%A5%E6%9C%AC/@35.0054215,61.9425565,3z/data=!4m9!1m2!11m1!2s1QOxj6MuuHDb6vk6QFNiUGDdIIRifg!3m5!1s0x60188cb2bc6ed503:0x5ba19c9304532b90!8m2!3d35.6662571!4d139.6921669!16s%2Fg%2F11d_44cb0b?entry=ttu&g_ep=EgoyMDI2MTAyMC4wIKXMDSoASAFQAw%3D%3D",
+    "photo": "https://www.marumitsu.jp/m_a_d/new_image/DSC_0254.JPG",
+    "photoLabel": "地址对应建筑一层 · DISHES 店内实景",
+    "photoSource": "https://www.marumitsu.jp/eng/",
     "query": "1 Chome-17-5 Tomigaya",
-    "notes": "地址点按原清单保留，可能与附近店铺重合；不擅自合并到某一家店。"
+    "notes": "品牌官网确认此楼一层为 DISHES 餐具店、二层为 MEALS 餐厅、三层为料理工作室。原清单没有注明楼层，继续作为建筑地址保留。",
+    "originalName": "1 Chome-17-5 Tomigaya",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。",
+    "photoWidth": 1200,
+    "photoHeight": 1600,
+    "photoFit": "contain"
   },
   {
     "id": "chef-b3b4323c185f5c",
-    "name": "MUSASHI JAPAN Minami Kappabashi Knife Shop",
+    "name": "武藏日本刀具｜南合羽桥",
     "coord": [
       35.7132425,
       139.7888283
@@ -3741,11 +4013,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 1137,
     "photoHeight": 639,
-    "photoFit": "cover"
+    "photoFit": "cover",
+    "originalName": "MUSASHI JAPAN Minami Kappabashi Knife Shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-9cfb8813ce0b12",
-    "name": "MUSASHI JAPAN Kappabashi Knife & Sake Shop",
+    "name": "武藏日本刀具与清酒｜合羽桥",
     "coord": [
       35.7150934,
       139.7891041
@@ -3769,11 +4043,13 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 900,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "MUSASHI JAPAN Kappabashi Knife & Sake Shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   },
   {
     "id": "chef-9ddb8fde760bc5",
-    "name": "MUSASHI JAPAN Asakusa Knife Shop",
+    "name": "武藏日本刀具｜浅草",
     "coord": [
       35.7119463,
       139.7958402
@@ -3797,7 +4073,9 @@ const CHEF_CATALOG=[
     "notes": "",
     "photoWidth": 675,
     "photoHeight": 900,
-    "photoFit": "contain"
+    "photoFit": "contain",
+    "originalName": "MUSASHI JAPAN Asakusa Knife Shop",
+    "nameNote": "中文名称含便于识别的译名或品类说明；导航请用原名。"
   }
 ];
 OVERVIEW_CATALOG.push(...CHEF_CATALOG);
