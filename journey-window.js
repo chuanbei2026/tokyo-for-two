@@ -1,0 +1,7 @@
+/* Stable three-hour camera windows; manual full-route view stays manual. */
+let windowFollow=true,lastWindowKey='';
+function fitTimeWindow(force=false){if(!currentDay||!map||(!windowFollow&&!force))return;const first=playableMinute(0)||0,start=first+Math.max(0,Math.floor((dayMinute-first)/180))*180,end=Math.min(1440,start+180),key=currentDay+':'+mapStyle+':'+start;if(!force&&lastWindowKey===key)return;lastWindowKey=key;const d=JOURNEY_DAYS[currentDay-1],pts=[];
+for(const b of daySchedule()){if(b.end<=start||b.start>=end||b.kind==='unknown')continue;const stage=storyStages()[b.stage];if(stage.type==='stop')pts.push(pointXY(d.visits[stage.i].id));else{pts.push(...storyPoints(d,stage.i));}}
+if(!pts.length)return;map.invalidateSize({pan:false});const mobile=map.getSize().x<600;map.fitBounds(L.latLngBounds(pts),{paddingTopLeft:mobile?[24,165]:[215,30],paddingBottomRight:[35,35],maxZoom:mapStyle==='plain'?15:0,animate:false});q('#window-view').textContent=clockText(start)+'–'+clockText(Math.min(end,1439));q('#window-view').classList.toggle('active',windowFollow);layoutLabels();}
+const seekBeforeWindow=seekDay;seekDay=function(minute,focus=false){seekBeforeWindow(minute,focus);fitTimeWindow();};
+const resetBeforeWindow=resetStory;resetStory=function(){windowFollow=true;lastWindowKey='';resetBeforeWindow();q('#window-view').hidden=!currentDay;if(currentDay)requestAnimationFrame(()=>fitTimeWindow(true));};

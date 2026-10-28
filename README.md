@@ -1,63 +1,38 @@
-# Tokyo: A Table for Two
+# Tokyo for Two
 
-A buildless, Chinese-language map-led travel guide for two first-time visitors to Tokyo on November 24-27, 2026.
+A buildless Chinese-language, map-led itinerary for November 24–27, 2026. Five pages are available: overview and Day 1 through Day 4. Publish this directory from `main` with GitHub Pages, retaining `CNAME` and `.nojekyll`.
 
-## Pages
+Live site: https://tokyo.chuanbei.dev/
 
-The active app has exactly five hash-addressable pages: `#overview` and `#day1` through `#day4`. Each shows only the recommended itinerary. Backup restaurants remain in the historical source files but are not displayed or loaded by the active backup module.
+## Itinerary
 
-- `index.html`, `journey.css`, `journey.js`: active interface.
-- `journey-data.js`: recommended stops and every connecting transport leg.
-- `data.js`, `locations.js`: detailed landmark, restaurant, address and source information reused by dialogs.
-- `assets/vendor/`: pinned Leaflet 1.9.4 with its license, served locally.
-- Older `app.js`, `tour.js`, `map-views.js`, `backups.js`, and `style.css` are retained for history but are not entry points.
+The user explicitly chose the first four days of their private reference PDF, including the complete Kawagoe day. The PDF and private traveler information are not published. Its December dates, flights, train times, and platform assignments are not reused.
 
-## Map semantics
+- Day 1: arrival, Dormy Inn PREMIUM Ginza, oden, hotel.
+- Day 2: Tsukiji, Asakusa, Nakameguro, Daikanyama, Ebisu, Ginza dinner.
+- Day 3: Wellk, Jiyugaoka, Nezu, Yanaka, Ginza.
+- Day 4: Kawagoe station, Hachimangu, Kumano Shrine, Taisho Roman street, Ichibangai, Time Bell Tower, Hikawa Shrine, Kitain, return to Ginza.
 
-The default map uses GSI Japan pale street tiles with visible attribution and subdued styling. Landmark centers use approximate latitude/longitude. Walking and taxi connections follow static OpenStreetMap road routing from the FOSSGIS Valhalla service. Rail connections follow OpenStreetMap track geometry, with named and numbered stations. Station entrances and indoor connections remain indicative. Every leg links to live directions. A second illustrated map uses the original schematic artwork. Labels avoid one another where space permits; zoom or open a numbered stop for details.
+Arrival at 15:00 is a planning placeholder. Day 4 retains sightseeing through the return to Ginza around 18:00; onward flights or another hotel night remain unresolved. Reservations and Wellk's proposed breakfast slot require confirmation. Dining and transport prices are estimates, with USD shown at a planning rate of 157 JPY/USD.
 
-Transport is encoded redundantly by text and line style: dotted walking, solid rail, dashed taxi. All daily routes include the hotel and return legs. Airports are not plotted until the actual airport and flight are confirmed; the departure dialog explains the assumptions and both airport options.
+## Interface
 
-## Itinerary choices
+The wider left column combines the current event, address, visit details, transport instructions and the day's itinerary. The right column contains the map, independent sourced-photo stream, and full-day clock below the map. No backup restaurants appear in the active interface.
 
-A privately supplied nine-day reference PDF informed the Tsukiji/Asakusa and Nezu/Yanaka portions. Day two replaces Ueno/Ameyoko with Nezu and Yanaka, rather than adding more stops. The source PDF and traveler details are not published. Its December dates and exact departure times are not reused.
+The full 00:00–23:59 timeline remains seekable. Playback starts at the first actionable block and skips sleep and unconfirmed travel. Estimated leg durations determine departure times. Route markers interpolate continuously through walking and railway geometry.
 
-Day one assumes arrival near midday and hotel arrival around 15:00. Day four sightseeing assumes an evening flight. Hotel and restaurant entries are suggestions, not reservations. Operational details were reviewed on 2026-10-27. Travel times and taxi prices are planning estimates, not live quotes. Dining and transport budgets use JPY with indicative USD at 157 JPY/USD. Subway fares specifically labeled IC use the Tokyo Metro April 2026 reference; other prices are marked estimates.
+Camera framing follows stable three-hour windows anchored to the first actionable time. Each window fits its visits and all overlapping travel legs, so a journey crossing a boundary remains visible. The camera changes once at the next window, rather than at every event. The full-route button and manual dragging disable following; the time-window button resumes it.
 
-## Preview and publication
+## Maps and photographs
 
-Serve this directory with any static HTTP server. No build step is needed. Publish from the root of `main` on GitHub Pages; retain `CNAME` and `.nojekyll`. Cache-bust changed local assets in `index.html`.
+Leaflet 1.9.4 is served locally with its license. The street view uses GSI pale tiles, with attribution. Walking geometry comes from FOSSGIS Valhalla; railway geometry comes from OpenStreetMap track relations 3302734, 443272, 443282, 443284, 5375678, 1947536, and 1926310. There are 26 connecting legs, with separate access, railway, transfer, and exit phases. Indoor connections are indicative: follow station signs. Express train station lists describe the corridor, not guaranteed stopping patterns.
 
-Live website: https://tokyo.chuanbei.dev/
+The second map retains the original illustrative artwork. Its geography is schematic, including the Kawagoe inset, and must not be used as street navigation.
 
-## Artwork
+Photographs remain hosted by official venues, reservation providers and tourism publishers, with visible source links. Regional substitutes are explicitly labeled. These are reference images, not current seasonal views or continuous Street View footage. Google imagery is not scraped. Image failures retain links to their sources.
 
-`assets/tokyo-atlas.png` is the original AI-generated Tokyo illustration. It is an artistic overview and is not navigation imagery. The upper-left storyboard embeds reference photos from official venues and tourism publishers with source links. These are not current seasonal photographs. Kyubey uses an explicitly labeled Ginza-area photo because its image host serves an access-denied image; hotel imagery is a sample room, not a booked room. Transport markers use SVG pictograms. Travel cards cycle through sourced departure, nearby landmark and arrival photographs. Rail phases show official photographs of the relevant train fleet. These are landmark reference slides, not continuous street-view footage or views filmed from a train. Duplicate consecutive photographs are removed.
+## Files and validation
 
-## Validation
+`index.html` loads the active `journey-*.js` modules, `journey.js`, `journey.css`, and shared detail data from `data.js` and `locations.js`. Older application files are retained but are not active entry points.
 
-Check all five routes, page history, transport details, stop dialogs, map view switching, playback, attribution, small-screen layout, and the absence of backup entries in the active UI. Every day must have exactly one fewer transport leg than visits; every visit must resolve to a known point.
-
-## Visual route playback
-
-`journey-story.js` alternates every visit with every connecting transport leg, including hotel returns. Each step has a persistent upper-left card, previous/next controls, resumable playback, progress and map focus. Transport cards show the line or mode, direction, boarding/alighting instructions, time, cost and live navigation link. Reduced-motion preferences avoid animated camera moves. `journey-media.js` maps every recommended stop to a sourced visual reference. Remote images fall back to a source link if unavailable; tile errors are displayed explicitly.
-
-## Route geometry and sources
-
-`journey-routes.js` contains 23 static route legs fetched on 2026-10-27. `journey-navigation.js` renders geometry, transport phase changes, station guides and photo slides. Rail journeys have separate access walk, train and exit walk phases. The Meiji Shrine taxi ends at the public entrance and continues on foot.
-
-Road routes use https://valhalla1.openstreetmap.de/ with pedestrian or auto costing. Rail graphs use OpenStreetMap relations 443281, 8026074 and 5376382. Geometry is derived from OpenStreetMap contributors under ODbL: https://www.openstreetmap.org/copyright . Station names, numbering and directions were cross-checked against official Tokyo Metro and JR East maps. Routes are planning snapshots; live directions remain linked for departure-day changes. The illustrated map remains schematic.
-
-## Full-day simulation
-
-`journey-timeline.js` replaces step playback with a continuous 00:00–23:59 Tokyo-local clock. Visit arrivals retain the curated schedule; estimated travel durations are subtracted from the following arrival to determine departure. Overnight rest, breakfast and preparation fill non-travel hours. Day-one pre-arrival and day-four post-checkout are explicitly unknown-flight placeholders, with no fabricated airport position. Dragging the clock and selecting activity bands seeks directly; playback runs at 5, 10 or 30 simulated minutes per second. Cards change only at activity boundaries, while route positions interpolate continuously.
-
-## Independent image stream
-
-`journey-photo-stream.js` separates the sourced photo stream from the event card. Full-day photo milestones use departure, nearby landmark and arrival references; adjacent duplicates are removed. Clicking a thumbnail seeks the day clock. Images are lazy-loaded in a five-frame neighborhood; the main viewport is 270 by 150 CSS pixels (210 by 112 on mobile). The additional Ginza intersection image is a 490-pixel GO TOKYO photograph. Images remain publisher-hosted with source links; no Google Street View imagery is scraped and missing intersections are not invented.
-
-## Stable camera
-
-Only opening a day, switching map style, or explicitly pressing the full-route button fits the route bounds. Selecting stops, route legs, photo thumbnails or times never moves or zooms the camera. Window resize invalidates map dimensions without re-fitting, preserving manual framing.
-
-Playback opens at the first actionable block (Day 1 at 15:00; Days 2–4 at 07:30). Sleep and unknown-flight blocks remain seekable on the full-day timeline but are skipped by playback. Replay returns to the first actionable block.
+Validate all five pages, every visit and route reference, chronological schedules, two map styles, transport phases, timeline seeking and playback, three-hour camera changes, manual full-route framing, photo sources and responsive layout. Cache-bust changed local assets in `index.html` before publication.

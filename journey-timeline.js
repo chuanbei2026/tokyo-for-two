@@ -6,7 +6,7 @@ function daySchedule(){const d=JOURNEY_DAYS[storyDay-1];if(!d)return [];const bl
 const first=parseClock(d.visits[0].time);
 if(d.id===1)add(0,first,0,'出发、抵达东京与前往酒店 · 航班待确认','unknown');
 else{add(0,450,0,'酒店睡眠','sleep');add(450,first,0,d.id===4?'早餐、整理行李与退房':'起床、早餐与出门准备');}
-for(let i=0;i<d.visits.length;i++){const start=parseClock(d.visits[i].time),v=d.visits[i];if(i<d.legs.length){const end=parseClock(d.visits[i+1].time),nums=d.legs[i].time.match(/\d+/g)?.map(Number)||[20],minutes=Math.round(nums.slice(0,2).reduce((a,b)=>a+b,0)/Math.min(2,nums.length)),depart=Math.max(start+5,end-minutes);add(start,depart,i*2,v.note);add(depart,end,i*2+1,d.legs[i].title,'travel');}else if(d.id===4)add(start,1440,i*2,'取行李、前往机场与返程 · 航班待确认','unknown');else{add(start,1320,i*2,'回酒店、洗漱与自由休息');add(Math.max(start,1320),1440,i*2,'酒店睡眠','sleep');}}
+for(let i=0;i<d.visits.length;i++){const start=parseClock(d.visits[i].time),v=d.visits[i];if(i<d.legs.length){const end=parseClock(d.visits[i+1].time),nums=d.legs[i].time.match(/\d+/g)?.map(Number)||[20],minutes=Math.round(nums.slice(0,2).reduce((a,b)=>a+b,0)/Math.min(2,nums.length)),depart=Math.max(start+5,end-minutes);add(start,depart,i*2,v.note);add(depart,end,i*2+1,d.legs[i].title,'travel');}else if(d.id===4){add(start,start+30,i*2,'回酒店取行李，整理与休息');add(start+30,1440,i*2,'后续返程或续住待航班确定','unknown');}else{add(start,1320,i*2,'回酒店、洗漱与自由休息');add(Math.max(start,1320),1440,i*2,'酒店睡眠','sleep');}}
 return blocks;}
 function playableBlocks(){return daySchedule().filter(b=>b.kind!=='unknown'&&b.kind!=='sleep');}
 function playableMinute(minute){const b=playableBlocks().find(b=>b.end>minute);return b?Math.max(minute,b.start):null;}

@@ -1,9 +1,9 @@
-/* Reference photographs linked to their official publishers; not seasonal guarantees. */
+/* Publisher-hosted reference photos; regional substitutes are explicitly labeled. */
 const JOURNEY_MEDIA={
   "hotel": {
-    "src": "https://www.celestinehotels.jp/assets/images/ginza/rooms/executive-twin/01.jpg",
-    "source": "https://www.celestinehotels.jp/en/ginza/rooms/",
-    "label": "酒店客房示例 · 房型以预订为准"
+    "src": "https://dormy-hotels.com/static/dmsimg/media/cms/4931706166208/%E3%83%89%E3%83%BC%E3%83%9F%E3%83%BC%E3%82%A4%E3%83%B3PREMIUM%20%E9%8A%80%E5%BA%A7%E3%80%80%E6%96%BD%E8%A8%ADTOP%20%E5%AE%A2%E5%AE%A4%203%E6%9E%9A%E7%9B%AE.jpg?w=320&fit=inside&ext=webp",
+    "source": "https://dormy-hotels.com/dormyinn/hotels/ginza/",
+    "label": "酒店官方客房示例 · 房型以预订为准"
   },
   "ginza": {
     "src": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/images/main.webp",
@@ -94,5 +94,70 @@ const JOURNEY_MEDIA={
     "src": "https://res-1.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1513936386/tokyo/Tokyo2258_24",
     "source": "https://www.japan.travel/en/spot/1710/",
     "label": "官方 / 旅游局实景参考"
+  },
+  "nakameguro": {
+    "src": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/images/103_0016_4.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/index.html",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "jiyugaoka": {
+    "src": "https://www.gotokyo.org/en/destinations/southern-tokyo/jiyugaoka/images/50_0986_13.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/jiyugaoka/index.html",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "daikanyama": {
+    "src": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/images/area034_1005_27.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/western-tokyo/daikanyama/index.html",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "hachiman": {
+    "src": "https://koedo.or.jp/wp-content/uploads/ad3dda00aa38c5f77aaed4261c0321f6-1.jpg",
+    "source": "https://koedo.or.jp/en/spot_012/",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "ichibangai": {
+    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
+    "source": "https://koedo.or.jp/en/spot_002/",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "hikawa": {
+    "src": "https://koedo.or.jp/wp-content/uploads/b4aa61d6382084280c88d4207c0ce27d-600x600.jpeg",
+    "source": "https://koedo.or.jp/en/spot_008/",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "kitain": {
+    "src": "https://koedo.or.jp/wp-content/uploads/cfdb2adee44e566a6e474f6ed88a923b-600x600.jpg",
+    "source": "https://koedo.or.jp/en/spot_004/",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "bell": {
+    "src": "https://koedo.or.jp/wp-content/uploads/3191516e53392e546ea3a2e9eae67c27-600x600.jpg",
+    "source": "https://koedo.or.jp/en/spot_001/",
+    "label": "旅游局实景参考 · 非实时影像"
+  },
+  "ebisu": {
+    "src": "https://www.gotokyo.org/en/destinations/southern-tokyo/ebisu/images/area048_1030_11.jpg",
+    "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/ebisu/index.html",
+    "label": "官方旅游图文参考"
+  },
+  "wellk": {
+    "src": "https://2.image.cdn.tablecheck.com/unsafe/fit-in/640x427/filters:format(webp)/https://cdn2.tablecheck.com/booking_themes/663aedc8fd85e4ad0330b011/preview_images/xl/a0e97969.jpg?1715139689",
+    "source": "https://www.tablecheck.com/en/wellk/reserve/message",
+    "label": "Wellk 预约页参考图"
+  },
+  "kawagoe": {
+    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
+    "source": "https://koedo.or.jp/en/spot_002/",
+    "label": "川越老街参考 · 非川越车站实景"
+  },
+  "kumano": {
+    "src": "https://koedo.or.jp/wp-content/uploads/17f58053be68fa581b0fac6fbdfc2ffa-scaled.jpg",
+    "source": "https://koedo.or.jp/en/spot_013/",
+    "label": "官方旅游图文参考"
+  },
+  "taisho": {
+    "src": "https://koedo.or.jp/wp-content/uploads/724eb8166aa2c4103bbd5425fd2ee305.jpg",
+    "source": "https://koedo.or.jp/en/spot_002/",
+    "label": "川越一番街参考 · 非大正浪漫梦通实景"
   }
 };
