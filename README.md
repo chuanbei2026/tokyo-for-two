@@ -17,7 +17,7 @@ Arrival at 15:00 is a planning placeholder. Day 4 retains sightseeing through th
 
 ## Interface
 
-The wider left column combines the current event, address, visit details, transport instructions and the day's itinerary. The right column contains the map, independent sourced-photo stream, and full-day clock below the map. No backup restaurants appear in the active interface.
+The wider left column is a chronological list of separate visit/dining and commute cards. Current details expand inside the corresponding card; there is no separate current-event panel. The right column contains the map, independent sourced-photo stream, and full-day clock below the map. No backup restaurants appear in the active interface.
 
 The full 00:00–23:59 timeline remains seekable. Playback starts at the first actionable block and skips sleep and unconfirmed travel. Estimated leg durations determine departure times. Route markers interpolate continuously through walking and railway geometry.
 
@@ -36,3 +36,7 @@ Photographs remain hosted by official venues, reservation providers and tourism 
 `index.html` loads the active `journey-*.js` modules, `journey.js`, `journey.css`, and shared detail data from `data.js` and `locations.js`. Older application files are retained but are not active entry points.
 
 Validate all five pages, every visit and route reference, chronological schedules, two map styles, transport phases, timeline seeking and playback, three-hour camera changes, manual full-route framing, photo sources and responsive layout. Cache-bust changed local assets in `index.html` before publication.
+
+## Keyboard and image controls
+
+Left/right arrows jump between actionable timeline segments, and Space toggles playback. Shortcuts ignore modifiers, repeated keys, editable fields, native range/select controls and open dialogs. The photo stream provides previous/next frame buttons, seekable thumbnails and a click-to-enlarge sourced image dialog. Sleep and unconfirmed blocks do not create photo frames.

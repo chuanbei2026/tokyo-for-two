@@ -7,6 +7,9 @@ function showStory(focus=true){const stages=storyStages(),s=stages[storyIndex],d
 if(s.type==='stop'){const media=JOURNEY_MEDIA[v.id];content=`<div class="story-visual"><img src="${esc(media.src)}" alt="${esc(p.name)}实景参考" referrerpolicy="no-referrer"><a class="photo-credit" target="_blank" rel="noopener" href="${esc(media.source)}">${esc(media.label)} ↗</a></div><div class="story-copy"><div class="eyebrow">DAY ${d.id} · ${v.time} · ${s.i===0?'出发':s.i===d.visits.length-1?'返回':'抵达'}</div><h2>${esc(p.name)}</h2><p>${esc(v.note)}</p><div class="event-details"><p class="event-address">${esc(p.address)}</p><ol>${p.steps.map(step=>`<li>${esc(step)}</li>`).join('')}</ol><p>${esc(p.budget)}</p><p>${esc(p.booking)}</p></div><button data-detail="${v.id}" class="story-link">地点详情、地址与预约 ↗</button></div>`;}
 else {const to=pointInfo(d.visits[s.i+1].id),r=routeData(d,s.i);content=routeVisual(d,s.i)+`<div class="story-copy"><div class="eyebrow">DAY ${d.id} · 途中 · ${esc(l.time)}</div><h2>${esc(l.title)}</h2><div class="phase-chips">${r.parts.map(p=>'<span class="phase-chip">'+modeSymbol(p.mode)+esc(p.label||MODE[p.mode].label)+'</span>').join('<b>→</b>')}</div><div id="travel-phase"></div>${r.rails?.length?r.rails.map(railGuide).join('')+'<p id="rail-current"></p>':''}<p class="story-directions">${esc(l.detail)}</p><div class="story-cost">${esc(l.cost?cash(l.cost):'步行免费')} · ${r.parts.reduce((n,p)=>n+p.distance,0).toFixed(1)} km</div><a class="story-link" href="${navUrl(v.id,d.visits[s.i+1].id,l.mode)}" target="_blank" rel="noopener">打开实时导航 ↗</a><small class="scene-note">沿途地标照片轮播；非连续街景或车窗录像。</small></div>`;}
 
+const active=q('.itinerary-card[data-stage="'+storyIndex+'"]');
+qa('.itinerary-card').forEach(el=>{el.classList.toggle('current-card',el===active);el.querySelector('button')?.setAttribute('aria-expanded',String(el===active));});
+if(active)active.append(card);
 card.innerHTML=content;
 q('#story-prev').disabled=storyIndex===0;q('#story-next').disabled=storyIndex===stages.length-1;q('#story-count').textContent=(storyIndex+1)+' / '+stages.length;q('.story-progress i').style.width=Math.min(100,playElapsed/storyDuration*100)+'%';
 
@@ -14,15 +17,17 @@ const img=card.querySelector('img');if(img)img.onerror=()=>{img.hidden=true;img.
 q('#story-prev').onclick=()=>stepStory(-1);q('#story-next').onclick=()=>stepStory(1);
 if(storyHighlight){routeLayer.removeLayer(storyHighlight);storyHighlight=null;}if(playMarker){routeLayer.removeLayer(playMarker);playMarker=null;}
 markerEntries.forEach(e=>e.marker.getElement()?.classList.toggle('selected',e.id===v.id&&s.type==='stop'));
-qa('.stop-button,.transport-button').forEach(e=>e.classList.toggle('story-active',s.type==='stop'?e.dataset.stop===v.id:e.dataset.leg===`${d.id}:${s.i}`));
+qa('.stop-button,.transport-button').forEach(e=>e.classList.toggle('story-active',s.type==='stop'?Number(e.dataset.visit)===s.i:e.dataset.leg===`${d.id}:${s.i}`));
 if(s.type==='leg'){const pts=storyPoints(d,s.i);storyHighlight=L.layerGroup().addTo(routeLayer);routeParts(d,s.i).forEach(p=>L.polyline(p.coords,{color:p.color||d.color,weight:p.mode==='metro'?6:4,opacity:1,dashArray:MODE[p.mode].dash}).addTo(storyHighlight));playMarker=L.marker(pts[0],{interactive:false,zIndexOffset:1000,icon:L.divIcon({className:'play-arrow transport-symbol',html:modeSymbol(l.mode),iconSize:[36,36],iconAnchor:[18,18]})}).addTo(routeLayer);lastSceneKey='';lastTravelMode='';lastRailStop='';syncRouteScene(d,s.i);}
 q('#map-summary').textContent=`DAY ${d.id} · ${s.type==='stop'?'抵达 '+p.name:MODE[l.mode].label+' · '+l.title+' · '+l.time}`;
 }
 function storyPoints(d,i){return routeParts(d,i).flatMap(p=>p.coords);}
 function stepStory(delta){stopPlayback();storyIndex=Math.max(0,Math.min(storyStages().length-1,storyIndex+delta));playElapsed=0;showStory();}
-function revealRouteMap(){q('#journey-sidebar').scrollTop=0;if(window.innerWidth>760)window.scrollTo(0,0);if(window.innerWidth<=760)q('.map-toolbar').scrollIntoView({block:'start',behavior:'auto'});}
+function revealRouteMap(){revealActiveCard();if(window.innerWidth>760)window.scrollTo(0,0);if(window.innerWidth<=760)q('.map-toolbar').scrollIntoView({block:'start',behavior:'auto'});}
 function selectStoryStop(id,visitIndex){if(!currentDay){openStop(id);return;}stopPlayback();storyDay=currentDay;const index=visitIndex!==undefined?Number(visitIndex)*2:storyStages().findIndex(s=>s.type==='stop'&&JOURNEY_DAYS[storyDay-1].visits[s.i].id===id);if(index>=0){storyIndex=index;playElapsed=0;showStory();revealRouteMap();}}
 function selectStoryLeg(day,i){if(!currentDay){openLeg(day,i);return;}stopPlayback();storyDay=day;storyIndex=i*2+1;playElapsed=0;showStory();revealRouteMap();}
 function togglePlayback(){if(playing){stopPlayback();return;}if(!currentDay||!map)return;if(storyIndex===storyStages().length-1&&playElapsed>=storyDuration){storyIndex=0;playElapsed=0;}playing=true;playLast=0;showStory();revealRouteMap();q('#play-route').textContent='Ⅱ 暂停';
 function tick(now){if(!playing)return;if(playLast)playElapsed+=Math.min(100,now-playLast);playLast=now;const stages=storyStages(),s=stages[storyIndex],d=JOURNEY_DAYS[storyDay-1];if(playElapsed>=storyDuration){if(storyIndex===stages.length-1){stopPlayback();q('#play-route').textContent='↻ 重新播放';q('#map-summary').textContent='当天路线播放完毕。可用左右箭头回看景点和交通。';return;}storyIndex++;playElapsed=0;showStory();}
 const current=storyStages()[storyIndex];q('.story-progress i').style.width=Math.min(100,playElapsed/storyDuration*100)+'%';if(current.type==='leg'&&playMarker)syncRouteScene(d,current.i);playFrame=requestAnimationFrame(tick);}playFrame=requestAnimationFrame(tick);}
+
+function revealActiveCard(){if(window.innerWidth<=760)return;const side=q('#journey-sidebar'),card=q('.current-card');if(!card)return;const a=side.getBoundingClientRect(),b=card.getBoundingClientRect();if(b.top<a.top||b.bottom>a.bottom)side.scrollTop+=b.top-a.top-12;}
