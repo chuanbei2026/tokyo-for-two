@@ -147,3 +147,7 @@ body:not(.day-view) .chef-filter{margin-bottom:8px;font-size:12px}
 body:not(.day-view) .chef-filter span{font-size:9px}
 body:not(.day-view) .trip-save-status{margin:6px 0!important;font-size:10px!important}
 @media(max-width:760px){body:not(.day-view) .map-section{max-height:none;overflow:visible}body:not(.day-view) .map-frame{height:180px;min-height:180px}body:not(.day-view) .catalog-controls{padding:12px}body:not(.day-view) .voter-picker{margin:8px 0}}
+
+/* Editorial recommendations and realistic planning time on every wishlist card. */
+.wishlist-facts{display:grid;grid-template-columns:1fr 1fr;gap:6px;margin:12px 0 3px;padding:9px 0;border-top:1px solid #e7e8df;border-bottom:1px solid #e7e8df}.wishlist-facts span{display:block;font-size:10px;color:#87907b}.wishlist-facts strong{display:block;font-size:12px;font-weight:600;color:#4e6246}.wishlist-facts i{display:block;font-style:normal;font-size:11px;letter-spacing:1px;color:#ae8b4b}.wishlist-reason{font-size:10px;color:#8b7959;margin:4px 0 8px}.wishlist-card .wishlist-description{display:block;overflow:visible;-webkit-line-clamp:unset;margin-bottom:6px}.wishlist-advice{font-size:12px;line-height:1.8;color:#65705d;margin:0 0 10px}.catalog-controls .recommendation-key{font-size:10px!important;line-height:1.7;color:#8b897b;border-top:1px solid #e6e7de;padding-top:8px;margin:9px 0}.preview-copy .wishlist-facts{margin-top:8px}
+body:not(.day-view) .wishlist-card .catalog-place{flex:none}

@@ -63,3 +63,7 @@ Overview now uses a small sticky map and selection controls on the left, with a 
 ## Imperial Palace wishlist addition — 2026-10-27
 
 Added imperial-palace-gaien and imperial-palace-east-gardens after the owner expressed interest. Both include official tourism photos, coordinates, access guidance, and separate visit descriptions. Official November 2026 calendar confirms East Gardens closed Nov 24/27 and open Nov 25/26; seasonal hours are recorded. Entries are candidates, not assigned to a day, and no person-specific votes were written. Total catalog: 217.
+
+## Wishlist recommendation guidance — 2026-10-28
+
+Added wishlist-guidance.js before overview rendering: every candidate has an editorial trip-fit recommendation, a planning duration, and expanded advice. Key Tokyo destinations have individually curated entries; remaining entries use explicit category/type-based planning heuristics from existing catalog data. These are subjective fit scores, not external review ratings. Closures/address-only points remain unrated; out-of-Tokyo entries are low priority for this trip with an explanation. Durations exclude transit and queues. All 217 records validated for complete guidance. Cards and detail previews use the same helper; voting is unchanged.
