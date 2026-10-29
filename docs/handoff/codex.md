@@ -111,3 +111,7 @@ At widths up to 760px, wishlist cards now occupy one full-width column. The map 
 ## Phone map size and visibility — 2026-10-29
 
 Replaced the expand/shrink interaction with hide/show. The phone map is now 54vw wide (174–230px) and 148px tall, with a compact restore button when hidden. Hiding retains map dimensions and viewport; restoring does not fit or reset the user's zoom. Checked the 390px layout and both visibility states. Desktop and daily layouts are unchanged.
+
+## Tabelog wishlist expansion — 2026-10-29
+
+Added 10 Tokyo dining candidates with stable tabelog- IDs: Narikura, Kondo, Hachigo, Yoroniku Minami Aoyama, Konakara Honten, Ogura Ginza, Udon Shin, Hanayama Ginza, Kagari Honten and Tamawarai. Restaurant JSON-LD supplied exact branch coordinates, distinct source-linked photos and score snapshots; Chinese descriptions, planning budgets and visit/booking advice are curated. Added ratings to 8 existing candidates without changing their IDs. Cards and previews distinguish Tabelog scores from editorial fit ratings, with review counts and check date. The source dropdown can filter all 18 verified restaurants. Total catalog 360. No real votes or daily itinerary changed. Validated unique IDs, script syntax, browser filter counts, preview contents and successful loading of all 10 photos. Scores and opening/booking details remain snapshots, not live availability.
