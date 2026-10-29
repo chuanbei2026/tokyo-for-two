@@ -107,3 +107,7 @@ Added video-catalog.js: 49 new candidates, plus video provenance on 20 existing 
 ## Phone wishlist layout — 2026-10-28
 
 At widths up to 760px, wishlist cards now occupy one full-width column. The map and its toolbar float independently at the upper left; an explicit expand/shrink button provides a larger view. Search is hidden on phones, while identity remains visible and category/person/source filters live in a collapsible panel. Place details open as a bottom sheet with larger touch targets. Adaptive fit padding fixes invalid/overly tight bounds on the small map. Desktop keeps its search and three-column gallery; daily pages retain their layout. Verified 320px and 390px widths without horizontal overflow, filter persistence, preview bounds, map expansion and desktop restoration at 1280px. No votes or catalog IDs changed.
+
+## Phone map size and visibility — 2026-10-29
+
+Replaced the expand/shrink interaction with hide/show. The phone map is now 54vw wide (174–230px) and 148px tall, with a compact restore button when hidden. Hiding retains map dimensions and viewport; restoring does not fit or reset the user's zoom. Checked the 390px layout and both visibility states. Desktop and daily layouts are unchanged.
