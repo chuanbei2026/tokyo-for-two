@@ -1,4 +1,4 @@
-/* Key destinations from saved plans, the reference PDF, and owner requests. */
+/* Stable wishlist IDs; scheduled days reflect the confirmed trip. */
 const OVERVIEW_CATALOG=[
   {
     "id": "hotel",
@@ -10,25 +10,22 @@ const OVERVIEW_CATALOG=[
     "category": "base",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      1,
-      2,
-      3,
-      4
-    ],
-    "desc": "沿用 PDF 的住宿基地，靠近东银座与筑地；作为推荐酒店，尚未预订。",
+    "days": [],
+    "desc": "PDF 原推荐酒店，仅保留候选；本次住宿已改为馥府东京银座与东京银座万怡。",
     "address": "6-16-8 Ginza, Chuo-ku, Tokyo",
     "source": "https://dormy-hotels.com/dormyinn/hotels/ginza/",
     "photo": "https://www.gotokyo.org/en/story/walks-and-tours/ginza/images/43_0124_5_1024x800.jpg",
     "photoLabel": "GO TOKYO · 银座街区参考，非酒店外观",
     "query": "Dormy Inn PREMIUM 银座 6-16-8 Ginza, Chuo-ku, Tokyo",
-    "notes": "先寄存或办理入住，确认早餐与温泉使用时间。 酒店天然温泉可安排在回程后，男女分浴，遵守酒店入浴说明。 11月27日退房后先寄存行李，游览东京西侧街区；预计20:00回酒店，机场与是否续住待航班确认。"
+    "notes": "本次不入住这里，请使用两家已确认酒店的地址。 未排入本次住宿"
   },
   {
     "category": "sight",
     "region": "tokyo",
     "origin": "你提出想去",
-    "days": [],
+    "days": [
+      3
+    ],
     "photoSource": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
     "photoLabel": "GO TOKYO · 皇居实景",
     "nearby": "可与东京站丸之内红砖站舍、丸之内仲通串联；区域之间步行，留出休息时间。",
@@ -43,13 +40,15 @@ const OVERVIEW_CATALOG=[
     "source": "https://www.env.go.jp/garden/kokyogaien/english/",
     "photo": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub002.jpg",
     "query": "Kokyo Gaien Nijubashi Bridge Tokyo",
-    "notes": "这里是皇居外围公共区域，二重桥从外侧观赏，不代表能进入宫殿。外苑散步免费：0 円 ≈ US$0。可从二重桥前站步行抵达，或从东京站丸之内口向西走约 15–20 分钟到观景区域。若到达日尚有日光，可考虑外苑；实际安排等航班时间确认。东御苑另有开放日，不能把两处当作同一个入口。"
+    "notes": "从外苑看二重桥、护城河和松树广场。 桥梁从公共区域观赏，不代表可以进入宫殿。 按当天实际开放与排队安排"
   },
   {
     "category": "sight",
     "region": "tokyo",
     "origin": "你提出想去",
-    "days": [],
+    "days": [
+      3
+    ],
     "photoSource": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
     "photoLabel": "GO TOKYO · 皇居实景",
     "nearby": "可与东京站丸之内红砖站舍、丸之内仲通串联；区域之间步行，留出休息时间。",
@@ -64,7 +63,7 @@ const OVERVIEW_CATALOG=[
     "source": "https://www.kunaicho.go.jp/visit/higashigyoen/gyoen-close.html",
     "photo": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub005.jpg",
     "query": "Imperial Palace East Gardens Otemon Gate Tokyo",
-    "notes": "按宫内厅 2026年11月日历：11月24日（周二）及27日（周五）休园，25日、26日开放。11月至2月开放 09:00–16:00，入园截至15:30；免费：0 円 ≈ US$0。建议从大手町站步行至大手门进入，园区内步行。临时活动可能调整开放，出发前复核来源链接。这里是庭园与遗迹游览，不是皇居内部导览；暂列为你想去的候选，尚未挤入现有四天行程。"
+    "notes": "从大手门进入，依次看石墙、庭园与江户城遗迹，再从大手门返回。 11月25日官方日历开放；09:00–16:00，15:30停止入园。 这是东御苑，不是需要另外申请的皇居内部导览。 11月24日、27日休园；本次安排25日上午。临时调整以宫内厅公告为准。"
   },
   {
     "id": "ginza",
@@ -97,15 +96,15 @@ const OVERVIEW_CATALOG=[
     "region": "tokyo",
     "origin": "旧计划",
     "days": [
-      1
+      4
     ],
-    "desc": "第一晚分享萝卜、鸡蛋与牛筋关东煮，饭后慢慢散步回酒店休息。",
+    "desc": "周四两个人的关东煮晚餐；从浅草回银座休息后再出门。",
     "address": "1F Ginza Metro Building, 7-6-6 Ginza, Chuo-ku, Tokyo",
     "source": "https://www.oreno.co.jp/restaurant/oden_ginza",
     "photo": "https://www.oreno.co.jp/wp-corp/wp-content/uploads/2014/02/4e2d5ca38f85d5253d019b4800880e4b.jpg",
     "photoLabel": "官方 / 旅游局实景参考",
     "query": "Oreno Kappou Oden Ginza 7-6-6",
-    "notes": "先通过官网确认两位座位和当天营业，建议17:30；航班晚到就改时间或附近用餐。 先各选几样喜欢的关东煮，确认每份数量；萝卜、鸡蛋、豆腐制品适合开始，再追加牛筋或牛舌。 晚间每人另有小菜与席费共660 円（日元）（约 US$4.20），预算已预留；若不吃生食，避开菜单上的生鱼与生肉料理。"
+    "notes": "建议预约11月26日18:00；尚未代订，按餐厅确认时间调整。"
   },
   {
     "id": "tower",
@@ -137,7 +136,7 @@ const OVERVIEW_CATALOG=[
     "region": "tokyo",
     "origin": "旧计划",
     "days": [
-      2
+      4
     ],
     "desc": "从巨大的红灯笼开始，穿过老商店街，看东京最经典的寺院景色。",
     "address": "2-3-1 Asakusa, Taito-ku, Tokyo（浅草寺）",
@@ -158,7 +157,9 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      4
+    ],
     "desc": "同一碗鳗鱼饭，先原味，再加配料，最后茶泡饭。两个人一起慢慢试。",
     "address": "1-2-11 Hanakawado, Taito-ku, Tokyo",
     "source": "https://www.hitsumabushi.com/english/",
@@ -177,7 +178,9 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      4
+    ],
     "desc": "吃饱后沿河走一段。晴空塔、桥与河面，正好构成一张东京明信片。",
     "address": "Hanakawado 1-chome, Taito-ku, Tokyo（浅草侧河岸）",
     "source": "https://www.gotokyo.org/en/destinations/eastern-tokyo/asakusa/index.html",
@@ -196,9 +199,7 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      3
-    ],
+    "days": [],
     "desc": "从自由之丘转到根津，下午在神社建筑与鸟居小径中慢慢散步。",
     "address": "1-28-9 Nezu, Bunkyo-ku, Tokyo",
     "source": "https://nedujinja.or.jp/access/",
@@ -217,9 +218,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      3
-    ],
+    "days": [],
     "desc": "参考PDF的根津—谷中步行段，留时间给小店、小吃和夕阳阶梯。以散步为主，不做购物清单打卡。",
     "address": "3-13 Yanaka, Taito-ku, Tokyo（商店街区域）",
     "source": "https://www.gotokyo.org/en/destinations/northern-tokyo/yanaka-and-nezu/index.html",
@@ -240,7 +239,7 @@ const OVERVIEW_CATALOG=[
     "region": "tokyo",
     "origin": "旧计划",
     "days": [
-      2
+      3
     ],
     "desc": "愿意认真吃一顿江户前寿司，就留这个晚上；午餐太饱也可以改轻晚餐。",
     "address": "8-7-6 Ginza, Chuo-ku, Tokyo",
@@ -300,7 +299,9 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      2
+    ],
     "desc": "树荫、设计店和小巷咖啡。逛街是散步的一部分，不是采购任务。",
     "address": "4-12-10 Jingumae, Shibuya-ku, Tokyo（Omotesando Hills）",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/harajuku/index.html",
@@ -319,7 +320,9 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      2
+    ],
     "desc": "走一次世界闻名的交叉路口，再退到街边看人流。",
     "address": "2-1 Dogenzaka, Shibuya-ku, Tokyo（八公像）",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/shibuya/index.html",
@@ -339,7 +342,9 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      2
+    ],
     "desc": "这趟旅行的高空时刻。白天、落日、亮灯，尽量一次看完。",
     "address": "Shibuya Scramble Square, 2-24-12 Shibuya, Shibuya-ku, Tokyo",
     "source": "https://shibuya-scramble-square.com/sky/ticket",
@@ -358,7 +363,9 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      2
+    ],
     "desc": "用烤串和一碗荞麦面收尾。点菜容易，也能坐下来慢慢聊。",
     "address": "14F E.Space Tower, 3-6 Maruyamacho, Shibuya-ku, Tokyo",
     "source": "https://gonpachi.jp/shibuya/",
@@ -378,7 +385,7 @@ const OVERVIEW_CATALOG=[
     "region": "tokyo",
     "origin": "旧计划",
     "days": [
-      2
+      5
     ],
     "desc": "一碗海鲜饭、一份玉子烧，看看食材如何变成一座城市的早晨。",
     "address": "1F, 4-16-2 Tsukiji, Chuo-ku, Tokyo（Plat Tsukiji）",
@@ -386,7 +393,7 @@ const OVERVIEW_CATALOG=[
     "photo": "https://www.tsukiji.or.jp/assets/images/english/top/slide06.jpg",
     "photoLabel": "官方 / 旅游局实景参考",
     "query": "筑地场外市场",
-    "notes": "退房前先确认行李寄存与取回时间。建议先吃正餐，再两人分一份玉子烧，避免空腹一路买。 选清楚标价、有座位的海鲜饭／寿司店；不吃生食就选熟鱼、鳗鱼、玉子烧等，并确认食材。 在店家指定位置吃，垃圾交回店家。别把批发作业区域当拍照背景。",
+    "notes": "周五早晨只选择已开门的店；若早营业店排队过长，改附近早餐，09:00收尾。 07:30并非全市场都开门；早营业的海鲜店与玉子烧优先，按当天营业情况选。这里是场外市场，不是丰洲拍卖场。",
     "nearby": "PDF 同区小吃：OIDEYA 烤串、Unagi Shokudo、Sushikuni 海胆、Sushi Dai Honkan、鱼河岸小田原桥楼与海幸桥楼、Tekka Ya Hiei、Senriken。"
   },
   {
@@ -399,9 +406,7 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      2
-    ],
+    "days": [],
     "desc": "PDF里推荐的市场小吃，作为筑地早餐中的一小站。两人分享，不额外加一顿正餐。",
     "address": "4-10-10 Tsukiji, Chuo-ku, Tokyo",
     "source": "https://www.tsukiji.or.jp/shoplist/cat-c/cat-10/466/",
@@ -420,14 +425,16 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
-    "desc": "给旅行留最后一张合照。伴手礼只买一小份，把返程余量留足。",
+    "days": [
+      3
+    ],
+    "desc": "周三午餐后逛丸之内与东京站红砖广场，下午回银座万怡办理入住；不是赶飞机前的停留。",
     "address": "1-9-1 Marunouchi, Chiyoda-ku, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/central-tokyo/tokyo-station-and-marunouchi/index.html",
     "photo": "https://res-1.cloudinary.com/jnto/image/upload/w_1000,h_667,c_fill,f_auto,fl_lossy,q_auto/v1513936386/tokyo/Tokyo2258_24",
     "photoLabel": "官方 / 旅游局实景参考",
     "query": "东京站 · 丸之内",
-    "notes": "目的地设 Tokyo Station Marunouchi Square，在红砖站舍前拍照，不必为了这张照片进闸机。 有余量再逛站外或非付费区店铺；部分站内商店位于检票后，不要误刷卡进站购物。 返回银座酒店取行李，留出至少30–45分钟往返和整理；不要走错到机场巴士乘车侧就忘了行李。"
+    "notes": "13:30左右先在丸之内用午餐，按胃口选店，预算约2,000–4,000 円（日元） / 人。 饭后看红砖站舍、站前广场与仲通，咖啡休息，购物随缘。 约15:45叫车回银座万怡，不带行李逛大站。 街区自由参观；午餐未订位。 认准丸之内侧；周三在这里游玩，与周五机场交通分开。"
   },
   {
     "id": "nakameguro",
@@ -439,9 +446,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      2
-    ],
+    "days": [],
     "desc": "沿 PDF 从中目黑走向代官山，再到惠比寿；吃与散步优先，不强制购物。",
     "address": "Kamimeguro 1-chome, Meguro-ku, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/nakameguro/index.html",
@@ -461,9 +466,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      2
-    ],
+    "days": [],
     "desc": "PDF 中目黑—代官山—惠比寿步行主线的核心停留。",
     "address": "17-5 Sarugakucho, Shibuya-ku, Tokyo",
     "source": "https://store.tsite.jp/daikanyama/access/",
@@ -483,9 +486,7 @@ const OVERVIEW_CATALOG=[
     "category": "base",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      2
-    ],
+    "days": [],
     "desc": "PDF 街区步行终点，从这里坐日比谷线回东银座。",
     "address": "Ebisu Station, Shibuya-ku, Tokyo",
     "source": "https://www.tokyometro.jp/lang_en/station/ebisu/index.html",
@@ -504,9 +505,7 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      3
-    ],
+    "days": [],
     "desc": "PDF 的预约早餐；先按9:00到店规划，最终须以店家开放的预约场次为准。",
     "address": "2-5-11 Mita, Meguro-ku, Tokyo, 2F",
     "source": "https://www.tablecheck.com/en/wellk/reserve/message",
@@ -525,9 +524,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      3
-    ],
+    "days": [],
     "desc": "按 PDF 逛生活杂货、小店和甜品；为根津与谷中留出日光时间，午后提早离开。",
     "address": "Jiyugaoka Station, Meguro-ku, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/southern-tokyo/jiyugaoka/",
@@ -547,9 +544,7 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "照 PDF 第五天，从三轩茶屋的小店早餐开始，给两人留一小时慢慢吃。",
     "address": "4-25-5 Taishido, Setagaya-ku, Tokyo",
     "source": "https://www.instagram.com/tito.ten/",
@@ -569,7 +564,7 @@ const OVERVIEW_CATALOG=[
     "region": "tokyo",
     "origin": "PDF",
     "days": [
-      4
+      2
     ],
     "desc": "茶泽通上的巨大猩猩是这一带很有趣的街头地标，短暂停留拍照。",
     "address": "3-15-2 Taishido, Setagaya-ku, Tokyo",
@@ -577,7 +572,7 @@ const OVERVIEW_CATALOG=[
     "photo": "https://place.matcha-jp.com/resize/200x2000/2025/01/19-14-57-01-131b68b11aa6f001070f5c67f9b2fa974f5.webp",
     "photoLabel": "MATCHA · 三轩茶屋大猩猩大楼实景",
     "query": "三轩茶屋 · 大猩猩大楼 3-15-2 Taishido, Setagaya-ku, Tokyo",
-    "notes": "从早餐店沿茶泽通向北走，抬头找便利店上方伸出的猩猩。 在人行道安全位置拍照，别站到车道或堵住店门。 这里是建筑外观，不是售票景点；拍完返回Carrot Tower。"
+    "notes": "沿茶泽通找便利店上方伸出的巨大猩猩。 拍照约15分钟，其余时间留给附近散步、咖啡和与大熊会合。 约10–15分钟即可。"
   },
   {
     "id": "carrot",
@@ -589,9 +584,7 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "免费展望大厅俯瞰西东京，再从楼下换乘世田谷线小电车。",
     "address": "4-1-1 Taishido, Setagaya-ku, Tokyo",
     "source": "https://www.tokyu.co.jp/area/sangen-jaya/article/arti-01KS6TTH11RW90FTVAPSV1CS9M/",
@@ -610,9 +603,7 @@ const OVERVIEW_CATALOG=[
     "category": "sight",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "搭世田谷线来到安静寺院，按 PDF 依次走山门、佛殿、三重塔与招财猫区域。",
     "address": "2-24-7 Gotokuji, Setagaya-ku, Tokyo",
     "source": "https://www.gotokuji.jp/en/about/",
@@ -631,9 +622,7 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "从 PDF 的午餐推荐中选一间作主线：蔬菜丰富的汤咖喱，吃饱后再逛下北泽。",
     "address": "3-31-14 Kitazawa, Setagaya-ku, Tokyo",
     "source": "https://www.samurai-curry.com/shop_shimokitazawa/",
@@ -652,9 +641,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "午餐后沿一番街慢慢看古着、杂货和唱片，重点是街区气氛，不安排必须购买的清单。",
     "address": "Kitazawa 2–3 chome, Setagaya-ku, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/shimokitazawa/index.html",
@@ -674,9 +661,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "旧铁道沿线的小型店铺聚落，在这里喝杯咖啡休息，再走去BONUS TRACK。",
     "address": "3-19-20 Kitazawa, Setagaya-ku, Tokyo",
     "source": "https://reload-shimokita.com/",
@@ -695,9 +680,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "独立店铺与开放步行空间组成的小街区，作为下北泽的最后一站。",
     "address": "2-36-12 to 15 Daita, Setagaya-ku, Tokyo",
     "source": "https://bonus-track.net/",
@@ -716,9 +699,7 @@ const OVERVIEW_CATALOG=[
     "category": "stroll",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "按 PDF 从北口进入有顶棚的Sunroad，再转Daiya Street，边走边分享小吃。",
     "address": "Kichijoji Honcho 1 chome, Musashino, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
@@ -738,9 +719,7 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "PDF",
-    "days": [
-      4
-    ],
+    "days": [],
     "desc": "狭窄巷弄里的居酒屋与小店，为东京西侧的一天收尾。",
     "address": "Kichijoji Honcho 1 chome, Musashino, Tokyo",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
@@ -1207,14 +1186,16 @@ const OVERVIEW_CATALOG=[
     "category": "food",
     "region": "tokyo",
     "origin": "旧计划",
-    "days": [],
+    "days": [
+      2
+    ],
     "desc": "旧计划里的柚子拉面备选；这是原宿店，与 PDF 的中目黑店区分。",
     "address": "1F Grandeforesta, 3-63-1 Sendagaya, Shibuya-ku, Tokyo",
     "source": "https://afuri.com/findus/",
     "photo": "https://afuri.com/img/shop/photo06.jpg",
     "photoLabel": "AFURI 官方 · 原宿店",
     "query": "AFURI 原宿",
-    "notes": ""
+    "notes": "原宿店，地址3-63-1 Sendagaya；不是中目黑分店。 准备银行卡等无现金支付方式；按现场排队取餐。 按当天实际开放与排队安排"
   },
   {
     "id": "afuri-naka",
@@ -1666,5 +1647,55 @@ const OVERVIEW_CATALOG=[
     "notes": "",
     "photoSource": "https://www.google.com/maps/search/?api=1&query=%E5%B0%8F%E7%81%AB%E8%BD%A6%E9%BE%9F%E5%86%88",
     "photoFit": "cover"
+  },
+  {
+    "id": "fufu-ginza",
+    "name": "馥府东京银座 · FUFU",
+    "coord": [
+      35.6741485,
+      139.7675246
+    ],
+    "category": "base",
+    "region": "tokyo",
+    "origin": "已确认行程",
+    "days": [
+      1,
+      2,
+      3
+    ],
+    "desc": "11月23、24日两晚；25日上午退房。抵达夜以休息为主，温泉按酒店说明使用。",
+    "address": "1-7-10 Ginza, Chuo-ku, Tokyo",
+    "source": "https://www.fufutokyo.jp/en/access/",
+    "query": "馥府东京银座 · FUFU 1-7-10 Ginza, Chuo-ku, Tokyo",
+    "notes": "酒店餐食是否包含、入住与退房时间，以订单为准。 带行李时优先短程出租车；提前让前台协助预约机场接送。",
+    "photo": "https://www.fufutokyo.jp/wp/wp-content/uploads/2025/11/ogp.jpg",
+    "photoSource": "https://www.fufutokyo.jp/en/",
+    "photoLabel": "FUFU 官方 · 酒店参考",
+    "isHotel": true
+  },
+  {
+    "id": "courtyard-ginza",
+    "name": "东京银座万怡 · Courtyard",
+    "coord": [
+      35.66837,
+      139.7651
+    ],
+    "category": "base",
+    "region": "tokyo",
+    "origin": "已确认行程",
+    "days": [
+      3,
+      4,
+      5
+    ],
+    "desc": "11月25、26日两晚；25日上午先寄存行李，下午再办理入住。27日取行李退房后前往成田。",
+    "address": "6-14-10 Ginza, Chuo-ku, Tokyo",
+    "source": "https://www.marriott.com/en-us/hotels/tyocy-courtyard-tokyo-ginza-hotel/overview/",
+    "query": "东京银座万怡 · Courtyard 6-14-10 Ginza, Chuo-ku, Tokyo",
+    "notes": "酒店餐食是否包含、入住与退房时间，以订单为准。 带行李时优先短程出租车；提前让前台协助预约机场接送。",
+    "photo": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/images/main.webp",
+    "photoSource": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/index.html",
+    "photoLabel": "GO TOKYO · 酒店所在银座街区参考，非酒店照片",
+    "isHotel": true
   }
 ];

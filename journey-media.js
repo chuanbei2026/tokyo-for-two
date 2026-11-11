@@ -1,4 +1,4 @@
-/* Publisher-hosted reference photographs with source attribution. */
+/* Source-attributed reference photographs; not live street view. */
 const JOURNEY_MEDIA={
   "hotel": {
     "src": "https://www.gotokyo.org/en/story/walks-and-tours/ginza/images/43_0124_5_1024x800.jpg",
@@ -170,5 +170,40 @@ const JOURNEY_MEDIA={
     "src": "https://www.gotokyo.org/shared/images/pages/destinations/western-tokyo/kichijoji/images/area035_1006_15.jpg",
     "source": "https://www.gotokyo.org/en/destinations/western-tokyo/kichijoji/index.html",
     "label": "GO TOKYO · 口琴横丁实景"
+  },
+  "imperial-palace-east-gardens": {
+    "src": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub005.jpg",
+    "source": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
+    "label": "GO TOKYO · 皇居实景"
+  },
+  "imperial-palace-gaien": {
+    "src": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/images/sub002.jpg",
+    "source": "https://www.gotokyo.org/en/story/guide/a-noble-look-at-tokyos-imperial-palace-a-guide-to-the-royal-residence/",
+    "label": "GO TOKYO · 皇居实景"
+  },
+  "afuri": {
+    "src": "https://afuri.com/img/shop/photo06.jpg",
+    "source": "https://afuri.com/findus/",
+    "label": "AFURI 官方 · 原宿店"
+  },
+  "fufu-ginza": {
+    "src": "https://www.fufutokyo.jp/wp/wp-content/uploads/2025/11/ogp.jpg",
+    "source": "https://www.fufutokyo.jp/en/",
+    "label": "FUFU 官方 · 酒店参考"
+  },
+  "courtyard-ginza": {
+    "src": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/images/main.webp",
+    "source": "https://www.gotokyo.org/en/destinations/central-tokyo/ginza/index.html",
+    "label": "GO TOKYO · 酒店所在银座街区参考，非酒店照片"
+  },
+  "haneda-arrival": {
+    "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJTpBWETSzcDyVO8u0oDg8z3mdZqrGLgzSW9DoFcfcGEGMCm0G_nm7kjGnJYOhrk8Kv7fED-iSDfIrAruQIfQwmVPEnAB0Gl4LqU0bzrRBmSJMHEYHqF33b9i0Bw4a91XEYWzGyAw2pSM=w960-h720-k-no",
+    "source": "https://www.google.com/maps/place/%E4%B8%9C%E4%BA%AC%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA/@35.5476839,139.7787882,15z/data=!3m1!4b1!4m6!3m5!1s0x6018640ba43192e3:0xd32c3a9d146f8df!8m2!3d35.5482964!4d139.7779951!16zL20vMDFubG1t?ved=1t%3A314688",
+    "label": "Google Maps 地点实景"
+  },
+  "narita-departure": {
+    "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfnhde_7Cn3rM1H7UuW3fT67LPVoses6Y_niwrhaNVRClGDng1g1-flFte3Wr04AhrfZCNziHsl6fFwFlKPIK0if9IUfM51nVFq5kxuAnlrjdoZhzrqpn_JnVrEX_crKVV9GjFej8XY8ls=w960-h720-k-no",
+    "source": "https://www.google.com/maps/place/%E6%88%90%E7%94%B0%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA/@35.769769,140.387566,15z/data=!3m1!4b1!4m6!3m5!1s0x6022f379d1bd3757:0xd56e29a162771aa1!8m2!3d35.770178!4d140.3843215!16zL20vMDFsazZo?ved=1t%3A314688",
+    "label": "Google Maps 地点实景"
   }
 };
