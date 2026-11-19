@@ -205,5 +205,30 @@ const JOURNEY_MEDIA={
     "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcfnhde_7Cn3rM1H7UuW3fT67LPVoses6Y_niwrhaNVRClGDng1g1-flFte3Wr04AhrfZCNziHsl6fFwFlKPIK0if9IUfM51nVFq5kxuAnlrjdoZhzrqpn_JnVrEX_crKVV9GjFej8XY8ls=w960-h720-k-no",
     "source": "https://www.google.com/maps/place/%E6%88%90%E7%94%B0%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA/@35.769769,140.387566,15z/data=!3m1!4b1!4m6!3m5!1s0x6022f379d1bd3757:0xd56e29a162771aa1!8m2!3d35.770178!4d140.3843215!16zL20vMDFsazZo?ved=1t%3A314688",
     "label": "Google Maps 地点实景"
+  },
+  "tabelog-hanayama": {
+    "src": "https://tblg.k-img.com/restaurant/images/Rvw/96525/640x640_rect_96525855.jpg",
+    "source": "https://tabelog.com/en/tokyo/A1301/A130101/13200630/",
+    "label": "Tabelog门店照片"
+  },
+  "friend-kappabashi": {
+    "src": "assets/friend-guide/8-1.webp",
+    "source": "assets/friend-guide/8-1.webp",
+    "label": "大熊攻略中的参考图 · 原摄影来源未附链接"
+  },
+  "matsuzawa": {
+    "src": "https://tblg.k-img.com/restaurant/images/Rvw/312758/640x640_rect_45d3ad0f3c8f47bfd578a90d8f6862bf.jpg",
+    "source": "https://tabelog.com/en/tokyo/A1302/A130202/13228070/",
+    "label": "Tabelog · 对应门店参考照片"
+  },
+  "takechan": {
+    "src": "https://tblg.k-img.com/restaurant/images/Rvw/120534/640x640_rect_120534250.jpg",
+    "source": "https://tabelog.com/en/tokyo/A1301/A130101/13007710/",
+    "label": "Tabelog · 对应门店参考照片"
+  },
+  "haneda-hotel": {
+    "src": "https://lh3.googleusercontent.com/grass-cs/AABkmLcJTpBWETSzcDyVO8u0oDg8z3mdZqrGLgzSW9DoFcfcGEGMCm0G_nm7kjGnJYOhrk8Kv7fED-iSDfIrAruQIfQwmVPEnAB0Gl4LqU0bzrRBmSJMHEYHqF33b9i0Bw4a91XEYWzGyAw2pSM=w960-h720-k-no",
+    "source": "https://www.google.com/maps/place/%E4%B8%9C%E4%BA%AC%E5%9B%BD%E9%99%85%E6%9C%BA%E5%9C%BA/@35.5476839,139.7787882,15z/data=!3m1!4b1!4m6!3m5!1s0x6018640ba43192e3:0xd32c3a9d146f8df!8m2!3d35.5482964!4d139.7779951!16zL20vMDFubG1t?ved=1t%3A314688",
+    "label": "羽田机场区域参考 · 非酒店客房"
   }
 };
